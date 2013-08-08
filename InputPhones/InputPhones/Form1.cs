@@ -84,10 +84,8 @@ namespace InputPhones
 
                 while (time.Contains("-") || time.Contains(":"))
                 {
-                    bool isContain = false;
                     while(time.Contains(":"))
                     {
-                        isContain = true;
                         string date_time=date+" "+time;
                         //DateTime dt=DateTime.Parse(date_time);
                        // Console.WriteLine(file);
@@ -104,9 +102,13 @@ namespace InputPhones
                         i++;
                         time = ((Excel.Range)mySheet.Cells[i, 1]).Text.ToString();
                     }
-                    if (isContain == false)
+                    if (time.Contains("-"))
                     {
-                        date = ((Excel.Range)mySheet.Cells[i, 1]).Text.ToString();
+                        date = time;
+                    }
+                    else
+                    {
+                        break;
                     }
                     i++;
                     time = ((Excel.Range)mySheet.Cells[i, 1]).Text.ToString();
