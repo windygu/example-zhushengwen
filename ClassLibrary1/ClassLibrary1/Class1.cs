@@ -9,6 +9,7 @@ using System.CodeDom.Compiler;
 using System.Web.Services.Description;
 using Microsoft.CSharp;
 using System.Xml;
+using System.Data;
 namespace StringTool
 {
     public class GetAssembly
@@ -118,7 +119,7 @@ namespace StringTool
             return string.Format("{0:yyyy-MM-dd HH:mm:ss}", dt);
         }
         public static string connectionString = "server= 120.194.12.194;User Id= root;password=bmtdb;Persist Security Info=True;port=3307;database=bmtdb;charset=gbk;";
-        public static string ExtractStr(string resource, string name, string stas, string ends, int ids = 1,bool restart=false, string separator=",")
+        public static string ExtractStr(string resource, string name, string stas, string ends, int ids = 1, bool restart = false, string separator = ",")
         {
             string str = "";
             int index = 0;
@@ -177,7 +178,7 @@ namespace StringTool
             }
             return str;
         }
-        public static void CreateFile(string path="temp")
+        public static void CreateFile(string path = "temp")
         {
             if (!File.Exists(path))
             {
@@ -186,7 +187,7 @@ namespace StringTool
                 wn.Close();
             }
         }
-        public static void CreateFile(string content, bool isRecreate=false,string path="temp")
+        public static void CreateFile(string content, bool isRecreate = false, string path = "temp")
         {
             if (File.Exists(path))
             {
@@ -324,7 +325,7 @@ namespace StringTool
                 MySqlCommand command = new MySqlCommand(queryString, connection);
                 connection.Open();
                 MySqlDataReader reader = command.ExecuteReader();
-                
+
                 try
                 {
                     while (reader.Read())
@@ -393,21 +394,21 @@ namespace StringTool
             }
             return rts.ToArray();
         }
-        public static object DynamicInvokeWebService(string url,string method,object[] obja)
+        public static object DynamicInvokeWebService(string url, string method, object[] obja)
         {
-           Assembly _WebServiceAssembly = GetAssembly.GetWebServiceAssembly(url + "?WSDL", "WebService");
-           Type _Type = _WebServiceAssembly.GetTypes()[0];
-           object _ObjectW = Activator.CreateInstance(_Type);
-           MethodInfo _Method = _Type.GetMethod(method);
-           try
-           {
-               return _Method.Invoke(_ObjectW, obja);
+            Assembly _WebServiceAssembly = GetAssembly.GetWebServiceAssembly(url + "?WSDL", "WebService");
+            Type _Type = _WebServiceAssembly.GetTypes()[0];
+            object _ObjectW = Activator.CreateInstance(_Type);
+            MethodInfo _Method = _Type.GetMethod(method);
+            try
+            {
+                return _Method.Invoke(_ObjectW, obja);
 
-           }
-           catch (Exception e)
-           {
-               return e.Message;
-           }
+            }
+            catch (Exception e)
+            {
+                return e.Message;
+            }
         }
         public static XmlNodeList ReadXml(string path, string xpath)
         {
@@ -415,5 +416,135 @@ namespace StringTool
             xmlDoc.Load(path);
             return xmlDoc.DocumentElement.SelectNodes(xpath);
         }
+        public static string[] GetTableRecords(string table)
+        {
+            string queryString = "SHOW COLUMNS FROM " + table;
+            List<string> rls = new List<string>();
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    MySqlCommand command = new MySqlCommand(queryString, connection);
+                    connection.Open();
+                    MySqlDataReader reader = command.ExecuteReader();
+                    try
+                    {
+                        while (reader.Read())
+                        {
+                            rls.Add(reader[0].ToString());
+                        }
+                    }
+                    finally
+                    {
+                        // always call Close when done reading.
+                        reader.Close();
+                        if (connection.State != ConnectionState.Closed)
+                        {
+                            connection.Close();
+                        }
+
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+            }
+            return rls.ToArray();
+        }
+        public static string[] FormatSqlString(string table, string selectstr, string existcols, string intscols, string setscols,string delwhere="")
+        {
+            string[] Sqls = new string[4];
+            string[] records = GetTableRecords(table);
+
+            string sels = "";
+            if (selectstr == "*" || selectstr == "") sels = "*";
+            else
+            {
+                string[] selcols = selectstr.Split(',');
+                foreach (string item in selcols)
+                {
+                    if (sels != "") sels += ",";
+                    sels += string.Format(item.Trim('\''), records);
+                }
+            }
+
+            string where = "";
+            if (existcols != "")
+            {
+                string[] exicols = existcols.Split(',');
+
+                foreach (string item in exicols)
+                {
+                    if (where != "") where += " AND ";
+                    where += string.Format(item.Trim('\''), records);
+                    where += "=";
+                    where += item;
+                }
+            }
+            string sql = "SELECT " + sels + " FROM " + table;
+            if (where != "") sql += " WHERE " + where;
+            Sqls[0] = sql;
+
+            sql = "";
+            if (intscols != "")
+            {
+                string[] intcols = intscols.Split(',');
+                string val = "";
+                foreach (string item in intcols)
+                {
+                    if (sql != "")
+                    {
+                        sql += ",";
+                        val += ",";
+                    }
+                    sql += string.Format(item.Trim('\''), records);
+                    val += item;
+                }
+
+                sql = "INSERT INTO " + table + "(" + sql + ")";
+                sql += "VALUES (" + val + ")";
+            }
+            Sqls[1] = sql;
+
+            sql = "";
+            if (setscols != "")
+            {
+                string[] setcols = setscols.Split(',');
+                foreach (string item in setcols)
+                {
+                    if (sql != "")
+                    {
+                        sql += ",";
+                    }
+                    sql += string.Format(item.Trim('\''), records);
+                    sql += "=";
+                    sql += item;
+                }
+                sql = "UPDATE " + table + " SET " + sql;
+                if (where != "") sql += " WHERE  " + where;
+            }
+            Sqls[2] = sql;
+
+            where = "";
+            if (delwhere != "")
+            {
+                string[] delwcols = delwhere.Split(',');
+
+                foreach (string item in delwcols)
+                {
+                    if (where != "") where += " AND ";
+                    where += string.Format(item.Trim('\''), records);
+                    where += "=";
+                    where += item;
+                }
+            }
+
+            sql = "DELETE FROM " + table;
+            if (where != "") sql += " WHERE  " + where;
+            Sqls[3] = sql;
+
+            return Sqls;
+        }
+
     }
 }
