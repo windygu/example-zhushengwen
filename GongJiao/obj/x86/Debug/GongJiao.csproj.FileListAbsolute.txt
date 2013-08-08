@@ -1,0 +1,14 @@
+E:\zzubus\GongJiao\bin\Debug\GongJiao.exe
+E:\zzubus\GongJiao\bin\Debug\GongJiao.pdb
+E:\zzubus\GongJiao\bin\Debug\StringTool.dll
+E:\zzubus\GongJiao\bin\Debug\MySql.Data.dll
+E:\zzubus\GongJiao\bin\Debug\StringTool.pdb
+E:\zzubus\GongJiao\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.Form1.resources
+E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.Properties.Resources.resources
+E:\zzubus\GongJiao\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\zzubus\GongJiao\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.exe
+E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GongJiao\obj\x86\Debug\GongJiao.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GongJiao\obj\x86\Debug\GongJiao.pdb

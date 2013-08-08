@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <msg></msg>
+  <!--接口调用成功时，此节点留空值，不填信息，后续节点返回的是具体进程相关的信息。否则如果调用异常，此节点填异常提示信息-->
+  <processInfos>
+    <process>
+      <!--具体的进程信息，该节点可重复出现，查询到X个进程，则有X个该节点-->
+      <pid>1398</pid>
+      <!--进程标识-->
+      <pname>wps.exe</pname>
+      <!--进程名 -->
+      <user>hellopc</user>
+      <!--用户名 -->
+      <cpu>12</cpu>
+      <!--cpu使用率百分比 -->
+      <memory>25604</memory>
+      <!--内存使用(字节) -->
+      <path> C:\Program Files\office\wps.exe</path>
+      <!--程序文件路径-->
+    </process>
+    <process>
+      <!--具体的进程信息2-->
+      。。。。。。。。。。。。。。。
+
+    </process>
+    <process>
+      。。。。。。。。。。。。。。。
+    </process>
+  </processInfos>
+</Root>

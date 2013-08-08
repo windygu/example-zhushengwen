@@ -1,0 +1,15 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe.config
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\Interop.VBIDE.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\Interop.Word.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\ConsoleApplication3.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\ConsoleApplication3.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\office.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\Microsoft.Office.Interop.Word.xml
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Release\office.xml
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\ConsoleApplication3.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Release\ConsoleApplication3.pdb

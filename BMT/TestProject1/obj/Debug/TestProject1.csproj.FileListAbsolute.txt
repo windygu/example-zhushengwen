@@ -1,0 +1,8 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\bin\Debug\TestProject1.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\bin\Debug\TestProject1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\bin\Debug\System.Web.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\bin\Debug\BMT_Accessor.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\bin\Debug\BMT_Accessor.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\obj\Debug\TestProject1.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\BMT\TestProject1\obj\Debug\TestProject1.pdb

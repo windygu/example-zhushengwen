@@ -1,0 +1,11 @@
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\bin\Release\WebServiceTestForm.exe.config
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\bin\Release\WebServiceTestForm.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\bin\Release\WebServiceTestForm.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\WebServiceTestForm.Form1.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\WebServiceTestForm.Properties.Resources.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\WebServiceTestForm.UserControl1.resources
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\WebServiceTestForm.exe
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\WebServiceTestForm\WebServiceTestForm\obj\x86\Release\WebServiceTestForm.pdb

@@ -1,0 +1,32 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\bin\Debug\GetAndPost.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\bin\Debug\GetAndPost.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.Form1.resources
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.Properties.Resources.resources
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.UserControl1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\bin\Debug\GetAndPost.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\bin\Debug\GetAndPost.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GetAndPost.UserControl1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\复件 GetAndPost\GetAndPost\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GetAndPost.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GetAndPost.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GetAndPost.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GetAndPost.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\bin\Debug\GetAndPost.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\bin\Debug\GetAndPost.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\bin\Debug\StringTool.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GetDeviceInfo\GetAndPost\bin\Debug\StringTool.pdb

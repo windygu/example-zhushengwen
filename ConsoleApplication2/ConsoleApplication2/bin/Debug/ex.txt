@@ -1,0 +1,176 @@
+
+[WebMethod]
+    public string BM_data_abroadstudy_agency_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_abroadstudy_agency_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_bank_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_bank", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_bank_atm_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_bank_atm", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_car_repair_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_car_repair", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_childrenschool_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_childrenschool_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_cinema_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_cinema", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_college_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_college_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_daijia_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_daijia", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_gasstation_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_gasstation", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_government_service_point_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_government_service_point", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_highschool_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_highschool_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_highway_service_station_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_highway_service_station", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_hospital_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_hospital", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_housecare_service_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_housecare_service_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_juniorschool_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_juniorschool_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_lawyer_service_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_lawyer_service_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_lv_jdcx_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_lv_jdcx", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_parkyard_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_parkyard", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_pet_hostpital_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_pet_hostpital", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_pharmacy_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_pharmacy_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_secondhand_car_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_secondhand_car", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_shoping_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_shoping_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_shopingmall_info_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_shopingmall_info", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_data_train_plane_tickets_daishou_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("data_train_plane_tickets_daishou", PageNum, Count, CityWhere);
+    }
+[WebMethod]
+    public string BM_tuangou_ByCity(string city="", int PageNum = 0, int Count = 10)
+    {
+      string CityWhere = "";
+      if (city != "") CityWhere = "  city = '" + city + "'  ";
+      return ReadMyData("tuangou", PageNum, Count, CityWhere);
+    }

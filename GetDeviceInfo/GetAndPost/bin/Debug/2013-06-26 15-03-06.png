@@ -1,0 +1,459 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>南阳市首届“维护儿童合法权益优秀人物”网络评选</title>
+<meta name="description" content="开展首届“维护儿童合法权益优秀人物”网络评选活动，选树和表彰全市各级维权战线上涌现出的先进人物-------。" />
+<meta name="keywords" content="南阳  维权 优秀  人物  网络  评选" />
+<link href="images/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="scripts/index.js"></script>
+<style type="text/css">
+<!--
+* {word-break:break-all;font-family:Verdana,Arial;}
+body {margin-top:0px;background:url("images/headpic.jpg") no-repeat center top;;background-color:#710100;background-position: center top;}
+-->
+</style>
+</head>
+<body>
+<div style="width:960px;height:100%;margin:0 auto;overflow:hidden;">
+	<div style="width:960px;height:185px;;float:left;overflow:hidden;text-align:center;font-weight:bold;">
+		<li style="float:left;width:960px;font-size:40px;font-weight:bold;line-height:185px;height:185px;;"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="960" height="200">
+  <param name="movie" value="images/banner.swf" ignoreapd="1"/>
+  <param name="quality" value="high" />
+  <param name="wmode" value="transparent" />
+  <embed src="images/banner.swf" width="950" height="200" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" ignoreapd="1"></embed>
+</object>		</li>
+	</div>
+</div>
+<div style="width:960px;height:100%;overflow:hidden;margin:10px auto;overflow;hidden;">
+	<div id="nav">
+  <div id="navleft">
+   <ul>
+
+   			<li class="current"><a href="index.php" ><span>首页</span></a></a>
+			
+						<li ><a href="top.php" ><span>排行榜</span></a></a>
+			
+						<li ><a href="list.php" ><span>投票区</span></a></a>
+			
+						<li ><a href="http://www.fzzyzs.com/html/xwzx/mtgz/2013/0603/6513.html" target="_blank"><span>郑重声明</span></a></a>
+			
+						<li ><a href="http://www.fzzyzs.com" target="_blank"><span>支持单位</span></a></a>
+			
+						<li ><a href="login.php" target="_blank"><span>用户登录</span></a></a>
+			
+						<li ><a href="http://www.fzzyzs.com" target="_blank"><span>正义之声网</span></a></a>
+			
+						<li ><a href="http://www.fzzyzs.com/index.php?m=titleimg&c=index&a=show&aid=66" target="_blank"><span>活动公告</span></a></a>
+			
+						<li ><a href="http://ny.fzzyzs.com/" target="_blank"><span>南阳妇联网</span></a></a>
+			
+						<li ><a href="http://www.fzzyzs.com/html/xwzx/mtgz/2013/0523/6245.html" target="_blank"><span>评选规则</span></a></a>
+			
+				  </ul>
+	</div>
+</div>
+<div id="navbottom"></div><div class="sta">
+		<div style="width:960px;margin-top:0px;float:left;height:25px;"><li style="float:left;height:25px;margin-left:10px;line-height:25px;">
+		<font style="font-size:12px">共有</font><font style="font-size:16px;color:#00FF00;font-weight:bold;">66</font><font style="font-size:12px"> 位选手;</font><font style="font-size:16px;color:#00FF00;font-weight:bold;">  833133</font><font style="font-size:12px"> 人参加了网络投票!</font>				<font style="font-size:12px"> 离投票结束时间</font>
+		<font style="font-size:14px;font-weight:bold;">2013-06-27 00:00:00</font><font style="font-size:12px"> 还有</font>
+		<font style="font-size:14px;color:#4efe00;font-weight:bold;">
+		1</font>
+		<font style="font-size:12px"> 天!</font>
+				</li></div>
+</div>
+
+ 
+<div id="main" style="width:960px;float:left;margin-top:10px;margin-left:0px;overflow:hidden;display:inline">	
+		<div id="navbottom" style="margin-top:10px"></div>
+	<div class="search">
+	<form action="list.php" method="GET">
+			<select id="order" name="order" style="float:left;height:20px;">
+			<option value="1">按照编号排序</option>
+			<option value="2">按照票数排序</option>
+			<option value="3">按照人气排序</option>
+			</select>
+			<input type="submit" name="sort"  id="sort" value="排序" style="float:left;height:22px;margin-left:10px;"/>
+			<select name="searchtype" id="searchtype" style="float:left;height:20px;margin-left:10px">
+			<option value="1">名称</option>
+			<option value="2">编号</option>
+			</select>
+			<input name='keywords' type='text' id="keywords"  maxlength="25"  style="float:left;height:15px;margin-left:0px;"/>
+			<input type="submit" name="serach"  id="serach" value="查找" style="float:left;height:22px;margin-left:10px;" onclick="return check_s();"/>
+	</form>
+	</div>
+	<div style="width:960px;height:100%;float:left;display:inline;margin-left:0px;display:inline;">
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=35308DDwgKDgsLCgkIDAhdCl8BCQEKDQoIXwsB"><img src="uploadimage/1398917841.jpg" title="李海朝" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李海朝的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:1 <a href="detail.php?uid=35308DDwgKDgsLCgkIDAhdCl8BCQEKDQoIXwsB">名称:李海朝</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:43698  人气数:68511		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=35308DDwgKDgsLCgkIDAhdCl8BCQEKDQoIXwsB">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=2F41C0DQgKDgsLCgkIDAgMDgxfCg0IDg8LC1sK"><img src="uploadimage/1372303432.jpg" title="王轲" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="王轲的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:2 <a href="detail.php?uid=2F41C0DQgKDgsLCgkIDAgMDgxfCg0IDg8LC1sK">名称:王轲</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:4636  人气数:5674		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=2F41C0DQgKDgsLCgkIDAgMDgxfCg0IDg8LC1sK">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=230E99CggKDgsLCgkIDAgOWggKDQgIXVpaXVwM"><img src="uploadimage/1398838307.jpg" title="李冬菊" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李冬菊的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:3 <a href="detail.php?uid=230E99CggKDgsLCgkIDAgOWggKDQgIXVpaXVwM">名称:李冬菊</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:4910  人气数:6849		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=230E99CggKDgsLCgkIDAgOWggKDQgIXVpaXVwM">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=DD0446CAgKDgsLCgkIDAgPCg0KCV0NXFwJWw0M"><img src="uploadimage/1448903481.jpg" title="杜宽" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="杜宽的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:4 <a href="detail.php?uid=DD0446CAgKDgsLCgkIDAgPCg0KCV0NXFwJWw0M">名称:杜宽</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:5900  人气数:22884		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=DD0446CAgKDgsLCgkIDAgPCg0KCV0NXFwJWw0M">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=8D7916AQgKDgsLCgkIDAhcXAkLCw8PWwoKAQkK"><img src="uploadimage/1442617657.jpg" title="郑荣敏" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="郑荣敏的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:5 <a href="detail.php?uid=8D7916AQgKDgsLCgkIDAhcXAkLCw8PWwoKAQkK">名称:郑荣敏</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:46824  人气数:135504		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=8D7916AQgKDgsLCgkIDAhcXAkLCw8PWwoKAQkK">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=54B60EDwgKDgsLCgkIDAgNWw0MDAoKDQsPDQ1Y"><img src="uploadimage/1430148699.jpg" title="李守莲" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李守莲的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:6 <a href="detail.php?uid=54B60EDwgKDgsLCgkIDAgNWw0MDAoKDQsPDQ1Y">名称:李守莲</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:188  人气数:1295		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=54B60EDwgKDgsLCgkIDAgNWw0MDAoKDQsPDQ1Y">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=985A0EDAgKDgsLCgkIDAgBXQAPWAoKAQtYCwEJ"><img src="uploadimage/1417583397.jpg" title="陈浩" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="陈浩的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:7 <a href="detail.php?uid=985A0EDAgKDgsLCgkIDAgBXQAPWAoKAQtYCwEJ">名称:陈浩</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:59564  人气数:179732		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=985A0EDAgKDgsLCgkIDAgBXQAPWAoKAQtYCwEJ">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=CE2BD0AQgKDgsLCgkIDAhfDw8PX11cDgoNCQhd"><img src="uploadimage/1462929386.jpg" title="赵晖" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="赵晖的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:8 <a href="detail.php?uid=CE2BD0AQgKDgsLCgkIDAhfDw8PX11cDgoNCQhd">名称:赵晖</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:17719  人气数:23404		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=CE2BD0AQgKDgsLCgkIDAhfDw8PX11cDgoNCQhd">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=BE8373DQgKDgsLCgkIDAhYXAANCgoBDQ4LCw5c"><img src="uploadimage/1422397147.jpg" title="范晓宇" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="范晓宇的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:9 <a href="detail.php?uid=BE8373DQgKDgsLCgkIDAhYXAANCgoBDQ4LCw5c">名称:范晓宇</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:47019  人气数:190981		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=BE8373DQgKDgsLCgkIDAhYXAANCgoBDQ4LCw5c">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=A30A38CwgKDgsLCgkIDAgLDgoNCAsLAF0PDwha"><img src="uploadimage/1434810969.jpg" title="刘丽" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="刘丽的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:10 <a href="detail.php?uid=A30A38CwgKDgsLCgkIDAgLDgoNCAsLAF0PDwha">名称:刘丽</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:44435  人气数:251725		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=A30A38CwgKDgsLCgkIDAgLDgoNCAsLAF0PDwha">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=C7A666DQgKDgsLCgkIDAhfCV8OCg0JCQkKXwAM"><img src="uploadimage/1408241859.jpg" title="甄国锁" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="甄国锁的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:11 <a href="detail.php?uid=C7A666DQgKDgsLCgkIDAhfCV8OCg0JCQkKXwAM">名称:甄国锁</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:42  人气数:824		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=C7A666DQgKDgsLCgkIDAhfCV8OCg0JCQkKXwAM">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=54D0C2DQgKDgsLCgkIDAgJXw4ICgoBDggMDlsN"><img src="uploadimage/1436367217.jpg" title="卢风梅" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="卢风梅的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:12 <a href="detail.php?uid=54D0C2DQgKDgsLCgkIDAgJXw4ICgoBDggMDlsN">名称:卢风梅</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:45  人气数:838		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=54D0C2DQgKDgsLCgkIDAgJXw4ICgoBDggMDlsN">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=52C61ACAgKDgsLCgkIDAhdCg0LCQgNC19dAQ1Y"><img src="uploadimage/1383251593.jpg" title="薛江峰" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="薛江峰的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:13 <a href="detail.php?uid=52C61ACAgKDgsLCgkIDAhdCg0LCQgNC19dAQ1Y">名称:薛江峰</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:71  人气数:957		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=52C61ACAgKDgsLCgkIDAhdCg0LCQgNC19dAQ1Y">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=0170E2DQgKDgsLCgkIDAhbWA9YCgoBAF1aCQpf"><img src="uploadimage/1376992105.jpg" title="李传文" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李传文的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:14 <a href="detail.php?uid=0170E2DQgKDgsLCgkIDAhbWA9YCgoBAF1aCQpf">名称:李传文</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:22247  人气数:47309		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=0170E2DQgKDgsLCgkIDAhbWA9YCgoBAF1aCQpf">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=C8505DCwgKDgsLCgkIDAgJDQoKAAkIXAxfAAwK"><img src="uploadimage/1405117064.jpg" title="刘惠敏" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="刘惠敏的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:15 <a href="detail.php?uid=C8505DCwgKDgsLCgkIDAgJDQoKAAkIXAxfAAwK">名称:刘惠敏</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:9715  人气数:19360		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=C8505DCwgKDgsLCgkIDAgJDQoKAAkIXAxfAAwK">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=7D197DDggKDgsLCgkIDAgBAQpbDglYCgoACA4L"><img src="uploadimage/1441054520.jpg" title="王 洋" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="王 洋的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:16 <a href="detail.php?uid=7D197DDggKDgsLCgkIDAgBAQpbDglYCgoACA4L">名称:王 洋</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:38923  人气数:168919		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=7D197DDggKDgsLCgkIDAgBAQpbDglYCgoACA4L">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=6741D2DAgKDgsLCgkIDAgMWgoIDwoKAAsPDABc"><img src="uploadimage/1430085118.jpg" title="李银传" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李银传的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:17 <a href="detail.php?uid=6741D2DAgKDgsLCgkIDAgMWgoIDwoKAAsPDABc">名称:李银传</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:2048  人气数:4005		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=6741D2DAgKDgsLCgkIDAgMWgoIDwoKAAsPDABc">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=6F06D5CwgKDgsLCgkIDAhfDAoKAApYDFoIXFhd"><img src="uploadimage/1383210195.jpg" title="孙源阳" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="孙源阳的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:18 <a href="detail.php?uid=6F06D5CwgKDgsLCgkIDAhfDAoKAApYDFoIXFhd">名称:孙源阳</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:731  人气数:1797		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=6F06D5CwgKDgsLCgkIDAhfDAoKAApYDFoIXFhd">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=83A1D5AQgKDgsLCgkIDAgBCgwBD19YDAoKAA0B"><img src="uploadimage/1405085558.jpg" title="臧国龙" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="臧国龙的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:19 <a href="detail.php?uid=83A1D5AQgKDgsLCgkIDAgBCgwBD19YDAoKAA0B">名称:臧国龙</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:35263  人气数:963934		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=83A1D5AQgKDgsLCgkIDAgBCgwBD19YDAoKAA0B">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=2CC18CDggKDgsLCgkIDAgJWgtbAF0JCgoADFwL"><img src="uploadimage/1411335589.jpg" title="张文涛" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="张文涛的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:20 <a href="detail.php?uid=2CC18CDggKDgsLCgkIDAgJWgtbAF0JCgoADFwL">名称:张文涛</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:108  人气数:866		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=2CC18CDggKDgsLCgkIDAgJWgtbAF0JCgoADFwL">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=6A0717DggKDgsLCgkIDAgNDApfDAsOCgoADwhd"><img src="uploadimage/1369148299.jpg" title="吴罡" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="吴罡的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:21 <a href="detail.php?uid=6A0717DggKDgsLCgkIDAgNDApfDAsOCgoADwhd">名称:吴罡</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:46  人气数:791		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=6A0717DggKDgsLCgkIDAgNDApfDAsOCgoADwhd">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=36A1C4DggKDgsLCgkIDAgIWwpfWAkNCgoADg9c"><img src="uploadimage/1431679538.jpg" title="杜敏" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="杜敏的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:22 <a href="detail.php?uid=36A1C4DggKDgsLCgkIDAgIWwpfWAkNCgoADg9c">名称:杜敏</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:47048  人气数:92023		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=36A1C4DggKDgsLCgkIDAgIWwpfWAkNCgoADg9c">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=C246B6CAgKDgsLCgkIDAhcCgoBCA8JWgwPCQpf"><img src="uploadimage/1419214185.jpg" title="王娟" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="王娟的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:23 <a href="detail.php?uid=C246B6CAgKDgsLCgkIDAhcCgoBCA8JWgwPCQpf">名称:王娟</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:49969  人气数:118144		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=C246B6CAgKDgsLCgkIDAhcCgoBCA8JWgwPCQpf">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div class="listbox" style="text-align:center;width:145px;height:270px;" onmouseover="this.style.border='1px solid #FFFFFF'" onmouseout="this.style.border='1px solid #FFCC00'">
+		<li style="width:150px;float:left;margin-left:0px;overflow:hidden;text-align:center;height:160px"><a href="detail.php?uid=5A6311DggKDgsLCgkIDAhcC10LAA4NCgoAAFsL"><img src="uploadimage/1426991927.jpg" title="李坚" style="width:140px;height:160px;border:none;margin-top:0px;margin-left:0px;padding:3px" title="李坚的图片"></a>
+		</li>
+		<li style="width:150px;height:25px;border-bottom:1px solid #FFCC00;margin-top:8px">编号:24 <a href="detail.php?uid=5A6311DggKDgsLCgkIDAhcC10LAA4NCgoAAFsL">名称:李坚</a>
+		</li>
+		<li style="width:150px;border-bottom:1px solid #FFCC00;height:25px;margin-top:8px">票数:41762  人气数:179068		</li>
+				<li style="width:140px;height:25px;margin-top:8px">
+				<a href="detail.php?uid=5A6311DggKDgsLCgkIDAhcC10LAA4NCgoAAFsL">查看详细资料</a>
+				</li>
+
+
+		
+
+		</div>
+				<div style="width:910px;float:left;margin-top:10px;text-align:center;line-height:30px;font-size:14px;color:#FFCC00">共有66条信息;总计3页     <b>[1]</b> <a href='index.php?firstRow=24&totalRows=66'>[2]</a> <a href='index.php?firstRow=48&totalRows=66'>[3]</a>  </div>
+	</div>
+
+
+
+
+
+<!-- 内容结束 -->
+<div class="foot_flink">
+	<div class="flinktitle">友情链接</div>
+	<div class="flink">
+		<li style="float:left;"><a href="http://www.1news1.cn/"><font style="color:#000000">焦点中国网</font></a> | </li>
+		<li style="float:left;"><a href="http://ny.fzzyzs.com"><font style="color:#000000">南阳妇联网</font></a> | </li>
+		<li style="float:left;"><a href="http://www.ccnntv.cn"><font style="color:#000000">中国有线电视新闻网</font></a> | </li>
+		<li style="float:left;"><a href="http://caijing.gotoip2.com/index.asp"><font style="color:#000000">中国产业经济信息网 </font></a> | </li>
+		<li style="float:left;"><a href="http://mrjj.chinacenn.com/"><font style="color:#000000">中国企业新闻网每日经济</font></a> | </li>
+		<li style="float:left;"><a href="http://www.fzzyzs.com"><font style="color:#000000">正义之声网</font></a> | </li>
+		</div>
+</div>
+
+
+
+<div style="width:960px;height:10px;margin:0 auto;overflow:hidden;background:url(images/ftg.jpg) no-repeat;"></div>
+<div style="width:960px;float:left;font-size:14px;line-height:30px;text-align:left;color:#FFCC00;">
+<div style="width:960px;text-align:center;margin-top:10px;"><p align="center"><span style="color:#ffffff;font-size:16px;"><span style="color:#000000;font-size:14px;"><strong><span style="color:#ffffff;">主办<span style="color:#ffffff;">：南阳市维护妇女儿童权益暨平安家庭创建协调组 承办：正义之声网&nbsp;南阳市妇联网 版权归：正义之声网</span></span></strong></span></span></p>
+<p align="center"><span style="color:#ffffff;font-size:16px;"><span style="color:#000000;font-size:14px;"><strong><span style="color:#ffffff;">地址：南阳市七一路706号南阳市委二号院&nbsp;电话：0377-62298536&nbsp;监督电话：13782007116&nbsp;&nbsp; 12338</span></strong></span></span></p>
+<p align="center"><span style="color:#ffffff;font-size:16px;"><span style="color:#000000;font-size:14px;"><strong><span style="color:#ffffff;">邮箱：zyzsw2009@163.com&nbsp;</span><span style="color:#ffffff;"> </span></strong></span></span><a href="mailto:nyflqyb@163.vom"><span style="color:#ffffff;font-size:16px;"><span style="color:#000000;font-size:14px;"><strong><span style="color:#ffffff;">nyflqyb@163.c</span><span style="color:#ffffff;font-size:14px;">om</span></strong></span></span></a><span style="color:#000000;font-size:14px;"><strong><span style="color:#ffffff;">&nbsp; 技术支持：万通科技</span></strong></span></p>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cdiv id='cnzz_stat_icon_30082608'%3E%3C/div%3E%3Cscript src='" + cnzz_protocol + "w.cnzz.com/c.php%3Fid%3D30082608' type='text/javascript'%3E%3C/script%3E"));</script></div>
+</div>
+<div style="display:none">
+<script src="http://s17.cnzz.com/stat.php?id=967860&web_id=967860" language="JavaScript"></script>
+</div>
+
+</div></div>
+
+</body>
+</html>

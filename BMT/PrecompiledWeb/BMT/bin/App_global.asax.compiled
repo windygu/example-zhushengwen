@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/BMT/global.asax" hash="fffffffff607f857" filehash="c377df558e8" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/BMT/global.asax" />
+    </filedeps>
+</preserve>

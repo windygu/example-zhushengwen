@@ -1,0 +1,10 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\StringTool.dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\StringTool.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.dll
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.pdb
+c:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\me\StringTool.dll
+c:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\me\StringTool.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.UserControl1.resources

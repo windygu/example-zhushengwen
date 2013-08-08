@@ -1,0 +1,2471 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{792BFB72-9FC7-4715-8B7B-C103F2896C38}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "HuaweiSoftware.IPSPBD.UI"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "HuaweiSoftware.IPSPBD.UI"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "WebPager"
+                    AssemblyName = "WebPager"
+                    HintPath = "Reference\WebPager.dll"
+                />
+                <Reference
+                    Name = "log4net"
+                    AssemblyName = "log4net"
+                    HintPath = "Reference\log4net.dll"
+                />
+                <Reference
+                    Name = "Encrypt"
+                    AssemblyName = "Encrypt"
+                    HintPath = "Reference\Encrypt.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Helper.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Log4Net.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSS\Style.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\arrowhead.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\attachtb.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\calendar.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Cancel.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\delete.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\edititem.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Function.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\jianttu1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\jiantu2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\magnify.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Save.GIF"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\spacer.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Thumbs.db"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Images\Style\backgroundimg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Style\bgimg.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Images\Style\Thumbs.db"
+                    BuildAction = "None"
+                />
+               <File
+                 RelPath = "Script\CalendarScript.js"
+                 BuildAction = "Content"
+                />
+               <File
+                  RelPath = "Script\ValidateScript.js"
+                  BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Update_file\AddUpdate_file.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Update_file\AddUpdate_file.aspx.cs"
+                    DependentUpon = "AddUpdate_file.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Update_file\ModifyUpdate_file.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Update_file\ModifyUpdate_file.aspx.cs"
+                    DependentUpon = "ModifyUpdate_file.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Update_file\ListUpdate_file.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Update_file\ListUpdate_file.aspx.cs"
+                    DependentUpon = "ListUpdate_file.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Tts_ctrl\AddTts_ctrl.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Tts_ctrl\AddTts_ctrl.aspx.cs"
+                    DependentUpon = "AddTts_ctrl.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Tts_ctrl\ModifyTts_ctrl.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Tts_ctrl\ModifyTts_ctrl.aspx.cs"
+                    DependentUpon = "ModifyTts_ctrl.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Tts_ctrl\ListTts_ctrl.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Tts_ctrl\ListTts_ctrl.aspx.cs"
+                    DependentUpon = "ListTts_ctrl.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Test_group_table\AddTest_group_table.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Test_group_table\AddTest_group_table.aspx.cs"
+                    DependentUpon = "AddTest_group_table.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Test_group_table\ModifyTest_group_table.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Test_group_table\ModifyTest_group_table.aspx.cs"
+                    DependentUpon = "ModifyTest_group_table.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Test_group_table\ListTest_group_table.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Test_group_table\ListTest_group_table.aspx.cs"
+                    DependentUpon = "ListTest_group_table.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Sys_web_ui\AddSys_web_ui.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_web_ui\AddSys_web_ui.aspx.cs"
+                    DependentUpon = "AddSys_web_ui.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_web_ui\ModifySys_web_ui.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_web_ui\ModifySys_web_ui.aspx.cs"
+                    DependentUpon = "ModifySys_web_ui.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_web_ui\ListSys_web_ui.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_web_ui\ListSys_web_ui.aspx.cs"
+                    DependentUpon = "ListSys_web_ui.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Sys_permission\AddSys_permission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_permission\AddSys_permission.aspx.cs"
+                    DependentUpon = "AddSys_permission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_permission\ModifySys_permission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_permission\ModifySys_permission.aspx.cs"
+                    DependentUpon = "ModifySys_permission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_permission\ListSys_permission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_permission\ListSys_permission.aspx.cs"
+                    DependentUpon = "ListSys_permission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Sys_admin\AddSys_admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_admin\AddSys_admin.aspx.cs"
+                    DependentUpon = "AddSys_admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_admin\ModifySys_admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_admin\ModifySys_admin.aspx.cs"
+                    DependentUpon = "ModifySys_admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sys_admin\ListSys_admin.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sys_admin\ListSys_admin.aspx.cs"
+                    DependentUpon = "ListSys_admin.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Sos_message\AddSos_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sos_message\AddSos_message.aspx.cs"
+                    DependentUpon = "AddSos_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sos_message\ModifySos_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sos_message\ModifySos_message.aspx.cs"
+                    DependentUpon = "ModifySos_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Sos_message\ListSos_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Sos_message\ListSos_message.aspx.cs"
+                    DependentUpon = "ListSos_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Paras_set_monitor\AddParas_set_monitor.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_monitor\AddParas_set_monitor.aspx.cs"
+                    DependentUpon = "AddParas_set_monitor.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_monitor\ModifyParas_set_monitor.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_monitor\ModifyParas_set_monitor.aspx.cs"
+                    DependentUpon = "ModifyParas_set_monitor.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_monitor\ListParas_set_monitor.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_monitor\ListParas_set_monitor.aspx.cs"
+                    DependentUpon = "ListParas_set_monitor.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Paras_set_listen\AddParas_set_listen.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_listen\AddParas_set_listen.aspx.cs"
+                    DependentUpon = "AddParas_set_listen.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_listen\ModifyParas_set_listen.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_listen\ModifyParas_set_listen.aspx.cs"
+                    DependentUpon = "ModifyParas_set_listen.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_listen\ListParas_set_listen.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Paras_set_listen\ListParas_set_listen.aspx.cs"
+                    DependentUpon = "ListParas_set_listen.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Montior_phone\AddMontior_phone.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Montior_phone\AddMontior_phone.aspx.cs"
+                    DependentUpon = "AddMontior_phone.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Montior_phone\ModifyMontior_phone.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Montior_phone\ModifyMontior_phone.aspx.cs"
+                    DependentUpon = "ModifyMontior_phone.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Montior_phone\ListMontior_phone.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Montior_phone\ListMontior_phone.aspx.cs"
+                    DependentUpon = "ListMontior_phone.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Mdmileagepreday\AddMdmileagepreday.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Mdmileagepreday\AddMdmileagepreday.aspx.cs"
+                    DependentUpon = "AddMdmileagepreday.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Mdmileagepreday\ModifyMdmileagepreday.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Mdmileagepreday\ModifyMdmileagepreday.aspx.cs"
+                    DependentUpon = "ModifyMdmileagepreday.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Mdmileagepreday\ListMdmileagepreday.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Mdmileagepreday\ListMdmileagepreday.aspx.cs"
+                    DependentUpon = "ListMdmileagepreday.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0304\AddLoc_vehicle_0304.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0304\AddLoc_vehicle_0304.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0304.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0304\ModifyLoc_vehicle_0304.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0304\ModifyLoc_vehicle_0304.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0304.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0304\ListLoc_vehicle_0304.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0304\ListLoc_vehicle_0304.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0304.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0301\AddLoc_vehicle_0301.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0301\AddLoc_vehicle_0301.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0301.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0301\ModifyLoc_vehicle_0301.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0301\ModifyLoc_vehicle_0301.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0301.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0301\ListLoc_vehicle_0301.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0301\ListLoc_vehicle_0301.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0301.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0202\AddLoc_vehicle_0202.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0202\AddLoc_vehicle_0202.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0202.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0202\ModifyLoc_vehicle_0202.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0202\ModifyLoc_vehicle_0202.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0202.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0202\ListLoc_vehicle_0202.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0202\ListLoc_vehicle_0202.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0202.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0106\AddLoc_vehicle_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0106\AddLoc_vehicle_0106.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0106\ModifyLoc_vehicle_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0106\ModifyLoc_vehicle_0106.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0106\ListLoc_vehicle_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0106\ListLoc_vehicle_0106.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0103\AddLoc_vehicle_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0103\AddLoc_vehicle_0103.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0103\ModifyLoc_vehicle_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0103\ModifyLoc_vehicle_0103.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0103\ListLoc_vehicle_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0103\ListLoc_vehicle_0103.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_vehicle_0101\AddLoc_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0101\AddLoc_vehicle_0101.aspx.cs"
+                    DependentUpon = "AddLoc_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0101\ModifyLoc_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0101\ModifyLoc_vehicle_0101.aspx.cs"
+                    DependentUpon = "ModifyLoc_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0101\ListLoc_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_vehicle_0101\ListLoc_vehicle_0101.aspx.cs"
+                    DependentUpon = "ListLoc_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_station\AddLoc_station.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_station\AddLoc_station.aspx.cs"
+                    DependentUpon = "AddLoc_station.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_station\ModifyLoc_station.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_station\ModifyLoc_station.aspx.cs"
+                    DependentUpon = "ModifyLoc_station.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_station\ListLoc_station.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_station\ListLoc_station.aspx.cs"
+                    DependentUpon = "ListLoc_station.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_personnel_0101\AddLoc_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_personnel_0101\AddLoc_personnel_0101.aspx.cs"
+                    DependentUpon = "AddLoc_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_personnel_0101\ModifyLoc_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_personnel_0101\ModifyLoc_personnel_0101.aspx.cs"
+                    DependentUpon = "ModifyLoc_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_personnel_0101\ListLoc_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_personnel_0101\ListLoc_personnel_0101.aspx.cs"
+                    DependentUpon = "ListLoc_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_person\AddLoc_person.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_person\AddLoc_person.aspx.cs"
+                    DependentUpon = "AddLoc_person.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_person\ModifyLoc_person.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_person\ModifyLoc_person.aspx.cs"
+                    DependentUpon = "ModifyLoc_person.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_person\ListLoc_person.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_person\ListLoc_person.aspx.cs"
+                    DependentUpon = "ListLoc_person.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_number\AddLoc_number.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_number\AddLoc_number.aspx.cs"
+                    DependentUpon = "AddLoc_number.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_number\ModifyLoc_number.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_number\ModifyLoc_number.aspx.cs"
+                    DependentUpon = "ModifyLoc_number.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_number\ListLoc_number.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_number\ListLoc_number.aspx.cs"
+                    DependentUpon = "ListLoc_number.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_mobilelocation\AddLoc_mobilelocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mobilelocation\AddLoc_mobilelocation.aspx.cs"
+                    DependentUpon = "AddLoc_mobilelocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mobilelocation\ModifyLoc_mobilelocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mobilelocation\ModifyLoc_mobilelocation.aspx.cs"
+                    DependentUpon = "ModifyLoc_mobilelocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mobilelocation\ListLoc_mobilelocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mobilelocation\ListLoc_mobilelocation.aspx.cs"
+                    DependentUpon = "ListLoc_mobilelocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_mapmark20110923\AddLoc_mapmark20110923.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark20110923\AddLoc_mapmark20110923.aspx.cs"
+                    DependentUpon = "AddLoc_mapmark20110923.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark20110923\ModifyLoc_mapmark20110923.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark20110923\ModifyLoc_mapmark20110923.aspx.cs"
+                    DependentUpon = "ModifyLoc_mapmark20110923.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark20110923\ListLoc_mapmark20110923.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark20110923\ListLoc_mapmark20110923.aspx.cs"
+                    DependentUpon = "ListLoc_mapmark20110923.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_mapmark\AddLoc_mapmark.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark\AddLoc_mapmark.aspx.cs"
+                    DependentUpon = "AddLoc_mapmark.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark\ModifyLoc_mapmark.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark\ModifyLoc_mapmark.aspx.cs"
+                    DependentUpon = "ModifyLoc_mapmark.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark\ListLoc_mapmark.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_mapmark\ListLoc_mapmark.aspx.cs"
+                    DependentUpon = "ListLoc_mapmark.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_lng\AddLoc_lng.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lng\AddLoc_lng.aspx.cs"
+                    DependentUpon = "AddLoc_lng.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_lng\ModifyLoc_lng.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lng\ModifyLoc_lng.aspx.cs"
+                    DependentUpon = "ModifyLoc_lng.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_lng\ListLoc_lng.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lng\ListLoc_lng.aspx.cs"
+                    DependentUpon = "ListLoc_lng.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Loc_lat\AddLoc_lat.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lat\AddLoc_lat.aspx.cs"
+                    DependentUpon = "AddLoc_lat.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_lat\ModifyLoc_lat.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lat\ModifyLoc_lat.aspx.cs"
+                    DependentUpon = "ModifyLoc_lat.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Loc_lat\ListLoc_lat.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Loc_lat\ListLoc_lat.aspx.cs"
+                    DependentUpon = "ListLoc_lat.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Location_temp\AddLocation_temp.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_temp\AddLocation_temp.aspx.cs"
+                    DependentUpon = "AddLocation_temp.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_temp\ModifyLocation_temp.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_temp\ModifyLocation_temp.aspx.cs"
+                    DependentUpon = "ModifyLocation_temp.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_temp\ListLocation_temp.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_temp\ListLocation_temp.aspx.cs"
+                    DependentUpon = "ListLocation_temp.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Location_td\AddLocation_td.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_td\AddLocation_td.aspx.cs"
+                    DependentUpon = "AddLocation_td.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_td\ModifyLocation_td.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_td\ModifyLocation_td.aspx.cs"
+                    DependentUpon = "ModifyLocation_td.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_td\ListLocation_td.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_td\ListLocation_td.aspx.cs"
+                    DependentUpon = "ListLocation_td.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Location_gsm\AddLocation_gsm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_gsm\AddLocation_gsm.aspx.cs"
+                    DependentUpon = "AddLocation_gsm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_gsm\ModifyLocation_gsm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_gsm\ModifyLocation_gsm.aspx.cs"
+                    DependentUpon = "ModifyLocation_gsm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location_gsm\ListLocation_gsm.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location_gsm\ListLocation_gsm.aspx.cs"
+                    DependentUpon = "ListLocation_gsm.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Location\AddLocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location\AddLocation.aspx.cs"
+                    DependentUpon = "AddLocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location\ModifyLocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location\ModifyLocation.aspx.cs"
+                    DependentUpon = "ModifyLocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Location\ListLocation.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Location\ListLocation.aspx.cs"
+                    DependentUpon = "ListLocation.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Import20110823\AddImport20110823.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Import20110823\AddImport20110823.aspx.cs"
+                    DependentUpon = "AddImport20110823.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Import20110823\ModifyImport20110823.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Import20110823\ModifyImport20110823.aspx.cs"
+                    DependentUpon = "ModifyImport20110823.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Import20110823\ListImport20110823.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Import20110823\ListImport20110823.aspx.cs"
+                    DependentUpon = "ListImport20110823.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_types\AddGps_sys_types.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_types\AddGps_sys_types.aspx.cs"
+                    DependentUpon = "AddGps_sys_types.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_types\ModifyGps_sys_types.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_types\ModifyGps_sys_types.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_types.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_types\ListGps_sys_types.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_types\ListGps_sys_types.aspx.cs"
+                    DependentUpon = "ListGps_sys_types.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_role\AddGps_sys_role.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_role\AddGps_sys_role.aspx.cs"
+                    DependentUpon = "AddGps_sys_role.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_role\ModifyGps_sys_role.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_role\ModifyGps_sys_role.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_role.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_role\ListGps_sys_role.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_role\ListGps_sys_role.aspx.cs"
+                    DependentUpon = "ListGps_sys_role.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_project\AddGps_sys_project.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_project\AddGps_sys_project.aspx.cs"
+                    DependentUpon = "AddGps_sys_project.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_project\ModifyGps_sys_project.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_project\ModifyGps_sys_project.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_project.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_project\ListGps_sys_project.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_project\ListGps_sys_project.aspx.cs"
+                    DependentUpon = "ListGps_sys_project.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_pilot\AddGps_sys_pilot.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_pilot\AddGps_sys_pilot.aspx.cs"
+                    DependentUpon = "AddGps_sys_pilot.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_pilot\ModifyGps_sys_pilot.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_pilot\ModifyGps_sys_pilot.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_pilot.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_pilot\ListGps_sys_pilot.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_pilot\ListGps_sys_pilot.aspx.cs"
+                    DependentUpon = "ListGps_sys_pilot.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_people\AddGps_sys_people.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_people\AddGps_sys_people.aspx.cs"
+                    DependentUpon = "AddGps_sys_people.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_people\ModifyGps_sys_people.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_people\ModifyGps_sys_people.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_people.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_people\ListGps_sys_people.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_people\ListGps_sys_people.aspx.cs"
+                    DependentUpon = "ListGps_sys_people.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_menulist\AddGps_sys_menulist.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_menulist\AddGps_sys_menulist.aspx.cs"
+                    DependentUpon = "AddGps_sys_menulist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_menulist\ModifyGps_sys_menulist.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_menulist\ModifyGps_sys_menulist.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_menulist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_menulist\ListGps_sys_menulist.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_menulist\ListGps_sys_menulist.aspx.cs"
+                    DependentUpon = "ListGps_sys_menulist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_enterprise\AddGps_sys_enterprise.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_enterprise\AddGps_sys_enterprise.aspx.cs"
+                    DependentUpon = "AddGps_sys_enterprise.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_enterprise\ModifyGps_sys_enterprise.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_enterprise\ModifyGps_sys_enterprise.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_enterprise.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_enterprise\ListGps_sys_enterprise.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_enterprise\ListGps_sys_enterprise.aspx.cs"
+                    DependentUpon = "ListGps_sys_enterprise.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_department\AddGps_sys_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_department\AddGps_sys_department.aspx.cs"
+                    DependentUpon = "AddGps_sys_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_department\ModifyGps_sys_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_department\ModifyGps_sys_department.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_department\ListGps_sys_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_department\ListGps_sys_department.aspx.cs"
+                    DependentUpon = "ListGps_sys_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_competence\AddGps_sys_competence.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_competence\AddGps_sys_competence.aspx.cs"
+                    DependentUpon = "AddGps_sys_competence.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_competence\ModifyGps_sys_competence.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_competence\ModifyGps_sys_competence.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_competence.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_competence\ListGps_sys_competence.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_competence\ListGps_sys_competence.aspx.cs"
+                    DependentUpon = "ListGps_sys_competence.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_client\AddGps_sys_client.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_client\AddGps_sys_client.aspx.cs"
+                    DependentUpon = "AddGps_sys_client.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_client\ModifyGps_sys_client.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_client\ModifyGps_sys_client.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_client.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_client\ListGps_sys_client.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_client\ListGps_sys_client.aspx.cs"
+                    DependentUpon = "ListGps_sys_client.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sys_car_info\AddGps_sys_car_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_car_info\AddGps_sys_car_info.aspx.cs"
+                    DependentUpon = "AddGps_sys_car_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_car_info\ModifyGps_sys_car_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_car_info\ModifyGps_sys_car_info.aspx.cs"
+                    DependentUpon = "ModifyGps_sys_car_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_car_info\ListGps_sys_car_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sys_car_info\ListGps_sys_car_info.aspx.cs"
+                    DependentUpon = "ListGps_sys_car_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_sms_send_log\AddGps_sms_send_log.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sms_send_log\AddGps_sms_send_log.aspx.cs"
+                    DependentUpon = "AddGps_sms_send_log.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sms_send_log\ModifyGps_sms_send_log.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sms_send_log\ModifyGps_sms_send_log.aspx.cs"
+                    DependentUpon = "ModifyGps_sms_send_log.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_sms_send_log\ListGps_sms_send_log.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_sms_send_log\ListGps_sms_send_log.aspx.cs"
+                    DependentUpon = "ListGps_sms_send_log.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_position_data\AddGps_position_data.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_position_data\AddGps_position_data.aspx.cs"
+                    DependentUpon = "AddGps_position_data.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_position_data\ModifyGps_position_data.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_position_data\ModifyGps_position_data.aspx.cs"
+                    DependentUpon = "ModifyGps_position_data.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_position_data\ListGps_position_data.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_position_data\ListGps_position_data.aspx.cs"
+                    DependentUpon = "ListGps_position_data.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_service\AddGps_cost_service.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_service\AddGps_cost_service.aspx.cs"
+                    DependentUpon = "AddGps_cost_service.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_service\ModifyGps_cost_service.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_service\ModifyGps_cost_service.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_service.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_service\ListGps_cost_service.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_service\ListGps_cost_service.aspx.cs"
+                    DependentUpon = "ListGps_cost_service.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_safety\AddGps_cost_safety.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_safety\AddGps_cost_safety.aspx.cs"
+                    DependentUpon = "AddGps_cost_safety.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_safety\ModifyGps_cost_safety.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_safety\ModifyGps_cost_safety.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_safety.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_safety\ListGps_cost_safety.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_safety\ListGps_cost_safety.aspx.cs"
+                    DependentUpon = "ListGps_cost_safety.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_refuel\AddGps_cost_refuel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_refuel\AddGps_cost_refuel.aspx.cs"
+                    DependentUpon = "AddGps_cost_refuel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_refuel\ModifyGps_cost_refuel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_refuel\ModifyGps_cost_refuel.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_refuel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_refuel\ListGps_cost_refuel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_refuel\ListGps_cost_refuel.aspx.cs"
+                    DependentUpon = "ListGps_cost_refuel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_overhaul\AddGps_cost_overhaul.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_overhaul\AddGps_cost_overhaul.aspx.cs"
+                    DependentUpon = "AddGps_cost_overhaul.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_overhaul\ModifyGps_cost_overhaul.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_overhaul\ModifyGps_cost_overhaul.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_overhaul.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_overhaul\ListGps_cost_overhaul.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_overhaul\ListGps_cost_overhaul.aspx.cs"
+                    DependentUpon = "ListGps_cost_overhaul.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_maintenance\AddGps_cost_maintenance.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_maintenance\AddGps_cost_maintenance.aspx.cs"
+                    DependentUpon = "AddGps_cost_maintenance.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_maintenance\ModifyGps_cost_maintenance.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_maintenance\ModifyGps_cost_maintenance.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_maintenance.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_maintenance\ListGps_cost_maintenance.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_maintenance\ListGps_cost_maintenance.aspx.cs"
+                    DependentUpon = "ListGps_cost_maintenance.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_cost_expense\AddGps_cost_expense.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_expense\AddGps_cost_expense.aspx.cs"
+                    DependentUpon = "AddGps_cost_expense.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_expense\ModifyGps_cost_expense.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_expense\ModifyGps_cost_expense.aspx.cs"
+                    DependentUpon = "ModifyGps_cost_expense.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_expense\ListGps_cost_expense.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_cost_expense\ListGps_cost_expense.aspx.cs"
+                    DependentUpon = "ListGps_cost_expense.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_car_use_approval\AddGps_car_use_approval.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_car_use_approval\AddGps_car_use_approval.aspx.cs"
+                    DependentUpon = "AddGps_car_use_approval.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_car_use_approval\ModifyGps_car_use_approval.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_car_use_approval\ModifyGps_car_use_approval.aspx.cs"
+                    DependentUpon = "ModifyGps_car_use_approval.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_car_use_approval\ListGps_car_use_approval.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_car_use_approval\ListGps_car_use_approval.aspx.cs"
+                    DependentUpon = "ListGps_car_use_approval.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_alarm_info\AddGps_alarm_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_info\AddGps_alarm_info.aspx.cs"
+                    DependentUpon = "AddGps_alarm_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_info\ModifyGps_alarm_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_info\ModifyGps_alarm_info.aspx.cs"
+                    DependentUpon = "ModifyGps_alarm_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_info\ListGps_alarm_info.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_info\ListGps_alarm_info.aspx.cs"
+                    DependentUpon = "ListGps_alarm_info.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Gps_alarm_area\AddGps_alarm_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_area\AddGps_alarm_area.aspx.cs"
+                    DependentUpon = "AddGps_alarm_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_area\ModifyGps_alarm_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_area\ModifyGps_alarm_area.aspx.cs"
+                    DependentUpon = "ModifyGps_alarm_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_area\ListGps_alarm_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Gps_alarm_area\ListGps_alarm_area.aspx.cs"
+                    DependentUpon = "ListGps_alarm_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dev_sim_0101\AddDev_sim_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dev_sim_0101\AddDev_sim_0101.aspx.cs"
+                    DependentUpon = "AddDev_sim_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dev_sim_0101\ModifyDev_sim_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dev_sim_0101\ModifyDev_sim_0101.aspx.cs"
+                    DependentUpon = "ModifyDev_sim_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dev_sim_0101\ListDev_sim_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dev_sim_0101\ListDev_sim_0101.aspx.cs"
+                    DependentUpon = "ListDev_sim_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_vehicle_type\AddDep_vehicle_type.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_type\AddDep_vehicle_type.aspx.cs"
+                    DependentUpon = "AddDep_vehicle_type.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_type\ModifyDep_vehicle_type.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_type\ModifyDep_vehicle_type.aspx.cs"
+                    DependentUpon = "ModifyDep_vehicle_type.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_type\ListDep_vehicle_type.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_type\ListDep_vehicle_type.aspx.cs"
+                    DependentUpon = "ListDep_vehicle_type.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_vehicle_0101\AddDep_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_0101\AddDep_vehicle_0101.aspx.cs"
+                    DependentUpon = "AddDep_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_0101\ModifyDep_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_0101\ModifyDep_vehicle_0101.aspx.cs"
+                    DependentUpon = "ModifyDep_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_0101\ListDep_vehicle_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle_0101\ListDep_vehicle_0101.aspx.cs"
+                    DependentUpon = "ListDep_vehicle_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_vehicle\AddDep_vehicle.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle\AddDep_vehicle.aspx.cs"
+                    DependentUpon = "AddDep_vehicle.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle\ModifyDep_vehicle.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle\ModifyDep_vehicle.aspx.cs"
+                    DependentUpon = "ModifyDep_vehicle.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle\ListDep_vehicle.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_vehicle\ListDep_vehicle.aspx.cs"
+                    DependentUpon = "ListDep_vehicle.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_update\AddDep_update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_update\AddDep_update.aspx.cs"
+                    DependentUpon = "AddDep_update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_update\ModifyDep_update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_update\ModifyDep_update.aspx.cs"
+                    DependentUpon = "ModifyDep_update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_update\ListDep_update.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_update\ListDep_update.aspx.cs"
+                    DependentUpon = "ListDep_update.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_time\AddDep_time.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_time\AddDep_time.aspx.cs"
+                    DependentUpon = "AddDep_time.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_time\ModifyDep_time.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_time\ModifyDep_time.aspx.cs"
+                    DependentUpon = "ModifyDep_time.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_time\ListDep_time.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_time\ListDep_time.aspx.cs"
+                    DependentUpon = "ListDep_time.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_personnel_0101\AddDep_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel_0101\AddDep_personnel_0101.aspx.cs"
+                    DependentUpon = "AddDep_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel_0101\ModifyDep_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel_0101\ModifyDep_personnel_0101.aspx.cs"
+                    DependentUpon = "ModifyDep_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel_0101\ListDep_personnel_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel_0101\ListDep_personnel_0101.aspx.cs"
+                    DependentUpon = "ListDep_personnel_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_personnel\AddDep_personnel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel\AddDep_personnel.aspx.cs"
+                    DependentUpon = "AddDep_personnel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel\ModifyDep_personnel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel\ModifyDep_personnel.aspx.cs"
+                    DependentUpon = "ModifyDep_personnel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel\ListDep_personnel.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_personnel\ListDep_personnel.aspx.cs"
+                    DependentUpon = "ListDep_personnel.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_mission\AddDep_mission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_mission\AddDep_mission.aspx.cs"
+                    DependentUpon = "AddDep_mission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_mission\ModifyDep_mission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_mission\ModifyDep_mission.aspx.cs"
+                    DependentUpon = "ModifyDep_mission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_mission\ListDep_mission.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_mission\ListDep_mission.aspx.cs"
+                    DependentUpon = "ListDep_mission.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_department_id\AddDep_department_id.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_id\AddDep_department_id.aspx.cs"
+                    DependentUpon = "AddDep_department_id.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_id\ModifyDep_department_id.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_id\ModifyDep_department_id.aspx.cs"
+                    DependentUpon = "ModifyDep_department_id.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_id\ListDep_department_id.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_id\ListDep_department_id.aspx.cs"
+                    DependentUpon = "ListDep_department_id.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_department_back20110915\AddDep_department_back20110915.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_back20110915\AddDep_department_back20110915.aspx.cs"
+                    DependentUpon = "AddDep_department_back20110915.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_back20110915\ModifyDep_department_back20110915.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_back20110915\ModifyDep_department_back20110915.aspx.cs"
+                    DependentUpon = "ModifyDep_department_back20110915.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_back20110915\ListDep_department_back20110915.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department_back20110915\ListDep_department_back20110915.aspx.cs"
+                    DependentUpon = "ListDep_department_back20110915.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_department\AddDep_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department\AddDep_department.aspx.cs"
+                    DependentUpon = "AddDep_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department\ModifyDep_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department\ModifyDep_department.aspx.cs"
+                    DependentUpon = "ModifyDep_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_department\ListDep_department.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_department\ListDep_department.aspx.cs"
+                    DependentUpon = "ListDep_department.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_bound\AddDep_bound.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_bound\AddDep_bound.aspx.cs"
+                    DependentUpon = "AddDep_bound.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_bound\ModifyDep_bound.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_bound\ModifyDep_bound.aspx.cs"
+                    DependentUpon = "ModifyDep_bound.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_bound\ListDep_bound.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_bound\ListDep_bound.aspx.cs"
+                    DependentUpon = "ListDep_bound.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Dep_area\AddDep_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_area\AddDep_area.aspx.cs"
+                    DependentUpon = "AddDep_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_area\ModifyDep_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_area\ModifyDep_area.aspx.cs"
+                    DependentUpon = "ModifyDep_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Dep_area\ListDep_area.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Dep_area\ListDep_area.aspx.cs"
+                    DependentUpon = "ListDep_area.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_message\AddAla_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_message\AddAla_message.aspx.cs"
+                    DependentUpon = "AddAla_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_message\ModifyAla_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_message\ModifyAla_message.aspx.cs"
+                    DependentUpon = "ModifyAla_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_message\ListAla_message.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_message\ListAla_message.aspx.cs"
+                    DependentUpon = "ListAla_message.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0107\AddAla_0107.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0107\AddAla_0107.aspx.cs"
+                    DependentUpon = "AddAla_0107.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0107\ModifyAla_0107.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0107\ModifyAla_0107.aspx.cs"
+                    DependentUpon = "ModifyAla_0107.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0107\ListAla_0107.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0107\ListAla_0107.aspx.cs"
+                    DependentUpon = "ListAla_0107.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0106\AddAla_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0106\AddAla_0106.aspx.cs"
+                    DependentUpon = "AddAla_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0106\ModifyAla_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0106\ModifyAla_0106.aspx.cs"
+                    DependentUpon = "ModifyAla_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0106\ListAla_0106.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0106\ListAla_0106.aspx.cs"
+                    DependentUpon = "ListAla_0106.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0105\AddAla_0105.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0105\AddAla_0105.aspx.cs"
+                    DependentUpon = "AddAla_0105.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0105\ModifyAla_0105.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0105\ModifyAla_0105.aspx.cs"
+                    DependentUpon = "ModifyAla_0105.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0105\ListAla_0105.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0105\ListAla_0105.aspx.cs"
+                    DependentUpon = "ListAla_0105.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0104\AddAla_0104.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0104\AddAla_0104.aspx.cs"
+                    DependentUpon = "AddAla_0104.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0104\ModifyAla_0104.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0104\ModifyAla_0104.aspx.cs"
+                    DependentUpon = "ModifyAla_0104.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0104\ListAla_0104.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0104\ListAla_0104.aspx.cs"
+                    DependentUpon = "ListAla_0104.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0103\AddAla_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0103\AddAla_0103.aspx.cs"
+                    DependentUpon = "AddAla_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0103\ModifyAla_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0103\ModifyAla_0103.aspx.cs"
+                    DependentUpon = "ModifyAla_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0103\ListAla_0103.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0103\ListAla_0103.aspx.cs"
+                    DependentUpon = "ListAla_0103.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0102\AddAla_0102.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0102\AddAla_0102.aspx.cs"
+                    DependentUpon = "AddAla_0102.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0102\ModifyAla_0102.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0102\ModifyAla_0102.aspx.cs"
+                    DependentUpon = "ModifyAla_0102.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0102\ListAla_0102.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0102\ListAla_0102.aspx.cs"
+                    DependentUpon = "ListAla_0102.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                 <File
+                    RelPath = "Pages\Ala_0101\AddAla_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0101\AddAla_0101.aspx.cs"
+                    DependentUpon = "AddAla_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0101\ModifyAla_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0101\ModifyAla_0101.aspx.cs"
+                    DependentUpon = "ModifyAla_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Pages\Ala_0101\ListAla_0101.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Pages\Ala_0101\ListAla_0101.aspx.cs"
+                    DependentUpon = "ListAla_0101.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+  
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

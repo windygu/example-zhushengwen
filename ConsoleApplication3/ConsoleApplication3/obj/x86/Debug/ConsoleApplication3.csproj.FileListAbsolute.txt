@@ -1,0 +1,15 @@
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.exe
+c:\documents and settings\administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.pdb
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\Interop.Word.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe.config
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Office.Interop.Word.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\office.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\Microsoft.Office.Interop.Word.xml
+C:\Documents and Settings\Administrator\my documents\visual studio 2010\Projects\ConsoleApplication3\ConsoleApplication3\bin\Debug\office.xml
