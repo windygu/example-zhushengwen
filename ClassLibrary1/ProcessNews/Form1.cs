@@ -11,36 +11,11 @@ using StringTool;
 using MySql.Data.MySqlClient;
 namespace ProcessNews
 {
-    public delegate void TRFunc(IDataReader reader);
 
+    //public delegate void TRFunc(IDataReader reader);
     public partial class Form1 : Form
     {
-        public static void TraverReader(string queryString, TRFunc trfunc)
-        {
-            using (MySqlConnection connection = new MySqlConnection(MyClass.connectionString))
-            {
-                MySqlCommand command = new MySqlCommand(queryString, connection);
-                connection.Open();
-                MySqlDataReader reader = command.ExecuteReader();
-
-                try
-                {
-                    while (reader.Read())
-                    {
-                        trfunc(reader);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(queryString);
-                    Console.WriteLine(ex.Message);
-                }
-                finally
-                {
-                    reader.Close();
-                }
-            }
-        }
+      
         public Form1()
         {
             InitializeComponent();
@@ -81,7 +56,9 @@ namespace ProcessNews
         {
             totle.Text = MyClass.ExecuteScalar("SELECT count(*) from data_xp_news").ToString();
             progressBar1.Maximum = int.Parse(totle.Text);
-            TraverReader("SELECT * from data_xp_news", ProcessReader);
+            //TRFunc t = new TRFunc(ProcessReader);
+            MyClass.TraverReader("SELECT * from data_xp_news",ProcessReader);
+           // Console.WriteLine(typeof (TRFunc));
         }
         private void button1_Click(object sender, EventArgs e)
         {
