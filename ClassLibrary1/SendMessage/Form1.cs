@@ -57,12 +57,13 @@ namespace ProcessNews
             label2.Text = reader["UserName"].ToString();
             label4.Text = mts.content;
 
-
             InterfaceClient ifc = new InterfaceClient();
             string ret;
-            if (ifc.SendSms(reader["UserName"].ToString(),
-                reader["PassWord"].ToString(),
-                reader["phone1"].ToString(),
+            string send_ok = "0";
+            string rets="";
+            if (ifc.SendSms("LA04J254371",
+                "Aa1234",
+                reader["phone"].ToString(),
                 mts.content,
                 mts.phone,
                 out ret))
@@ -70,13 +71,22 @@ namespace ProcessNews
                 System.Xml.XmlDocument xdoc = new System.Xml.XmlDocument();
                 StringReader sr = new StringReader(ret);
                 xdoc.Load(sr);
-                XmlNode xnl = xdoc.SelectSingleNode("/Root/Return");
-                string rets = xnl.InnerText;
-
-                string sql = "UPDATE data_xp_news SET content='{1}' WHERE  id={0}";
-
-                MyClass.ExecuteNonQuery(sql);
+                XmlNode xnl = xdoc.SelectSingleNode("/Root/SMS/Return");
+                if (xnl != null)
+                {
+                    rets = xnl.InnerText;
+                    if (xnl.Attributes["State"].Value == "0")
+                    {
+                        send_ok = "1"; 
+                        string sql = "UPDATE user SET SmsCount=SmsCount-1 WHERE  Id=" + mts.user_id;
+                        MyClass.ExecuteNonQuery(sql);
+                    }
+                }
             }
+
+            string retsql = "UPDATE sms SET send_is=1,return_data={0},send_yes={1} WHERE  Id={2}";
+            retsql = string.Format(retsql, rets, send_ok, mts.id);
+            MyClass.ExecuteNonQuery(retsql);
 
 
 
@@ -87,7 +97,7 @@ namespace ProcessNews
             while (true)
             {
                 string comsql = @"SELECT {0} from (SELECT * from sms where  UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60) m
-                LEFT JOIN (SELECT * from user where SmsCount>0) u ON m.id=U.Id";
+                LEFT JOIN (SELECT * from user where SmsCount>0) u ON U.id=m.user_id";
                 string sql = string.Format(comsql,"count(*)");
                 totle.Text = MyClass.ExecuteScalar(sql).ToString();
                 progressBar1.Maximum = int.Parse(totle.Text);
