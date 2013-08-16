@@ -12,7 +12,8 @@ using System.Xml;
 using System.Data;
 namespace StringTool
 {
-    public class GetAssembly
+    public delegate void TRFunc(IDataReader reader);
+    internal class GetAssembly
     {
 
         /// <summary>  
@@ -362,6 +363,32 @@ namespace StringTool
                     Console.WriteLine(queryString);
                     Console.WriteLine(ex.Message);
                     return null;
+                }
+            }
+        }
+        public static void TraverReader(string queryString,TRFunc trfunc)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(queryString, connection);
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                try
+                {
+                    while (reader.Read())
+                    {
+                      trfunc(reader);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(queryString);
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    reader.Close();
                 }
             }
         }
