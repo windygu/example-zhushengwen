@@ -87,9 +87,6 @@ namespace ProcessNews
             string retsql = "UPDATE sms SET send_is=1,return_data={0},send_yes={1} WHERE  Id={2}";
             retsql = string.Format(retsql, rets, send_ok, mts.id);
             MyClass.ExecuteNonQuery(retsql);
-
-
-
             progressBar1.PerformStep();
         }
         void ProcessTask()
