@@ -22,10 +22,8 @@ namespace ProcessNews
         public Form1()
         {
             InitializeComponent();
-            MyClass.connectionString = connectionString;
         }
         static string path = "";
-        static string connectionString="server= localhost;User Id= root;password=admin;Persist Security Info=True;port=3306;database=test;charset=gbk;";
         public static void InitialSetting()
         {
             XmlDocument xmlDoc = new XmlDocument();
@@ -63,7 +61,7 @@ namespace ProcessNews
             string rets="";
             if (ifc.SendSms("LA04J254371",
                 "Aa1234",
-                reader["phone"].ToString(),
+                "91221",
                 mts.content,
                 mts.phone,
                 out ret))
@@ -74,7 +72,7 @@ namespace ProcessNews
                 XmlNode xnl = xdoc.SelectSingleNode("/Root/SMS/Return");
                 if (xnl != null)
                 {
-                    rets = xnl.InnerText;
+                    rets = ifc.DecryptBase64(xnl.InnerText);
                     if (xnl.Attributes["State"].Value == "0")
                     {
                         send_ok = "1"; 
@@ -84,7 +82,7 @@ namespace ProcessNews
                 }
             }
 
-            string retsql = "UPDATE sms SET send_is=1,return_data={0},send_yes={1} WHERE  Id={2}";
+            string retsql = "UPDATE sms SET send_is=1,return_data='{0}',send_yes={1} WHERE  Id={2}";
             retsql = string.Format(retsql, rets, send_ok, mts.id);
             MyClass.ExecuteNonQuery(retsql);
             progressBar1.PerformStep();
@@ -106,6 +104,8 @@ namespace ProcessNews
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            MyClass.connectionString = userControl11.MyText;
+            userControl11.AddItem();
             label5.Text = "正在发送......";
             Thread t = new Thread(ProcessTask);
             Control.CheckForIllegalCrossThreadCalls = false;
@@ -258,7 +258,7 @@ namespace ProcessNews
 		/// </summary>
 		/// <param name="Data">待解密数据。</param>
 		/// <returns>解密后的数据。</returns>
-		private string DecryptBase64(string Data)
+		public string DecryptBase64(string Data)
 		{
 			return System.Text.Encoding.GetEncoding("UTF-8").GetString(System.Convert.FromBase64String(Data));
 		}
