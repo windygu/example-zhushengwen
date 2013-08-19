@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Threading;
@@ -92,8 +91,12 @@ namespace ProcessNews
         {
             while (true)
             {
-                string comsql = @"SELECT {0} from (SELECT * from sms where  UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60 and UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())>0) m
-                LEFT JOIN (SELECT * from user where SmsCount>0) u ON U.id=m.user_id";
+                string comsql = @"SELECT {0} from sms m  LEFT JOIN
+user u on m.user_id=u.id where u.SmsCount>0 
+AND 
+((UNIX_TIMESTAMP(m.ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60 
+and UNIX_TIMESTAMP(m.ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())>0 and m.aotu_is=1)
+ or m.aotu_is=0)";
                 string sql = string.Format(comsql,"count(*)");
                 totle.Text = MyClass.ExecuteScalar(sql).ToString();
                 progressBar1.Maximum = int.Parse(totle.Text);
