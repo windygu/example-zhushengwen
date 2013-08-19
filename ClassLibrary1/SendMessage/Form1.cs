@@ -92,7 +92,7 @@ namespace ProcessNews
             while (true)
             {
                 string comsql = @"SELECT {0} from sms m  LEFT JOIN
-user u on m.user_id=u.id where u.SmsCount>0 
+user u on m.user_id=u.id where m.send_is=0 and u.SmsCount>0 
 AND 
 ((UNIX_TIMESTAMP(m.ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60 
 and UNIX_TIMESTAMP(m.ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())>0 and m.aotu_is=1)
