@@ -36,11 +36,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.count = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label10 = new System.Windows.Forms.Label();
             this.totle = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.userControl11 = new StringTool.UserControl1();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label4
@@ -50,9 +52,9 @@
             this.label4.ForeColor = System.Drawing.Color.Maroon;
             this.label4.Location = new System.Drawing.Point(141, 145);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(19, 21);
+            this.label4.Size = new System.Drawing.Size(42, 21);
             this.label4.TabIndex = 5;
-            this.label4.Text = "3";
+            this.label4.Text = "........";
             // 
             // label3
             // 
@@ -72,9 +74,9 @@
             this.label2.ForeColor = System.Drawing.Color.Maroon;
             this.label2.Location = new System.Drawing.Point(140, 105);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 21);
+            this.label2.Size = new System.Drawing.Size(38, 21);
             this.label2.TabIndex = 3;
-            this.label2.Text = "张丛";
+            this.label2.Text = ".......";
             // 
             // label1
             // 
@@ -122,22 +124,11 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(144, 223);
+            this.progressBar1.Location = new System.Drawing.Point(144, 270);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(428, 23);
             this.progressBar1.Step = 1;
             this.progressBar1.TabIndex = 8;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label10.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label10.Location = new System.Drawing.Point(46, 223);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(46, 21);
-            this.label10.TabIndex = 6;
-            this.label10.Text = "进度:";
             // 
             // totle
             // 
@@ -155,7 +146,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label8.Location = new System.Drawing.Point(183, 180);
+            this.label8.Location = new System.Drawing.Point(179, 180);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(17, 21);
             this.label8.TabIndex = 9;
@@ -183,11 +174,43 @@
             this.userControl11.Size = new System.Drawing.Size(533, 30);
             this.userControl11.TabIndex = 11;
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label10.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label10.Location = new System.Drawing.Point(47, 274);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(46, 21);
+            this.label10.TabIndex = 6;
+            this.label10.Text = "进度:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.label7.Location = new System.Drawing.Point(47, 227);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 21);
+            this.label7.TabIndex = 6;
+            this.label7.Text = "返回值:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.textBox1.Location = new System.Drawing.Point(145, 227);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(427, 37);
+            this.textBox1.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 279);
+            this.ClientSize = new System.Drawing.Size(592, 305);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.userControl11);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label8);
@@ -196,6 +219,7 @@
             this.Controls.Add(this.totle);
             this.Controls.Add(this.count);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
@@ -221,11 +245,13 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label count;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label totle;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button1;
         private StringTool.UserControl1 userControl11;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

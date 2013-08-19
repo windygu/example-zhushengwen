@@ -73,6 +73,7 @@ namespace ProcessNews
                 if (xnl != null)
                 {
                     rets = ifc.DecryptBase64(xnl.InnerText);
+                    textBox1.Text = rets;
                     if (xnl.Attributes["State"].Value == "0")
                     {
                         send_ok = "1"; 
@@ -91,13 +92,13 @@ namespace ProcessNews
         {
             while (true)
             {
-                string comsql = @"SELECT {0} from (SELECT * from sms where  UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60) m
+                string comsql = @"SELECT {0} from (SELECT * from sms where  UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())<60 and UNIX_TIMESTAMP(ding_time)-UNIX_TIMESTAMP(CURRENT_TIMESTAMP())>0) m
                 LEFT JOIN (SELECT * from user where SmsCount>0) u ON U.id=m.user_id";
                 string sql = string.Format(comsql,"count(*)");
                 totle.Text = MyClass.ExecuteScalar(sql).ToString();
                 progressBar1.Maximum = int.Parse(totle.Text);
                 MyClass.TraverReader(string.Format(comsql, "*"), ProcessReader);
-                label5.Text = "暂停一分钟！";
+                label5.Text = "发送完毕，暂停一分钟！";
                 progressBar1.Value = 0;
                 Thread.Sleep(1000 * 60);
             }
