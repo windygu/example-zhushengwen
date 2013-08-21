@@ -67,6 +67,14 @@ namespace InputPhones
             {
                 s = "";
             }
+            if (i%2 == 0)
+            {
+                label16.Text = "";
+            }
+            else
+            {
+                label16.Text = "√:";
+            }
             if (no.status == 0)
                 label13.Text = s+"插入成功 --"+time;
             else
@@ -183,7 +191,9 @@ namespace InputPhones
                 {
                     return;
                 }
+                label13.Text = "√:";
                 label13.Text = "处理完毕，睡眠1小时";
+                button1.Text = "更新新闻";
                 Thread.Sleep(60 * 60 * 1000);
             }
            
