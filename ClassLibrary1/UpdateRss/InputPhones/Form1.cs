@@ -24,9 +24,9 @@ namespace InputPhones
         }
         private int InsertItem(NewsObject no)
         {
-            string title = no.title;
+            string title = no.title.Replace("'","''");
             string type_id = no.type_id;
-            string content = no.content;
+            string content = no.content.Replace("'", "''");
             string source = no.source;
             string pubdate = no.pubdate;
             string misc = no.misc;
@@ -58,18 +58,28 @@ namespace InputPhones
             int i = int.Parse(count.Text);
             i++;
             count.Text = i.ToString();
+            i = int.Parse(all.Text);
+            i++;
+            all.Text = i.ToString();
+            string time = string.Format("{0: HH:mm:ss}", DateTime.Now);
+            string s = " ";
+            if (label13.Text.StartsWith(s))
+            {
+                s = "";
+            }
             if (no.status == 0)
-                label13.Text = "插入成功";
+                label13.Text = s+"插入成功 --"+time;
             else
-                label13.Text = "成功更新";
+                label13.Text = s+"成功更新 --"+time;
         }
         NewsObject GetNewsObject(string title, string url,string type)
         {
             NewsObject no = new NewsObject();
-            string allc = MyClass.GetUrltoHtml(url);
+            string allc = ""; MyClass.GetUrltoHtml(url);
 
             if (type == "本地新闻")//本地新闻提取方法
             {
+                allc = MyClass.GetUrltoHtml(url);
                 string str1 = MyClass.ExtractStr(allc, "class=\"article\"", "<div", "div>", 1, true);
                 if (str1 != "")
                     str1 = "<div" + str1 + "div>";
@@ -94,6 +104,7 @@ namespace InputPhones
             }
             else
             {
+                allc = MyClass.GetUrltoHtml(url,"gb2312");
                 string str1 = MyClass.ExtractStr(allc, "id=\"contentText\"", "<div", "div>", 1, true);
                 if (str1 != "")
                     str1 = "<div" + str1 + "div>";
@@ -127,26 +138,38 @@ namespace InputPhones
         void GetNews()
         {
             Dictionary<string, string> bg = GetBigTypes();
-            progressBar1.Maximum = bg.Count;
+            progressBar1.Maximum = (bg.Count)*10+1;
+            progressBar1.PerformStep();
+            int index = 0;
             foreach (KeyValuePair<string,string> item in bg)
             {
+                index++;
+                label15.Text = index.ToString()+"/"+bg.Count.ToString();
                 string typeid = (string)MyClass.ExecuteScalar(string.Format("SELECT id from data_xp_newstype where typename='{0}'", item.Key)).ToString();
                 Dictionary<string,string> sm=GetTitles(item.Value);
                 
                 totle.Text = sm.Count.ToString();
                 count.Text = "0";
+                int j = 0;
                 foreach (KeyValuePair<string, string> item1 in sm)
                 {
+                    if (!newisContinue)
+                    {
+                        return;
+                    }
+                    j++;
                     NewsObject no = GetNewsObject(item1.Key, item1.Value, item.Key);
                     no.type_id = typeid;
                     no.type_name = item.Key;
                     if (no.content != "")
                     {
                        no.status = InsertItem(no);
-                        label1.Invoke(new SetTextDelegate(SetText), no);
+                       label1.Invoke(new SetTextDelegate(SetText), no);
                     }
+                    progressBar1.Value= 10*(index-1) + j*10/sm.Count+1;
+                    label14.Text = (((index-1) * 100 / bg.Count +j * 10 / sm.Count)).ToString() + "%";
                 }
-                progressBar1.PerformStep();
+                
             }
         }
 
@@ -154,19 +177,33 @@ namespace InputPhones
         {
             while (true)
             {
+                all.Text = "0";
                 GetNews();
+                if (!newisContinue)
+                {
+                    return;
+                }
                 label13.Text = "处理完毕，睡眠1小时";
-                progressBar1.Value = 0;
                 Thread.Sleep(60 * 60 * 1000);
             }
            
         }
-        
+        bool newisContinue = false;
         private void button1_Click(object sender, EventArgs e)
         {
-            Thread t = new Thread(ProcessTask);
-            Control.CheckForIllegalCrossThreadCalls = false;
-            t.Start();
+            if (button1.Text == "更新新闻")
+            {
+                button1.Text = "取消更新";
+                newisContinue = true;
+                Thread t = new Thread(ProcessTask);
+                Control.CheckForIllegalCrossThreadCalls = false;
+                t.Start();
+            }
+            else
+            {
+                newisContinue = false;
+                button1.Text = "更新新闻";
+            }
             //mulu
             //wenjian
             //chuli
@@ -178,7 +215,7 @@ namespace InputPhones
         }
         private string GetBigTypesContent()
         {
-            return MyClass.GetUrltoHtml("http://rss.news.sohu.com/rss.shtml");
+            return MyClass.GetUrltoHtml("http://rss.news.sohu.com/rss.shtml","gb2312");
         }
         public Dictionary<string, string> GetTitles(string url1)
         {
@@ -192,7 +229,7 @@ namespace InputPhones
             {
                 string title = item.SelectSingleNode("title").InnerText;
                 string url2 = item.SelectSingleNode("link").InnerText;
-                smt.Add(title,url2);
+                smt[title]=url2;
             }
             return smt;
         }
@@ -207,7 +244,7 @@ namespace InputPhones
             foreach (string item in strss)
             {
                 string url = MyClass.ExtractStr(rt, "· " + item, "href=\"", "\"");
-                bgt.Add(item, url);
+                bgt[item]= url;
                 string sql = string.Format("UPDATE data_xp_newstype SET url='{1}' WHERE typename='{0}'", item, url);
                 string existsql = string.Format("SELECT * from data_xp_newstype where typename='{0}'", item);
                 if (!MyClass.SqlExists(existsql))

@@ -45,6 +45,9 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.all = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -54,7 +57,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(109, 34);
             this.button1.TabIndex = 0;
-            this.button1.Text = "录入新闻";
+            this.button1.Text = "更新新闻";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -170,11 +173,11 @@
             this.totle.AutoSize = true;
             this.totle.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.totle.ForeColor = System.Drawing.Color.Purple;
-            this.totle.Location = new System.Drawing.Point(183, 213);
+            this.totle.Location = new System.Drawing.Point(185, 213);
             this.totle.Name = "totle";
             this.totle.Size = new System.Drawing.Size(19, 21);
             this.totle.TabIndex = 17;
-            this.totle.Text = "3";
+            this.totle.Text = "0";
             // 
             // count
             // 
@@ -214,7 +217,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label12.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label12.Location = new System.Drawing.Point(262, 212);
+            this.label12.Location = new System.Drawing.Point(287, 212);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(46, 21);
             this.label12.TabIndex = 3;
@@ -225,23 +228,59 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("微软雅黑", 12F);
             this.label13.ForeColor = System.Drawing.Color.Maroon;
-            this.label13.Location = new System.Drawing.Point(314, 212);
+            this.label13.Location = new System.Drawing.Point(339, 212);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(74, 21);
             this.label13.TabIndex = 4;
             this.label13.Text = "插入成功";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("微软雅黑", 30F);
+            this.label15.ForeColor = System.Drawing.Color.Maroon;
+            this.label15.Location = new System.Drawing.Point(282, 23);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(86, 52);
+            this.label15.TabIndex = 4;
+            this.label15.Text = "0/0";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("微软雅黑", 15F);
+            this.label14.ForeColor = System.Drawing.Color.Maroon;
+            this.label14.Location = new System.Drawing.Point(488, 249);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(42, 27);
+            this.label14.TabIndex = 4;
+            this.label14.Text = "0%";
+            // 
+            // all
+            // 
+            this.all.AutoSize = true;
+            this.all.Font = new System.Drawing.Font("微软雅黑", 10F);
+            this.all.ForeColor = System.Drawing.Color.Purple;
+            this.all.Location = new System.Drawing.Point(536, 235);
+            this.all.Name = "all";
+            this.all.Size = new System.Drawing.Size(17, 20);
+            this.all.TabIndex = 22;
+            this.all.Text = "0";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 290);
+            this.Controls.Add(this.all);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.totle);
             this.Controls.Add(this.count);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label11);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label12);
@@ -281,6 +320,9 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label all;
     }
 }
 
