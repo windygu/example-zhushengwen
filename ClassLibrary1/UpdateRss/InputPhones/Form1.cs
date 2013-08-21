@@ -30,9 +30,14 @@ namespace InputPhones
             string source = no.source;
             string pubdate = no.pubdate;
             string misc = no.misc;
-            if (content.Contains("?"))
-                content = content.Replace("?", "");
-
+            if (content.Contains('?'))
+                content = content.Replace('?', ' ');
+            string hrefs = MyClass.ExtractStr(content, "href", "<", ">", 1000, true);
+            foreach (string item in hrefs.Split(','))
+            {
+                if (item.StartsWith("a ") || item.StartsWith("A "))
+                    content = content.Replace("<" + item + ">", "<a>");
+            }
             string sql = "INSERT INTO data_xp_news(title,type_id,content,source,misc,pubdate) VALUES('{0}',{1},'{2}','{3}','{4}','{5}')";
             sql = string.Format(sql, title.Replace("'", "''"), type_id, content.Replace("'", "''"), source.Replace("'", "''"), misc, pubdate);
             if (!MyClass.SqlExists("select * from data_xp_news where title='" + title + "'"))
@@ -187,13 +192,12 @@ namespace InputPhones
             {
                 all.Text = "0";
                 GetNews();
+                label16.Text = "√:";
                 if (!newisContinue)
                 {
                     return;
                 }
-                label13.Text = "√:";
                 label13.Text = "处理完毕，睡眠1小时";
-                button1.Text = "更新新闻";
                 Thread.Sleep(60 * 60 * 1000);
             }
            
