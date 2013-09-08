@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\bin\Debug\MySql.Data.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\me\StringTool.dll
+C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\me\StringTool.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\StringTool.UserControl1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.GenerateResource.Cache
