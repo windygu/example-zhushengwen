@@ -12,7 +12,7 @@ using System.Xml;
 using System.Data;
 namespace StringTool
 {
-    public delegate void TRFunc(IDataReader reader);
+    public delegate void TRFunc(IDataReader reader, object inparam, ref object outparam);
     internal class GetAssembly
     {
 
@@ -366,7 +366,27 @@ namespace StringTool
                 }
             }
         }
-        public static void TraverReader(string queryString,TRFunc trfunc)
+        static void MyTRFunc(IDataReader reader, object inparam, ref object outparam)
+        {
+            List<object> Io = (List<object>)outparam;
+            Type iT = (Type)inparam;
+            Object instance = Activator.CreateInstance(iT);
+            for (int i = 0; i < reader.FieldCount; i++)
+            {
+                FieldInfo fiInstance = iT.GetField(reader.GetName(i));
+                if (fiInstance != null) fiInstance.SetValue(instance, reader[i].ToString());
+
+            }
+            Io.Add(instance);
+        }
+        public static object[] GetObjects(string queryString, Type t)
+        {
+            List<object> lobs = new List<object>();
+            object lob = lobs;
+            TraverReader(queryString, MyTRFunc, t, ref lob);
+            return lobs.ToArray();
+        }
+        public static void TraverReader(string queryString, TRFunc trfunc, object inparam, ref object outparam)
         {
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
@@ -378,7 +398,7 @@ namespace StringTool
                 {
                     while (reader.Read())
                     {
-                      trfunc(reader);
+                        trfunc(reader, inparam, ref outparam);
                     }
                 }
                 catch (Exception ex)
