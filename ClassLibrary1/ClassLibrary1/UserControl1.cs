@@ -37,7 +37,7 @@ namespace StringTool
             }
 
         }
-        public string MyText
+        public new string Text
         {
             get
             {

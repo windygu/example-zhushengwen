@@ -13,7 +13,7 @@ using System.Data;
 namespace StringTool
 {
     public delegate void TRFunc(IDataReader reader, object inparam, ref object outparam);
-    internal class GetAssembly
+    public class GetAssembly
     {
 
         /// <summary>  
@@ -592,6 +592,119 @@ namespace StringTool
 
             return Sqls;
         }
+        public string ReadMyDataBySql(string queryString)
+        {
+            string str = "[";
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(connectionString))
+                {
+                    MySqlCommand command = new MySqlCommand(queryString, connection);
+                    connection.Open();
+                    MySqlDataReader reader = command.ExecuteReader();
+
+                    try
+                    {
+                        int seq = 1;
+                        while (reader.Read())
+                        {
+                            str += "{";
+                            str += "\"";
+                            str += "NEW_SEQ";
+                            str += "\":\"";
+                            str += seq;
+                            str += "\"";
+                            seq++;
+                            for (int i = 0; i < reader.FieldCount; i++)
+                            {
+                                //Type t = reader.GetFieldType(i);
+                                //object o = Activator.CreateInstance(t);
+                                //o = reader[i];
+                                str += ",";
+                                str += "\"";
+                                str += reader.GetName(i);
+                                str += "\":\"";
+                                str += reader[i].ToString().Replace("\"", "\\\"");
+                                str += "\"";
+                                //[{"sss":"ddd",},{},{},]
+
+                                //if (reader.FieldCount - 1 != i) += "\"";
+                                //Console.WriteLine(reader[i]);
+                            }
+                            str += "},";
+                        }
+                        str = str.TrimEnd(',');
+
+                    }
+                    finally
+                    {
+                        // always call Close when done reading.
+                        reader.Close();
+                        if (connection.State != ConnectionState.Closed)
+                        {
+                            connection.Close();
+
+
+                        }
+
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+
+                str += "{";
+                str += "\"Exception\":";
+                str += "\"" + e.Message + "\"";
+                str += "}";
+
+
+            }
+            str += "]";
+            return str;
+        }
+        public string ReadMyData(string TableName, int PageNum = 0, int Count = 10, string where = "", bool whereIsAdded = false, string extraRecord = "", string orderBy = "", string seq = "", string colms = "*")
+        {
+            if (!whereIsAdded)
+                if (where != "") where = "where " + where;
+            where = " " + where;
+            string selstr = "SELECT " + colms;
+            if (extraRecord != "") selstr += "," + extraRecord;
+            selstr += " FROM ";
+            string queryString = selstr + TableName + where;
+            if (orderBy != "")
+            {
+                queryString += " ORDER BY " + orderBy;
+                if (seq != "")
+                    queryString += " " + seq;
+            }
+            queryString += " LIMIT " + (PageNum * Count) + "," + Count;
+            return ReadMyDataBySql(queryString);
+        }
+    }
+    public class GetObj<T> where T : new()
+    {
+        static void MyTRFunc(IDataReader reader, object inparam, ref object outparam)
+        {
+            List<T> Io = (List<T>)outparam;
+
+            T instance = new T();
+            for (int i = 0; i < reader.FieldCount; i++)
+            {
+                FieldInfo fiInstance = instance.GetType().GetField(reader.GetName(i));
+                if (fiInstance != null) fiInstance.SetValue(instance, reader[i].ToString());
+
+            }
+            Io.Add(instance);
+        }
+        public static T[] GetObjects(string queryString)
+        {
+            List<T> lobs = new List<T>();
+            object lob = lobs;
+            MyClass.TraverReader(queryString, MyTRFunc, null, ref lob);
+            return lobs.ToArray();
+        }
+
 
     }
 }
