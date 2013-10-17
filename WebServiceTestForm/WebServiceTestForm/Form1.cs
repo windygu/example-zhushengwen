@@ -18,6 +18,7 @@ namespace WebServiceTestForm
         public Form1()
         {
             InitializeComponent();
+            toolStripStatusLabel1.Text = MyClass.GetNowTime();
         }
         MethodInfo[] dataSource;
         string AssUrl = "";
@@ -328,7 +329,8 @@ namespace WebServiceTestForm
         }
         private void SetText(string title)
         {
-            this.Text = "TestWebService  --  " + title;
+            this.Text = "TestWebService  --  " + title +"  --  ZhuShengWen";
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -409,6 +411,7 @@ namespace WebServiceTestForm
             }
             else
                 richTextBox1.Text = _ReturnDataW.ToString();
+            toolStripStatusLabel1.Text = MyClass.GetNowTime();
 
         }
 
@@ -497,6 +500,11 @@ namespace WebServiceTestForm
             {
                 button3_Click(null, null);
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolStripStatusLabel2.Text=MyClass.GetNowTime();
         }
 
 
