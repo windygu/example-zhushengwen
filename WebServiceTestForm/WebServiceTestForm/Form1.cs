@@ -189,7 +189,6 @@ namespace WebServiceTestForm
                 SetText("正在努力获取服务...");
                 _WebServiceAssembly = Zgke.Run.GetAssembly.GetWebServiceAssembly(textBox1.Text + "?WSDL", "BMTWebServiceV1");
                 SetText("获取服务成功!");
-                
                 textBox1.Enabled = true;
             }
             catch (Exception e)
@@ -321,6 +320,7 @@ namespace WebServiceTestForm
                 cb.BackColor = SystemColors.Window;
                 //   label1.ForeColor = Color.Blue;
                 button2.Enabled = true;
+                button3.Enabled = true;
             }
             else
             {
@@ -328,6 +328,7 @@ namespace WebServiceTestForm
                 cb.BackColor = Color.BurlyWood;
                 //   label1.ForeColor = Color.Red;
                 button2.Enabled = false;
+                button3.Enabled = false;
             }
         }
         private void SetText(string title)
@@ -485,6 +486,7 @@ namespace WebServiceTestForm
                 SetText("原型已生成!");
                 comboBox1.BackColor = SystemColors.Window;
                 button2.Enabled = true;
+                button3.Enabled = true;
                 MyClass.WriteFile(path, str);
                 System.Diagnostics.Process.Start("notepad", path);
 
@@ -494,6 +496,7 @@ namespace WebServiceTestForm
                 SetText("调用方法未找到,原型无法生成!");
                 comboBox1.BackColor = Color.BurlyWood;
                 button2.Enabled = false;
+                button3.Enabled = false;
             }
         }
 
