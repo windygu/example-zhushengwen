@@ -106,6 +106,7 @@ namespace WebServiceTestForm
         private void button1_Click(object sender, EventArgs e)
         {
             GetService();
+            
         }
         public static string OsPath
         {
@@ -188,6 +189,7 @@ namespace WebServiceTestForm
                 SetText("正在努力获取服务...");
                 _WebServiceAssembly = Zgke.Run.GetAssembly.GetWebServiceAssembly(textBox1.Text + "?WSDL", "BMTWebServiceV1");
                 SetText("获取服务成功!");
+                
                 textBox1.Enabled = true;
             }
             catch (Exception e)
@@ -233,6 +235,7 @@ namespace WebServiceTestForm
             {
                 comboBox1.Text = showstr;
             }
+            comboBox1_TextChanged(comboBox1, null);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
