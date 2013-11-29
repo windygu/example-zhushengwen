@@ -1,0 +1,16 @@
+D:\教学相关\教学心得\20130221-乔伟-HTTP请求拦截与篡改技术\附录\source\bin\Release\HttpIntercepter.exe.config
+C:\Documents and Settings\Administrator\桌面\source\bin\Release\HttpIntercepter.exe.config
+C:\Documents and Settings\Administrator\桌面\source\bin\Release\HttpIntercepter.exe
+C:\Documents and Settings\Administrator\桌面\source\bin\Release\HttpIntercepter.pdb
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\JrIntercepter.FrmMain.resources
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\JrIntercepter.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\HttpIntercepter.exe
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\HttpIntercepter.pdb
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\source\bin\Release\HttpIntercepter.exe.manifest
+C:\Documents and Settings\Administrator\桌面\source\bin\Release\HttpIntercepter.application
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\HttpIntercepter.TrustInfo.xml
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\HttpIntercepter.exe.manifest
+C:\Documents and Settings\Administrator\桌面\source\obj\x86\Release\HttpIntercepter.application
