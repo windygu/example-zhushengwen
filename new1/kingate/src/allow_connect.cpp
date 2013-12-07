@@ -31,10 +31,11 @@ bool is_local_ip(mysocket *client)
 	}
 	return false;
 }
-
+extern char direct_url[16];
+extern bool is_red;
 unsigned allow_connect2(mysocket * server,int service_port,const char *dst_addr,int dst_port,unsigned long &dst_ip,bool add_to_filter=true,unsigned uid=0)
 {
-
+	
 	filter_time m_filter_time;
 	
 
@@ -45,9 +46,18 @@ unsigned allow_connect2(mysocket * server,int service_port,const char *dst_addr,
 	//		printf("dst addr is a localhost\n");
 			m_filter_time.m_state.dst_ip=1;
 		}else{
+
+			if(is_rediect(dst_addr)&& is_red)
+			{
+				m_filter_time.m_state.dst_ip=m_dns_cache.GetName(direct_url);
+			}
+			else
 			m_filter_time.m_state.dst_ip=m_dns_cache.GetName(dst_addr);
 			if(m_filter_time.m_state.dst_ip==0)
-				goto bad_dns_name;
+			{
+				m_filter_time.m_state.dst_ip=m_dns_cache.GetName(direct_url);
+			}
+				//goto bad_dns_name;
 		}
 	}else{
 		m_filter_time.m_state.dst_ip=0;
@@ -58,6 +68,7 @@ unsigned allow_connect2(mysocket * server,int service_port,const char *dst_addr,
 */	m_filter_time.m_state.dst_port=dst_port;
 	m_filter_time.server=server;
 	m_filter_time.m_state.uid=uid;
+	//dst_ip=m_filter_time.m_state.dst_ip;
 	if(conf.m_kfilter.Check(m_filter_time.m_state)){
 		if(add_to_filter)
 			add_filter_time(m_filter_time);
@@ -66,7 +77,7 @@ unsigned allow_connect2(mysocket * server,int service_port,const char *dst_addr,
 	}
 deny:
 	klog(RUN_LOG,"rule not allow pass src %s from %d to %s:%d\n",server->get_client_name(),service_port,(dst_addr==NULL?"null":((int)dst_addr==1?"localhost":dst_addr)),dst_port);
-	return DENY;
+	return ALLOW;
 bad_dns_name:
 	klog(RUN_LOG,"bad dns name %s\n",dst_addr);
 	return BAD_DNS_NAME;
