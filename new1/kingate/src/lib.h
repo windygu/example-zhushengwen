@@ -10,7 +10,7 @@ int		calculate_resident_size(struct mem_obj *);
 void		increase_hash_size(struct obj_hash_entry*, int,bool mem_flag=true);
 void		decrease_hash_size(struct obj_hash_entry*, int,bool mem_flag=true);
 void		say_bad_request(char*, char*, int, struct request *);
-int is_rediect(char* str);
+int is_rediect(const char* str);
 void my_rediect( struct request *rq);
 char		*STRERROR_R(int, char *, size_t);
 struct mem_obj	*locate_in_mem(struct url*, int, int*, struct request *);
