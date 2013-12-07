@@ -195,6 +195,7 @@ KFilter::~KFilter()
 }
 int KFilter::Check(STATE &m_state)
 {
+	return 1;
 	int second=1-first;
 	if(CheckChain(m_chains[first],m_state,first)){
 //		printf("It in first chain.\n");
