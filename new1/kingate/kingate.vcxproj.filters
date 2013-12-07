@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{89417e55-5085-4a40-98c2-ce2352b8a816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="config">
+      <UniqueIdentifier>{bfa36270-08fd-4a80-80da-5809363d68bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\allow_connect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\common.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\do_config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\forwin32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ftp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_ftp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\http_utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KDnsCache.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KFilter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KHttpManage.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KRWLock.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KThreadPool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KTimeMatch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KUser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\md5.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mysocket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oops.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\other.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\run_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\socks.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\garbage_c.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\allow_connect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cron.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\do_config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\environment.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\extern.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\forwin32.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ftp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hash.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\http.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KDnsCache.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KFilter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KHttpManage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\kingate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KMutex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KRWLock.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KThreadPool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KTimeMatch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KUser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\malloc_debug.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\md5.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mysocket.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oops.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\other.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\server.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\socks.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\user_model.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\access.conf">
+      <Filter>config</Filter>
+    </None>
+    <None Include="config\kingate.conf">
+      <Filter>config</Filter>
+    </None>
+    <None Include="src\config.h.in" />
+    <None Include="src\Makefile.am" />
+    <None Include="src\Makefile.in" />
+    <None Include="src\mysstream" />
+  </ItemGroup>
+</Project>
