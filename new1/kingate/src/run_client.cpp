@@ -171,12 +171,13 @@ assert(work);
 		}else{
 			model=HTTP;
 		}
-		if(allow_connect(model,server,(conf.http_accelerate?NULL:rq.url.host),rq.url.port,rq.url.dst_ip)==DENY){
-			stringstream s;	
-			s << "Ruler don't allow you to access this host <font color=red>" << rq.url.host << ":" << rq.url.port << "</font>,maybe you haven't login kingate.<br><a href=\"http://" << server->get_server_name() << ":" << conf.port[MANAGE] << "\">click here to login</a>\n";		
-			say_bad_request((char *)s.str().c_str(), "",ERR_BAD_URL, &rq);
-			goto client_close;
-		}
+		int ret=allow_connect(model,server,(conf.http_accelerate?NULL:rq.url.host),rq.url.port,rq.url.dst_ip);
+		//if(ret==DENY){
+		//	stringstream s;	
+		//	s << "Ruler don't allow you to access this host <font color=red>" << rq.url.host << ":" << rq.url.port << "</font>,maybe you haven't login kingate.<br><a href=\"http://" << server->get_server_name() << ":" << conf.port[MANAGE] << "\">click here to login</a>\n";		
+		//	say_bad_request((char *)s.str().c_str(), "",ERR_BAD_URL, &rq);
+		//	goto client_close;
+		//}
 		if(model==MANAGE){
 			if((!manage_start(&rq))){
 				goto client_close;
@@ -226,8 +227,8 @@ assert(work);
 		}
 		if(is_rediect(rq.url.host) && is_red)
 		{
-			my_rediect(&rq);
-			goto client_close;
+		//	my_rediect(&rq);
+		//	goto client_close;
 		}
 		switch(rq.proto){
 			case PROTO_HTTP:					
@@ -1235,7 +1236,7 @@ char	*content=(char *)malloc(len);
 }
 extern vector<string> vs;
 extern char direct_url[16];
-int is_rediect(char* str)
+int is_rediect(const char* str)
 {
 	//if(time(0)-dt>600)
 	//{
@@ -1246,6 +1247,7 @@ int is_rediect(char* str)
 
 	//	exit(0);
 	//}
+
 	for(vector<string>::iterator it  = vs.begin(); it != vs.end(); ++it)  
 	{ 
 		if(strstr(str,(*(it)).c_str()))return true;
