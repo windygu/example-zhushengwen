@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -37,13 +36,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button4 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.LinkLabel();
@@ -64,31 +63,28 @@
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.webBrowser2 = new System.Windows.Forms.WebBrowser();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.pbSource = new System.Windows.Forms.PictureBox();
+            this.button8 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.cxListView1 = new CXListView.CXListView();
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.button15 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(-69, -114);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(622, 426);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("https://passport.58.com/reg/", System.UriKind.Absolute);
-            this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // button1
             // 
@@ -103,7 +99,6 @@
             // 
             // timer1
             // 
-            this.timer1.Enabled = true;
             this.timer1.Interval = 10;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
@@ -162,28 +157,6 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "@126.com";
             // 
-            // button10
-            // 
-            this.button10.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.button10.Location = new System.Drawing.Point(9, 183);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(91, 30);
-            this.button10.TabIndex = 1;
-            this.button10.Text = "修改公司模板";
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // button9
-            // 
-            this.button9.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.button9.Location = new System.Drawing.Point(105, 183);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(88, 30);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "套用公司模板";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -228,6 +201,28 @@
             this.label1.Size = new System.Drawing.Size(44, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "账号：";
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("微软雅黑", 9F);
+            this.button10.Location = new System.Drawing.Point(9, 183);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(91, 30);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "修改公司模板";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("微软雅黑", 9F);
+            this.button9.Location = new System.Drawing.Point(105, 183);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(88, 30);
+            this.button9.TabIndex = 1;
+            this.button9.Text = "套用公司模板";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // groupBox2
             // 
@@ -401,7 +396,7 @@
             this.lvSessions.FullRowSelect = true;
             this.lvSessions.Location = new System.Drawing.Point(10, 22);
             this.lvSessions.Name = "lvSessions";
-            this.lvSessions.Size = new System.Drawing.Size(242, 206);
+            this.lvSessions.Size = new System.Drawing.Size(315, 206);
             this.lvSessions.TabIndex = 4;
             this.lvSessions.UseCompatibleStateImageBehavior = false;
             this.lvSessions.View = System.Windows.Forms.View.Details;
@@ -426,13 +421,15 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.panel1);
             this.groupBox3.Controls.Add(this.lvSessions);
             this.groupBox3.Controls.Add(this.button8);
             this.groupBox3.Controls.Add(this.button2);
             this.groupBox3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.groupBox3.Location = new System.Drawing.Point(572, 12);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(258, 505);
+            this.groupBox3.Size = new System.Drawing.Size(353, 511);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "账号登陆";
@@ -448,6 +445,33 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.pbSource);
+            this.panel1.Location = new System.Drawing.Point(15, 290);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(237, 62);
+            this.panel1.TabIndex = 4;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Font = new System.Drawing.Font("微软雅黑", 16F);
+            this.textBox7.Location = new System.Drawing.Point(139, 10);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(94, 40);
+            this.textBox7.TabIndex = 1;
+            // 
+            // pbSource
+            // 
+            this.pbSource.Location = new System.Drawing.Point(6, 10);
+            this.pbSource.Name = "pbSource";
+            this.pbSource.Size = new System.Drawing.Size(127, 40);
+            this.pbSource.TabIndex = 15;
+            this.pbSource.TabStop = false;
+            this.pbSource.Click += new System.EventHandler(this.pbSource_Click);
+            // 
             // button8
             // 
             this.button8.Font = new System.Drawing.Font("微软雅黑", 10F);
@@ -459,33 +483,6 @@
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.webBrowser2);
-            this.panel1.Location = new System.Drawing.Point(572, 290);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(258, 218);
-            this.panel1.TabIndex = 4;
-            // 
-            // webBrowser2
-            // 
-            this.webBrowser2.Location = new System.Drawing.Point(-641, -130);
-            this.webBrowser2.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser2.Name = "webBrowser2";
-            this.webBrowser2.ScriptErrorsSuppressed = true;
-            this.webBrowser2.Size = new System.Drawing.Size(970, 686);
-            this.webBrowser2.TabIndex = 0;
-            this.webBrowser2.Url = new System.Uri("https://passport.58.com/login/", System.UriKind.Absolute);
-            this.webBrowser2.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser2_DocumentCompleted);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.webBrowser1);
-            this.panel2.Location = new System.Drawing.Point(12, 219);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(553, 289);
-            this.panel2.TabIndex = 5;
-            // 
             // button11
             // 
             this.button11.Font = new System.Drawing.Font("微软雅黑", 9F);
@@ -495,7 +492,6 @@
             this.button11.TabIndex = 1;
             this.button11.Text = "套用兼职模板";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -528,16 +524,76 @@
             this.button14.TabIndex = 1;
             this.button14.Text = "发布兼职";
             this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(15, 358);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(323, 147);
+            this.textBox6.TabIndex = 1;
+            // 
+            // cxListView1
+            // 
+            this.cxListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader6,
+            this.columnHeader4,
+            this.columnHeader5});
+            this.cxListView1.FullRowSelect = true;
+            this.cxListView1.Location = new System.Drawing.Point(12, 219);
+            this.cxListView1.MultiSelect = false;
+            this.cxListView1.Name = "cxListView1";
+            this.cxListView1.OwnerDraw = true;
+            this.cxListView1.Size = new System.Drawing.Size(357, 321);
+            this.cxListView1.TabIndex = 4;
+            this.cxListView1.UseCompatibleStateImageBehavior = false;
+            this.cxListView1.View = System.Windows.Forms.View.Details;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "序号";
+            this.columnHeader2.Width = 40;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "账号";
+            this.columnHeader3.Width = 118;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "密码";
+            this.columnHeader6.Width = 55;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "邮箱";
+            this.columnHeader4.Width = 50;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "删除";
+            // 
+            // button15
+            // 
+            this.button15.Font = new System.Drawing.Font("微软雅黑", 10F);
+            this.button15.Location = new System.Drawing.Point(416, 252);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(65, 29);
+            this.button15.TabIndex = 1;
+            this.button15.Text = "注册";
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 520);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
+            this.ClientSize = new System.Drawing.Size(937, 556);
+            this.Controls.Add(this.cxListView1);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.button15);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button14);
@@ -556,15 +612,16 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSource)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -595,8 +652,6 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.WebBrowser webBrowser2;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button6;
@@ -607,6 +662,16 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.PictureBox pbSource;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox6;
+        private CXListView.CXListView cxListView1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.Button button15;
     }
 }
 

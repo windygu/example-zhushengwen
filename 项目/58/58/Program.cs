@@ -14,7 +14,9 @@ namespace _58
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            f = new Form3();
+            Application.Run(f);
         }
+        public static Form3 f ;
     }
 }

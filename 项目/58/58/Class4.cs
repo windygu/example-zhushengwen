@@ -77,12 +77,13 @@ namespace _58
                 {
                     string temp = Encoding.Default.GetString(RawResponse, 0, RawResponse.Length);
                     //<meta(.*?)charset([\s]?)=[^>](.*?)>
+                    //<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
                     Match meta = Regex.Match(temp, "<meta([^<]*)charset=([^<]*)[\"']", RegexOptions.IgnoreCase | RegexOptions.Multiline);
                     string charter = (meta.Groups.Count > 2) ? meta.Groups[2].Value : string.Empty;
                     charter = charter.Replace("\"", string.Empty).Replace("'", string.Empty).Replace(";", string.Empty);
                     if (charter.Length > 0)
                     {
-                        charter = charter.ToLower().Replace("iso-8859-1", "gbk");
+                        charter = charter.ToLower().Replace("iso-8859-1", "gbk").Split(' ')[0];
                         encoding = Encoding.GetEncoding(charter);
                     }
                     else
@@ -427,8 +428,8 @@ namespace _58
         /// <returns>Img</returns>
         public Image GetImg(HttpResult hr)
         {
-
-            return byteArrayToImage(hr.ResultByte);
+            byte[] bt = Encoding.Default.GetBytes(hr.Html);
+            return byteArrayToImage(bt);
 
         }
         /// <summary>

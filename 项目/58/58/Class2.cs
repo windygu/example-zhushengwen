@@ -27,6 +27,7 @@ namespace StringTool
         public static string connectionString = "";
         public static string ExtractStr(string resource, string name, string stas, string ends, int ids = 1, bool restart = false, string separator = ",")
         {
+            if (resource == null) return "";
             string str = "";
             int index = 0;
             //首先定位到名称
@@ -184,7 +185,22 @@ namespace StringTool
             }
             return content.ToString();
         }
-
+        public static string SelectStr<T>(IEnumerable input, string property, string com = ",")
+        {
+            string ret = "";
+             if (input != null)
+                 foreach (T item in input)
+                 {
+                     Type type = item.GetType();//获取类型
+                     PropertyInfo propertyInfo = type.GetProperty(property);
+                    object obj=propertyInfo.GetValue(item, null);
+                    string value ="";
+                    if (obj != null) value = obj.ToString();
+                     if (ret != "") ret += com;
+                     ret += value;
+                 }
+             return ret;
+        }
         public static T[] Select<T>(IEnumerable input, string property, string dest, string eq = "=")
         {
             List<T> lobs = new List<T>();
@@ -193,7 +209,9 @@ namespace StringTool
                 {
                     Type type = item.GetType();//获取类型
                     PropertyInfo propertyInfo = type.GetProperty(property);
-                    string value = propertyInfo.GetValue(item, null).ToString().Trim();
+                    object obj=propertyInfo.GetValue(item, null);
+                    string value ="";
+                    if(obj!=null)value=obj.ToString().Trim();
                     switch (eq)
                     {
                         case "<":
