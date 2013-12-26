@@ -1,0 +1,70 @@
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmChat.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmCountenance.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmInformation.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmLogin.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmMain.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.Properties.Resources.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmUserInformation.resources
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.exe.config
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.exe
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.pdb
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\SkinForm.dll
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\SkinForm.pdb
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\f_in_box.dll
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.exe
+E:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.pdb
+C:\Users\wen\Desktop\CC2013\CC2013\bin\Debug\CC2013.exe.config
+C:\Users\wen\Desktop\CC2013\CC2013\bin\Debug\CC2013.exe
+C:\Users\wen\Desktop\CC2013\CC2013\bin\Debug\CC2013.pdb
+C:\Users\wen\Desktop\CC2013\CC2013\bin\Debug\SkinForm.dll
+C:\Users\wen\Desktop\CC2013\CC2013\bin\Debug\SkinForm.pdb
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmChat.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmCountenance.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmInformation.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmLogin.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmMain.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.Properties.Resources.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.FrmUserInformation.resources
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.exe
+C:\Users\wen\Desktop\CC2013\CC2013\obj\x86\Debug\CC2013.pdb
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmChat.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmCountenance.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmInformation.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmLogin.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmMain.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.Properties.Resources.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.FrmUserInformation.resources
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.exe.config
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.exe
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\CC2013.pdb
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\bin\Debug\SkinForm.pdb
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.exe
+D:\2T96课程-作业\C#OOP\CC2013\CC2013\obj\x86\Debug\CC2013.pdb
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\bin\Debug\CC2013.exe.config
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.exe
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.pdb
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\bin\Debug\CC2013.exe
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\bin\Debug\CC2013.pdb
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\bin\Debug\SkinForm.pdb
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmChat.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmCountenance.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmInformation.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmLogin.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmMain.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\CC2013.FrmUserInformation.resources
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
