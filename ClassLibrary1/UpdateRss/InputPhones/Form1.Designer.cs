@@ -1,4 +1,6 @@
-﻿namespace InputPhones
+﻿using CCWin;
+using CCWin.SkinControl;
+namespace InputPhones
 {
     partial class Form1
     {
@@ -28,7 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -38,7 +40,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.progressBar1 = new CCWin.SkinControl.SkinProgressBar();
             this.totle = new System.Windows.Forms.Label();
             this.count = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,18 +51,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.all = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.button1 = new CCWin.SkinControl.SkinButtom();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.button1.Location = new System.Drawing.Point(452, 25);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "更新新闻";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
@@ -163,11 +155,16 @@
             // 
             // progressBar1
             // 
+            this.progressBar1.Back = null;
+            this.progressBar1.BarBack = null;
+            this.progressBar1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.progressBar1.ForeColor = System.Drawing.Color.Maroon;
             this.progressBar1.Location = new System.Drawing.Point(133, 248);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(330, 23);
             this.progressBar1.Step = 1;
             this.progressBar1.TabIndex = 20;
+            this.progressBar1.TrackBack = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             // 
             // totle
             // 
@@ -279,11 +276,30 @@
             this.label16.TabIndex = 19;
             this.label16.Text = "√:";
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.button1.DownBack = ((System.Drawing.Image)(resources.GetObject("button1.DownBack")));
+            this.button1.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.button1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Location = new System.Drawing.Point(453, 33);
+            this.button1.MouseBack = ((System.Drawing.Image)(resources.GetObject("button1.MouseBack")));
+            this.button1.Name = "button1";
+            this.button1.NormlBack = ((System.Drawing.Image)(resources.GetObject("button1.NormlBack")));
+            this.button1.Size = new System.Drawing.Size(109, 40);
+            this.button1.TabIndex = 110;
+            this.button1.Text = "更新新闻";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(586, 290);
+            this.ClientSize = new System.Drawing.Size(586, 298);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.all);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.progressBar1);
@@ -304,11 +320,17 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.SysBottomDown = global::InputPhones.Properties.Resources.btn_set_press;
+            this.SysBottomMouse = global::InputPhones.Properties.Resources.btn_set_hover;
+            this.SysBottomNorml = global::InputPhones.Properties.Resources.btn_set_normal;
+            this.SysBottomToolTip = "设置";
+            this.SysBottomVisibale = true;
             this.Text = "更新新闻";
+            this.SysBottomClick += new CCWin.CCSkinMain.SysBottomEventHandler(this.Form1_SysBottomClick);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -317,7 +339,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -327,7 +348,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.ProgressBar progressBar1;
+        private CCWin.SkinControl.SkinProgressBar progressBar1;
         private System.Windows.Forms.Label totle;
         private System.Windows.Forms.Label count;
         private System.Windows.Forms.Label label7;
@@ -338,6 +359,7 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label all;
         private System.Windows.Forms.Label label16;
+        private SkinButtom button1;
     }
 }
 

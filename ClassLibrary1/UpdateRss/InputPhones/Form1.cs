@@ -12,16 +12,28 @@ using StringTool;
 using System.Threading;
 using System.Diagnostics;
 using System.Xml;
+using CCWin;
+using System.Text.RegularExpressions;
 namespace InputPhones
 {
 
           
-    public partial class Form1 : Form
+    public partial class Form1 : CCSkinMain
     {
         public Form1()
         {
             InitializeComponent();
+            MyClass.connectionString = "server= localhost;User Id= root;password=admin;Persist Security Info=True;port=3306;database=test;charset=gbk;";
         }
+        public static string rssurl = "http://www.chinanews.com/rss/rss_2.html";
+        public static string striphtml(string strhtml)
+    {
+        string stroutput = strhtml;
+        Regex regex = new Regex(@"<[^>]+>|</[^>]+>");
+        stroutput = regex.Replace(stroutput, "");
+        return stroutput;
+
+    }
         private int InsertItem(NewsObject no)
         {
             string title = no.title.Replace("'","''");
@@ -88,49 +100,53 @@ namespace InputPhones
         NewsObject GetNewsObject(string title, string url,string type)
         {
             NewsObject no = new NewsObject();
-            string allc = ""; MyClass.GetUrltoHtml(url);
+            string allc =  MyClass.GetUrltoHtml(url);
 
-            if (type == "本地新闻")//本地新闻提取方法
-            {
-                allc = MyClass.GetUrltoHtml(url);
-                string str1 = MyClass.ExtractStr(allc, "class=\"article\"", "<div", "div>", 1, true);
-                if (str1 != "")
-                    str1 = "<div" + str1 + "div>";
-
-                string time = MyClass.GetNowTime();
-                string resource = "";
-                DateTime dt = DateTime.Now;
-                try
-                {
-                    time = MyClass.ExtractStr(allc, "class=\"info\"", ">", " 来").Trim();
-                    resource = MyClass.ExtractStr(allc, "class=\"info", "来源:", "</div>").Split('<')[2].Split('>')[1];
-                    dt = DateTime.Parse(time);
-                }
-                catch (Exception)
-                {
-                }
-                time = MyClass.FormateTime(dt);
-                no.title = title;
-                no.pubdate = time;
-                no.source = resource;
-                no.content = str1;
-            }
-            else
-            {
                 allc = MyClass.GetUrltoHtml(url,"gb2312");
-                string str1 = MyClass.ExtractStr(allc, "id=\"contentText\"", "<div", "div>", 1, true);
+                string str1 = MyClass.ExtractStr(allc, "class=\"left_zw\"", "<div", "div>", 1, true);
                 if (str1 != "")
+                {
+                    string script = MyClass.ExtractStr(str1, "", "<script", "</script>", 100, false,"，");
+                    if(script!="")
+                        foreach (string sc in script.Split('，'))
+                    {
+                        if (sc != "")
+                            str1 = str1.Replace("<script" + sc + "</script>", "");
+                    }
+                    if (str1.Contains("<img"))
+                    {
+                        string str11 = MyClass.ExtractStr(str1, "<img ", "<img", "/>", 100, true);
+                        if (str11 != "")
+                        {
+                            string[] imgs = str11.Split(',');
+                            foreach (string ig in imgs)
+                            {
+                                string igsrc=MyClass.ExtractStr(ig, "src", "\"", "\"");
+                                if (igsrc != "" && !igsrc.StartsWith("http"))
+                                {
+                                    if (id != -1)
+                                    {
+                                        string snurl = "http://" + new Uri(url).Host + igsrc;
+                                        str1= str1.Replace(igsrc, snurl);
+                                    }
+                                }
+                            }
+                        }
+                    }
                     str1 = "<div" + str1 + "div>";
-                string time = MyClass.ExtractStr(allc, "class=\"l\"", ">", "<");
-                string resource = MyClass.ExtractStr(allc, "id=\"media_span\"", ">", "<");
-                if (resource == "")
-                {
-                    resource = MyClass.ExtractStr(allc, "itemprop=\"name\"", ">", "<");
                 }
-                if (time == "")
+                string time = MyClass.GetNowTime();
+                string[] timeandresource = MyClass.ExtractStr(allc, "\"left-t\"", ">", "<").Trim().Split('　');
+                 string resource = "";
+                if (timeandresource.Length == 2)
                 {
-                    time = MyClass.ExtractStr(allc, "class=\"time\"", ">", "<");
+                    resource = timeandresource[1].Replace("来源：", "");
                 }
+                if (timeandresource.Length >0)
+                {
+                    time = timeandresource[0].Replace("年", "-").Replace("月", "-").Replace("日", "");
+                }
+
                 DateTime dt;
                 try
                 {
@@ -145,7 +161,7 @@ namespace InputPhones
                 no.pubdate = time;
                 no.source = resource;
                 no.content = str1;
-            }
+            
             return no;
         }
         void GetNews()
@@ -225,11 +241,11 @@ namespace InputPhones
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Process.GetCurrentProcess().Kill();
+            Environment.Exit(0);
         }
         private string GetBigTypesContent()
         {
-            return MyClass.GetUrltoHtml("http://rss.news.sohu.com/rss.shtml","gb2312");
+            return MyClass.GetUrltoHtml(rssurl,"gb2312");
         }
         public Dictionary<string, string> GetTitles(string url1)
         {
@@ -243,31 +259,40 @@ namespace InputPhones
             {
                 string title = item.SelectSingleNode("title").InnerText;
                 string url2 = item.SelectSingleNode("link").InnerText;
+                title = striphtml(title);
                 smt[title]=url2;
             }
+            
             return smt;
         }
         private Dictionary<string,string> GetBigTypes()
         {
             Dictionary<string, string> bgt =new Dictionary<string, string>();
-            bgt.Add("本地新闻", "http://rss.zynews.com/news_dujia.xml");
+            //bgt.Add("本地新闻", "http://rss.zynews.com/news_dujia.xml");
             string rt=GetBigTypesContent();
-            string strs = MyClass.ExtractStr(rt, "·", " ", "<", 1000);
+            string strs = MyClass.ExtractStr(rt, "", "<tr>", "</tr>", 1000);
             string[] strss = strs.Split(',');
 
             foreach (string item in strss)
             {
-                string url = MyClass.ExtractStr(rt, "· " + item, "href=\"", "\"");
-                bgt[item]= url;
-                string sql = string.Format("UPDATE data_xp_newstype SET url='{1}' WHERE typename='{0}'", item, url);
-                string existsql = string.Format("SELECT * from data_xp_newstype where typename='{0}'", item);
+                string name = MyClass.ExtractStr(item, "txt2", ">", "<");
+                string url = MyClass.ExtractStr(item, "STYLE2", "href=\"", "\"");
+                bgt[name]= url;
+                string sql = string.Format("UPDATE data_xp_newstype SET url='{1}' WHERE typename='{0}'", name, url);
+                string existsql = string.Format("SELECT * from data_xp_newstype where typename='{0}'", name);
                 if (!MyClass.SqlExists(existsql))
                 {
-                    sql = string.Format("INSERT INTO data_xp_newstype(typename,url) VALUES('{0}','{1}');", item, url);
+                    sql = string.Format("INSERT INTO data_xp_newstype(typename,url) VALUES('{0}','{1}');", name, url);
                 }
                 MyClass.ExecuteNonQuery(sql);
             }
             return bgt;
+        }
+        
+        private void Form1_SysBottomClick(object sender)
+        {
+            FrmInformation fi = new FrmInformation();
+            fi.ShowDialog();
         }
     }
    public class NewsObject
