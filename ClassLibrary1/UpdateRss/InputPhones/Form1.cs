@@ -124,11 +124,8 @@ namespace InputPhones
                                 string igsrc=MyClass.ExtractStr(ig, "src", "\"", "\"");
                                 if (igsrc != "" && !igsrc.StartsWith("http"))
                                 {
-                                    if (id != -1)
-                                    {
-                                        string snurl = "http://" + new Uri(url).Host + igsrc;
-                                        str1= str1.Replace(igsrc, snurl);
-                                    }
+                                    string snurl = "http://" + new Uri(url).Host + igsrc;
+                                    str1= str1.Replace(igsrc, snurl);
                                 }
                             }
                         }
