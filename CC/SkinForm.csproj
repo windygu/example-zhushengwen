@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.377</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E0F9D4F-66BF-4D07-8862-08FA7EF73A0D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <AssemblyName>SkinForm</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CCWin.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bus-grape-2561.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RenderHelper.cs" />
+    <Compile Include="SkinFormProfessionalRenderer.cs" />
+    <Compile Include="Web References\JK\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="CCWin\Win32\Struct\NMTTDISPINFO.cs" />
+    <Compile Include="CCWin\Win32\ShellHelper.cs" />
+    <Compile Include="CCWin\Win32\Const\WH.cs" />
+    <Compile Include="CCWin\Win32\Const\AC.cs" />
+    <Compile Include="CCWin\Win32\Com\IOleInPlaceActiveObject.cs" />
+    <Compile Include="CCWin\SkinControl\tagLOGPALETTE.cs" />
+    <Compile Include="CCWin\SkinControl\COMRECT.cs" />
+    <Compile Include="CCWin\SkinControl\SkinMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinFormBorderRenderEventHandler.cs" />
+    <Compile Include="CCWin\SkinFormBorderRenderEventArgs.cs" />
+    <Compile Include="CCWin\SkinFormBackgroundRenderEventHandler.cs" />
+    <Compile Include="CCWin\SkinFormBackgroundRenderEventArgs.cs" />
+    <Compile Include="CCWin\Win32\Struct\MINMAXINFO.cs" />
+    <Compile Include="CCWin\Win32\Const\WS_EX.cs" />
+    <Compile Include="CCWin\Win32\Const\TTN.cs" />
+    <Compile Include="CCWin\Win32\Const\TBM.cs" />
+    <Compile Include="CCWin\Win32\Const\SC.cs" />
+    <Compile Include="CCWin\Win32\Const\LPSTR.cs" />
+    <Compile Include="CCWin\Win32\Com\tagOLECMD.cs" />
+    <Compile Include="CCWin\SkinControl\STGMEDIUM.cs" />
+    <Compile Include="CCWin\SkinControl\ToolStripColorTable.cs" />
+    <Compile Include="CCWin\SkinControl\ImageProcessBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\PaintScrollBarThumbEventArgs.cs" />
+    <Compile Include="CCWin\CCSkinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\Win32\Struct\SCROLLINFO.cs" />
+    <Compile Include="CCWin\Win32\Struct\RECT.cs" />
+    <Compile Include="CCWin\Win32\HttpWebRequestHelper.cs" />
+    <Compile Include="CCWin\Win32\Const\TTM.cs" />
+    <Compile Include="CCWin\Win32\Const\TCM.cs" />
+    <Compile Include="CCWin\Win32\Const\SS.cs" />
+    <Compile Include="CCWin\Win32\Const\SBM.cs" />
+    <Compile Include="CCWin\Win32\Const\SB.cs" />
+    <Compile Include="CCWin\Win32\Const\GWL.cs" />
+    <Compile Include="CCWin\Win32\Com\DOCHOSTUIINFO.cs" />
+    <Compile Include="CCWin\SkinControl\STATDATA.cs" />
+    <Compile Include="CCWin\SkinControl\ILockBytes.cs" />
+    <Compile Include="CCWin\SkinControl\IEnumFORMATETC.cs" />
+    <Compile Include="CCWin\SkinControl\RenderHelperStrip.cs" />
+    <Compile Include="CCWin\SkinControl\SkinButtom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\PaintScrollBarTrackEventArgs.cs" />
+    <Compile Include="CCWin\SkinFormRenderer.cs" />
+    <Compile Include="CCWin\SkinFormImageRenderer.cs" />
+    <Compile Include="CCWin\SkinFormColorTable.cs" />
+    <Compile Include="CCWin\Win32\Struct\PAINTSTRUCT.cs" />
+    <Compile Include="CCWin\Win32\Struct\NMTTCUSTOMDRAW.cs" />
+    <Compile Include="CCWin\Win32\Helper.cs" />
+    <Compile Include="CCWin\Win32\Const\TME.cs" />
+    <Compile Include="CCWin\Win32\Const\SWP.cs" />
+    <Compile Include="CCWin\Win32\Const\NM.cs" />
+    <Compile Include="CCWin\Win32\Const\HWND.cs" />
+    <Compile Include="CCWin\Win32\Const\CS.cs" />
+    <Compile Include="CCWin\Win32\Com\OLECMDID.cs" />
+    <Compile Include="CCWin\SkinControl\IDataObject.cs" />
+    <Compile Include="CCWin\SkinControl\ToolButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\Imaging\GrayscaleStyle.cs" />
+    <Compile Include="CCWin\SkinMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\Win32\Struct\WINDOWPLACEMENT.cs" />
+    <Compile Include="CCWin\Win32\Struct\NCCALCSIZE_PARAMS.cs" />
+    <Compile Include="CCWin\Win32\Struct\INITCOMMONCONTROLSEX.cs" />
+    <Compile Include="CCWin\Win32\Struct\CWPSTRUCT.cs" />
+    <Compile Include="CCWin\Win32\Struct\API_MSG.cs" />
+    <Compile Include="CCWin\Win32\Const\OBJID.cs" />
+    <Compile Include="CCWin\Win32\Const\CDRF.cs" />
+    <Compile Include="CCWin\Win32\Com\tagRECT.cs" />
+    <Compile Include="CCWin\Win32\Com\tagMSG.cs" />
+    <Compile Include="CCWin\SkinControl\tagOLEVERB.cs" />
+    <Compile Include="CCWin\SkinControl\REOOBJECTFLAGS.cs" />
+    <Compile Include="CCWin\SkinControl\SkinGifBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\FORMATETC.cs" />
+    <Compile Include="CCWin\SkinControl\SkinContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\TextRenderingHintGraphics.cs" />
+    <Compile Include="CCWin\SkinControl\RenderHelper.cs" />
+    <Compile Include="CCWin\SkinClass\SmoothingModeGraphics.cs" />
+    <Compile Include="CCWin\SkinClass\ImageDc.cs" />
+    <Compile Include="CCWin\SkinControl\RenderHelperScrollBar.cs" />
+    <Compile Include="CCWin\Win32\Struct\SCROLLBARINFO.cs" />
+    <Compile Include="CCWin\Win32\NativeMethods.cs" />
+    <Compile Include="CCWin\Win32\Const\TTDT.cs" />
+    <Compile Include="CCWin\Win32\Com\IDocHostUIHandler.cs" />
+    <Compile Include="CCWin\Win32\Com\DOCHOSTUIFLAG.cs" />
+    <Compile Include="CCWin\SkinControl\SkinTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\IAdviseSink.cs" />
+    <Compile Include="CCWin\SkinControl\PassKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinClass\ThumbArrowDirection.cs" />
+    <Compile Include="CCWin\SkinControl\CmbRenderHelper.cs" />
+    <Compile Include="CCWin\SkinControl\DrawStyle.cs" />
+    <Compile Include="CCWin\SkinControl\PaintScrollBarArrowEventArgs.cs" />
+    <Compile Include="CCWin\SkinClass\DrawHelper.cs" />
+    <Compile Include="CCWin\SkinClass\ControlState.cs" />
+    <Compile Include="CCWin\SkinClass\ControlPaintEx.cs" />
+    <Compile Include="CCWin\BackEventArgs.cs" />
+    <Compile Include="CCWin\AntiAliasGraphics.cs" />
+    <Compile Include="CCWin\SkinForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\Win32\Struct\MOUSEHOOKSTRUCT.cs" />
+    <Compile Include="CCWin\Win32\Const\WS.cs" />
+    <Compile Include="CCWin\Win32\Const\TTI.cs" />
+    <Compile Include="CCWin\Win32\Const\ICC.cs" />
+    <Compile Include="CCWin\SkinControl\SkinToolStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\GETCLIPBOARDDATAFLAGS.cs" />
+    <Compile Include="CCWin\SkinControl\DVASPECT.cs" />
+    <Compile Include="CCWin\SkinControl\CLIPFORMAT.cs" />
+    <Compile Include="CCWin\SkinControl\SkinRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinClass\TextRenderingHintGraphics.cs" />
+    <Compile Include="CCWin\SkinControl\ColorBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\Imaging\HSL.cs" />
+    <Compile Include="CCWin\Win32\Struct\WINDOWPOS.cs" />
+    <Compile Include="CCWin\Win32\Result.cs" />
+    <Compile Include="CCWin\Win32\Const\WA.cs" />
+    <Compile Include="CCWin\Win32\Const\RGN.cs" />
+    <Compile Include="CCWin\Win32\Const\HC.cs" />
+    <Compile Include="CCWin\Win32\Const\DCX.cs" />
+    <Compile Include="CCWin\Win32\Com\DWebBrowserEvents2.cs" />
+    <Compile Include="CCWin\SkinControl\IOleClientSite.cs" />
+    <Compile Include="CCWin\SkinClass\RegionHelper.cs" />
+    <Compile Include="CCWin\SkinControl\BackStyle.cs" />
+    <Compile Include="CCWin\SkinClass\InterpolationModeGraphics.cs" />
+    <Compile Include="CCWin\SkinControl\ColorChangedEventArgs.cs" />
+    <Compile Include="CCWin\SkinControl\SkinCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\IScrollBarPaint.cs" />
+    <Compile Include="CCWin\SkinControl\SkinVScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinClass\UpdateForm.cs" />
+    <Compile Include="CCWin\SkinFormControlBoxRenderEventHandler.cs" />
+    <Compile Include="CCWin\SkinFormControlBoxRenderEventArgs.cs" />
+    <Compile Include="CCWin\CCSkinMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\Win32\Struct\STYLESTRUCT.cs" />
+    <Compile Include="CCWin\Win32\Struct\NMCUSTOMDRAW.cs" />
+    <Compile Include="CCWin\Win32\Struct\BLENDFUNCTION.cs" />
+    <Compile Include="CCWin\Win32\Com\OLECMDEXECOPT.cs" />
+    <Compile Include="CCWin\SkinControl\SkinProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\MaskControlBase.cs" />
+    <Compile Include="CCWin\SkinControl\RtfRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\Win32\Const\TTF.cs" />
+    <Compile Include="CCWin\Win32\Const\TCHT.cs" />
+    <Compile Include="CCWin\Win32\Const\CombineRgnStyles.cs" />
+    <Compile Include="CCWin\Win32\Com\IDropTarget.cs" />
+    <Compile Include="CCWin\Win32\Com\ICustomDoc.cs" />
+    <Compile Include="CCWin\SkinControl\SkinTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\ISequentialStream.cs" />
+    <Compile Include="CCWin\SkinControl\CHARRANGE.cs" />
+    <Compile Include="CCWin\Imaging\ColorConverterEx.cs" />
+    <Compile Include="CCWin\SkinControl\ControlPaintScroll.cs" />
+    <Compile Include="CCWin\SkinClass\ImageDrawRect.cs" />
+    <Compile Include="CCWin\Win32\Struct\WINDOWINFO.cs" />
+    <Compile Include="CCWin\Win32\Const\ESB.cs" />
+    <Compile Include="CCWin\Win32\Com\OLECMDF.cs" />
+    <Compile Include="CCWin\SkinControl\STGM.cs" />
+    <Compile Include="CCWin\SkinControl\IEnumOLEVERB.cs" />
+    <Compile Include="CCWin\SkinControl\SkinLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\CmbControlPaintEx.cs" />
+    <Compile Include="CCWin\SkinControl\SkinHScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinClass\MouseOperate.cs" />
+    <Compile Include="CCWin\Win32\Struct\TCHITTESTINFO.cs" />
+    <Compile Include="CCWin\Win32\Struct\NMHDR.cs" />
+    <Compile Include="CCWin\Win32\Const\PRF.cs" />
+    <Compile Include="CCWin\Win32\Const\EM.cs" />
+    <Compile Include="CCWin\Win32\Const\CDDS.cs" />
+    <Compile Include="CCWin\Win32\Com\IOleInPlaceUIWindow.cs" />
+    <Compile Include="CCWin\Win32\Com\IOleInPlaceFrame.cs" />
+    <Compile Include="CCWin\Win32\Com\IOleCommandTarget.cs" />
+    <Compile Include="CCWin\SkinControl\IStorage.cs" />
+    <Compile Include="CCWin\SkinControl\IEnumSTATSTG.cs" />
+    <Compile Include="CCWin\SkinControl\IEnumSTATDATA.cs" />
+    <Compile Include="CCWin\SkinControl\SkinRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\FrmCapture.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CCWin\Imaging\RGB.cs" />
+    <Compile Include="CCWin\Properties\Resources.cs" />
+    <Compile Include="CCWin\SkinFormCaptionRenderEventHandler.cs" />
+    <Compile Include="CCWin\SkinFormCaptionRenderEventArgs.cs" />
+    <Compile Include="CCWin\SkinClass\GraphicsPathHelper.cs" />
+    <Compile Include="CCWin\Win32\Struct\TRACKMOUSEEVENT.cs" />
+    <Compile Include="CCWin\Win32\Struct\TOOLINFO.cs" />
+    <Compile Include="CCWin\Win32\Struct\MOUSEHOOKSTRUCTEX.cs" />
+    <Compile Include="CCWin\Win32\Const\WM.cs" />
+    <Compile Include="CCWin\Win32\Const\RDW.cs" />
+    <Compile Include="CCWin\Win32\Const\HITTEST.cs" />
+    <Compile Include="CCWin\Win32\Com\tagPOINT.cs" />
+    <Compile Include="CCWin\Win32\Com\IWebBrowser2.cs" />
+    <Compile Include="CCWin\SkinControl\TYMED.cs" />
+    <Compile Include="CCWin\SkinControl\REOBJECT.cs" />
+    <Compile Include="CCWin\SkinControl\IOleContainer.cs" />
+    <Compile Include="CCWin\SkinControl\ProfessionalToolStripRendererEx.cs" />
+    <Compile Include="CCWin\SkinControl\LayoutUtils.cs" />
+    <Compile Include="CCWin\SkinControl\ControlPaintEx.cs" />
+    <Compile Include="CCWin\SkinControl\MouseHook.cs" />
+    <Compile Include="CCWin\SkinControl\ButtonStatus.cs" />
+    <Compile Include="CCWin\SkinControl\MHookEventArgs.cs" />
+    <Compile Include="CCWin\Win32\Const\WVR.cs" />
+    <Compile Include="CCWin\Win32\Const\VK.cs" />
+    <Compile Include="CCWin\Win32\Const\TTS.cs" />
+    <Compile Include="CCWin\SkinControl\IStream.cs" />
+    <Compile Include="CCWin\SkinControl\GETOBJECTOPTIONS.cs" />
+    <Compile Include="CCWin\SkinControl\UpDownButtonPaintEventHandler.cs" />
+    <Compile Include="CCWin\SkinControl\UpDownButtonPaintEventArgs.cs" />
+    <Compile Include="CCWin\SkinClass\RoundStyle.cs" />
+    <Compile Include="CCWin\Win32\Struct\POINT.cs" />
+    <Compile Include="CCWin\Win32\Const\AW.cs" />
+    <Compile Include="CCWin\Win32\Const\MA.cs" />
+    <Compile Include="CCWin\Win32\Const\DI.cs" />
+    <Compile Include="CCWin\Win32\ClassName.cs" />
+    <Compile Include="CCWin\SkinControl\RichEditOle.cs" />
+    <Compile Include="CCWin\SkinControl\IOleObject.cs" />
+    <Compile Include="CCWin\SkinControl\SkinPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\ArtTextStyle.cs" />
+    <Compile Include="CCWin\MobileStyle.cs" />
+    <Compile Include="CCWin\ControlBoxState.cs" />
+    <Compile Include="CCWin\Win32\Struct\TT_HITTESTINFO.cs" />
+    <Compile Include="CCWin\Win32\Const\TPM.cs" />
+    <Compile Include="CCWin\Win32\Const\TernaryRasterOperations.cs" />
+    <Compile Include="CCWin\Win32\Const\SW.cs" />
+    <Compile Include="CCWin\Win32\Const\ICON.cs" />
+    <Compile Include="CCWin\Win32\Callback\HookProc.cs" />
+    <Compile Include="CCWin\SkinControl\SkinNumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\SkinComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\ScrollBarManager.cs" />
+    <Compile Include="CCWin\BitmapHelper.cs" />
+    <Compile Include="CCWin\Win32\Struct\CWPRETSTRUCT.cs" />
+    <Compile Include="CCWin\Win32\Const\SIF.cs" />
+    <Compile Include="CCWin\Win32\Const\GCL.cs" />
+    <Compile Include="CCWin\SkinControl\WaterTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CCWin\SkinControl\IRichEditOle.cs" />
+    <Compile Include="CCWin\SkinControl\ScrollBarHistTest.cs" />
+    <Compile Include="CCWin\ImageDrawRect.cs" />
+    <Compile Include="CCWin\ControlBoxStyle.cs" />
+    <Compile Include="CCWin\ControlBoxManager.cs" />
+    <Compile Include="CCWin\ColorMax.cs" />
+    <EmbeddedResource Include="CCWin.CCSkinMain.resources" />
+    <EmbeddedResource Include="CCWin.SkinControl.ChatListBox.resources" />
+    <EmbeddedResource Include="CCWin.CCSkinForm.resources" />
+    <EmbeddedResource Include="CCWin.SkinControl.ColorBox.resources" />
+    <EmbeddedResource Include="CCWin.SkinControl.FrmCapture.resources" />
+    <EmbeddedResource Include="CCWin.Properties.Resources.resources" />
+    <EmbeddedResource Include="CCWin.SkinMain.resources" />
+    <EmbeddedResource Include="CCWin.SkinControl.SkinTextBox.resources" />
+    <EmbeddedResource Include="CCWin.SkinForm.resources" />
+    <EmbeddedResource Include="CCWin.SkinControl.PassKey.resources" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://zqjp.iabe.cn/FlashService/WebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\JK\</RelPath>
+      <UpdateFromURL>http://zqjp.iabe.cn/FlashService/WebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>SkinForm_JK_WebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\JK\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\JK\WebService.disco" />
+    <None Include="Web References\JK\WebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bus-grape-256.ico" />
+    <Content Include="bus-grape-2561.ico" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetRandom100TiMuString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="allowDriveCarType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRandom100TiMuStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRandom100TiMuStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetRandom50TiMuString">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetRandom50TiMuStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetRandom50TiMuStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZQ_XueXiRiZhiToExamOne">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="XueYuanLiuShuiHao" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="BeiZhu" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZQ_XueXiRiZhiToExamOneResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamOneResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZQ_XueXiRiZhiToExamThree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="XueYuanLiuShuiHao" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="BeiZhu" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ZQ_XueXiRiZhiToExamThreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamThreeResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTrainingProgress">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xuehao" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="subject" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTrainingProgressResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTrainingProgressResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetRandom100TiMuStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRandom100TiMuString" />
+  </wsdl:message>
+  <wsdl:message name="GetRandom100TiMuStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRandom100TiMuStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetRandom50TiMuStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetRandom50TiMuString" />
+  </wsdl:message>
+  <wsdl:message name="GetRandom50TiMuStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetRandom50TiMuStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZQ_XueXiRiZhiToExamOneSoapIn">
+    <wsdl:part name="parameters" element="tns:ZQ_XueXiRiZhiToExamOne" />
+  </wsdl:message>
+  <wsdl:message name="ZQ_XueXiRiZhiToExamOneSoapOut">
+    <wsdl:part name="parameters" element="tns:ZQ_XueXiRiZhiToExamOneResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZQ_XueXiRiZhiToExamThreeSoapIn">
+    <wsdl:part name="parameters" element="tns:ZQ_XueXiRiZhiToExamThree" />
+  </wsdl:message>
+  <wsdl:message name="ZQ_XueXiRiZhiToExamThreeSoapOut">
+    <wsdl:part name="parameters" element="tns:ZQ_XueXiRiZhiToExamThreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTrainingProgressSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTrainingProgress" />
+  </wsdl:message>
+  <wsdl:message name="GetTrainingProgressSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTrainingProgressResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="GetRandom100TiMuString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">随机抽取的100道题目</wsdl:documentation>
+      <wsdl:input message="tns:GetRandom100TiMuStringSoapIn" />
+      <wsdl:output message="tns:GetRandom100TiMuStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRandom50TiMuString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">科目三50道题目</wsdl:documentation>
+      <wsdl:input message="tns:GetRandom50TiMuStringSoapIn" />
+      <wsdl:output message="tns:GetRandom50TiMuStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamOne">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据上传接口_肇庆记录做题记录(科目一)</wsdl:documentation>
+      <wsdl:input message="tns:ZQ_XueXiRiZhiToExamOneSoapIn" />
+      <wsdl:output message="tns:ZQ_XueXiRiZhiToExamOneSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamThree">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">数据上传接口_肇庆记录做题记录(科目三)</wsdl:documentation>
+      <wsdl:input message="tns:ZQ_XueXiRiZhiToExamThreeSoapIn" />
+      <wsdl:output message="tns:ZQ_XueXiRiZhiToExamThreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainingProgress">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">获取已学学时(根据科目)</wsdl:documentation>
+      <wsdl:input message="tns:GetTrainingProgressSoapIn" />
+      <wsdl:output message="tns:GetTrainingProgressSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetRandom100TiMuString">
+      <soap:operation soapAction="http://tempuri.org/GetRandom100TiMuString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRandom50TiMuString">
+      <soap:operation soapAction="http://tempuri.org/GetRandom50TiMuString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamOne">
+      <soap:operation soapAction="http://tempuri.org/ZQ_XueXiRiZhiToExamOne" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamThree">
+      <soap:operation soapAction="http://tempuri.org/ZQ_XueXiRiZhiToExamThree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainingProgress">
+      <soap:operation soapAction="http://tempuri.org/GetTrainingProgress" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetRandom100TiMuString">
+      <soap12:operation soapAction="http://tempuri.org/GetRandom100TiMuString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRandom50TiMuString">
+      <soap12:operation soapAction="http://tempuri.org/GetRandom50TiMuString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamOne">
+      <soap12:operation soapAction="http://tempuri.org/ZQ_XueXiRiZhiToExamOne" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZQ_XueXiRiZhiToExamThree">
+      <soap12:operation soapAction="http://tempuri.org/ZQ_XueXiRiZhiToExamThree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTrainingProgress">
+      <soap12:operation soapAction="http://tempuri.org/GetTrainingProgress" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://zqjp.iabe.cn/FlashService/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://zqjp.iabe.cn/FlashService/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
