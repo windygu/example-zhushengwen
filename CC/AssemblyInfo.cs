@@ -1,10 +1,10 @@
 ﻿// Assembly SkinForm, Version 1.0.0.0
 
 [assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
-[assembly: System.Reflection.AssemblyTitle("SkinForm")]
-[assembly: System.Reflection.AssemblyCopyright("Copyright \x00a9 China 2012")]
+[assembly: System.Reflection.AssemblyTitle("jiakao")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright © ZhuShengWen 2013")]
 [assembly: System.Runtime.CompilerServices.CompilationRelaxations(8)]
-[assembly: System.Reflection.AssemblyDescription("")]
+[assembly: System.Reflection.AssemblyDescription("QQ:458677503")]
 [assembly: System.Reflection.AssemblyConfiguration("")]
 [assembly: System.Reflection.AssemblyCompany("China")]
 [assembly: System.Reflection.AssemblyProduct("SkinForm")]

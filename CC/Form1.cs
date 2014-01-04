@@ -102,7 +102,7 @@ namespace CCWin
         JK.WebService jkb = new JK.WebService();
         public static string RandomFen()
         {
-            return (new Random(DateTime.Now.Millisecond).Next(4) * 2 + 94).ToString();
+            return (new Random(DateTime.Now.Millisecond).Next(4) * 2 + 92).ToString();
         }
         public void SetText(string no)
         {
@@ -111,6 +111,7 @@ namespace CCWin
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             label1.Text = GetNowTime();
             label9.Text = "000";
             if (txtId.Text.Trim() == "")
@@ -118,19 +119,41 @@ namespace CCWin
                 SetText("无法进行考试，请输入身份证号！");
                 return;
             }
+            if (skinRadioButton3.Checked)
+            {
+                FrmInformation fi = new FrmInformation(this);
+                fi.ShowDialog();
+                return;
+            }
+
             int kid = GetLiuShui(txtId.Text);
             if (kid != 0)
             {
                 label7.Text = kid.ToString();
                 string fen = RandomFen();
-                if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen))
+                if (skinRadioButton1.Checked)
                 {
-                    SetText("考试已通过！");
-                    label9.Text = fen;
+                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen))
+                    {
+                        SetText("科目一考试已通过！");
+                        label9.Text = fen;
+                    }
+                    else
+                    {
+                        SetText("今天课程已结束，请明天再来吧！");
+                    }
                 }
                 else
                 {
-                    SetText("今天课程已结束，请明天再来吧！");
+                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen))
+                    {
+                        SetText("科目三考试已通过！");
+                        label9.Text = fen;
+                    }
+                    else
+                    {
+                        SetText("今天课程已结束，请明天再来吧！");
+                    }
                 }
             }
             else
@@ -195,11 +218,13 @@ namespace CCWin
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+
             label1.Text = GetNowTime();
             label4.Text = GetNowTime();
             Reg_Timer1.Interval = 1000;
             Reg_Timer1.Elapsed += new System.Timers.ElapsedEventHandler(StartW);
             Reg_Timer1.Enabled = true;
+            Import();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -207,11 +232,63 @@ namespace CCWin
             label4.Text = GetNowTime();
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
+        }
 
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Title = "选择 文本 文件";
+            dialog.Filter = "TXT文件(*.txt)|*.txt|所有文件(*.*)|*.*";
+            dialog.ShowDialog();
+            if (File.Exists(dialog.FileName))
+            {
+                Import(dialog.FileName, true);
+            }
+        }
 
+        private void Import(string file = "", bool append = false)
+        {
+            string path = Path.Combine(Application.StartupPath, "data");
+            if (file == "" || !File.Exists(file) || !append)
+            {
+                file = Path.Combine(path, "account.txt");
+                if (File.Exists(file))
+                {
+                    using (StreamReader reader = new StreamReader(file))
+                    {
+                        string str2 = reader.ReadLine();
+                        while ((str2 != null) && (str2 != "") && str2.Length == 18)
+                        {
+                            skinComboBox1.Items.Add(str2);
+                            str2 = reader.ReadLine();
+                        }
+                    }
+                }
+                if(skinComboBox1.Items.Count!=0) skinComboBox1.SelectedIndex = 0;
+                return;
+            }
 
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            using (StreamReader reader = new StreamReader(file))
+            using (StreamWriter writer = new StreamWriter(Path.Combine(path, "account.txt"), true))
+            {
+                string str2 = reader.ReadLine();
+                while ((str2 != null) && (str2 != "") && str2.Length == 18)
+                {
+                    skinComboBox1.Items.Add(str2);
+                    if (append) writer.WriteLine(str2);
+                    str2 = reader.ReadLine();
 
-
+                }
+                writer.Close();
+            }
+        }
 
 
     }
