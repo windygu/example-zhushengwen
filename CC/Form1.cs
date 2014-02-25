@@ -14,6 +14,7 @@ using System.Diagnostics;
 using CCWin;
 using System.Text.RegularExpressions;
 using System.Net;
+using System.Drawing.Drawing2D;
 namespace CCWin
 {
     public partial class Form1 : CCSkinMain
@@ -108,7 +109,54 @@ namespace CCWin
         {
             label6.Text = no;
         }
-
+        private bool KanShiPin()
+        {
+            FrmInformation fi = new FrmInformation(this);
+            fi.auto = true;
+            fi.ShowDialog();
+            return fi.GetResult();
+        }
+        private bool ZuoTI()
+        {
+            int kid = GetLiuShui(txtId.Text);
+            if (kid != 0)
+            {
+                label7.Text = kid.ToString();
+                string fen = RandomFen();
+                if (skinRadioButton1.Checked)
+                {
+                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen))
+                    {
+                        SetText("科目一考试已通过！");
+                        label9.Text = fen;
+                        return true;
+                    }
+                    else
+                    {
+                        SetText("今天课程已结束，请明天再来吧！");
+                    }
+                }
+                else
+                {
+                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen))
+                    {
+                        SetText("科目三考试已通过！");
+                        label9.Text = fen;
+                        return true;
+                    }
+                    else
+                    {
+                        SetText("今天课程已结束，请明天再来吧！");
+                    }
+                }
+            }
+            else
+            {
+                SetText("课程获取失败，请检查身份证号！");
+              
+            }
+            return false;
+        }
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -125,41 +173,8 @@ namespace CCWin
                 fi.ShowDialog();
                 return;
             }
-
-            int kid = GetLiuShui(txtId.Text);
-            if (kid != 0)
-            {
-                label7.Text = kid.ToString();
-                string fen = RandomFen();
-                if (skinRadioButton1.Checked)
-                {
-                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen))
-                    {
-                        SetText("科目一考试已通过！");
-                        label9.Text = fen;
-                    }
-                    else
-                    {
-                        SetText("今天课程已结束，请明天再来吧！");
-                    }
-                }
-                else
-                {
-                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen))
-                    {
-                        SetText("科目三考试已通过！");
-                        label9.Text = fen;
-                    }
-                    else
-                    {
-                        SetText("今天课程已结束，请明天再来吧！");
-                    }
-                }
-            }
-            else
-            {
-                SetText("课程获取失败，请检查身份证号！");
-            }
+            ZuoTI();
+            
         }
         public static string GetNowTime()
         {
@@ -225,8 +240,22 @@ namespace CCWin
             Reg_Timer1.Elapsed += new System.Timers.ElapsedEventHandler(StartW);
             Reg_Timer1.Enabled = true;
             Import();
+            Format();
         }
-
+        private void Format()
+        {
+            if (txtId.Items.Count != 0)
+            {
+                if (!txtId.Items.Contains(txtId.Text))
+                {
+                    txtId.Text = txtId.Items[0].ToString();
+                }
+            }
+            else
+            {
+                txtId.Text = "";
+            }
+        }
         private void timer1_Tick(object sender, EventArgs e)
         {
             label4.Text = GetNowTime();
@@ -246,6 +275,7 @@ namespace CCWin
             if (File.Exists(dialog.FileName))
             {
                 Import(dialog.FileName, true);
+                Format();
             }
         }
 
@@ -260,14 +290,18 @@ namespace CCWin
                     using (StreamReader reader = new StreamReader(file))
                     {
                         string str2 = reader.ReadLine();
-                        while ((str2 != null) && (str2 != "") && str2.Length == 18)
+                        while (str2 != null)
                         {
-                            skinComboBox1.Items.Add(str2);
+                            if (str2.Length == 18 && !txtId.Items.Contains(str2))
+                            {
+                                txtId.Items.Add(str2);
+                            }
                             str2 = reader.ReadLine();
+                            
                         }
                     }
                 }
-                if(skinComboBox1.Items.Count!=0) skinComboBox1.SelectedIndex = 0;
+                
                 return;
             }
 
@@ -279,10 +313,13 @@ namespace CCWin
             using (StreamWriter writer = new StreamWriter(Path.Combine(path, "account.txt"), true))
             {
                 string str2 = reader.ReadLine();
-                while ((str2 != null) && (str2 != "") && str2.Length == 18)
+                while (str2 != null)
                 {
-                    skinComboBox1.Items.Add(str2);
-                    if (append) writer.WriteLine(str2);
+                    if (str2.Length == 18 && !txtId.Items.Contains(str2))
+                    {
+                        txtId.Items.Add(str2);
+                        if (append) writer.WriteLine(str2);
+                    }
                     str2 = reader.ReadLine();
 
                 }
@@ -290,7 +327,244 @@ namespace CCWin
             }
         }
 
+        private void skinButtom1_Click(object sender, EventArgs e)
+        {
+            string path = Path.Combine(Application.StartupPath, "data");
+
+            path = Path.Combine(path, "account.txt");
+            if (File.Exists(path))
+                System.Diagnostics.Process.Start("notepad", path);
+            else
+                MessageBox.Show("账户文件不存在哦！");
+        }
+
+        private void skinButtom2_Click(object sender, EventArgs e)
+        {
+            txtId.Items.Clear();
+            Import();
+            Format();
+
+        }
+        private bool Senable
+        {
+            set {
+                skinButtom2.Enabled = txtId.Enabled = button1.Enabled = skinRadioButton1.Enabled = skinRadioButton2.Enabled = skinRadioButton3.Enabled = value;
+                timer2.Enabled = label11.Visible = skinGifBox1.Visible = !value;
+                if (!value)
+                {
+                    (skinButtom3 as Button).Text = "取消答卷";
+                }
+                else
+                {
+                    (skinButtom3 as Button).Text = "循环答卷";
+                }
+            }   
+        }
+        private void skinButtom3_Click(object sender, EventArgs e)
+        {
+            
+            if ((sender as Button).Text == "循环答卷")
+            {
+                Senable = false;
+                isk1 = true;
+             }
+            else
+            {
+                Senable = true;
+                
+            }
+        }
+        public class CheckDo
+        {
+            public bool k1 = false;
+            public bool k2 = false;
+            public bool sp = false;
+        }
+        Dictionary<string, CheckDo> slt = new Dictionary<string, CheckDo>();
+        bool isk1 = true;
+        string totals = "10";
+        private void ProcessForeach()
+        {
+            bool has = false;
+            totals = "10";
+            if (skinRadioButton3.Visible)
+            {
+                //做视频
+                totals = "15";
+                skinRadioButton3.Checked = true;
+                bool next1 = false;
+                if (txtId.Items.Count != 0 && txtId.Tag == txtId.Items[txtId.Items.Count - 1])
+                {
+                    txtId.Tag = null;
+                }
+                foreach (string item in txtId.Items)
+                {
+                    if (!next1)
+                    {
+                        if (txtId.Tag == null)
+                        {
+                            next1 = true;
+                        }
+                        else if (item == txtId.Tag.ToString())
+                        {
+                            next1 = true;
+                            continue;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+
+                    txtId.Text = item;
+                    txtId.Tag = item;
+                    if (slt.ContainsKey(item) && slt[item].sp) continue;
+                    has = true;
+                    if (KanShiPin())
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        if (slt.ContainsKey(item))
+                        {
+                            slt[item].sp = true;
+                        }
+                        else
+                            slt.Add(item, new CheckDo() { sp = true });
+                    }
+                }
+                if (!has)
+                {
+                    Senable = true;
+                    SetText("循环答题已经完毕!");
+                } //timer1.Enabled = has;
+                return;
+            }
+            else
+            {
+                //做试卷
+                // 科目一
+                if (skinRadioButton1.Checked)
+                {
+
+                    bool next = false;
+                    if (txtId.Items.Count != 0 && txtId.Tag == txtId.Items[txtId.Items.Count - 1])
+                    {
+                        txtId.Tag = null;
+                    }
+
+                    foreach (string item in txtId.Items)
+                    {
+                        if (!next)
+                        {
+                            if (txtId.Tag == null)
+                            {
+                                next = true;
+                            }
+                            else if (item == txtId.Tag.ToString())
+                            {
+                                next = true;
+                                continue;
+                            }
+                            else
+                            {
+                                continue;
+                            }
+                        }
+                       
+                        txtId.Text = item;
+                        txtId.Tag = item;
+                        if (slt.ContainsKey(item) && slt[item].k1) continue;
+                        has = true;
+                        if (ZuoTI())
+                        {
+                            return;
+                        }
+                        else
+                        {
+                            if (slt.ContainsKey(item))
+                            {
+                                slt[item].k1 = true;
+                            }
+                            else
+                                slt.Add(item, new CheckDo() { k1 = true });
+                        }
+
+                    }
+                    if (!has)
+                    {
+                        isk1 = has;
+                        txtId.Tag = null;
+                    }
+                }
+                // 科目二
+                isk1 = false;
+                skinRadioButton2.Checked = true;
+                bool next1 = false;
+                foreach (string item in txtId.Items)
+                {
+                    if (!next1)
+                    {
+                        if (txtId.Tag == null)
+                        {
+                            next1 = true;
+                        }
+                        else if (item == txtId.Tag.ToString())
+                        {
+                            next1 = true;
+                            continue;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+
+                    txtId.Text = item;
+                    txtId.Tag = item;
+                    if (slt.ContainsKey(item) && slt[item].k2) continue;
+                    has = true;
+                    if (ZuoTI())
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        if (slt.ContainsKey(item))
+                        {
+                            slt[item].k2 = true;
+                        }
+                        else
+                        slt.Add(item, new CheckDo() { k2 = true });
+                    }
+
+                }
+                if (!has)
+                {
+                    Senable = true;
+                    SetText("循环答题已经完毕!");
+                } //timer1.Enabled = has;
+                
+            }
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (label11.Text == "0")
+            {
+                label11.Text = totals;
+                ProcessForeach();
+            }
+            else
+            {
+                label11.Text = (Int32.Parse(label11.Text) - 1).ToString();
+            }
+            label11.BringToFront();
+        }
+
 
     }
+    
 
 }

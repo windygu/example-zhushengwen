@@ -33,7 +33,6 @@ namespace CCWin
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.txtId = new CCWin.SkinControl.WaterTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,24 +47,16 @@ namespace CCWin
             this.skinRadioButton2 = new CCWin.SkinControl.SkinRadioButton();
             this.label10 = new System.Windows.Forms.Label();
             this.skinRadioButton3 = new CCWin.SkinControl.SkinRadioButton();
-            this.button1 = new CCWin.SkinControl.SkinButtom();
-            this.skinComboBox1 = new CCWin.SkinControl.SkinComboBox();
+            this.txtId = new CCWin.SkinControl.SkinComboBox();
+            this.skinButtom1 = new CCWin.SkinControl.SkinButtom();
             this.btnClose = new CCWin.SkinControl.SkinButtom();
+            this.button1 = new CCWin.SkinControl.SkinButtom();
+            this.skinButtom3 = new CCWin.SkinControl.SkinButtom();
+            this.skinGifBox1 = new CCWin.SkinControl.SkinGifBox();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label11 = new System.Windows.Forms.Label();
+            this.skinButtom2 = new CCWin.SkinControl.SkinButtom();
             this.SuspendLayout();
-            // 
-            // txtId
-            // 
-            this.txtId.BackColor = System.Drawing.SystemColors.Control;
-            this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtId.Font = new System.Drawing.Font("微软雅黑", 16F);
-            this.txtId.Location = new System.Drawing.Point(32, 64);
-            this.txtId.Margin = new System.Windows.Forms.Padding(0);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(109, 29);
-            this.txtId.TabIndex = 111;
-            this.txtId.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.txtId.WaterText = "请在此输入身份证号...";
-            this.txtId.WordWrap = false;
             // 
             // label3
             // 
@@ -227,14 +218,13 @@ namespace CCWin
             // 
             // skinRadioButton3
             // 
-            this.skinRadioButton3.AutoEllipsis = true;
             this.skinRadioButton3.AutoSize = true;
             this.skinRadioButton3.BackColor = System.Drawing.Color.Transparent;
             this.skinRadioButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinRadioButton3.DownBack = null;
             this.skinRadioButton3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinRadioButton3.ForeColor = System.Drawing.Color.Maroon;
-            this.skinRadioButton3.Location = new System.Drawing.Point(249, 29);
+            this.skinRadioButton3.Location = new System.Drawing.Point(89, 29);
             this.skinRadioButton3.MouseBack = null;
             this.skinRadioButton3.Name = "skinRadioButton3";
             this.skinRadioButton3.NormlBack = null;
@@ -246,6 +236,54 @@ namespace CCWin
             this.skinRadioButton3.Text = "看视频";
             this.skinRadioButton3.UseVisualStyleBackColor = false;
             this.skinRadioButton3.Visible = false;
+            // 
+            // txtId
+            // 
+            this.txtId.BackColor = System.Drawing.SystemColors.Control;
+            this.txtId.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtId.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.txtId.FormattingEnabled = true;
+            this.txtId.Location = new System.Drawing.Point(38, 65);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(188, 30);
+            this.txtId.TabIndex = 132;
+            this.txtId.WaterText = "请在此输入身份证号...";
+            // 
+            // skinButtom1
+            // 
+            this.skinButtom1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.skinButtom1.BackColor = System.Drawing.Color.Transparent;
+            this.skinButtom1.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButtom1.DownBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.DownBack")));
+            this.skinButtom1.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.skinButtom1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinButtom1.Location = new System.Drawing.Point(317, 67);
+            this.skinButtom1.MouseBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.MouseBack")));
+            this.skinButtom1.Name = "skinButtom1";
+            this.skinButtom1.NormlBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.NormlBack")));
+            this.skinButtom1.Size = new System.Drawing.Size(73, 29);
+            this.skinButtom1.TabIndex = 133;
+            this.skinButtom1.Text = "查看账号";
+            this.skinButtom1.UseVisualStyleBackColor = false;
+            this.skinButtom1.Click += new System.EventHandler(this.skinButtom1_Click);
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.btnClose.DownBack = ((System.Drawing.Image)(resources.GetObject("btnClose.DownBack")));
+            this.btnClose.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.btnClose.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnClose.Location = new System.Drawing.Point(237, 67);
+            this.btnClose.MouseBack = ((System.Drawing.Image)(resources.GetObject("btnClose.MouseBack")));
+            this.btnClose.Name = "btnClose";
+            this.btnClose.NormlBack = ((System.Drawing.Image)(resources.GetObject("btnClose.NormlBack")));
+            this.btnClose.Size = new System.Drawing.Size(73, 29);
+            this.btnClose.TabIndex = 133;
+            this.btnClose.Text = "导入账号";
+            this.btnClose.UseVisualStyleBackColor = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // button1
             // 
@@ -265,35 +303,69 @@ namespace CCWin
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // skinComboBox1
+            // skinButtom3
             // 
-            this.skinComboBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.skinComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.skinComboBox1.Font = new System.Drawing.Font("微软雅黑", 11F);
-            this.skinComboBox1.FormattingEnabled = true;
-            this.skinComboBox1.Location = new System.Drawing.Point(145, 64);
-            this.skinComboBox1.Name = "skinComboBox1";
-            this.skinComboBox1.Size = new System.Drawing.Size(211, 28);
-            this.skinComboBox1.TabIndex = 132;
-            this.skinComboBox1.WaterText = "请在此输入身份证号...";
+            this.skinButtom3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.skinButtom3.BackColor = System.Drawing.Color.Transparent;
+            this.skinButtom3.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButtom3.DownBack = ((System.Drawing.Image)(resources.GetObject("skinButtom3.DownBack")));
+            this.skinButtom3.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.skinButtom3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinButtom3.Location = new System.Drawing.Point(253, 121);
+            this.skinButtom3.MouseBack = ((System.Drawing.Image)(resources.GetObject("skinButtom3.MouseBack")));
+            this.skinButtom3.Name = "skinButtom3";
+            this.skinButtom3.NormlBack = ((System.Drawing.Image)(resources.GetObject("skinButtom3.NormlBack")));
+            this.skinButtom3.Size = new System.Drawing.Size(69, 29);
+            this.skinButtom3.TabIndex = 133;
+            this.skinButtom3.Text = "循环答卷";
+            this.skinButtom3.UseVisualStyleBackColor = false;
+            this.skinButtom3.Click += new System.EventHandler(this.skinButtom3_Click);
             // 
-            // btnClose
+            // skinGifBox1
             // 
-            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.BackColor = System.Drawing.Color.Transparent;
-            this.btnClose.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.btnClose.DownBack = ((System.Drawing.Image)(resources.GetObject("btnClose.DownBack")));
-            this.btnClose.DrawType = CCWin.SkinControl.DrawStyle.Img;
-            this.btnClose.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnClose.Location = new System.Drawing.Point(370, 65);
-            this.btnClose.MouseBack = ((System.Drawing.Image)(resources.GetObject("btnClose.MouseBack")));
-            this.btnClose.Name = "btnClose";
-            this.btnClose.NormlBack = ((System.Drawing.Image)(resources.GetObject("btnClose.NormlBack")));
-            this.btnClose.Size = new System.Drawing.Size(73, 29);
-            this.btnClose.TabIndex = 133;
-            this.btnClose.Text = "导入账号";
-            this.btnClose.UseVisualStyleBackColor = false;
-            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            this.skinGifBox1.BorderColor = System.Drawing.Color.Transparent;
+            this.skinGifBox1.Image = ((System.Drawing.Image)(resources.GetObject("skinGifBox1.Image")));
+            this.skinGifBox1.Location = new System.Drawing.Point(253, 162);
+            this.skinGifBox1.Name = "skinGifBox1";
+            this.skinGifBox1.Size = new System.Drawing.Size(60, 60);
+            this.skinGifBox1.TabIndex = 135;
+            this.skinGifBox1.Text = "skinGifBox1";
+            this.skinGifBox1.Visible = false;
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("微软雅黑", 6F);
+            this.label11.ForeColor = System.Drawing.Color.Maroon;
+            this.label11.Location = new System.Drawing.Point(276, 186);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(15, 11);
+            this.label11.TabIndex = 136;
+            this.label11.Text = "0";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label11.Visible = false;
+            // 
+            // skinButtom2
+            // 
+            this.skinButtom2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.skinButtom2.BackColor = System.Drawing.Color.Transparent;
+            this.skinButtom2.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButtom2.DownBack = ((System.Drawing.Image)(resources.GetObject("skinButtom2.DownBack")));
+            this.skinButtom2.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.skinButtom2.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinButtom2.Location = new System.Drawing.Point(396, 67);
+            this.skinButtom2.MouseBack = ((System.Drawing.Image)(resources.GetObject("skinButtom2.MouseBack")));
+            this.skinButtom2.Name = "skinButtom2";
+            this.skinButtom2.NormlBack = ((System.Drawing.Image)(resources.GetObject("skinButtom2.NormlBack")));
+            this.skinButtom2.Size = new System.Drawing.Size(60, 29);
+            this.skinButtom2.TabIndex = 133;
+            this.skinButtom2.Text = "刷新";
+            this.skinButtom2.UseVisualStyleBackColor = false;
+            this.skinButtom2.Click += new System.EventHandler(this.skinButtom2_Click);
             // 
             // Form1
             // 
@@ -302,13 +374,17 @@ namespace CCWin
             this.CanResize = false;
             this.CaptionFont = new System.Drawing.Font("宋体", 11F, System.Drawing.FontStyle.Bold);
             this.ClientSize = new System.Drawing.Size(484, 233);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.skinGifBox1);
+            this.Controls.Add(this.skinButtom3);
+            this.Controls.Add(this.skinButtom2);
+            this.Controls.Add(this.skinButtom1);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.skinComboBox1);
+            this.Controls.Add(this.txtId);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.skinRadioButton3);
             this.Controls.Add(this.skinRadioButton2);
             this.Controls.Add(this.skinRadioButton1);
-            this.Controls.Add(this.txtId);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -334,7 +410,6 @@ namespace CCWin
 
         #endregion
 
-        public WaterTextBox txtId;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -350,8 +425,14 @@ namespace CCWin
         private System.Windows.Forms.Label label10;
         private SkinRadioButton skinRadioButton3;
         private SkinButtom button1;
-        private SkinComboBox skinComboBox1;
+        public SkinComboBox txtId;
         private SkinButtom btnClose;
+        private SkinButtom skinButtom1;
+        private SkinButtom skinButtom3;
+        private SkinGifBox skinGifBox1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label11;
+        private SkinButtom skinButtom2;
     }
 }
 

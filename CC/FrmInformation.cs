@@ -48,6 +48,8 @@ namespace CCWin
         }
         private void FrmInformation_Load(object sender, EventArgs e)
         {
+            if(auto)this.Location = new Point(Location.X, f.Location.Y);
+            Text += " -- " + f.txtId.Text;
             Reg_Timer1.Interval = 1000;
             Reg_Timer1.Elapsed += new System.Timers.ElapsedEventHandler(StartW);
             Reg_Timer1.Enabled = true;
@@ -120,6 +122,7 @@ namespace CCWin
            // MessageBox.Show(ret.ToString());
           // fn = null;
         }
+        public bool auto = false;
         bool over = false;
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
@@ -137,23 +140,46 @@ namespace CCWin
             object  res = webBrowser1.Document.InvokeScript("UploadImage");
                 if (res != null && res.ToString() == "true")
                 {
+                    result = true;
+
                     skinLabel4.Text = skinLabel2.Text + ": 观看成功!";
                     skinPanel1.Visible = true;
                 }
                 else if (res != null && res.ToString() == "false")
                 {
                     button1.Enabled = false;
-                    skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！";             return;
+                    skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！";
+                    if (auto)
+                    {
+                        this.Close();
+                        return;
+                    } 
+                    return;
                 }
-                webBrowser1.Refresh();
-            
+                if (auto)
+                {
+                    this.Close();
+                    return;
+                }
+            webBrowser1.Refresh();
             button1.Enabled = false;
+
             SetE();
         }
-
+        int i = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            
+            if (auto)
+            {
+                i++;
+                if (i == 8)
+                {
+                    button1_Click_1(sender, e);
+                    return;
+                }
+                if (i > 8) return;
+            }
+            if (webBrowser1.Document == null) return;
             foreach (HtmlElement item in webBrowser1.Document.Links)
             {
                 if (item.InnerHtml == "进入理论学习获取学时")
@@ -168,8 +194,14 @@ namespace CCWin
                 skinPanel1.Visible = false;
                 button1.Enabled = false;
                 over = true;
+                result = false;
                 skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！"; return;
             }
+        }
+        bool result = false;
+        internal bool GetResult()
+        {
+            return result;
         }
     }
 }
