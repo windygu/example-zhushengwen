@@ -68,3 +68,19 @@ C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug
 C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
 C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Documents and Settings\Administrator\桌面\QQ2013源码\CC2013\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Move\Projects\QQ2013\bin\Debug\CC2013.exe.config
+E:\Move\Projects\QQ2013\bin\Debug\CC2013.exe
+E:\Move\Projects\QQ2013\bin\Debug\CC2013.pdb
+E:\Move\Projects\QQ2013\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmChat.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmCountenance.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmInformation.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmLogin.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmMain.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.Properties.Resources.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.FrmUserInformation.resources
+E:\Move\Projects\QQ2013\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Move\Projects\QQ2013\obj\x86\Debug\GenerateResource-ResGen.read.4.tlog
+E:\Move\Projects\QQ2013\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.exe
+E:\Move\Projects\QQ2013\obj\x86\Debug\CC2013.pdb

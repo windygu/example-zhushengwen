@@ -37,7 +37,7 @@
       <s:element name="ZQ_XueXiRiZhiToExamOneResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamOneResult" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamOneResult" type="s:int" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -52,7 +52,7 @@
       <s:element name="ZQ_XueXiRiZhiToExamThreeResponse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamThreeResult" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="ZQ_XueXiRiZhiToExamThreeResult" type="s:int" />
           </s:sequence>
         </s:complexType>
       </s:element>

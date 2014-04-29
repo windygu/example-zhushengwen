@@ -52,6 +52,7 @@ namespace InputPhones
             this.all = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.button1 = new CCWin.SkinControl.SkinButtom();
+            this.skinButtom1 = new CCWin.SkinControl.SkinButtom();
             this.SuspendLayout();
             // 
             // label1
@@ -72,9 +73,9 @@ namespace InputPhones
             this.label2.ForeColor = System.Drawing.Color.Maroon;
             this.label2.Location = new System.Drawing.Point(129, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 21);
+            this.label2.Size = new System.Drawing.Size(118, 21);
             this.label2.TabIndex = 2;
-            this.label2.Text = "12345678912";
+            this.label2.Text = "中国新闻网RSS";
             // 
             // label3
             // 
@@ -237,7 +238,7 @@ namespace InputPhones
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("微软雅黑", 30F);
             this.label15.ForeColor = System.Drawing.Color.Maroon;
-            this.label15.Location = new System.Drawing.Point(282, 16);
+            this.label15.Location = new System.Drawing.Point(254, 16);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(86, 52);
             this.label15.TabIndex = 4;
@@ -248,18 +249,19 @@ namespace InputPhones
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("微软雅黑", 15F);
             this.label14.ForeColor = System.Drawing.Color.Maroon;
-            this.label14.Location = new System.Drawing.Point(488, 242);
+            this.label14.Location = new System.Drawing.Point(364, 34);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(42, 27);
             this.label14.TabIndex = 4;
             this.label14.Text = "0%";
+            this.label14.Visible = false;
             // 
             // all
             // 
             this.all.AutoSize = true;
             this.all.Font = new System.Drawing.Font("微软雅黑", 10F);
             this.all.ForeColor = System.Drawing.Color.Purple;
-            this.all.Location = new System.Drawing.Point(527, 222);
+            this.all.Location = new System.Drawing.Point(507, 247);
             this.all.Name = "all";
             this.all.Size = new System.Drawing.Size(17, 20);
             this.all.TabIndex = 22;
@@ -270,7 +272,7 @@ namespace InputPhones
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("微软雅黑", 9F);
             this.label16.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label16.Location = new System.Drawing.Point(511, 225);
+            this.label16.Location = new System.Drawing.Point(491, 250);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(19, 17);
             this.label16.TabIndex = 19;
@@ -284,21 +286,40 @@ namespace InputPhones
             this.button1.DownBack = ((System.Drawing.Image)(resources.GetObject("button1.DownBack")));
             this.button1.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.button1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(453, 33);
+            this.button1.Location = new System.Drawing.Point(452, 33);
             this.button1.MouseBack = ((System.Drawing.Image)(resources.GetObject("button1.MouseBack")));
             this.button1.Name = "button1";
             this.button1.NormlBack = ((System.Drawing.Image)(resources.GetObject("button1.NormlBack")));
-            this.button1.Size = new System.Drawing.Size(109, 40);
+            this.button1.Size = new System.Drawing.Size(110, 40);
             this.button1.TabIndex = 110;
             this.button1.Text = "更新新闻";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // skinButtom1
+            // 
+            this.skinButtom1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.skinButtom1.BackColor = System.Drawing.Color.Transparent;
+            this.skinButtom1.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButtom1.DownBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.DownBack")));
+            this.skinButtom1.DrawType = CCWin.SkinControl.DrawStyle.Img;
+            this.skinButtom1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.skinButtom1.Image = ((System.Drawing.Image)(resources.GetObject("skinButtom1.Image")));
+            this.skinButtom1.Location = new System.Drawing.Point(462, 104);
+            this.skinButtom1.MouseBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.MouseBack")));
+            this.skinButtom1.Name = "skinButtom1";
+            this.skinButtom1.NormlBack = ((System.Drawing.Image)(resources.GetObject("skinButtom1.NormlBack")));
+            this.skinButtom1.Size = new System.Drawing.Size(87, 72);
+            this.skinButtom1.TabIndex = 110;
+            this.skinButtom1.UseVisualStyleBackColor = false;
+            this.skinButtom1.Click += new System.EventHandler(this.skinButtom1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(586, 298);
+            this.Controls.Add(this.skinButtom1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.all);
             this.Controls.Add(this.label8);
@@ -360,6 +381,7 @@ namespace InputPhones
         private System.Windows.Forms.Label all;
         private System.Windows.Forms.Label label16;
         private SkinButtom button1;
+        private SkinButtom skinButtom1;
     }
 }
 

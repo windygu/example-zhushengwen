@@ -241,7 +241,7 @@
             this.txtPwd.Font = new System.Drawing.Font("微软雅黑", 9.75F);
             this.txtPwd.Icon = global::CC2013.Properties.Resources.imgRjp_BackgroundImage;
             this.txtPwd.IconIsButton = true;
-            this.txtPwd.IsPasswordChat = '●';
+            this.txtPwd.IsPasswordChat = '*';
             this.txtPwd.IsSystemPasswordChar = true;
             this.txtPwd.Lines = new string[0];
             this.txtPwd.Location = new System.Drawing.Point(112, 174);
@@ -359,7 +359,7 @@
             // toolQQShow
             // 
             this.toolQQShow.Name = "toolQQShow";
-            this.toolQQShow.Size = new System.Drawing.Size(152, 22);
+            this.toolQQShow.Size = new System.Drawing.Size(130, 22);
             this.toolQQShow.Text = "打开主面板";
             this.toolQQShow.Click += new System.EventHandler(this.tuopan_DoubleClick);
             // 
@@ -371,7 +371,7 @@
             // toolExit
             // 
             this.toolExit.Name = "toolExit";
-            this.toolExit.Size = new System.Drawing.Size(152, 22);
+            this.toolExit.Size = new System.Drawing.Size(130, 22);
             this.toolExit.Text = "退出";
             this.toolExit.Click += new System.EventHandler(this.toolExit_Click);
             // 

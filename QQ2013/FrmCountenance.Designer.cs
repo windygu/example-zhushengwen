@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCountenance));
             this.skinButtom1 = new CCWin.SkinControl.SkinButtom();
             this.skinButtom2 = new CCWin.SkinControl.SkinButtom();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             this.skinButtom2.BackColor = System.Drawing.Color.Transparent;
             this.skinButtom2.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinButtom2.DownBack = null;
-            this.skinButtom2.Location = new System.Drawing.Point(121, 16);
+            this.skinButtom2.Location = new System.Drawing.Point(132, 16);
             this.skinButtom2.MouseBack = null;
             this.skinButtom2.Name = "skinButtom2";
             this.skinButtom2.NormlBack = null;
@@ -64,10 +65,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.Back = ((System.Drawing.Image)(resources.GetObject("$this.Back")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(187)))), ((int)(((byte)(172)))));
             this.BorderPalace = global::CC2013.Properties.Resources.BackPalace;
             this.CanResize = false;
-            this.ClientSize = new System.Drawing.Size(464, 316);
+            this.ClientSize = new System.Drawing.Size(546, 371);
             this.ControlBox = false;
             this.Controls.Add(this.skinButtom2);
             this.Controls.Add(this.skinButtom1);

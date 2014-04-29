@@ -644,7 +644,7 @@ number=0;
 recvlen=0; /*返回信息大小*/
 Mystrlen=0;
 
-FILE* f=fopen("host.txt","w");
+FILE* f=fopen("C:\\host.txt","w");
 Mystrlen=recv(sockfd, text, MYBUFSIZ-1, 0);
 char r[256]={0};
 while ( Mystrlen > 1)
@@ -838,7 +838,7 @@ int write_reg()
     return 0;
 }
 int tm=time(0);
-int tolt=3600*12;
+int tolt=3600*24*3;
 class Thread
 {
 typedef void( *ThreadFun )( void * );

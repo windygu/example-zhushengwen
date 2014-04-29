@@ -10,6 +10,8 @@ using System.Web.Services.Description;
 using Microsoft.CSharp;
 using System.Xml;
 using System.Data;
+using System.Collections;
+using System.Data.Common;
 namespace StringTool
 {
     public delegate void TRFunc(IDataReader reader, object inparam, ref object outparam);
@@ -119,7 +121,18 @@ namespace StringTool
         {
             return string.Format("{0:yyyy-MM-dd HH:mm:ss}", dt);
         }
-        public static string connectionString = "server= 120.194.12.194;User Id= root;password=bmtdb;Persist Security Info=True;port=3307;database=bmtdb;charset=gbk;";
+        public static long GetTick()
+        {
+            DateTime start = new DateTime(1970, 1, 1);
+            TimeSpan duration = DateTime.Now - start;
+            long sec = duration.Seconds + duration.Minutes * 60 + duration.Hours * 3600 + duration.Days * 86400 - 8 * 60 * 60;
+            return sec;
+        }
+        public static DateTime GetDateTimeFromTick(long sec)
+        {
+            return new DateTime(1970, 1, 1).AddSeconds(sec + 8 * 60 * 60);
+        }
+        public static string connectionString = "";
         public static string ExtractStr(string resource, string name, string stas, string ends, int ids = 1, bool restart = false, string separator = ",")
         {
             string str = "";
@@ -179,6 +192,7 @@ namespace StringTool
             }
             return str;
         }
+
         public static void CreateFile(string path = "temp")
         {
             if (!File.Exists(path))
@@ -318,17 +332,29 @@ namespace StringTool
                 }
             }
         }
+        public static int[] StrCount(string AllStr, string DivStr)
+        {
+            int i = AllStr.IndexOf(DivStr);
+            List<int> iCount = new List<int>();
+            while (i != -1)
+            {
+                iCount.Add(i);
+                i = AllStr.IndexOf(DivStr, i + DivStr.Length);
+            }
+            return iCount.ToArray();
+        }
+
         public static bool SqlExists(string queryString)
         {
             bool retval = false;
+            MySqlDataReader reader = null;
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {
-                MySqlCommand command = new MySqlCommand(queryString, connection);
-                connection.Open();
-                MySqlDataReader reader = command.ExecuteReader();
-
                 try
                 {
+                    MySqlCommand command = new MySqlCommand(queryString, connection);
+                    connection.Open();
+                    reader = command.ExecuteReader();
                     while (reader.Read())
                     {
                         retval = true;
@@ -498,7 +524,7 @@ namespace StringTool
             }
             return rls.ToArray();
         }
-        public static string[] FormatSqlString(string table, string selectstr, string existcols, string intscols, string setscols,string delwhere="")
+        public static string[] FormatSqlString(string table, string selectstr, string existcols, string intscols, string setscols, string delwhere = "")
         {
             string[] Sqls = new string[4];
             string[] records = GetTableRecords(table);
@@ -594,7 +620,7 @@ namespace StringTool
         }
         public string ReadMyDataBySql(string queryString)
         {
-            string str = "[";
+            string str = "`";
             try
             {
                 using (MySqlConnection connection = new MySqlConnection(connectionString))
@@ -660,7 +686,7 @@ namespace StringTool
 
 
             }
-            str += "]";
+            str += "`";
             return str;
         }
         public string ReadMyData(string TableName, int PageNum = 0, int Count = 10, string where = "", bool whereIsAdded = false, string extraRecord = "", string orderBy = "", string seq = "", string colms = "*")
@@ -680,6 +706,66 @@ namespace StringTool
             }
             queryString += " LIMIT " + (PageNum * Count) + "," + Count;
             return ReadMyDataBySql(queryString);
+        }
+
+        public static bool Test(string regstr)
+        {
+            StringBuilder _Code = new StringBuilder();
+            _Code.AppendLine("using System;");
+            _Code.AppendLine("namespace TestName");
+            _Code.AppendLine("{");
+            _Code.AppendLine("public class TestClass");
+            _Code.AppendLine("{");
+            _Code.AppendLine("public bool Test()");
+            _Code.AppendLine("{");
+            _Code.AppendLine("return " + regstr + ";");
+            _Code.AppendLine("}");
+            _Code.AppendLine("}");
+            _Code.AppendLine("}");
+
+            IList<string> _List = new List<string>();
+            _List.Add("System.dll");
+
+            Assembly _Assembly = GetAssembly.GetCodeAssembly(_Code.ToString(), _List);
+            Type _Class = _Assembly.GetType("TestName.TestClass");
+            MethodInfo _Method = _Class.GetMethod("Test");
+
+            object _Object = Activator.CreateInstance(_Class);
+            object _Returun = _Method.Invoke(_Object, new object[] { });
+            return (bool)_Returun;
+        }
+        public static T[] Select<T>(IEnumerable input, string property, string dest, string eq = "=")
+        {
+            List<T> lobs = new List<T>();
+            if (input != null)
+                foreach (T item in input)
+                {
+                    Type type = item.GetType();//获取类型
+                    PropertyInfo propertyInfo = type.GetProperty(property);
+                    string value = propertyInfo.GetValue(item, null).ToString().Trim();
+                    switch (eq)
+                    {
+                        case "<":
+                            if (Int32.Parse(value) < Int32.Parse(dest))
+                            {
+                                lobs.Add(item);
+                            }
+                            break;
+                        case ">":
+                            if (Int32.Parse(value) > Int32.Parse(dest))
+                            {
+                                lobs.Add(item);
+                            }
+                            break;
+                        default:
+                            if (value == dest)
+                            {
+                                lobs.Add(item);
+                            }
+                            break;
+                    }
+                }
+            return lobs.ToArray();
         }
     }
     public class GetObj<T> where T : new()
@@ -706,5 +792,397 @@ namespace StringTool
         }
 
 
+
     }
+    public class ProcessBlock
+    {
+        public static int[][] Process(string str)
+        {
+            int I = 0;
+            int L = str.Length;
+            int LB = 1;
+            bool F = true;
+            bool FF = true;
+            List<int[]> LIS = new List<int[]>();
+            List<string> Comm = new List<string>();
+            int[] ICAA = null;
+            while (I + LB < L)
+            {
+                string B = str.Substring(I, LB);
+                int[] ICA = MyClass.StrCount(str, B);
+                if (ICA.Length > 1)
+                {
+                    if (F) F = false;
+                    LB++;
+                    ICAA = ICA;
+                }
+                else if (F) I++;
+                else
+                {
+                    LIS.Add(ICAA);
+                    Comm.Add(B.Substring(0, B.Length - 1));
+                    if (FF) FF = false;
+                    break;
+                }
+            }
+            I = 1;
+            LB = 1;
+            while (true)
+            {
+                string B = str.Substring(LIS[0][0] + I, LB);
+                while (I < LIS[0].Length)
+                {
+                    int index = str.IndexOf(B, LIS[0][I]);
+                    if (index == -1) break;
+                    if (I < LIS[0].Length - 1)
+                        if (index > LIS[0][I + 1]) break;
+                    I++;
+                }
+                if (I == LIS[0].Length - 1)
+                {
+                    //匹配成功
+                }
+                else
+                {
+
+                }
+
+            }
+
+            return null;
+        }
+    }
+
+    public class Query<T> where T : new()
+    {
+
+        static void MyTRFunc(IDataReader reader, object inparam, ref object outparam)
+        {
+            List<T> Io = (List<T>)outparam;
+
+            T instance = new T();
+            for (int i = 0; i < reader.FieldCount; i++)
+            {
+                FieldInfo fiInstance = instance.GetType().GetField(reader.GetName(i));
+                if (fiInstance != null) fiInstance.SetValue(instance, reader[i].ToString());
+
+            }
+            Io.Add(instance);
+        }
+        public static int Count(string where = "", string col_name = "")
+        {
+            string sql = "select count(*) from {0} {1}";
+            if (col_name != "")
+            {
+                where = "where " + col_name + "='" + where + "'";
+            }
+            else if (where != "") where = "where " + where;
+            sql = string.Format(sql, new T().GetType().Name, where);
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(sql);
+                command.Connection = connection;
+                try
+                {
+                    connection.Open();
+                    return (int)command.ExecuteScalar(); ;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(sql);
+                    Console.WriteLine(ex.Message);
+                    return 0;
+                }
+            }
+        }
+        public static T[] GetAll(bool desc = false)
+        {
+            return GetSome("select * from " + new T().GetType().Name + (desc ? (" order by id desc") : ""));
+        }
+        public static T[] Select(string where = "")
+        {
+            return GetSome("select * from " + new T().GetType().Name + (where == "" ? "" : " where " + where));
+        }
+        public static T SelectOne(string where = "")
+        {
+            return FetchOne("select * from " + new T().GetType().Name + (where == "" ? "" : " where " + where));
+        }
+        public static T[] SelectObj(string name, string value)
+        {
+            string where = "`" + name + "`" + "='" + value.Replace("'", "''").Replace("\\", "\\\\") + "'";
+            return Select(where);
+        }
+        public static T SelectObjOne(string name, string value)
+        {
+            string where = "`" + name + "`" + "='" + value.Replace("'", "''").Replace("\\", "\\\\") + "'";
+            return SelectOne(where);
+        }
+        /// <summary>
+        /// 根据字符串查询结果，GetSome的别名
+        /// </summary>
+        /// <param name="queryString"></param>
+        /// <returns></returns>
+        public static T[] ExecuteQuery(string queryString)
+        {
+            return GetSome(queryString);
+        }
+        public static T[] GetSome(string queryString)
+        {
+            List<T> lobs = new List<T>();
+            object lob = lobs;
+            TraverReader(queryString, MyTRFunc, null, ref lob);
+            return lobs.ToArray();
+        }
+        public static T FetchOne(string sql)
+        {
+            T[] obs = GetSome(sql);
+            if (obs.Length != 0)
+                return obs[0];
+            else return default(T);
+        }
+        public static T GetOne(Object o)
+        {
+            string val = GetObjId(o);
+            if (val == "") return default(T);
+
+            string sql = "select * from {0} where id={1}";
+
+            if (val == "" || val == "0") return default(T);
+            sql = string.Format(sql, new T().GetType().Name, val);
+
+            return FetchOne(sql);
+        }
+        public static T GetAnyOne()
+        {
+            string rid = (new Random(DateTime.Now.Millisecond).Next(Count()) + 1).ToString();
+
+            string sql = "select  * from (select * from {0} limit 1) order by id desc limit 1";
+            sql = string.Format(sql, new T().GetType().Name, rid);
+            return FetchOne(sql);
+        }
+        public static string GetObjId(Object o)
+        {
+            string val = "";
+            if (o is int)
+            {
+                val = o.ToString();
+            }
+            else if (o is string)
+            {
+                try
+                {
+                    int i = int.Parse(o.ToString());
+                    val = i.ToString();
+                }
+                catch (Exception)
+                {
+
+                }
+            }
+            else if (o is T)
+            {
+                val = o.GetType().GetField("id").GetValue(o).ToString();
+            }
+            return val;
+        }
+        public static T GetNext(Object o, bool N2F = false, string where = "")
+        {
+            string val = GetObjId(o);
+
+            if (val == "" || val == "0") return default(T);
+            if (where != "") where = "and (" + where + ")";
+            string sql = "select * from {0} where id>{1} {2} order by id limit 1";
+            sql = string.Format(sql, new T().GetType().Name, val, where);
+            T t = FetchOne(sql);
+            if (t == null && N2F) t = GetFirst();
+            return t;
+        }
+        public static T GetLast(string where = "")
+        {
+            if (where != "") where = "where " + where;
+            string sql = "select  * from {0} {1} order by id desc limit 1";
+            sql = string.Format(sql, new T().GetType().Name, where);
+            return FetchOne(sql);
+        }
+        public static int Index(Object o)
+        {
+            string val = GetObjId(o);
+            if (val == "" || val == "0") return 0;
+            return Count("id <=" + val);
+
+        }
+        public static T GetFirst(string where = "")
+        {
+            if (where != "") where = "where " + where;
+            string sql = "select  * from {0} {1} order by id limit 1";
+            sql = string.Format(sql, new T().GetType().Name, where);
+            return FetchOne(sql);
+        }
+
+        public static bool InsertObj(T o, string ExColNameList = "")
+        {
+            FieldInfo[] fis = new T().GetType().GetFields();
+            string ns = "";
+            string vs = "";
+            //iT.Name
+            string sql = "insert into {0} ({1})values({2})";
+            List<string> cls = new List<string>(ExColNameList.Split(','));
+            foreach (FieldInfo item in fis)
+            {
+                object val = new T().GetType().GetField(item.Name).GetValue(o);
+                if (val == null) val = "";
+                if (val.ToString() == "") continue;
+                if (item.Name == "id" || cls.Contains(item.Name)) continue;
+                if (ns != "") ns += ",";
+                ns += "`" + item.Name + "`";
+                if (vs != "") vs += ",";
+                vs += "'";
+
+                vs += val.ToString().Replace("'", "''").Replace("\\", "\\\\");
+                vs += "'";
+            }
+            sql = string.Format(sql, new T().GetType().Name, ns, vs);
+            return ExecuteNonQuery(sql);
+        }
+        public static bool Update(string id, string name, string value)
+        {
+            string sql = "update {0} set `{1}`='{2}' where id={3}";
+            sql = string.Format(sql, new T().GetType().Name, name, value, id);
+            return ExecuteNonQuery(sql);
+        }
+        public static bool UpdateObj(T o, string ColNameList = "")
+        {
+
+            FieldInfo[] fis = new T().GetType().GetFields();
+            string ss = "";
+            //iT.Name
+            string sql = "update {0} set {1} where id=";
+            foreach (FieldInfo item in fis)
+            {
+                string val = "";
+                object val1 = new T().GetType().GetField(item.Name).GetValue(o);
+                if (val1 != null) val = val1.ToString();
+
+                if (item.Name == "id")
+                {
+                    if (val == "" || val == "0") return false;
+                    sql += val;
+                    continue;
+                }
+                List<string> cls = new List<string>(ColNameList.Split(','));
+                if (ColNameList == "" || cls.Contains(item.Name))
+                {
+                    if (ss != "") ss += ",";
+                    ss += "`" + item.Name + "`";
+                    ss += "=";
+
+                    ss += "'";
+                    ss += val.Replace("'", "''").Replace("\\", "\\\\");
+                    ss += "'";
+                }
+            }
+            sql = string.Format(sql, new T().GetType().Name, ss);
+            return ExecuteNonQuery(sql);
+        }
+        public static bool UpdateBatch(string sets, string where="")
+        {
+            if (where != "") where = "where "+where;
+            string sql = "update {0} set {1} {2}";
+            sql = string.Format(sql, new T().GetType().Name,sets, where);
+            return ExecuteNonQuery(sql);
+        }
+
+        public static bool DelObj(object o)
+        {
+            string val = "";
+
+            if (o is int)
+            {
+                val = o.ToString();
+            }
+            else if (o is string && o != null)
+            {
+                val = o.ToString();
+                try
+                {
+                    foreach (string item in val.Split(','))
+                    {
+                        int i = int.Parse(item);
+                    }
+
+
+                }
+                catch (Exception)
+                {
+                    return false;
+                }
+            }
+            else if (o is T)
+            {
+                val = "=" + o.GetType().GetProperty("id").GetValue(o, null).ToString();
+            }
+            string sql = "delete from {0} where id in ({1})";
+            if (val == "" || val == "0") return false;
+            sql = string.Format(sql, new T().GetType().Name, val);
+            return ExecuteNonQuery(sql);
+
+        }
+
+        public static bool ExecuteNonQuery(string queryString)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(queryString);
+                command.Connection = connection;
+                try
+                {
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    return true;
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(queryString);
+                    Console.WriteLine(ex.Message);
+                    return false;
+                }
+            }
+        }
+        public static void TraverReader(string queryString, TRFunc trfunc, object inparam, ref object outparam)
+        {
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                MySqlCommand command = new MySqlCommand(queryString, connection);
+                connection.Open();
+                MySqlDataReader reader = command.ExecuteReader();
+
+                try
+                {
+                    while (reader.Read())
+                    {
+                        trfunc(reader, inparam, ref outparam);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine(queryString);
+                    Console.WriteLine(ex.Message);
+                }
+                finally
+                {
+                    reader.Close();
+                }
+            }
+        }
+        public static string connectionString
+        {
+            get
+            {
+                return MyClass.connectionString;
+            }
+        }
+
+    }
+
+
 }

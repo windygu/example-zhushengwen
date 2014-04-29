@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
+
 using System.Text;
 using System.Windows.Forms;
 using System.IO;
-using Excel;
 using StringTool;
 using System.Threading;
 using System.Diagnostics;
@@ -24,6 +23,7 @@ namespace InputPhones
         {
             InitializeComponent();
             MyClass.connectionString = "server= localhost;User Id= root;password=admin;Persist Security Info=True;port=3306;database=test;charset=gbk;";
+           
         }
         public static string rssurl = "http://www.chinanews.com/rss/rss_2.html";
         public static string striphtml(string strhtml)
@@ -42,7 +42,7 @@ namespace InputPhones
             string source = no.source;
             string pubdate = no.pubdate;
             string misc = no.misc;
-            if (content.Contains('?'))
+            if (content.Contains("?"))
                 content = content.Replace('?', ' ');
             string hrefs = MyClass.ExtractStr(content, "href", "<", ">", 1000, true);
             foreach (string item in hrefs.Split(','))
@@ -103,7 +103,7 @@ namespace InputPhones
             string allc =  MyClass.GetUrltoHtml(url);
 
                 allc = MyClass.GetUrltoHtml(url,"gb2312");
-                string str1 = MyClass.ExtractStr(allc, "class=\"left_zw\"", "<div", "div>", 1, true);
+                string str1 = MyClass.ExtractStr(allc, "", "<div id=\"tupian_div\"", "<div class=\"left_name\"", 1);
                 if (str1 != "")
                 {
                     string script = MyClass.ExtractStr(str1, "", "<script", "</script>", 100, false,"，");
@@ -115,7 +115,7 @@ namespace InputPhones
                     }
                     if (str1.Contains("<img"))
                     {
-                        string str11 = MyClass.ExtractStr(str1, "<img ", "<img", "/>", 100, true);
+                        string str11 = MyClass.ExtractStr(str1, "<img ", "<img", ">", 100, true);
                         if (str11 != "")
                         {
                             string[] imgs = str11.Split(',');
@@ -124,13 +124,35 @@ namespace InputPhones
                                 string igsrc=MyClass.ExtractStr(ig, "src", "\"", "\"");
                                 if (igsrc != "" && !igsrc.StartsWith("http"))
                                 {
-                                    string snurl = "http://" + new Uri(url).Host + igsrc;
-                                    str1= str1.Replace(igsrc, snurl);
+                                    if (igsrc.StartsWith("/"))
+                                    {
+                                        string snurl = "http://" + new Uri(url).Host + igsrc;
+                                        str1 = str1.Replace(igsrc, snurl);
+                                    }
+                                    else
+                                    {
+                                        int ids = url.LastIndexOf("/");
+                                        if (ids != -1)
+                                        {
+                                            string snurl = url.Remove(ids+1) + igsrc;
+                                            str1 = str1.Replace(igsrc, snurl);
+                                        }
+                                    }
                                 }
                             }
                         }
                     }
-                    str1 = "<div" + str1 + "div>";
+                   // str1 = "<div" + str1 + "div>";
+                    str1 = "<div id=\"tupian_div\"" + str1 ;
+                    //string str2 = MyClass.ExtractStr(allc, "class=\"left-time\"", "<div", "div>", 1, true);
+                    //str2 = "<div" + str2 + "div>";
+                    string str3 = MyClass.ExtractStr(allc, "class=\"left_name\"", "<div", "div>", 1, true);
+                    str3 = "<div" + str3 + "div>";
+                    str1 =str1 + str3;
+                    //if (str2 != "")
+                    //{
+                    //    str1 = str1.Replace(str2, "");
+                    //}
                 }
                 string time = MyClass.GetNowTime();
                 string[] timeandresource = MyClass.ExtractStr(allc, "\"left-t\"", ">", "<").Trim().Split('　');
@@ -193,7 +215,7 @@ namespace InputPhones
                        label1.Invoke(new SetTextDelegate(SetText), no);
                     }
                     progressBar1.Value= 10*(index-1) + j*10/sm.Count+1;
-                    label14.Text = (((index-1) * 100 / bg.Count +j * 10 / sm.Count)).ToString() + "%";
+                    label14.Text = ((int)(((float)(index + 1) / sm.Count)*100)).ToString() + "%";
                 }
                 
             }
@@ -210,6 +232,7 @@ namespace InputPhones
                 {
                     return;
                 }
+                progressBar1.Value = progressBar1.Maximum;
                 label13.Text = "处理完毕，睡眠1小时";
                 Thread.Sleep(60 * 60 * 1000);
             }
@@ -290,6 +313,12 @@ namespace InputPhones
         {
             FrmInformation fi = new FrmInformation();
             fi.ShowDialog();
+        }
+       
+        private void skinButtom1_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            f3.ShowDialog();
         }
     }
    public class NewsObject

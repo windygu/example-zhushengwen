@@ -12,3 +12,5 @@ E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.exe
 E:\zzubus\GongJiao\obj\x86\Debug\GongJiao.pdb
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GongJiao\obj\x86\Debug\GongJiao.exe
 C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\GongJiao\obj\x86\Debug\GongJiao.pdb
+E:\Move\Projects\GongJiao\obj\x86\Debug\GongJiao.exe
+E:\Move\Projects\GongJiao\obj\x86\Debug\GongJiao.pdb

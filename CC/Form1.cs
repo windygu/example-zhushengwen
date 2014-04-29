@@ -112,6 +112,7 @@ namespace CCWin
         private bool KanShiPin()
         {
             FrmInformation fi = new FrmInformation(this);
+            OpenWindow++;
             fi.auto = true;
             fi.ShowDialog();
             return fi.GetResult();
@@ -125,7 +126,7 @@ namespace CCWin
                 string fen = RandomFen();
                 if (skinRadioButton1.Checked)
                 {
-                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen))
+                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen)==0)
                     {
                         SetText("科目一考试已通过！");
                         label9.Text = fen;
@@ -138,7 +139,7 @@ namespace CCWin
                 }
                 else
                 {
-                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen))
+                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen) == 0)
                     {
                         SetText("科目三考试已通过！");
                         label9.Text = fen;
@@ -382,15 +383,16 @@ namespace CCWin
         }
         Dictionary<string, CheckDo> slt = new Dictionary<string, CheckDo>();
         bool isk1 = true;
-        string totals = "10";
+        public string totals = "60";
+        public static int OpenWindow = 0;
         private void ProcessForeach()
         {
             bool has = false;
-            totals = "10";
+            totals = "60";
             if (skinRadioButton3.Visible)
             {
                 //做视频
-                totals = "15";
+                totals = "60";
                 skinRadioButton3.Checked = true;
                 bool next1 = false;
                 if (txtId.Items.Count != 0 && txtId.Tag == txtId.Items[txtId.Items.Count - 1])
@@ -554,10 +556,12 @@ namespace CCWin
             if (label11.Text == "0")
             {
                 label11.Text = totals;
-                ProcessForeach();
+                if (OpenWindow == 0) ProcessForeach();
             }
             else
             {
+                if (OpenWindow == 0) label11.Text = "0";
+                else
                 label11.Text = (Int32.Parse(label11.Text) - 1).ToString();
             }
             label11.BringToFront();

@@ -130,8 +130,8 @@
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.imgyy2 = new System.Windows.Forms.PictureBox();
-            this.txtRMsg = new CCWin.SkinControl.RtfRichTextBox();
-            this.txtSMsg = new CCWin.SkinControl.RtfRichTextBox();
+            //this.txtRMsg = new CCWin.SkinControl.RtfRichTextBox();
+            //this.txtSMsg = new CCWin.SkinControl.RtfRichTextBox();
             this.labFileInfo = new System.Windows.Forms.Label();
             this.linkLabelRefuse = new System.Windows.Forms.LinkLabel();
             this.linkLableAccept = new System.Windows.Forms.LinkLabel();
@@ -1174,39 +1174,37 @@
             // 
             // txtRMsg
             // 
-            this.txtRMsg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtRMsg.BackColor = System.Drawing.Color.White;
-            this.txtRMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtRMsg.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtRMsg.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
-            this.txtRMsg.Location = new System.Drawing.Point(2, 91);
-            this.txtRMsg.Margin = new System.Windows.Forms.Padding(0);
-            this.txtRMsg.Name = "txtRMsg";
-            this.txtRMsg.ReadOnly = true;
-            this.txtRMsg.Size = new System.Drawing.Size(389, 243);
-            this.txtRMsg.TabIndex = 1;
-            this.txtRMsg.Text = "";
-            this.txtRMsg.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
-            // 
-            // txtSMsg
-            // 
-            this.txtSMsg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSMsg.BackColor = System.Drawing.Color.White;
-            this.txtSMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSMsg.EnableAutoDragDrop = true;
-            this.txtSMsg.Font = new System.Drawing.Font("微软雅黑", 9F);
-            this.txtSMsg.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
-            this.txtSMsg.Location = new System.Drawing.Point(2, 361);
-            this.txtSMsg.Margin = new System.Windows.Forms.Padding(0);
-            this.txtSMsg.Name = "txtSMsg";
-            this.txtSMsg.Size = new System.Drawing.Size(389, 95);
-            this.txtSMsg.TabIndex = 0;
-            this.txtSMsg.Text = "";
-            this.txtSMsg.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
-            this.txtSMsg.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtSMsg_MouseClick);
+            //this.txtRMsg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)                        | System.Windows.Forms.AnchorStyles.Left)                        | System.Windows.Forms.AnchorStyles.Right)));
+            //this.txtRMsg.BackColor = System.Drawing.Color.White;
+            //this.txtRMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            //this.txtRMsg.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            //this.txtRMsg.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
+            //this.txtRMsg.Location = new System.Drawing.Point(2, 91);
+            //this.txtRMsg.Margin = new System.Windows.Forms.Padding(0);
+            //this.txtRMsg.Name = "txtRMsg";
+            //this.txtRMsg.ReadOnly = true;
+            //this.txtRMsg.Size = new System.Drawing.Size(389, 243);
+            //this.txtRMsg.TabIndex = 1;
+            //this.txtRMsg.Text = "";
+            //this.txtRMsg.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
+            //// 
+            //// txtSMsg
+            //// 
+            //this.txtSMsg.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
+            //            | System.Windows.Forms.AnchorStyles.Right)));
+            //this.txtSMsg.BackColor = System.Drawing.Color.White;
+            //this.txtSMsg.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            //this.txtSMsg.EnableAutoDragDrop = true;
+            //this.txtSMsg.Font = new System.Drawing.Font("微软雅黑", 9F);
+            //this.txtSMsg.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
+            //this.txtSMsg.Location = new System.Drawing.Point(2, 361);
+            //this.txtSMsg.Margin = new System.Windows.Forms.Padding(0);
+            //this.txtSMsg.Name = "txtSMsg";
+            //this.txtSMsg.Size = new System.Drawing.Size(389, 95);
+            //this.txtSMsg.TabIndex = 0;
+            //this.txtSMsg.Text = "";
+            //this.txtSMsg.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
+            //this.txtSMsg.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtSMsg_MouseClick);
             // 
             // labFileInfo
             // 
@@ -1272,8 +1270,8 @@
             this.Controls.Add(this.labFileInfo);
             this.Controls.Add(this.linkLabelRefuse);
             this.Controls.Add(this.linkLableAccept);
-            this.Controls.Add(this.txtSMsg);
-            this.Controls.Add(this.txtRMsg);
+            //this.Controls.Add(this.txtSMsg);
+            //this.Controls.Add(this.txtRMsg);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.imgyy2);
             this.Controls.Add(this.skinToolStrip2);
@@ -1427,8 +1425,6 @@
         private System.Windows.Forms.ToolStripMenuItem 传文件设置ToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox imgyy2;
-        private CCWin.SkinControl.RtfRichTextBox txtRMsg;
-        private CCWin.SkinControl.RtfRichTextBox txtSMsg;
         private System.Windows.Forms.Label labFileInfo;
         private System.Windows.Forms.LinkLabel linkLabelRefuse;
         private System.Windows.Forms.LinkLabel linkLableAccept;

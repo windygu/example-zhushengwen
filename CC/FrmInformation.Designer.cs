@@ -45,11 +45,11 @@
             // 
             // webBrowser1
             // 
-            this.webBrowser1.Location = new System.Drawing.Point(158, 343);
+            this.webBrowser1.Location = new System.Drawing.Point(80, 236);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.ScriptErrorsSuppressed = true;
-            this.webBrowser1.Size = new System.Drawing.Size(411, 37);
+            this.webBrowser1.Size = new System.Drawing.Size(603, 301);
             this.webBrowser1.TabIndex = 128;
             this.webBrowser1.Url = new System.Uri("http://zqjp.iabe.cn/public/Default.aspx", System.UriKind.Absolute);
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
@@ -88,7 +88,7 @@
             this.button1.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(316, 82);
+            this.button1.Location = new System.Drawing.Point(716, 482);
             this.button1.MouseBack = ((System.Drawing.Image)(resources.GetObject("button1.MouseBack")));
             this.button1.Name = "button1";
             this.button1.NormlBack = ((System.Drawing.Image)(resources.GetObject("button1.NormlBack")));
@@ -163,7 +163,7 @@
             this.BorderPalace = ((System.Drawing.Image)(resources.GetObject("$this.BorderPalace")));
             this.CanResize = false;
             this.CaptionFont = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold);
-            this.ClientSize = new System.Drawing.Size(455, 178);
+            this.ClientSize = new System.Drawing.Size(855, 578);
             this.CloseBoxSize = new System.Drawing.Size(39, 20);
             this.ControlBoxOffset = new System.Drawing.Point(0, -1);
             this.Controls.Add(this.skinLabel4);

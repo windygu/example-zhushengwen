@@ -804,7 +804,7 @@
             this.QQMenu.ItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
             this.QQMenu.Name = "MenuState";
             this.QQMenu.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.QQMenu.Size = new System.Drawing.Size(145, 308);
+            this.QQMenu.Size = new System.Drawing.Size(131, 308);
             this.QQMenu.TitleAnamorphosis = false;
             this.QQMenu.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.QQMenu.TitleRadius = 4;
@@ -825,7 +825,7 @@
             this.新闻资讯ToolStripMenuItem,
             this.财付通ToolStripMenuItem});
             this.ItemImonline.Name = "ItemImonline";
-            this.ItemImonline.Size = new System.Drawing.Size(144, 22);
+            this.ItemImonline.Size = new System.Drawing.Size(130, 22);
             this.ItemImonline.Tag = "1";
             this.ItemImonline.Text = "所有服务";
             this.ItemImonline.ToolTipText = "表示希望好友看到您在线。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -833,31 +833,31 @@
             // 腾讯网ToolStripMenuItem
             // 
             this.腾讯网ToolStripMenuItem.Name = "腾讯网ToolStripMenuItem";
-            this.腾讯网ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.腾讯网ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.腾讯网ToolStripMenuItem.Text = "腾讯网";
             // 
             // qQ空间ToolStripMenuItem
             // 
             this.qQ空间ToolStripMenuItem.Name = "qQ空间ToolStripMenuItem";
-            this.qQ空间ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.qQ空间ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ空间ToolStripMenuItem.Text = "QQ空间";
             // 
             // 拍拍购物ToolStripMenuItem
             // 
             this.拍拍购物ToolStripMenuItem.Name = "拍拍购物ToolStripMenuItem";
-            this.拍拍购物ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.拍拍购物ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.拍拍购物ToolStripMenuItem.Text = "拍拍购物";
             // 
             // sOSO搜索ToolStripMenuItem
             // 
             this.sOSO搜索ToolStripMenuItem.Name = "sOSO搜索ToolStripMenuItem";
-            this.sOSO搜索ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.sOSO搜索ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.sOSO搜索ToolStripMenuItem.Text = "SOSO搜索";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(131, 6);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(115, 6);
             // 
             // qQ充值ToolStripMenuItem
             // 
@@ -866,13 +866,13 @@
             this.开通包月服务ToolStripMenuItem,
             this.充值游戏点卷ToolStripMenuItem});
             this.qQ充值ToolStripMenuItem.Name = "qQ充值ToolStripMenuItem";
-            this.qQ充值ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.qQ充值ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ充值ToolStripMenuItem.Text = "QQ充值";
             // 
             // 充值Q币ToolStripMenuItem
             // 
             this.充值Q币ToolStripMenuItem.Name = "充值Q币ToolStripMenuItem";
-            this.充值Q币ToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.充值Q币ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.充值Q币ToolStripMenuItem.Text = "充值Q币/Q点";
             // 
             // 开通包月服务ToolStripMenuItem
@@ -895,103 +895,103 @@
             this.寻仙VIPToolStripMenuItem,
             this.读书VIPToolStripMenuItem});
             this.开通包月服务ToolStripMenuItem.Name = "开通包月服务ToolStripMenuItem";
-            this.开通包月服务ToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.开通包月服务ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.开通包月服务ToolStripMenuItem.Text = "开通包月服务";
             // 
             // qQ会员ToolStripMenuItem1
             // 
             this.qQ会员ToolStripMenuItem1.Name = "qQ会员ToolStripMenuItem1";
-            this.qQ会员ToolStripMenuItem1.Size = new System.Drawing.Size(132, 22);
+            this.qQ会员ToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
             this.qQ会员ToolStripMenuItem1.Text = "QQ会员";
             // 
             // 黄钻贵族ToolStripMenuItem
             // 
             this.黄钻贵族ToolStripMenuItem.Name = "黄钻贵族ToolStripMenuItem";
-            this.黄钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.黄钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.黄钻贵族ToolStripMenuItem.Text = "黄钻贵族";
             // 
             // 红钻贵族ToolStripMenuItem
             // 
             this.红钻贵族ToolStripMenuItem.Name = "红钻贵族ToolStripMenuItem";
-            this.红钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.红钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.红钻贵族ToolStripMenuItem.Text = "红钻贵族";
             // 
             // 绿钻贵族ToolStripMenuItem
             // 
             this.绿钻贵族ToolStripMenuItem.Name = "绿钻贵族ToolStripMenuItem";
-            this.绿钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.绿钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.绿钻贵族ToolStripMenuItem.Text = "绿钻贵族";
             // 
             // 超级QQToolStripMenuItem
             // 
             this.超级QQToolStripMenuItem.Name = "超级QQToolStripMenuItem";
-            this.超级QQToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.超级QQToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.超级QQToolStripMenuItem.Text = "超级QQ";
             // 
             // 蓝钻贵族ToolStripMenuItem
             // 
             this.蓝钻贵族ToolStripMenuItem.Name = "蓝钻贵族ToolStripMenuItem";
-            this.蓝钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.蓝钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.蓝钻贵族ToolStripMenuItem.Text = "蓝钻贵族";
             // 
             // 粉钻贵族ToolStripMenuItem
             // 
             this.粉钻贵族ToolStripMenuItem.Name = "粉钻贵族ToolStripMenuItem";
-            this.粉钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.粉钻贵族ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.粉钻贵族ToolStripMenuItem.Text = "粉钻贵族";
             // 
             // cF会员ToolStripMenuItem
             // 
             this.cF会员ToolStripMenuItem.Name = "cF会员ToolStripMenuItem";
-            this.cF会员ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.cF会员ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.cF会员ToolStripMenuItem.Text = "CF会员";
             // 
             // dNF黑钻ToolStripMenuItem
             // 
             this.dNF黑钻ToolStripMenuItem.Name = "dNF黑钻ToolStripMenuItem";
-            this.dNF黑钻ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.dNF黑钻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.dNF黑钻ToolStripMenuItem.Text = "DNF黑钻";
             // 
             // 炫舞紫钻ToolStripMenuItem
             // 
             this.炫舞紫钻ToolStripMenuItem.Name = "炫舞紫钻ToolStripMenuItem";
-            this.炫舞紫钻ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.炫舞紫钻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.炫舞紫钻ToolStripMenuItem.Text = "炫舞紫钻";
             // 
             // 飞车紫钻ToolStripMenuItem
             // 
             this.飞车紫钻ToolStripMenuItem.Name = "飞车紫钻ToolStripMenuItem";
-            this.飞车紫钻ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.飞车紫钻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.飞车紫钻ToolStripMenuItem.Text = "飞车紫钻";
             // 
             // qQ堂紫钻ToolStripMenuItem
             // 
             this.qQ堂紫钻ToolStripMenuItem.Name = "qQ堂紫钻ToolStripMenuItem";
-            this.qQ堂紫钻ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ堂紫钻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ堂紫钻ToolStripMenuItem.Text = "QQ堂紫钻";
             // 
             // aVA精英ToolStripMenuItem
             // 
             this.aVA精英ToolStripMenuItem.Name = "aVA精英ToolStripMenuItem";
-            this.aVA精英ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.aVA精英ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.aVA精英ToolStripMenuItem.Text = "AVA精英";
             // 
             // 音速紫钻ToolStripMenuItem
             // 
             this.音速紫钻ToolStripMenuItem.Name = "音速紫钻ToolStripMenuItem";
-            this.音速紫钻ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.音速紫钻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.音速紫钻ToolStripMenuItem.Text = "音速紫钻";
             // 
             // 寻仙VIPToolStripMenuItem
             // 
             this.寻仙VIPToolStripMenuItem.Name = "寻仙VIPToolStripMenuItem";
-            this.寻仙VIPToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.寻仙VIPToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.寻仙VIPToolStripMenuItem.Text = "寻仙VIP";
             // 
             // 读书VIPToolStripMenuItem
             // 
             this.读书VIPToolStripMenuItem.Name = "读书VIPToolStripMenuItem";
-            this.读书VIPToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.读书VIPToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.读书VIPToolStripMenuItem.Text = "读书VIP";
             // 
             // 充值游戏点卷ToolStripMenuItem
@@ -1013,97 +1013,97 @@
             this.丝路英雄路币ToolStripMenuItem,
             this.绿色征途点卷ToolStripMenuItem});
             this.充值游戏点卷ToolStripMenuItem.Name = "充值游戏点卷ToolStripMenuItem";
-            this.充值游戏点卷ToolStripMenuItem.Size = new System.Drawing.Size(149, 22);
+            this.充值游戏点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.充值游戏点卷ToolStripMenuItem.Text = "充值游戏点卷";
             // 
             // cF点卷ToolStripMenuItem
             // 
             this.cF点卷ToolStripMenuItem.Name = "cF点卷ToolStripMenuItem";
-            this.cF点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.cF点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.cF点卷ToolStripMenuItem.Text = "CF点卷";
             // 
             // dNF点卷ToolStripMenuItem
             // 
             this.dNF点卷ToolStripMenuItem.Name = "dNF点卷ToolStripMenuItem";
-            this.dNF点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.dNF点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.dNF点卷ToolStripMenuItem.Text = "DNF点卷";
             // 
             // aVA点卷ToolStripMenuItem
             // 
             this.aVA点卷ToolStripMenuItem.Name = "aVA点卷ToolStripMenuItem";
-            this.aVA点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.aVA点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.aVA点卷ToolStripMenuItem.Text = "AVA点卷";
             // 
             // qQ炫舞点卷ToolStripMenuItem
             // 
             this.qQ炫舞点卷ToolStripMenuItem.Name = "qQ炫舞点卷ToolStripMenuItem";
-            this.qQ炫舞点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ炫舞点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ炫舞点卷ToolStripMenuItem.Text = "QQ炫舞点卷";
             // 
             // qQ飞车点卷ToolStripMenuItem
             // 
             this.qQ飞车点卷ToolStripMenuItem.Name = "qQ飞车点卷ToolStripMenuItem";
-            this.qQ飞车点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ飞车点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ飞车点卷ToolStripMenuItem.Text = "QQ飞车点卷";
             // 
             // 七雄争霸元宝ToolStripMenuItem
             // 
             this.七雄争霸元宝ToolStripMenuItem.Name = "七雄争霸元宝ToolStripMenuItem";
-            this.七雄争霸元宝ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.七雄争霸元宝ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.七雄争霸元宝ToolStripMenuItem.Text = "七雄争霸元宝";
             // 
             // 幻想世界金子ToolStripMenuItem
             // 
             this.幻想世界金子ToolStripMenuItem.Name = "幻想世界金子ToolStripMenuItem";
-            this.幻想世界金子ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.幻想世界金子ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.幻想世界金子ToolStripMenuItem.Text = "幻想世界金子";
             // 
             // 寻仙仙玉ToolStripMenuItem
             // 
             this.寻仙仙玉ToolStripMenuItem.Name = "寻仙仙玉ToolStripMenuItem";
-            this.寻仙仙玉ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.寻仙仙玉ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.寻仙仙玉ToolStripMenuItem.Text = "寻仙仙玉";
             // 
             // qQ华夏点卷ToolStripMenuItem
             // 
             this.qQ华夏点卷ToolStripMenuItem.Name = "qQ华夏点卷ToolStripMenuItem";
-            this.qQ华夏点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ华夏点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ华夏点卷ToolStripMenuItem.Text = "QQ华夏点卷";
             // 
             // 大明龙权点卷ToolStripMenuItem
             // 
             this.大明龙权点卷ToolStripMenuItem.Name = "大明龙权点卷ToolStripMenuItem";
-            this.大明龙权点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.大明龙权点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.大明龙权点卷ToolStripMenuItem.Text = "大明龙权点卷";
             // 
             // 烽火战国点卷ToolStripMenuItem
             // 
             this.烽火战国点卷ToolStripMenuItem.Name = "烽火战国点卷ToolStripMenuItem";
-            this.烽火战国点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.烽火战国点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.烽火战国点卷ToolStripMenuItem.Text = "烽火战国点卷";
             // 
             // 三国点卷ToolStripMenuItem
             // 
             this.三国点卷ToolStripMenuItem.Name = "三国点卷ToolStripMenuItem";
-            this.三国点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.三国点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.三国点卷ToolStripMenuItem.Text = "三国点卷";
             // 
             // 自由幻想彩玉ToolStripMenuItem
             // 
             this.自由幻想彩玉ToolStripMenuItem.Name = "自由幻想彩玉ToolStripMenuItem";
-            this.自由幻想彩玉ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.自由幻想彩玉ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.自由幻想彩玉ToolStripMenuItem.Text = "自由幻想彩玉";
             // 
             // 丝路英雄路币ToolStripMenuItem
             // 
             this.丝路英雄路币ToolStripMenuItem.Name = "丝路英雄路币ToolStripMenuItem";
-            this.丝路英雄路币ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.丝路英雄路币ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.丝路英雄路币ToolStripMenuItem.Text = "丝路英雄路币";
             // 
             // 绿色征途点卷ToolStripMenuItem
             // 
             this.绿色征途点卷ToolStripMenuItem.Name = "绿色征途点卷ToolStripMenuItem";
-            this.绿色征途点卷ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.绿色征途点卷ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.绿色征途点卷ToolStripMenuItem.Text = "绿色征途点卷";
             // 
             // 腾讯游戏ToolStripMenuItem
@@ -1125,97 +1125,97 @@
             this.qQ飞车ToolStripMenuItem,
             this.逆战ToolStripMenuItem});
             this.腾讯游戏ToolStripMenuItem.Name = "腾讯游戏ToolStripMenuItem";
-            this.腾讯游戏ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.腾讯游戏ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.腾讯游戏ToolStripMenuItem.Text = "腾讯游戏";
             // 
             // 地下城与勇士ToolStripMenuItem
             // 
             this.地下城与勇士ToolStripMenuItem.Name = "地下城与勇士ToolStripMenuItem";
-            this.地下城与勇士ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.地下城与勇士ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.地下城与勇士ToolStripMenuItem.Text = "地下城与勇士";
             // 
             // qQ西游ToolStripMenuItem
             // 
             this.qQ西游ToolStripMenuItem.Name = "qQ西游ToolStripMenuItem";
-            this.qQ西游ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ西游ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ西游ToolStripMenuItem.Text = "QQ西游";
             // 
             // 七雄争霸ToolStripMenuItem
             // 
             this.七雄争霸ToolStripMenuItem.Name = "七雄争霸ToolStripMenuItem";
-            this.七雄争霸ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.七雄争霸ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.七雄争霸ToolStripMenuItem.Text = "七雄争霸";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem6.Text = "3366";
             // 
             // qQ幻想世界ToolStripMenuItem
             // 
             this.qQ幻想世界ToolStripMenuItem.Name = "qQ幻想世界ToolStripMenuItem";
-            this.qQ幻想世界ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ幻想世界ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ幻想世界ToolStripMenuItem.Text = "QQ幻想世界";
             // 
             // 大明龙权ToolStripMenuItem
             // 
             this.大明龙权ToolStripMenuItem.Name = "大明龙权ToolStripMenuItem";
-            this.大明龙权ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.大明龙权ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.大明龙权ToolStripMenuItem.Text = "大明龙权";
             // 
             // 战地之王ToolStripMenuItem
             // 
             this.战地之王ToolStripMenuItem.Name = "战地之王ToolStripMenuItem";
-            this.战地之王ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.战地之王ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.战地之王ToolStripMenuItem.Text = "战地之王";
             // 
             // 魔幻大陆ToolStripMenuItem
             // 
             this.魔幻大陆ToolStripMenuItem.Name = "魔幻大陆ToolStripMenuItem";
-            this.魔幻大陆ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.魔幻大陆ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.魔幻大陆ToolStripMenuItem.Text = "魔幻大陆";
             // 
             // 烽火战国ToolStripMenuItem
             // 
             this.烽火战国ToolStripMenuItem.Name = "烽火战国ToolStripMenuItem";
-            this.烽火战国ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.烽火战国ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.烽火战国ToolStripMenuItem.Text = "烽火战国";
             // 
             // 丝路英雄ToolStripMenuItem
             // 
             this.丝路英雄ToolStripMenuItem.Name = "丝路英雄ToolStripMenuItem";
-            this.丝路英雄ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.丝路英雄ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.丝路英雄ToolStripMenuItem.Text = "丝路英雄";
             // 
             // qQ自由幻想ToolStripMenuItem
             // 
             this.qQ自由幻想ToolStripMenuItem.Name = "qQ自由幻想ToolStripMenuItem";
-            this.qQ自由幻想ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ自由幻想ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ自由幻想ToolStripMenuItem.Text = "QQ自由幻想";
             // 
             // 穿越火线ToolStripMenuItem
             // 
             this.穿越火线ToolStripMenuItem.Name = "穿越火线ToolStripMenuItem";
-            this.穿越火线ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.穿越火线ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.穿越火线ToolStripMenuItem.Text = "穿越火线";
             // 
             // qQ炫舞ToolStripMenuItem
             // 
             this.qQ炫舞ToolStripMenuItem.Name = "qQ炫舞ToolStripMenuItem";
-            this.qQ炫舞ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ炫舞ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ炫舞ToolStripMenuItem.Text = "QQ炫舞";
             // 
             // qQ飞车ToolStripMenuItem
             // 
             this.qQ飞车ToolStripMenuItem.Name = "qQ飞车ToolStripMenuItem";
-            this.qQ飞车ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ飞车ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ飞车ToolStripMenuItem.Text = "QQ飞车";
             // 
             // 逆战ToolStripMenuItem
             // 
             this.逆战ToolStripMenuItem.Name = "逆战ToolStripMenuItem";
-            this.逆战ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.逆战ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.逆战ToolStripMenuItem.Text = "逆战";
             // 
             // 手机生活ToolStripMenuItem
@@ -1231,59 +1231,59 @@
             this.toolStripMenuItem7,
             this.手机生活官网ToolStripMenuItem});
             this.手机生活ToolStripMenuItem.Name = "手机生活ToolStripMenuItem";
-            this.手机生活ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.手机生活ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.手机生活ToolStripMenuItem.Text = "手机生活";
             // 
             // 超级QQToolStripMenuItem1
             // 
             this.超级QQToolStripMenuItem1.Name = "超级QQToolStripMenuItem1";
-            this.超级QQToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.超级QQToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.超级QQToolStripMenuItem1.Text = "超级QQ";
             // 
             // 手机QQToolStripMenuItem
             // 
             this.手机QQToolStripMenuItem.Name = "手机QQToolStripMenuItem";
-            this.手机QQToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.手机QQToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.手机QQToolStripMenuItem.Text = "手机QQ";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(139, 6);
             // 
             // 应用包ToolStripMenuItem
             // 
             this.应用包ToolStripMenuItem.Name = "应用包ToolStripMenuItem";
-            this.应用包ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.应用包ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.应用包ToolStripMenuItem.Text = "应用包";
             // 
             // 手机游戏ToolStripMenuItem
             // 
             this.手机游戏ToolStripMenuItem.Name = "手机游戏ToolStripMenuItem";
-            this.手机游戏ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.手机游戏ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.手机游戏ToolStripMenuItem.Text = "手机游戏";
             // 
             // 手机音乐ToolStripMenuItem
             // 
             this.手机音乐ToolStripMenuItem.Name = "手机音乐ToolStripMenuItem";
-            this.手机音乐ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.手机音乐ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.手机音乐ToolStripMenuItem.Text = "手机音乐";
             // 
             // 手机空间ToolStripMenuItem
             // 
             this.手机空间ToolStripMenuItem.Name = "手机空间ToolStripMenuItem";
-            this.手机空间ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.手机空间ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.手机空间ToolStripMenuItem.Text = "手机QQ空间";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(139, 6);
             // 
             // 手机生活官网ToolStripMenuItem
             // 
             this.手机生活官网ToolStripMenuItem.Name = "手机生活官网ToolStripMenuItem";
-            this.手机生活官网ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.手机生活官网ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.手机生活官网ToolStripMenuItem.Text = "手机生活官网";
             // 
             // 新闻资讯ToolStripMenuItem
@@ -1305,94 +1305,94 @@
             this.名人博客ToolStripMenuItem,
             this.腾讯论坛ToolStripMenuItem});
             this.新闻资讯ToolStripMenuItem.Name = "新闻资讯ToolStripMenuItem";
-            this.新闻资讯ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.新闻资讯ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.新闻资讯ToolStripMenuItem.Text = "新闻资讯";
             // 
             // 订阅新闻ToolStripMenuItem
             // 
             this.订阅新闻ToolStripMenuItem.Name = "订阅新闻ToolStripMenuItem";
-            this.订阅新闻ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.订阅新闻ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.订阅新闻ToolStripMenuItem.Text = "订阅新闻";
             // 
             // 我的资讯ToolStripMenuItem
             // 
             this.我的资讯ToolStripMenuItem.Name = "我的资讯ToolStripMenuItem";
-            this.我的资讯ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.我的资讯ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.我的资讯ToolStripMenuItem.Text = "我的资讯";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(115, 6);
             // 
             // 新闻频道ToolStripMenuItem
             // 
             this.新闻频道ToolStripMenuItem.Name = "新闻频道ToolStripMenuItem";
-            this.新闻频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.新闻频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.新闻频道ToolStripMenuItem.Text = "新闻频道";
             // 
             // 娱乐频道ToolStripMenuItem
             // 
             this.娱乐频道ToolStripMenuItem.Name = "娱乐频道ToolStripMenuItem";
-            this.娱乐频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.娱乐频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.娱乐频道ToolStripMenuItem.Text = "娱乐频道";
             // 
             // 体育频道ToolStripMenuItem
             // 
             this.体育频道ToolStripMenuItem.Name = "体育频道ToolStripMenuItem";
-            this.体育频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.体育频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.体育频道ToolStripMenuItem.Text = "体育频道";
             // 
             // 汽车频道ToolStripMenuItem
             // 
             this.汽车频道ToolStripMenuItem.Name = "汽车频道ToolStripMenuItem";
-            this.汽车频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.汽车频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.汽车频道ToolStripMenuItem.Text = "汽车频道";
             // 
             // 财经频道ToolStripMenuItem
             // 
             this.财经频道ToolStripMenuItem.Name = "财经频道ToolStripMenuItem";
-            this.财经频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.财经频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.财经频道ToolStripMenuItem.Text = "财经频道";
             // 
             // 女性频道ToolStripMenuItem
             // 
             this.女性频道ToolStripMenuItem.Name = "女性频道ToolStripMenuItem";
-            this.女性频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.女性频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.女性频道ToolStripMenuItem.Text = "女性频道";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(115, 6);
             // 
             // 游戏频道ToolStripMenuItem
             // 
             this.游戏频道ToolStripMenuItem.Name = "游戏频道ToolStripMenuItem";
-            this.游戏频道ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.游戏频道ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.游戏频道ToolStripMenuItem.Text = "游戏频道";
             // 
             // 科技数码ToolStripMenuItem
             // 
             this.科技数码ToolStripMenuItem.Name = "科技数码ToolStripMenuItem";
-            this.科技数码ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.科技数码ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.科技数码ToolStripMenuItem.Text = "科技数码";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(115, 6);
             // 
             // 名人博客ToolStripMenuItem
             // 
             this.名人博客ToolStripMenuItem.Name = "名人博客ToolStripMenuItem";
-            this.名人博客ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.名人博客ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.名人博客ToolStripMenuItem.Text = "名人博客";
             // 
             // 腾讯论坛ToolStripMenuItem
             // 
             this.腾讯论坛ToolStripMenuItem.Name = "腾讯论坛ToolStripMenuItem";
-            this.腾讯论坛ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.腾讯论坛ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.腾讯论坛ToolStripMenuItem.Text = "腾讯论坛";
             // 
             // 财付通ToolStripMenuItem
@@ -1405,43 +1405,43 @@
             this.机票订购ToolStripMenuItem,
             this.超值购物ToolStripMenuItem});
             this.财付通ToolStripMenuItem.Name = "财付通ToolStripMenuItem";
-            this.财付通ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
+            this.财付通ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.财付通ToolStripMenuItem.Text = "财付通";
             // 
             // 我的钱包ToolStripMenuItem
             // 
             this.我的钱包ToolStripMenuItem.Name = "我的钱包ToolStripMenuItem";
-            this.我的钱包ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.我的钱包ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.我的钱包ToolStripMenuItem.Text = "我的钱包";
             // 
             // qQ充值ToolStripMenuItem1
             // 
             this.qQ充值ToolStripMenuItem1.Name = "qQ充值ToolStripMenuItem1";
-            this.qQ充值ToolStripMenuItem1.Size = new System.Drawing.Size(124, 22);
+            this.qQ充值ToolStripMenuItem1.Size = new System.Drawing.Size(118, 22);
             this.qQ充值ToolStripMenuItem1.Text = "QQ充值";
             // 
             // 手机充值ToolStripMenuItem
             // 
             this.手机充值ToolStripMenuItem.Name = "手机充值ToolStripMenuItem";
-            this.手机充值ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.手机充值ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.手机充值ToolStripMenuItem.Text = "手机充值";
             // 
             // 游戏直充ToolStripMenuItem
             // 
             this.游戏直充ToolStripMenuItem.Name = "游戏直充ToolStripMenuItem";
-            this.游戏直充ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.游戏直充ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.游戏直充ToolStripMenuItem.Text = "游戏直充";
             // 
             // 机票订购ToolStripMenuItem
             // 
             this.机票订购ToolStripMenuItem.Name = "机票订购ToolStripMenuItem";
-            this.机票订购ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.机票订购ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.机票订购ToolStripMenuItem.Text = "机票订购";
             // 
             // 超值购物ToolStripMenuItem
             // 
             this.超值购物ToolStripMenuItem.Name = "超值购物ToolStripMenuItem";
-            this.超值购物ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.超值购物ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.超值购物ToolStripMenuItem.Text = "超值购物";
             // 
             // qQ会员ToolStripMenuItem
@@ -1460,65 +1460,65 @@
             this.热门功能ToolStripMenuItem,
             this.生活特权ToolStripMenuItem});
             this.qQ会员ToolStripMenuItem.Name = "qQ会员ToolStripMenuItem";
-            this.qQ会员ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.qQ会员ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.qQ会员ToolStripMenuItem.Text = "QQ会员";
             // 
             // 会员官网ToolStripMenuItem
             // 
             this.会员官网ToolStripMenuItem.Name = "会员官网ToolStripMenuItem";
-            this.会员官网ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员官网ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员官网ToolStripMenuItem.Text = "会员官网";
             // 
             // 会员专区ToolStripMenuItem
             // 
             this.会员专区ToolStripMenuItem.Name = "会员专区ToolStripMenuItem";
-            this.会员专区ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员专区ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员专区ToolStripMenuItem.Text = "会员专区";
             // 
             // 成长体系ToolStripMenuItem
             // 
             this.成长体系ToolStripMenuItem.Name = "成长体系ToolStripMenuItem";
-            this.成长体系ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.成长体系ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.成长体系ToolStripMenuItem.Text = "成长体系";
             // 
             // qQ风尚ToolStripMenuItem
             // 
             this.qQ风尚ToolStripMenuItem.Name = "qQ风尚ToolStripMenuItem";
-            this.qQ风尚ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ风尚ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ风尚ToolStripMenuItem.Text = "QQ风尚";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(139, 6);
             // 
             // 升级成为会员ToolStripMenuItem
             // 
             this.升级成为会员ToolStripMenuItem.Name = "升级成为会员ToolStripMenuItem";
-            this.升级成为会员ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.升级成为会员ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.升级成为会员ToolStripMenuItem.Text = "升级成为会员";
             // 
             // 赠送会员ToolStripMenuItem
             // 
             this.赠送会员ToolStripMenuItem.Name = "赠送会员ToolStripMenuItem";
-            this.赠送会员ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.赠送会员ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.赠送会员ToolStripMenuItem.Text = "赠送会员";
             // 
             // 索要会员ToolStripMenuItem
             // 
             this.索要会员ToolStripMenuItem.Name = "索要会员ToolStripMenuItem";
-            this.索要会员ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.索要会员ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.索要会员ToolStripMenuItem.Text = "索要会员";
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(139, 6);
             // 
             // 全部特权ToolStripMenuItem
             // 
             this.全部特权ToolStripMenuItem.Name = "全部特权ToolStripMenuItem";
-            this.全部特权ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.全部特权ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.全部特权ToolStripMenuItem.Text = "全部特权";
             // 
             // 热门功能ToolStripMenuItem
@@ -1542,106 +1542,106 @@
             this.好友克隆ToolStripMenuItem,
             this.会员群特权ToolStripMenuItem});
             this.热门功能ToolStripMenuItem.Name = "热门功能ToolStripMenuItem";
-            this.热门功能ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.热门功能ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.热门功能ToolStripMenuItem.Text = "热门功能";
             // 
             // 网络硬盘ToolStripMenuItem
             // 
             this.网络硬盘ToolStripMenuItem.Name = "网络硬盘ToolStripMenuItem";
-            this.网络硬盘ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.网络硬盘ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.网络硬盘ToolStripMenuItem.Text = "网络硬盘";
             // 
             // qQ装扮ToolStripMenuItem
             // 
             this.qQ装扮ToolStripMenuItem.Name = "qQ装扮ToolStripMenuItem";
-            this.qQ装扮ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ装扮ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ装扮ToolStripMenuItem.Text = "QQ装扮";
             // 
             // 会员炫彩字ToolStripMenuItem
             // 
             this.会员炫彩字ToolStripMenuItem.Name = "会员炫彩字ToolStripMenuItem";
-            this.会员炫彩字ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员炫彩字ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员炫彩字ToolStripMenuItem.Text = "会员炫彩字";
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(139, 6);
             // 
             // 会员魔法表情ToolStripMenuItem
             // 
             this.会员魔法表情ToolStripMenuItem.Name = "会员魔法表情ToolStripMenuItem";
-            this.会员魔法表情ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员魔法表情ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员魔法表情ToolStripMenuItem.Text = "会员魔法表情";
             // 
             // 会员超级表情ToolStripMenuItem
             // 
             this.会员超级表情ToolStripMenuItem.Name = "会员超级表情ToolStripMenuItem";
-            this.会员超级表情ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员超级表情ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员超级表情ToolStripMenuItem.Text = "会员超级表情";
             // 
             // 表情漫游ToolStripMenuItem
             // 
             this.表情漫游ToolStripMenuItem.Name = "表情漫游ToolStripMenuItem";
-            this.表情漫游ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.表情漫游ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.表情漫游ToolStripMenuItem.Text = "表情漫游";
             // 
             // 会员头像ToolStripMenuItem
             // 
             this.会员头像ToolStripMenuItem.Name = "会员头像ToolStripMenuItem";
-            this.会员头像ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员头像ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员头像ToolStripMenuItem.Text = "会员头像";
             // 
             // 会员个性铃音ToolStripMenuItem
             // 
             this.会员个性铃音ToolStripMenuItem.Name = "会员个性铃音ToolStripMenuItem";
-            this.会员个性铃音ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员个性铃音ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员个性铃音ToolStripMenuItem.Text = "会员个性铃音";
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(139, 6);
             // 
             // 会员红名ToolStripMenuItem
             // 
             this.会员红名ToolStripMenuItem.Name = "会员红名ToolStripMenuItem";
-            this.会员红名ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员红名ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员红名ToolStripMenuItem.Text = "会员红名";
             // 
             // qQ等级加速ToolStripMenuItem
             // 
             this.qQ等级加速ToolStripMenuItem.Name = "qQ等级加速ToolStripMenuItem";
-            this.qQ等级加速ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ等级加速ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ等级加速ToolStripMenuItem.Text = "QQ等级加速";
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(139, 6);
             // 
             // 消息记录漫游ToolStripMenuItem
             // 
             this.消息记录漫游ToolStripMenuItem.Name = "消息记录漫游ToolStripMenuItem";
-            this.消息记录漫游ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.消息记录漫游ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.消息记录漫游ToolStripMenuItem.Text = "消息记录漫游";
             // 
             // 离线下载ToolStripMenuItem
             // 
             this.离线下载ToolStripMenuItem.Name = "离线下载ToolStripMenuItem";
-            this.离线下载ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.离线下载ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.离线下载ToolStripMenuItem.Text = "离线下载";
             // 
             // 好友克隆ToolStripMenuItem
             // 
             this.好友克隆ToolStripMenuItem.Name = "好友克隆ToolStripMenuItem";
-            this.好友克隆ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.好友克隆ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.好友克隆ToolStripMenuItem.Text = "好友克隆";
             // 
             // 会员群特权ToolStripMenuItem
             // 
             this.会员群特权ToolStripMenuItem.Name = "会员群特权ToolStripMenuItem";
-            this.会员群特权ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.会员群特权ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.会员群特权ToolStripMenuItem.Text = "会员群特权";
             // 
             // 生活特权ToolStripMenuItem
@@ -1653,49 +1653,49 @@
             this.qQ旅游ToolStripMenuItem,
             this.qQ返利ToolStripMenuItem});
             this.生活特权ToolStripMenuItem.Name = "生活特权ToolStripMenuItem";
-            this.生活特权ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.生活特权ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.生活特权ToolStripMenuItem.Text = "生活特权";
             // 
             // qQ彩贝ToolStripMenuItem
             // 
             this.qQ彩贝ToolStripMenuItem.Name = "qQ彩贝ToolStripMenuItem";
-            this.qQ彩贝ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ彩贝ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ彩贝ToolStripMenuItem.Text = "QQ彩贝";
             // 
             // qQ电影票ToolStripMenuItem
             // 
             this.qQ电影票ToolStripMenuItem.Name = "qQ电影票ToolStripMenuItem";
-            this.qQ电影票ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ电影票ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ电影票ToolStripMenuItem.Text = "QQ电影票";
             // 
             // qQ团购ToolStripMenuItem
             // 
             this.qQ团购ToolStripMenuItem.Name = "qQ团购ToolStripMenuItem";
-            this.qQ团购ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ团购ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ团购ToolStripMenuItem.Text = "QQ团购";
             // 
             // qQ旅游ToolStripMenuItem
             // 
             this.qQ旅游ToolStripMenuItem.Name = "qQ旅游ToolStripMenuItem";
-            this.qQ旅游ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ旅游ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ旅游ToolStripMenuItem.Text = "QQ旅游";
             // 
             // qQ返利ToolStripMenuItem
             // 
             this.qQ返利ToolStripMenuItem.Name = "qQ返利ToolStripMenuItem";
-            this.qQ返利ToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.qQ返利ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.qQ返利ToolStripMenuItem.Text = "QQ返利";
             // 
             // 我的QQ中心ToolStripMenuItem
             // 
             this.我的QQ中心ToolStripMenuItem.Name = "我的QQ中心ToolStripMenuItem";
-            this.我的QQ中心ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.我的QQ中心ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.我的QQ中心ToolStripMenuItem.Text = "我的QQ中心";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(141, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(127, 6);
             // 
             // 工具ToolStripMenuItem
             // 
@@ -1708,13 +1708,13 @@
             this.查找ToolStripMenuItem,
             this.恢复关闭前状态ToolStripMenuItem});
             this.工具ToolStripMenuItem.Name = "工具ToolStripMenuItem";
-            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.工具ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.工具ToolStripMenuItem.Text = "工具";
             // 
             // qQ在线状态官网ToolStripMenuItem
             // 
             this.qQ在线状态官网ToolStripMenuItem.Name = "qQ在线状态官网ToolStripMenuItem";
-            this.qQ在线状态官网ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.qQ在线状态官网ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.qQ在线状态官网ToolStripMenuItem.Text = "QQ在线状态官网";
             // 
             // 网络收藏夹ToolStripMenuItem
@@ -1724,55 +1724,55 @@
             this.上传本地收藏夹ToolStripMenuItem,
             this.下载网络收藏夹ToolStripMenuItem});
             this.网络收藏夹ToolStripMenuItem.Name = "网络收藏夹ToolStripMenuItem";
-            this.网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.网络收藏夹ToolStripMenuItem.Text = "网络收藏夹";
             // 
             // 管理网络收藏夹ToolStripMenuItem
             // 
             this.管理网络收藏夹ToolStripMenuItem.Name = "管理网络收藏夹ToolStripMenuItem";
-            this.管理网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.管理网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.管理网络收藏夹ToolStripMenuItem.Text = "管理网络收藏夹";
             // 
             // 上传本地收藏夹ToolStripMenuItem
             // 
             this.上传本地收藏夹ToolStripMenuItem.Name = "上传本地收藏夹ToolStripMenuItem";
-            this.上传本地收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.上传本地收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.上传本地收藏夹ToolStripMenuItem.Text = "上传本地收藏夹";
             // 
             // 下载网络收藏夹ToolStripMenuItem
             // 
             this.下载网络收藏夹ToolStripMenuItem.Name = "下载网络收藏夹ToolStripMenuItem";
-            this.下载网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.下载网络收藏夹ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.下载网络收藏夹ToolStripMenuItem.Text = "下载网络收藏夹";
             // 
             // 网络备忘录ToolStripMenuItem
             // 
             this.网络备忘录ToolStripMenuItem.Name = "网络备忘录ToolStripMenuItem";
-            this.网络备忘录ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.网络备忘录ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.网络备忘录ToolStripMenuItem.Text = "网络备忘录";
             // 
             // 消息管理器ToolStripMenuItem
             // 
             this.消息管理器ToolStripMenuItem.Name = "消息管理器ToolStripMenuItem";
-            this.消息管理器ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.消息管理器ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.消息管理器ToolStripMenuItem.Text = "消息管理器";
             // 
             // 数据导入工具ToolStripMenuItem
             // 
             this.数据导入工具ToolStripMenuItem.Name = "数据导入工具ToolStripMenuItem";
-            this.数据导入工具ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.数据导入工具ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.数据导入工具ToolStripMenuItem.Text = "数据导入工具";
             // 
             // 查找ToolStripMenuItem
             // 
             this.查找ToolStripMenuItem.Name = "查找ToolStripMenuItem";
-            this.查找ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.查找ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.查找ToolStripMenuItem.Text = "查找";
             // 
             // 恢复关闭前状态ToolStripMenuItem
             // 
             this.恢复关闭前状态ToolStripMenuItem.Name = "恢复关闭前状态ToolStripMenuItem";
-            this.恢复关闭前状态ToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.恢复关闭前状态ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.恢复关闭前状态ToolStripMenuItem.Text = "恢复关闭前状态";
             // 
             // 系统设置ToolStripMenuItem
@@ -1784,48 +1784,48 @@
             this.安全设置ToolStripMenuItem,
             this.隐私设置ToolStripMenuItem});
             this.系统设置ToolStripMenuItem.Name = "系统设置ToolStripMenuItem";
-            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.系统设置ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.系统设置ToolStripMenuItem.Text = "系统设置";
             // 
             // 个人资料ToolStripMenuItem
             // 
             this.个人资料ToolStripMenuItem.Name = "个人资料ToolStripMenuItem";
-            this.个人资料ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.个人资料ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.个人资料ToolStripMenuItem.Text = "个人资料";
             // 
             // toolStripMenuItem16
             // 
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(121, 6);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(115, 6);
             // 
             // 基本设置ToolStripMenuItem
             // 
             this.基本设置ToolStripMenuItem.Name = "基本设置ToolStripMenuItem";
-            this.基本设置ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.基本设置ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.基本设置ToolStripMenuItem.Text = "基本设置";
             // 
             // 安全设置ToolStripMenuItem
             // 
             this.安全设置ToolStripMenuItem.Name = "安全设置ToolStripMenuItem";
-            this.安全设置ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.安全设置ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.安全设置ToolStripMenuItem.Text = "安全设置";
             // 
             // 隐私设置ToolStripMenuItem
             // 
             this.隐私设置ToolStripMenuItem.Name = "隐私设置ToolStripMenuItem";
-            this.隐私设置ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.隐私设置ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.隐私设置ToolStripMenuItem.Text = "隐私设置";
             // 
             // 软件升级ToolStripMenuItem
             // 
             this.软件升级ToolStripMenuItem.Name = "软件升级ToolStripMenuItem";
-            this.软件升级ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.软件升级ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.软件升级ToolStripMenuItem.Text = "软件升级";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(141, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(127, 6);
             // 
             // 安全中心ToolStripMenuItem
             // 
@@ -1836,37 +1836,37 @@
             this.举报恶意行为ToolStripMenuItem,
             this.qQ安全帮助ToolStripMenuItem});
             this.安全中心ToolStripMenuItem.Name = "安全中心ToolStripMenuItem";
-            this.安全中心ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.安全中心ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.安全中心ToolStripMenuItem.Text = "安全中心";
             // 
             // 安全沟通ToolStripMenuItem
             // 
             this.安全沟通ToolStripMenuItem.Name = "安全沟通ToolStripMenuItem";
-            this.安全沟通ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.安全沟通ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.安全沟通ToolStripMenuItem.Text = "安全沟通";
             // 
             // 安全中心首页ToolStripMenuItem
             // 
             this.安全中心首页ToolStripMenuItem.Name = "安全中心首页ToolStripMenuItem";
-            this.安全中心首页ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.安全中心首页ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.安全中心首页ToolStripMenuItem.Text = "安全中心首页";
             // 
             // 申请密码保护ToolStripMenuItem
             // 
             this.申请密码保护ToolStripMenuItem.Name = "申请密码保护ToolStripMenuItem";
-            this.申请密码保护ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.申请密码保护ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.申请密码保护ToolStripMenuItem.Text = "申请密码保护";
             // 
             // 举报恶意行为ToolStripMenuItem
             // 
             this.举报恶意行为ToolStripMenuItem.Name = "举报恶意行为ToolStripMenuItem";
-            this.举报恶意行为ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.举报恶意行为ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.举报恶意行为ToolStripMenuItem.Text = "举报恶意行为";
             // 
             // qQ安全帮助ToolStripMenuItem
             // 
             this.qQ安全帮助ToolStripMenuItem.Name = "qQ安全帮助ToolStripMenuItem";
-            this.qQ安全帮助ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ安全帮助ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.qQ安全帮助ToolStripMenuItem.Text = "QQ安全帮助";
             // 
             // 帮组ToolStripMenuItem
@@ -1882,94 +1882,94 @@
             this.qQ官方微博ToolStripMenuItem,
             this.关于QQ2013ToolStripMenuItem});
             this.帮组ToolStripMenuItem.Name = "帮组ToolStripMenuItem";
-            this.帮组ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.帮组ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.帮组ToolStripMenuItem.Text = "帮助";
             // 
             // 使用帮助ToolStripMenuItem
             // 
             this.使用帮助ToolStripMenuItem.Name = "使用帮助ToolStripMenuItem";
-            this.使用帮助ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.使用帮助ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.使用帮助ToolStripMenuItem.Text = "使用帮助";
             // 
             // 腾讯客服ToolStripMenuItem
             // 
             this.腾讯客服ToolStripMenuItem.Name = "腾讯客服ToolStripMenuItem";
-            this.腾讯客服ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.腾讯客服ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.腾讯客服ToolStripMenuItem.Text = "腾讯客服";
             // 
             // 反馈问题ToolStripMenuItem
             // 
             this.反馈问题ToolStripMenuItem.Name = "反馈问题ToolStripMenuItem";
-            this.反馈问题ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.反馈问题ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.反馈问题ToolStripMenuItem.Text = "反馈问题";
             // 
             // toolStripMenuItem17
             // 
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(127, 6);
             // 
             // qQ新特性ToolStripMenuItem
             // 
             this.qQ新特性ToolStripMenuItem.Name = "qQ新特性ToolStripMenuItem";
-            this.qQ新特性ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ新特性ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.qQ新特性ToolStripMenuItem.Text = "QQ新特性";
             // 
             // toolStripMenuItem18
             // 
             this.toolStripMenuItem18.Name = "toolStripMenuItem18";
-            this.toolStripMenuItem18.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem18.Size = new System.Drawing.Size(127, 6);
             // 
             // iMQQ官网ToolStripMenuItem
             // 
             this.iMQQ官网ToolStripMenuItem.Name = "iMQQ官网ToolStripMenuItem";
-            this.iMQQ官网ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.iMQQ官网ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.iMQQ官网ToolStripMenuItem.Text = "I\'M QQ官网";
             // 
             // qQ官方微博ToolStripMenuItem
             // 
             this.qQ官方微博ToolStripMenuItem.Name = "qQ官方微博ToolStripMenuItem";
-            this.qQ官方微博ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.qQ官方微博ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.qQ官方微博ToolStripMenuItem.Text = "QQ官方微博";
             // 
             // 关于QQ2013ToolStripMenuItem
             // 
             this.关于QQ2013ToolStripMenuItem.Name = "关于QQ2013ToolStripMenuItem";
-            this.关于QQ2013ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.关于QQ2013ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.关于QQ2013ToolStripMenuItem.Text = "关于QQ2013";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(141, 6);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(127, 6);
             // 
             // 好友管理ToolStripMenuItem
             // 
             this.好友管理ToolStripMenuItem.Name = "好友管理ToolStripMenuItem";
-            this.好友管理ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.好友管理ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.好友管理ToolStripMenuItem.Text = "好友管理";
             // 
             // 修改密码ToolStripMenuItem
             // 
             this.修改密码ToolStripMenuItem.Name = "修改密码ToolStripMenuItem";
-            this.修改密码ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.修改密码ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.修改密码ToolStripMenuItem.Text = "修改密码";
             // 
             // 更改用户ToolStripMenuItem
             // 
             this.更改用户ToolStripMenuItem.Name = "更改用户ToolStripMenuItem";
-            this.更改用户ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.更改用户ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.更改用户ToolStripMenuItem.Text = "更改用户";
             // 
             // 锁定QQToolStripMenuItem
             // 
             this.锁定QQToolStripMenuItem.Name = "锁定QQToolStripMenuItem";
-            this.锁定QQToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.锁定QQToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.锁定QQToolStripMenuItem.Text = "锁定QQ";
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(144, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             // 
             // skinToolStrip2
@@ -2036,7 +2036,7 @@
             this.toolStripButton17.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton17.Margin = new System.Windows.Forms.Padding(5, 1, 0, 2);
             this.toolStripButton17.Name = "toolStripButton17";
-            this.toolStripButton17.Size = new System.Drawing.Size(42, 21);
+            this.toolStripButton17.Size = new System.Drawing.Size(37, 21);
             this.toolStripButton17.Text = "11";
             this.toolStripButton17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolStripButton17.ToolTipText = "圈子";
@@ -2047,7 +2047,7 @@
             this.toolStripButton16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripButton16.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton16.Name = "toolStripButton16";
-            this.toolStripButton16.Size = new System.Drawing.Size(35, 21);
+            this.toolStripButton16.Size = new System.Drawing.Size(31, 21);
             this.toolStripButton16.Text = "4";
             this.toolStripButton16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolStripButton16.ToolTipText = "圈子";
@@ -2058,7 +2058,7 @@
             this.toolStripButton13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.toolStripButton13.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton13.Name = "toolStripButton13";
-            this.toolStripButton13.Size = new System.Drawing.Size(42, 21);
+            this.toolStripButton13.Size = new System.Drawing.Size(37, 21);
             this.toolStripButton13.Text = "24";
             this.toolStripButton13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.toolStripButton13.ToolTipText = "圈子";
@@ -2089,7 +2089,7 @@
             this.toolStripButton18.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton18.Image")));
             this.toolStripButton18.ImageTransparentColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(0)))), ((int)(((byte)(11)))));
             this.toolStripButton18.Name = "toolStripButton18";
-            this.toolStripButton18.Size = new System.Drawing.Size(35, 21);
+            this.toolStripButton18.Size = new System.Drawing.Size(31, 21);
             this.toolStripButton18.Text = "2";
             // 
             // btnTq
@@ -2148,7 +2148,7 @@
             this.UserMenu.ItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
             this.UserMenu.Name = "MenuState";
             this.UserMenu.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.UserMenu.Size = new System.Drawing.Size(178, 330);
+            this.UserMenu.Size = new System.Drawing.Size(173, 330);
             this.UserMenu.TitleAnamorphosis = false;
             this.UserMenu.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.UserMenu.TitleRadius = 4;
@@ -2157,7 +2157,7 @@
             // toolStripMenuItem51
             // 
             this.toolStripMenuItem51.Name = "toolStripMenuItem51";
-            this.toolStripMenuItem51.Size = new System.Drawing.Size(177, 22);
+            this.toolStripMenuItem51.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem51.Tag = "1";
             this.toolStripMenuItem51.Text = "发送即时消息";
             this.toolStripMenuItem51.ToolTipText = "表示希望好友看到您在线。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -2165,18 +2165,18 @@
             // toolStripMenuItem56
             // 
             this.toolStripMenuItem56.Name = "toolStripMenuItem56";
-            this.toolStripMenuItem56.Size = new System.Drawing.Size(177, 22);
+            this.toolStripMenuItem56.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem56.Text = "发送电子邮件";
             // 
             // toolStripMenuItem60
             // 
             this.toolStripMenuItem60.Name = "toolStripMenuItem60";
-            this.toolStripMenuItem60.Size = new System.Drawing.Size(174, 6);
+            this.toolStripMenuItem60.Size = new System.Drawing.Size(169, 6);
             // 
             // 进入空间ToolStripMenuItem
             // 
             this.进入空间ToolStripMenuItem.Name = "进入空间ToolStripMenuItem";
-            this.进入空间ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.进入空间ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.进入空间ToolStripMenuItem.Text = "进入空间";
             // 
             // 设置空间限制访问ToolStripMenuItem
@@ -2185,19 +2185,19 @@
             this.允许访问ToolStripMenuItem,
             this.禁止访问ToolStripMenuItem});
             this.设置空间限制访问ToolStripMenuItem.Name = "设置空间限制访问ToolStripMenuItem";
-            this.设置空间限制访问ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.设置空间限制访问ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.设置空间限制访问ToolStripMenuItem.Text = "设置空间限制访问";
             // 
             // 允许访问ToolStripMenuItem
             // 
             this.允许访问ToolStripMenuItem.Name = "允许访问ToolStripMenuItem";
-            this.允许访问ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.允许访问ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.允许访问ToolStripMenuItem.Text = "允许访问";
             // 
             // 禁止访问ToolStripMenuItem
             // 
             this.禁止访问ToolStripMenuItem.Name = "禁止访问ToolStripMenuItem";
-            this.禁止访问ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.禁止访问ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.禁止访问ToolStripMenuItem.Text = "禁止访问";
             // 
             // 会员快捷功能ToolStripMenuItem
@@ -2217,83 +2217,83 @@
             this.赠送会员ToolStripMenuItem1,
             this.索要会员ToolStripMenuItem1});
             this.会员快捷功能ToolStripMenuItem.Name = "会员快捷功能ToolStripMenuItem";
-            this.会员快捷功能ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.会员快捷功能ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.会员快捷功能ToolStripMenuItem.Text = "会员快捷功能";
             // 
             // 设置QQ装扮ToolStripMenuItem
             // 
             this.设置QQ装扮ToolStripMenuItem.Name = "设置QQ装扮ToolStripMenuItem";
-            this.设置QQ装扮ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.设置QQ装扮ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.设置QQ装扮ToolStripMenuItem.Text = "设置QQ装扮";
             // 
             // 设置动态炫铃ToolStripMenuItem
             // 
             this.设置动态炫铃ToolStripMenuItem.Name = "设置动态炫铃ToolStripMenuItem";
-            this.设置动态炫铃ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.设置动态炫铃ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.设置动态炫铃ToolStripMenuItem.Text = "设置动态炫铃";
             // 
             // 设置炫铃ToolStripMenuItem
             // 
             this.设置炫铃ToolStripMenuItem.Name = "设置炫铃ToolStripMenuItem";
-            this.设置炫铃ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.设置炫铃ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.设置炫铃ToolStripMenuItem.Text = "设置炫铃";
             // 
             // 设置好友铃音ToolStripMenuItem
             // 
             this.设置好友铃音ToolStripMenuItem.Name = "设置好友铃音ToolStripMenuItem";
-            this.设置好友铃音ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.设置好友铃音ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.设置好友铃音ToolStripMenuItem.Text = "设置好友铃音";
             // 
             // toolStripMenuItem54
             // 
             this.toolStripMenuItem54.Name = "toolStripMenuItem54";
-            this.toolStripMenuItem54.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem54.Size = new System.Drawing.Size(139, 6);
             // 
             // 会员群特权ToolStripMenuItem1
             // 
             this.会员群特权ToolStripMenuItem1.Name = "会员群特权ToolStripMenuItem1";
-            this.会员群特权ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.会员群特权ToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.会员群特权ToolStripMenuItem1.Text = "会员群特权";
             // 
             // 群克隆ToolStripMenuItem
             // 
             this.群克隆ToolStripMenuItem.Name = "群克隆ToolStripMenuItem";
-            this.群克隆ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.群克隆ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.群克隆ToolStripMenuItem.Text = "群克隆";
             // 
             // 好友克隆ToolStripMenuItem1
             // 
             this.好友克隆ToolStripMenuItem1.Name = "好友克隆ToolStripMenuItem1";
-            this.好友克隆ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.好友克隆ToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.好友克隆ToolStripMenuItem1.Text = "好友克隆";
             // 
             // 好友上线通知ToolStripMenuItem
             // 
             this.好友上线通知ToolStripMenuItem.Name = "好友上线通知ToolStripMenuItem";
-            this.好友上线通知ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.好友上线通知ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.好友上线通知ToolStripMenuItem.Text = "好友上线通知";
             // 
             // 发送会员贺卡ToolStripMenuItem
             // 
             this.发送会员贺卡ToolStripMenuItem.Name = "发送会员贺卡ToolStripMenuItem";
-            this.发送会员贺卡ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.发送会员贺卡ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.发送会员贺卡ToolStripMenuItem.Text = "发送会员贺卡";
             // 
             // toolStripMenuItem55
             // 
             this.toolStripMenuItem55.Name = "toolStripMenuItem55";
-            this.toolStripMenuItem55.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem55.Size = new System.Drawing.Size(139, 6);
             // 
             // 赠送会员ToolStripMenuItem1
             // 
             this.赠送会员ToolStripMenuItem1.Name = "赠送会员ToolStripMenuItem1";
-            this.赠送会员ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.赠送会员ToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.赠送会员ToolStripMenuItem1.Text = "赠送会员";
             // 
             // 索要会员ToolStripMenuItem1
             // 
             this.索要会员ToolStripMenuItem1.Name = "索要会员ToolStripMenuItem1";
-            this.索要会员ToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.索要会员ToolStripMenuItem1.Size = new System.Drawing.Size(142, 22);
             this.索要会员ToolStripMenuItem1.Text = "索要会员";
             // 
             // toolStripMenuItem57
@@ -2303,13 +2303,13 @@
             this.toolStripMenuItem59,
             this.toolStripMenuItem77});
             this.toolStripMenuItem57.Name = "toolStripMenuItem57";
-            this.toolStripMenuItem57.Size = new System.Drawing.Size(177, 22);
+            this.toolStripMenuItem57.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem57.Text = "充值/支付快捷功能";
             // 
             // toolStripMenuItem58
             // 
             this.toolStripMenuItem58.Name = "toolStripMenuItem58";
-            this.toolStripMenuItem58.Size = new System.Drawing.Size(149, 22);
+            this.toolStripMenuItem58.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem58.Text = "充值Q币/Q点";
             // 
             // toolStripMenuItem59
@@ -2332,103 +2332,103 @@
             this.toolStripMenuItem75,
             this.toolStripMenuItem76});
             this.toolStripMenuItem59.Name = "toolStripMenuItem59";
-            this.toolStripMenuItem59.Size = new System.Drawing.Size(149, 22);
+            this.toolStripMenuItem59.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem59.Text = "开通包月服务";
             // 
             // toolStripMenuItem61
             // 
             this.toolStripMenuItem61.Name = "toolStripMenuItem61";
-            this.toolStripMenuItem61.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem61.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem61.Text = "QQ会员";
             // 
             // toolStripMenuItem62
             // 
             this.toolStripMenuItem62.Name = "toolStripMenuItem62";
-            this.toolStripMenuItem62.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem62.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem62.Text = "黄钻贵族";
             // 
             // toolStripMenuItem63
             // 
             this.toolStripMenuItem63.Name = "toolStripMenuItem63";
-            this.toolStripMenuItem63.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem63.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem63.Text = "红钻贵族";
             // 
             // toolStripMenuItem64
             // 
             this.toolStripMenuItem64.Name = "toolStripMenuItem64";
-            this.toolStripMenuItem64.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem64.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem64.Text = "绿钻贵族";
             // 
             // toolStripMenuItem65
             // 
             this.toolStripMenuItem65.Name = "toolStripMenuItem65";
-            this.toolStripMenuItem65.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem65.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem65.Text = "超级QQ";
             // 
             // toolStripMenuItem66
             // 
             this.toolStripMenuItem66.Name = "toolStripMenuItem66";
-            this.toolStripMenuItem66.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem66.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem66.Text = "蓝钻贵族";
             // 
             // toolStripMenuItem67
             // 
             this.toolStripMenuItem67.Name = "toolStripMenuItem67";
-            this.toolStripMenuItem67.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem67.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem67.Text = "粉钻贵族";
             // 
             // toolStripMenuItem68
             // 
             this.toolStripMenuItem68.Name = "toolStripMenuItem68";
-            this.toolStripMenuItem68.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem68.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem68.Text = "CF会员";
             // 
             // toolStripMenuItem69
             // 
             this.toolStripMenuItem69.Name = "toolStripMenuItem69";
-            this.toolStripMenuItem69.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem69.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem69.Text = "DNF黑钻";
             // 
             // toolStripMenuItem70
             // 
             this.toolStripMenuItem70.Name = "toolStripMenuItem70";
-            this.toolStripMenuItem70.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem70.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem70.Text = "炫舞紫钻";
             // 
             // toolStripMenuItem71
             // 
             this.toolStripMenuItem71.Name = "toolStripMenuItem71";
-            this.toolStripMenuItem71.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem71.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem71.Text = "飞车紫钻";
             // 
             // toolStripMenuItem72
             // 
             this.toolStripMenuItem72.Name = "toolStripMenuItem72";
-            this.toolStripMenuItem72.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem72.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem72.Text = "QQ堂紫钻";
             // 
             // toolStripMenuItem73
             // 
             this.toolStripMenuItem73.Name = "toolStripMenuItem73";
-            this.toolStripMenuItem73.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem73.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem73.Text = "AVA精英";
             // 
             // toolStripMenuItem74
             // 
             this.toolStripMenuItem74.Name = "toolStripMenuItem74";
-            this.toolStripMenuItem74.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem74.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem74.Text = "音速紫钻";
             // 
             // toolStripMenuItem75
             // 
             this.toolStripMenuItem75.Name = "toolStripMenuItem75";
-            this.toolStripMenuItem75.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem75.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem75.Text = "寻仙VIP";
             // 
             // toolStripMenuItem76
             // 
             this.toolStripMenuItem76.Name = "toolStripMenuItem76";
-            this.toolStripMenuItem76.Size = new System.Drawing.Size(132, 22);
+            this.toolStripMenuItem76.Size = new System.Drawing.Size(118, 22);
             this.toolStripMenuItem76.Text = "读书VIP";
             // 
             // toolStripMenuItem77
@@ -2450,103 +2450,103 @@
             this.toolStripMenuItem91,
             this.toolStripMenuItem92});
             this.toolStripMenuItem77.Name = "toolStripMenuItem77";
-            this.toolStripMenuItem77.Size = new System.Drawing.Size(149, 22);
+            this.toolStripMenuItem77.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem77.Text = "充值游戏点卷";
             // 
             // toolStripMenuItem78
             // 
             this.toolStripMenuItem78.Name = "toolStripMenuItem78";
-            this.toolStripMenuItem78.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem78.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem78.Text = "CF点卷";
             // 
             // toolStripMenuItem79
             // 
             this.toolStripMenuItem79.Name = "toolStripMenuItem79";
-            this.toolStripMenuItem79.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem79.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem79.Text = "DNF点卷";
             // 
             // toolStripMenuItem80
             // 
             this.toolStripMenuItem80.Name = "toolStripMenuItem80";
-            this.toolStripMenuItem80.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem80.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem80.Text = "AVA点卷";
             // 
             // toolStripMenuItem81
             // 
             this.toolStripMenuItem81.Name = "toolStripMenuItem81";
-            this.toolStripMenuItem81.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem81.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem81.Text = "QQ炫舞点卷";
             // 
             // toolStripMenuItem82
             // 
             this.toolStripMenuItem82.Name = "toolStripMenuItem82";
-            this.toolStripMenuItem82.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem82.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem82.Text = "QQ飞车点卷";
             // 
             // toolStripMenuItem83
             // 
             this.toolStripMenuItem83.Name = "toolStripMenuItem83";
-            this.toolStripMenuItem83.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem83.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem83.Text = "七雄争霸元宝";
             // 
             // toolStripMenuItem84
             // 
             this.toolStripMenuItem84.Name = "toolStripMenuItem84";
-            this.toolStripMenuItem84.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem84.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem84.Text = "幻想世界金子";
             // 
             // toolStripMenuItem85
             // 
             this.toolStripMenuItem85.Name = "toolStripMenuItem85";
-            this.toolStripMenuItem85.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem85.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem85.Text = "寻仙仙玉";
             // 
             // toolStripMenuItem86
             // 
             this.toolStripMenuItem86.Name = "toolStripMenuItem86";
-            this.toolStripMenuItem86.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem86.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem86.Text = "QQ华夏点卷";
             // 
             // toolStripMenuItem87
             // 
             this.toolStripMenuItem87.Name = "toolStripMenuItem87";
-            this.toolStripMenuItem87.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem87.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem87.Text = "大明龙权点卷";
             // 
             // toolStripMenuItem88
             // 
             this.toolStripMenuItem88.Name = "toolStripMenuItem88";
-            this.toolStripMenuItem88.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem88.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem88.Text = "烽火战国点卷";
             // 
             // toolStripMenuItem89
             // 
             this.toolStripMenuItem89.Name = "toolStripMenuItem89";
-            this.toolStripMenuItem89.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem89.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem89.Text = "三国点卷";
             // 
             // toolStripMenuItem90
             // 
             this.toolStripMenuItem90.Name = "toolStripMenuItem90";
-            this.toolStripMenuItem90.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem90.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem90.Text = "自由幻想彩玉";
             // 
             // toolStripMenuItem91
             // 
             this.toolStripMenuItem91.Name = "toolStripMenuItem91";
-            this.toolStripMenuItem91.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem91.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem91.Text = "丝路英雄路币";
             // 
             // toolStripMenuItem92
             // 
             this.toolStripMenuItem92.Name = "toolStripMenuItem92";
-            this.toolStripMenuItem92.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem92.Size = new System.Drawing.Size(142, 22);
             this.toolStripMenuItem92.Text = "绿色征途点卷";
             // 
             // toolStripMenuItem52
             // 
             this.toolStripMenuItem52.Name = "toolStripMenuItem52";
-            this.toolStripMenuItem52.Size = new System.Drawing.Size(174, 6);
+            this.toolStripMenuItem52.Size = new System.Drawing.Size(169, 6);
             // 
             // 移动联系人至ToolStripMenuItem
             // 
@@ -2555,43 +2555,43 @@
             this.自己ToolStripMenuItem,
             this.黑名单ToolStripMenuItem});
             this.移动联系人至ToolStripMenuItem.Name = "移动联系人至ToolStripMenuItem";
-            this.移动联系人至ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.移动联系人至ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.移动联系人至ToolStripMenuItem.Text = "移动联系人至";
             // 
             // 我的好友ToolStripMenuItem
             // 
             this.我的好友ToolStripMenuItem.Name = "我的好友ToolStripMenuItem";
-            this.我的好友ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.我的好友ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.我的好友ToolStripMenuItem.Text = "我的好友";
             // 
             // 自己ToolStripMenuItem
             // 
             this.自己ToolStripMenuItem.Name = "自己ToolStripMenuItem";
-            this.自己ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.自己ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.自己ToolStripMenuItem.Text = "自己";
             // 
             // 黑名单ToolStripMenuItem
             // 
             this.黑名单ToolStripMenuItem.Name = "黑名单ToolStripMenuItem";
-            this.黑名单ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
+            this.黑名单ToolStripMenuItem.Size = new System.Drawing.Size(118, 22);
             this.黑名单ToolStripMenuItem.Text = "黑名单";
             // 
             // 删除好友ToolStripMenuItem
             // 
             this.删除好友ToolStripMenuItem.Name = "删除好友ToolStripMenuItem";
-            this.删除好友ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.删除好友ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.删除好友ToolStripMenuItem.Text = "删除好友";
             // 
             // 举报此用户ToolStripMenuItem
             // 
             this.举报此用户ToolStripMenuItem.Name = "举报此用户ToolStripMenuItem";
-            this.举报此用户ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.举报此用户ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.举报此用户ToolStripMenuItem.Text = "举报此用户";
             // 
             // 修改备注名ToolStripMenuItem
             // 
             this.修改备注名ToolStripMenuItem.Name = "修改备注名ToolStripMenuItem";
-            this.修改备注名ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.修改备注名ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.修改备注名ToolStripMenuItem.Text = "修改备注名";
             // 
             // 好友管理ToolStripMenuItem1
@@ -2602,31 +2602,31 @@
             this.好友管理器ToolStripMenuItem1,
             this.生存桌面快捷方式ToolStripMenuItem});
             this.好友管理ToolStripMenuItem1.Name = "好友管理ToolStripMenuItem1";
-            this.好友管理ToolStripMenuItem1.Size = new System.Drawing.Size(177, 22);
+            this.好友管理ToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
             this.好友管理ToolStripMenuItem1.Text = "好友管理";
             // 
             // 给他推荐好友ToolStripMenuItem
             // 
             this.给他推荐好友ToolStripMenuItem.Name = "给他推荐好友ToolStripMenuItem";
-            this.给他推荐好友ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.给他推荐好友ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.给他推荐好友ToolStripMenuItem.Text = "给他推荐好友";
             // 
             // 关注此好友ToolStripMenuItem
             // 
             this.关注此好友ToolStripMenuItem.Name = "关注此好友ToolStripMenuItem";
-            this.关注此好友ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.关注此好友ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.关注此好友ToolStripMenuItem.Text = "关注此好友";
             // 
             // 好友管理器ToolStripMenuItem1
             // 
             this.好友管理器ToolStripMenuItem1.Name = "好友管理器ToolStripMenuItem1";
-            this.好友管理器ToolStripMenuItem1.Size = new System.Drawing.Size(172, 22);
+            this.好友管理器ToolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
             this.好友管理器ToolStripMenuItem1.Text = "好友管理器";
             // 
             // 生存桌面快捷方式ToolStripMenuItem
             // 
             this.生存桌面快捷方式ToolStripMenuItem.Name = "生存桌面快捷方式ToolStripMenuItem";
-            this.生存桌面快捷方式ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.生存桌面快捷方式ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.生存桌面快捷方式ToolStripMenuItem.Text = "生存桌面快捷方式";
             // 
             // 设置权限ToolStripMenuItem
@@ -2636,31 +2636,31 @@
             this.在线对其隐身ToolStripMenuItem,
             this.好友上线提醒ToolStripMenuItem});
             this.设置权限ToolStripMenuItem.Name = "设置权限ToolStripMenuItem";
-            this.设置权限ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.设置权限ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.设置权限ToolStripMenuItem.Text = "设置权限";
             // 
             // 屏蔽此人消息ToolStripMenuItem
             // 
             this.屏蔽此人消息ToolStripMenuItem.Name = "屏蔽此人消息ToolStripMenuItem";
-            this.屏蔽此人消息ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.屏蔽此人消息ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.屏蔽此人消息ToolStripMenuItem.Text = "屏蔽此人消息";
             // 
             // 在线对其隐身ToolStripMenuItem
             // 
             this.在线对其隐身ToolStripMenuItem.Name = "在线对其隐身ToolStripMenuItem";
-            this.在线对其隐身ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.在线对其隐身ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.在线对其隐身ToolStripMenuItem.Text = "在线对其隐身";
             // 
             // 好友上线提醒ToolStripMenuItem
             // 
             this.好友上线提醒ToolStripMenuItem.Name = "好友上线提醒ToolStripMenuItem";
-            this.好友上线提醒ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.好友上线提醒ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.好友上线提醒ToolStripMenuItem.Text = "好友上线提醒";
             // 
             // toolStripMenuItem53
             // 
             this.toolStripMenuItem53.Name = "toolStripMenuItem53";
-            this.toolStripMenuItem53.Size = new System.Drawing.Size(174, 6);
+            this.toolStripMenuItem53.Size = new System.Drawing.Size(169, 6);
             // 
             // 消息记录ToolStripMenuItem
             // 
@@ -2669,31 +2669,31 @@
             this.查看漫游消息ToolStripMenuItem,
             this.查看上传消息ToolStripMenuItem});
             this.消息记录ToolStripMenuItem.Name = "消息记录ToolStripMenuItem";
-            this.消息记录ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.消息记录ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.消息记录ToolStripMenuItem.Text = "消息记录";
             // 
             // 查看本地消息ToolStripMenuItem
             // 
             this.查看本地消息ToolStripMenuItem.Name = "查看本地消息ToolStripMenuItem";
-            this.查看本地消息ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.查看本地消息ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.查看本地消息ToolStripMenuItem.Text = "查看本地消息";
             // 
             // 查看漫游消息ToolStripMenuItem
             // 
             this.查看漫游消息ToolStripMenuItem.Name = "查看漫游消息ToolStripMenuItem";
-            this.查看漫游消息ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.查看漫游消息ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.查看漫游消息ToolStripMenuItem.Text = "查看漫游消息";
             // 
             // 查看上传消息ToolStripMenuItem
             // 
             this.查看上传消息ToolStripMenuItem.Name = "查看上传消息ToolStripMenuItem";
-            this.查看上传消息ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.查看上传消息ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.查看上传消息ToolStripMenuItem.Text = "查看上传消息";
             // 
             // 查看资料ToolStripMenuItem
             // 
             this.查看资料ToolStripMenuItem.Name = "查看资料ToolStripMenuItem";
-            this.查看资料ToolStripMenuItem.Size = new System.Drawing.Size(177, 22);
+            this.查看资料ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
             this.查看资料ToolStripMenuItem.Text = "查看资料";
             // 
             // GroupingMenu
@@ -2739,7 +2739,7 @@
             this.GroupingMenu.ItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
             this.GroupingMenu.Name = "MenuState";
             this.GroupingMenu.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.GroupingMenu.Size = new System.Drawing.Size(173, 392);
+            this.GroupingMenu.Size = new System.Drawing.Size(167, 392);
             this.GroupingMenu.TitleAnamorphosis = false;
             this.GroupingMenu.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.GroupingMenu.TitleRadius = 4;
@@ -2755,7 +2755,7 @@
             this.toolStripSeparator1,
             this.toolStripMenuItem43});
             this.toolStripMenuItem19.Name = "toolStripMenuItem19";
-            this.toolStripMenuItem19.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem19.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem19.Tag = "1";
             this.toolStripMenuItem19.Text = "头像显示";
             this.toolStripMenuItem19.ToolTipText = "表示希望好友看到您在线。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -2763,35 +2763,35 @@
             // toolStripMenuItem21
             // 
             this.toolStripMenuItem21.Name = "toolStripMenuItem21";
-            this.toolStripMenuItem21.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem21.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem21.Text = "大头像";
             // 
             // toolStripMenuItem22
             // 
             this.toolStripMenuItem22.Name = "toolStripMenuItem22";
-            this.toolStripMenuItem22.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem22.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem22.Text = "小头像";
             // 
             // toolStripMenuItem34
             // 
             this.toolStripMenuItem34.Name = "toolStripMenuItem34";
-            this.toolStripMenuItem34.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem34.Size = new System.Drawing.Size(163, 6);
             // 
             // toolStripMenuItem42
             // 
             this.toolStripMenuItem42.Name = "toolStripMenuItem42";
-            this.toolStripMenuItem42.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem42.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem42.Text = "选中时显示大头像";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(163, 6);
             // 
             // toolStripMenuItem43
             // 
             this.toolStripMenuItem43.Name = "toolStripMenuItem43";
-            this.toolStripMenuItem43.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem43.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem43.Text = "显示我的头像";
             // 
             // toolStripMenuItem122
@@ -2801,25 +2801,25 @@
             this.toolStripMenuItem124,
             this.toolStripMenuItem125});
             this.toolStripMenuItem122.Name = "toolStripMenuItem122";
-            this.toolStripMenuItem122.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem122.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem122.Text = "名称显示";
             // 
             // toolStripMenuItem123
             // 
             this.toolStripMenuItem123.Name = "toolStripMenuItem123";
-            this.toolStripMenuItem123.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem123.Size = new System.Drawing.Size(154, 22);
             this.toolStripMenuItem123.Text = "显示备注和昵称";
             // 
             // toolStripMenuItem124
             // 
             this.toolStripMenuItem124.Name = "toolStripMenuItem124";
-            this.toolStripMenuItem124.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem124.Size = new System.Drawing.Size(154, 22);
             this.toolStripMenuItem124.Text = "显示备注";
             // 
             // toolStripMenuItem125
             // 
             this.toolStripMenuItem125.Name = "toolStripMenuItem125";
-            this.toolStripMenuItem125.Size = new System.Drawing.Size(160, 22);
+            this.toolStripMenuItem125.Size = new System.Drawing.Size(154, 22);
             this.toolStripMenuItem125.Text = "显示昵称";
             // 
             // toolStripMenuItem152
@@ -2832,47 +2832,47 @@
             this.toolStripMenuItem45,
             this.动画效果ToolStripMenuItem});
             this.toolStripMenuItem152.Name = "toolStripMenuItem152";
-            this.toolStripMenuItem152.Size = new System.Drawing.Size(172, 22);
+            this.toolStripMenuItem152.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem152.Text = "列表显示";
             // 
             // 单列显示ToolStripMenuItem
             // 
             this.单列显示ToolStripMenuItem.Name = "单列显示ToolStripMenuItem";
-            this.单列显示ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.单列显示ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.单列显示ToolStripMenuItem.Text = "单列显示";
             // 
             // 多列平铺ToolStripMenuItem
             // 
             this.多列平铺ToolStripMenuItem.Name = "多列平铺ToolStripMenuItem";
-            this.多列平铺ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.多列平铺ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.多列平铺ToolStripMenuItem.Text = "多列平铺";
             // 
             // toolStripMenuItem44
             // 
             this.toolStripMenuItem44.Name = "toolStripMenuItem44";
-            this.toolStripMenuItem44.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem44.Size = new System.Drawing.Size(139, 6);
             // 
             // 显示清爽资料ToolStripMenuItem
             // 
             this.显示清爽资料ToolStripMenuItem.Name = "显示清爽资料ToolStripMenuItem";
-            this.显示清爽资料ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.显示清爽资料ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.显示清爽资料ToolStripMenuItem.Text = "显示清爽资料";
             // 
             // toolStripMenuItem45
             // 
             this.toolStripMenuItem45.Name = "toolStripMenuItem45";
-            this.toolStripMenuItem45.Size = new System.Drawing.Size(145, 6);
+            this.toolStripMenuItem45.Size = new System.Drawing.Size(139, 6);
             // 
             // 动画效果ToolStripMenuItem
             // 
             this.动画效果ToolStripMenuItem.Name = "动画效果ToolStripMenuItem";
-            this.动画效果ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.动画效果ToolStripMenuItem.Size = new System.Drawing.Size(142, 22);
             this.动画效果ToolStripMenuItem.Text = "动画效果";
             // 
             // toolStripSeparator17
             // 
             this.toolStripSeparator17.Name = "toolStripSeparator17";
-            this.toolStripSeparator17.Size = new System.Drawing.Size(169, 6);
+            this.toolStripSeparator17.Size = new System.Drawing.Size(163, 6);
             // 
             // 排序显示ToolStripMenuItem
             // 
@@ -2881,122 +2881,122 @@
             this.按服务更新排序ToolStripMenuItem,
             this.按名称排序ToolStripMenuItem});
             this.排序显示ToolStripMenuItem.Name = "排序显示ToolStripMenuItem";
-            this.排序显示ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.排序显示ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.排序显示ToolStripMenuItem.Text = "排序显示";
             // 
             // 按身份标识排序ToolStripMenuItem
             // 
             this.按身份标识排序ToolStripMenuItem.Name = "按身份标识排序ToolStripMenuItem";
-            this.按身份标识排序ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.按身份标识排序ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.按身份标识排序ToolStripMenuItem.Text = "按身份标识排序";
             // 
             // 按服务更新排序ToolStripMenuItem
             // 
             this.按服务更新排序ToolStripMenuItem.Name = "按服务更新排序ToolStripMenuItem";
-            this.按服务更新排序ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.按服务更新排序ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.按服务更新排序ToolStripMenuItem.Text = "按服务更新排序";
             // 
             // 按名称排序ToolStripMenuItem
             // 
             this.按名称排序ToolStripMenuItem.Name = "按名称排序ToolStripMenuItem";
-            this.按名称排序ToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.按名称排序ToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
             this.按名称排序ToolStripMenuItem.Text = "按名称排序";
             // 
             // 刷新好友列表ToolStripMenuItem
             // 
             this.刷新好友列表ToolStripMenuItem.Name = "刷新好友列表ToolStripMenuItem";
-            this.刷新好友列表ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.刷新好友列表ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.刷新好友列表ToolStripMenuItem.Text = "刷新好友列表";
             // 
             // toolStripMenuItem46
             // 
             this.toolStripMenuItem46.Name = "toolStripMenuItem46";
-            this.toolStripMenuItem46.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem46.Size = new System.Drawing.Size(163, 6);
             // 
             // 显示在线联系人ToolStripMenuItem
             // 
             this.显示在线联系人ToolStripMenuItem.Name = "显示在线联系人ToolStripMenuItem";
-            this.显示在线联系人ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.显示在线联系人ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.显示在线联系人ToolStripMenuItem.Text = "显示在线联系人";
             // 
             // toolStripMenuItem47
             // 
             this.toolStripMenuItem47.Name = "toolStripMenuItem47";
-            this.toolStripMenuItem47.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem47.Size = new System.Drawing.Size(163, 6);
             // 
             // 显示企业分组ToolStripMenuItem
             // 
             this.显示企业分组ToolStripMenuItem.Name = "显示企业分组ToolStripMenuItem";
-            this.显示企业分组ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.显示企业分组ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.显示企业分组ToolStripMenuItem.Text = "显示企业分组";
             // 
             // 显示陌生人分组ToolStripMenuItem
             // 
             this.显示陌生人分组ToolStripMenuItem.Name = "显示陌生人分组ToolStripMenuItem";
-            this.显示陌生人分组ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.显示陌生人分组ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.显示陌生人分组ToolStripMenuItem.Text = "显示陌生人分组";
             // 
             // 显示黑名单ToolStripMenuItem
             // 
             this.显示黑名单ToolStripMenuItem.Name = "显示黑名单ToolStripMenuItem";
-            this.显示黑名单ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.显示黑名单ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.显示黑名单ToolStripMenuItem.Text = "显示黑名单";
             // 
             // toolStripMenuItem48
             // 
             this.toolStripMenuItem48.Name = "toolStripMenuItem48";
-            this.toolStripMenuItem48.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem48.Size = new System.Drawing.Size(163, 6);
             // 
             // 隐身对该分组可见ToolStripMenuItem
             // 
             this.隐身对该分组可见ToolStripMenuItem.Name = "隐身对该分组可见ToolStripMenuItem";
-            this.隐身对该分组可见ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.隐身对该分组可见ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.隐身对该分组可见ToolStripMenuItem.Text = "隐身对该分组可见";
             // 
             // 在线对该分组隐身ToolStripMenuItem
             // 
             this.在线对该分组隐身ToolStripMenuItem.Name = "在线对该分组隐身ToolStripMenuItem";
-            this.在线对该分组隐身ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.在线对该分组隐身ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.在线对该分组隐身ToolStripMenuItem.Text = "在线对该分组隐身";
             // 
             // toolStripMenuItem49
             // 
             this.toolStripMenuItem49.Name = "toolStripMenuItem49";
-            this.toolStripMenuItem49.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem49.Size = new System.Drawing.Size(163, 6);
             // 
             // 添加分组ToolStripMenuItem
             // 
             this.添加分组ToolStripMenuItem.Name = "添加分组ToolStripMenuItem";
-            this.添加分组ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.添加分组ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.添加分组ToolStripMenuItem.Text = "添加分组";
             // 
             // 添加联系人ToolStripMenuItem
             // 
             this.添加联系人ToolStripMenuItem.Name = "添加联系人ToolStripMenuItem";
-            this.添加联系人ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.添加联系人ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.添加联系人ToolStripMenuItem.Text = "添加联系人";
             // 
             // toolStripMenuItem50
             // 
             this.toolStripMenuItem50.Name = "toolStripMenuItem50";
-            this.toolStripMenuItem50.Size = new System.Drawing.Size(169, 6);
+            this.toolStripMenuItem50.Size = new System.Drawing.Size(163, 6);
             // 
             // 重命名ToolStripMenuItem
             // 
             this.重命名ToolStripMenuItem.Name = "重命名ToolStripMenuItem";
-            this.重命名ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.重命名ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.重命名ToolStripMenuItem.Text = "重命名";
             // 
             // 删除该组ToolStripMenuItem
             // 
             this.删除该组ToolStripMenuItem.Name = "删除该组ToolStripMenuItem";
-            this.删除该组ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.删除该组ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.删除该组ToolStripMenuItem.Text = "删除该组";
             // 
             // 好友管理器ToolStripMenuItem
             // 
             this.好友管理器ToolStripMenuItem.Name = "好友管理器ToolStripMenuItem";
-            this.好友管理器ToolStripMenuItem.Size = new System.Drawing.Size(172, 22);
+            this.好友管理器ToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
             this.好友管理器ToolStripMenuItem.Text = "好友管理器";
             // 
             // btnState
@@ -3128,7 +3128,7 @@
             this.MenuState.ItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
             this.MenuState.Name = "MenuState";
             this.MenuState.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.MenuState.Size = new System.Drawing.Size(184, 330);
+            this.MenuState.Size = new System.Drawing.Size(173, 330);
             this.MenuState.TitleAnamorphosis = false;
             this.MenuState.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.MenuState.TitleRadius = 4;
@@ -3139,7 +3139,7 @@
             this.toolStripMenuItem20.Image = global::CC2013.Properties.Resources.imonline__2_;
             this.toolStripMenuItem20.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem20.Name = "toolStripMenuItem20";
-            this.toolStripMenuItem20.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem20.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem20.Tag = "2";
             this.toolStripMenuItem20.Text = "我在线上";
             this.toolStripMenuItem20.ToolTipText = "表示希望好友看到您在线。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -3150,7 +3150,7 @@
             this.toolStripMenuItem29.Image = global::CC2013.Properties.Resources.Qme__2_;
             this.toolStripMenuItem29.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem29.Name = "toolStripMenuItem29";
-            this.toolStripMenuItem29.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem29.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem29.Tag = "1";
             this.toolStripMenuItem29.Text = "Q我把";
             this.toolStripMenuItem29.ToolTipText = "表示希望好友主动联系您。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：自动弹出会话窗口\r\n";
@@ -3161,7 +3161,7 @@
             this.toolStripMenuItem30.Image = global::CC2013.Properties.Resources.away__2_;
             this.toolStripMenuItem30.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem30.Name = "toolStripMenuItem30";
-            this.toolStripMenuItem30.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem30.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem30.Tag = "3";
             this.toolStripMenuItem30.Text = "离开";
             this.toolStripMenuItem30.ToolTipText = "表示离开，暂无法处理消息。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -3172,7 +3172,7 @@
             this.toolStripMenuItem31.Image = global::CC2013.Properties.Resources.busy__2_;
             this.toolStripMenuItem31.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem31.Name = "toolStripMenuItem31";
-            this.toolStripMenuItem31.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem31.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem31.Tag = "4";
             this.toolStripMenuItem31.Text = "忙碌";
             this.toolStripMenuItem31.ToolTipText = "表示忙碌，不会及时处理消息。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏显示气泡\r\n";
@@ -3183,7 +3183,7 @@
             this.toolStripMenuItem32.Image = global::CC2013.Properties.Resources.mute__2_;
             this.toolStripMenuItem32.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem32.Name = "toolStripMenuItem32";
-            this.toolStripMenuItem32.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem32.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem32.Tag = "5";
             this.toolStripMenuItem32.Text = "请勿打扰";
             this.toolStripMenuItem32.ToolTipText = "表示不想被打扰。\r\n声音：关闭\r\n消息提醒框：关闭\r\n会话消息：任务栏显示气泡\r\n\r\n";
@@ -3194,7 +3194,7 @@
             this.toolStripMenuItem33.Image = global::CC2013.Properties.Resources.invisible__2_;
             this.toolStripMenuItem33.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem33.Name = "toolStripMenuItem33";
-            this.toolStripMenuItem33.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem33.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem33.Tag = "6";
             this.toolStripMenuItem33.Text = "隐身";
             this.toolStripMenuItem33.ToolTipText = "表示好友看到您是离线的。\r\n声音：开启\r\n消息提醒框：开启\r\n会话消息：任务栏头像闪动\r\n";
@@ -3205,7 +3205,7 @@
             this.toolOffline.Image = global::CC2013.Properties.Resources.imoffline__2_;
             this.toolOffline.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolOffline.Name = "toolOffline";
-            this.toolOffline.Size = new System.Drawing.Size(183, 22);
+            this.toolOffline.Size = new System.Drawing.Size(172, 22);
             this.toolOffline.Tag = "6";
             this.toolOffline.Text = "离线";
             this.toolOffline.ToolTipText = "断开与服务器的连接。";
@@ -3214,7 +3214,7 @@
             // toolStripMenuItem35
             // 
             this.toolStripMenuItem35.Name = "toolStripMenuItem35";
-            this.toolStripMenuItem35.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem35.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem35.Text = "添加状态消息";
             // 
             // toolStripMenuItem36
@@ -3222,54 +3222,54 @@
             this.toolStripMenuItem36.Image = global::CC2013.Properties.Resources.menu_check;
             this.toolStripMenuItem36.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem36.Name = "toolStripMenuItem36";
-            this.toolStripMenuItem36.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem36.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem36.Text = "关闭所有声音";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(169, 6);
             // 
             // toolStripMenuItem37
             // 
             this.toolStripMenuItem37.Name = "toolStripMenuItem37";
-            this.toolStripMenuItem37.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem37.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem37.Text = "2处登录";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(169, 6);
             // 
             // toolStripMenuItem38
             // 
             this.toolStripMenuItem38.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem38.Image")));
             this.toolStripMenuItem38.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripMenuItem38.Name = "toolStripMenuItem38";
-            this.toolStripMenuItem38.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem38.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem38.Text = "锁定QQ Ctrl+Alt+L";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(169, 6);
             // 
             // toolStripMenuItem39
             // 
             this.toolStripMenuItem39.Name = "toolStripMenuItem39";
-            this.toolStripMenuItem39.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem39.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem39.Text = "系统设置...";
             // 
             // toolStripMenuItem40
             // 
             this.toolStripMenuItem40.Name = "toolStripMenuItem40";
-            this.toolStripMenuItem40.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem40.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem40.Text = "我的资料...";
             // 
             // toolStripMenuItem41
             // 
             this.toolStripMenuItem41.Name = "toolStripMenuItem41";
-            this.toolStripMenuItem41.Size = new System.Drawing.Size(183, 22);
+            this.toolStripMenuItem41.Size = new System.Drawing.Size(172, 22);
             this.toolStripMenuItem41.Text = "我的QQ中心";
             // 
             // lblLv

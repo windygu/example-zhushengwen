@@ -31,13 +31,15 @@ namespace CCWin
         void StartW(object sender, System.Timers.ElapsedEventArgs e)
         {
          //   if (webBrowser1.ReadyState < WebBrowserReadyState.Complete) return;
-          
-            if (webBrowser1.Document.GetElementById("ShowMsg") != null && webBrowser1.Document.GetElementById("ShowMsg").InnerHtml ==
-"您当天学时累计已达到最大学时，继续学习将不再计算学时！")
+            if (true)
             {
-                skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！"; button1.Enabled = false;
+                HtmlElement he = webBrowser1.Document.GetElementById("ShowMsg");
+                if (he != null && he.InnerHtml ==
+    "您当天学时累计已达到最大学时，继续学习将不再计算学时！")
+                {
+                    skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！"; button1.Enabled = false;
+                }
             }
-
             string ski = skinLabel2.Text;
             skinLabel2.Text = webBrowser1.Document.Title.Split('-')[0];
             if (ski != skinLabel2.Text && webBrowser1.Document.Title.Contains("--"))
@@ -50,9 +52,9 @@ namespace CCWin
         {
             if(auto)this.Location = new Point(Location.X, f.Location.Y);
             Text += " -- " + f.txtId.Text;
-            Reg_Timer1.Interval = 1000;
+            Reg_Timer1.Interval = 5000;
             Reg_Timer1.Elapsed += new System.Timers.ElapsedEventHandler(StartW);
-            Reg_Timer1.Enabled = true;
+            
             NativeMethods.AnimateWindow(this.Handle, 500, AW.AW_BLEND);//开始窗体动画
             Form.CheckForIllegalCrossThreadCalls = false;
             SetE();
@@ -126,6 +128,7 @@ namespace CCWin
         bool over = false;
         private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+           // if(!Reg_Timer1.Enabled) Reg_Timer1.Enabled = true;
             fn();
         }
 
@@ -159,6 +162,7 @@ namespace CCWin
                 if (auto)
                 {
                     this.Close();
+                    Form1.OpenWindow --;
                     return;
                 }
             webBrowser1.Refresh();
@@ -198,7 +202,7 @@ namespace CCWin
                 skinLabel4.Text = "您今天的视频已经看完了，请明天再来吧！"; return;
             }
         }
-        bool result = false;
+        bool result = true;
         internal bool GetResult()
         {
             return result;

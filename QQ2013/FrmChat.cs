@@ -36,7 +36,7 @@ namespace CC2013
 
         private ToolStripDropDown emotionDropDown = new ToolStripDropDown();
 
-        RtfRichTextBox richtxtChat = new RtfRichTextBox();
+        //RtfRichTextBox richtxtChat = new RtfRichTextBox();
 
         public struct COPYDATASTRUCT
         {
@@ -63,57 +63,57 @@ namespace CC2013
         //窗口加载时
         private void FrmChat_Load(object sender, EventArgs e)
         {
-            txtSMsg.Focus();
-            Cuser = UserLogin.UserItem.NicName.Trim();
+            //txtSMsg.Focus();
+            //Cuser = UserLogin.UserItem.NicName.Trim();
 
-            ClassBoardCast cBC = new ClassBoardCast();
-            cBC.GetLocalIP();
-            CuserIP = cBC.localIP;
+            //ClassBoardCast cBC = new ClassBoardCast();
+            //cBC.GetLocalIP();
+            //CuserIP = cBC.localIP;
 
-            if (receiveMsg != string.Empty)
-            {
-                displayMessage(receiveMsg);
-            }
+            //if (receiveMsg != string.Empty)
+            //{
+            //    displayMessage(receiveMsg);
+            //}
 
-            lblChatName.Text = string.IsNullOrEmpty(UserLogin.UserItem.DisplayName) ? UserLogin.UserItem.NicName : UserLogin.UserItem.DisplayName;
-            lblChatQm.Text = UserLogin.UserItem.PersonalMsg;
+            //lblChatName.Text = string.IsNullOrEmpty(UserLogin.UserItem.DisplayName) ? UserLogin.UserItem.NicName : UserLogin.UserItem.DisplayName;
+            //lblChatQm.Text = UserLogin.UserItem.PersonalMsg;
         }
 
         //发送消息方法
         private void sentMessage()
         {
-            if (this.txtSMsg.Text == "")
-            {
-                this.txtSMsg.Text = "输入消息不能为空...";
-                this.txtSMsg.BackColor = Color.OldLace;
-                this.isTextBoxNotEmpty = false;
-                this.txtSMsg.ReadOnly = true;
-            }
+            //if (this.txtSMsg.Text == "")
+            //{
+            //    this.txtSMsg.Text = "输入消息不能为空...";
+            //    this.txtSMsg.BackColor = Color.OldLace;
+            //    this.isTextBoxNotEmpty = false;
+            //    this.txtSMsg.ReadOnly = true;
+            //}
             if (isTextBoxNotEmpty)
             {
                 try
                 {
                     //发送到对方的信息框中
                     string sendMessageInfo = ":MESG:" + Cuser + "|" + System.Environment.UserName + "|" +
-                        CuserIP + "|" + this.txtSMsg.Rtf;
+                        CuserIP + "|";// +this.txtSMsg.Rtf;
                     byte[] buff = Encoding.Default.GetBytes(sendMessageInfo);
                     ClassSendMsg cSendMsg = new ClassSendMsg(destinationIP, buff);
                     cSendMsg.SendMessage();
                     //向自己的显示框中显示发送信息
-                    this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                     new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
-                    this.txtRMsg.AppendTextAsRtf("   ");
-                    this.txtRMsg.AppendRtf(this.txtSMsg.Rtf);
-                    //this.txtRMsg.AppendTextAsRtf("\n");
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
-                    //清空输入框
-                    this.txtSMsg.Text = string.Empty;
-                    this.txtSMsg.Focus();
+                    //this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+                    // new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
+                    //this.txtRMsg.AppendTextAsRtf("   ");
+                    //this.txtRMsg.AppendRtf(this.txtSMsg.Rtf);
+                    ////this.txtRMsg.AppendTextAsRtf("\n");
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
+                    ////清空输入框
+                    //this.txtSMsg.Text = string.Empty;
+                    //this.txtSMsg.Focus();
                 }
                 catch
                 {
-                    this.txtRMsg.AppendText(DateTime.Now.ToLongTimeString() + " 发送消息失败！" + "\r\n");
+                    //this.txtRMsg.AppendText(DateTime.Now.ToLongTimeString() + " 发送消息失败！" + "\r\n");
                 }
             }
         }
@@ -144,15 +144,15 @@ namespace CC2013
             {
                 if (msg.Length > 6 && msg.Substring(0, 6) == "【发送文件】")
                 {
-                    this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                        new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
+                    //this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+                    //    new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
 
-                    this.txtRMsg.SelectionColor = Color.Red;
-                    this.txtRMsg.AppendText(receiveMsg + "\n");
-                    //this.txtRMsg.AppendTextAsRtf("\n");
-                    this.txtRMsg.ForeColor = Color.Black;
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
+                    //this.txtRMsg.SelectionColor = Color.Red;
+                    //this.txtRMsg.AppendText(receiveMsg + "\n");
+                    ////this.txtRMsg.AppendTextAsRtf("\n");
+                    //this.txtRMsg.ForeColor = Color.Black;
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
 
                     this.filePath = msg.Substring(6);
                     this.labFileInfo.Text = destinationName + " 向你发送文件";
@@ -164,36 +164,36 @@ namespace CC2013
                 {
                     //this.txtRMsg.AppendTextAsRtf(destinationName + " " + DateTime.Now.ToLongTimeString() + "\r\n",
                     //   new Font(this.Font,FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
-                    this.txtRMsg.SelectionColor = Color.Red;
-                    this.txtRMsg.AppendText(receiveMsg + "\n");
-                    //this.txtRMsg.AppendTextAsRtf("\n");
-                    this.txtRMsg.ForeColor = Color.Black;
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
+                    //this.txtRMsg.SelectionColor = Color.Red;
+                    //this.txtRMsg.AppendText(receiveMsg + "\n");
+                    ////this.txtRMsg.AppendTextAsRtf("\n");
+                    //this.txtRMsg.ForeColor = Color.Black;
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
                 }
                 else if (msg.Length > 6 && msg.Substring(0, 6) == "【发送震动】")
                 {
-                    this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                    new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
+                    //this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+                    //new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
 
-                    this.txtRMsg.SelectionColor = Color.Red;
-                    this.txtRMsg.AppendTextAsRtf("   ");
-                    this.txtRMsg.AppendText(destinationName + "给您发送了窗口抖动。\n");
-                    //this.txtRMsg.AppendTextAsRtf("\n");
-                    this.txtRMsg.ForeColor = Color.Black;
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
+                    //this.txtRMsg.SelectionColor = Color.Red;
+                    //this.txtRMsg.AppendTextAsRtf("   ");
+                    //this.txtRMsg.AppendText(destinationName + "给您发送了窗口抖动。\n");
+                    ////this.txtRMsg.AppendTextAsRtf("\n");
+                    //this.txtRMsg.ForeColor = Color.Black;
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
                     Vibration();
                 }
                 else
                 {
-                    this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                        new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
-                    this.txtRMsg.AppendTextAsRtf("   ");
-                    this.txtRMsg.AppendRtf(receiveMsg);
-                    //this.txtRMsg.AppendTextAsRtf("\n");
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
+                    //this.txtRMsg.AppendTextAsRtf(destinationName + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+                    //    new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Blue);
+                    //this.txtRMsg.AppendTextAsRtf("   ");
+                    //this.txtRMsg.AppendRtf(receiveMsg);
+                    ////this.txtRMsg.AppendTextAsRtf("\n");
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
 
                 }
             }
@@ -260,9 +260,9 @@ namespace CC2013
                         }
                         FS.Flush();
                         FS.Close();
-                        this.txtRMsg.SelectionColor = Color.Red;
-                        this.txtRMsg.AppendText("【接收完成】文件已保存" + "\r\n");
-                        this.txtRMsg.ForeColor = Color.Black;
+                        //this.txtRMsg.SelectionColor = Color.Red;
+                        //this.txtRMsg.AppendText("【接收完成】文件已保存" + "\r\n");
+                        //this.txtRMsg.ForeColor = Color.Black;
                     }
                 }
 
@@ -306,10 +306,10 @@ namespace CC2013
         {
             if (!isTextBoxNotEmpty)
             {
-                this.txtSMsg.Text = "";
-                this.txtSMsg.BackColor = Color.White;
-                isTextBoxNotEmpty = true;
-                this.txtSMsg.ReadOnly = false;
+                //this.txtSMsg.Text = "";
+                //this.txtSMsg.BackColor = Color.White;
+                //isTextBoxNotEmpty = true;
+                //this.txtSMsg.ReadOnly = false;
             }
         }
 
@@ -350,8 +350,8 @@ namespace CC2013
         {
             if (DialogResult.OK == fontDialog1.ShowDialog())
             {
-                this.txtSMsg.Font = fontDialog1.Font;
-                this.txtSMsg.ForeColor = fontDialog1.Color;
+                //this.txtSMsg.Font = fontDialog1.Font;
+                //this.txtSMsg.ForeColor = fontDialog1.Color;
             }
         }
 
@@ -377,14 +377,14 @@ namespace CC2013
                     ClassSendMsg cSendFileInfo = new ClassSendMsg(destinationIP, buff);
                     cSendFileInfo.SendMessage();
 
-                    this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                        new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
+                    //this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+                    //    new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
 
-                    this.txtRMsg.SelectionColor = Color.Red;
-                    this.txtRMsg.AppendText("【发送文件】" + Dlg.FileName + "\r\n");
-                    this.txtRMsg.ForeColor = Color.Black;
-                    this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-                    this.txtRMsg.ScrollToCaret();
+                    //this.txtRMsg.SelectionColor = Color.Red;
+                    //this.txtRMsg.AppendText("【发送文件】" + Dlg.FileName + "\r\n");
+                    //this.txtRMsg.ForeColor = Color.Black;
+                    //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+                    //this.txtRMsg.ScrollToCaret();
 
                 }
             }
@@ -434,16 +434,16 @@ namespace CC2013
             ClassSendMsg cSendMsg = new ClassSendMsg(destinationIP, buff);
             cSendMsg.SendMessage();
 
-            this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
-                new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
-            this.txtRMsg.SelectionColor = Color.Red;
-            this.txtRMsg.AppendTextAsRtf("   ");
-            this.txtRMsg.AppendText("您发送了一个窗口抖动。\r\n");
-            this.txtRMsg.ForeColor = Color.Black;
-            this.txtRMsg.Select(txtRMsg.Text.Length, 0);
-            this.txtRMsg.ScrollToCaret();
-            this.txtSMsg.Text = string.Empty;
-            this.txtSMsg.Focus();
+            //this.txtRMsg.AppendTextAsRtf(Cuser + "  " + DateTime.Now.ToLongTimeString() + "\r\n",
+            //    new Font(this.Font, FontStyle.Regular), RtfRichTextBox.RtfColor.Green);
+            //this.txtRMsg.SelectionColor = Color.Red;
+            //this.txtRMsg.AppendTextAsRtf("   ");
+            //this.txtRMsg.AppendText("您发送了一个窗口抖动。\r\n");
+            //this.txtRMsg.ForeColor = Color.Black;
+            //this.txtRMsg.Select(txtRMsg.Text.Length, 0);
+            //this.txtRMsg.ScrollToCaret();
+            //this.txtSMsg.Text = string.Empty;
+            //this.txtSMsg.Focus();
             Vibration();
         }
 
@@ -451,10 +451,10 @@ namespace CC2013
         private FrmCapture m_frmCapture;
         private void StartCapture()
         {
-            if (m_frmCapture == null || m_frmCapture.IsDisposed)
-                m_frmCapture = new FrmCapture(txtSMsg);
-            m_frmCapture.IsCaptureCursor = false;
-            m_frmCapture.Show();
+            //if (m_frmCapture == null || m_frmCapture.IsDisposed)
+            //    m_frmCapture = new FrmCapture(txtSMsg);
+            //m_frmCapture.IsCaptureCursor = false;
+            //m_frmCapture.Show();
         }
 
         //截图按钮
@@ -473,8 +473,8 @@ namespace CC2013
         //窗体调用重绘时
         protected override void OnInvalidated(InvalidateEventArgs e)
         {
-            txtRMsg.Invalidate();
-            txtSMsg.Invalidate();
+            //txtRMsg.Invalidate();
+            //txtSMsg.Invalidate();
             base.OnInvalidated(e);
         }
     }

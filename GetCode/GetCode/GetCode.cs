@@ -32,6 +32,7 @@ namespace GetCodes
             {
                 DbConn.Open();
                 DbCmd.Connection = this.DbConn;
+                DbCmd.CommandType = CommandType.Text;
             }
             catch (Exception e) { MessageBox.Show(e.ToString()); }
         }
@@ -209,42 +210,55 @@ namespace GetCodes
             {
                 string[] arrv = textBox6.Text.Split(new string[] { "=======" }, StringSplitOptions.RemoveEmptyEntries);
 
-                string sql = "insert into Codes(Keynum,CodeValue) values({0},'{1}')";
-
-
-                if (!string.IsNullOrEmpty(txt1.Text))
+                string sql = "insert into Codes(Keynum,CodeValue) values('{0}','{1}')";
+                foreach (char item in textBox2.Text)
                 {
-                    sql = "insert into Codes(Keynum,CodeValue) values({0},'{1}')";
-                    sql = string.Format(sql, txt1.Text, arrv[0]);
+                    sql = "insert into Codes(Keynum,CodeValue) values('{0}','{1}')";
+                    sql = string.Format(sql, item, arrv[0]);
                     DbCmd.CommandText = sql;
                     DbCmd.ExecuteNonQuery();
                 }
 
-                if (!string.IsNullOrEmpty(txt2.Text))
-                {
-                    sql = "insert into Codes(Keynum,CodeValue) values({0},'{1}')";
-                    sql = string.Format(sql, txt2.Text, arrv[1]);
-                    DbCmd.CommandText = sql;
-                    DbCmd.ExecuteNonQuery();
-                }
+                //if (!string.IsNullOrEmpty(txt1.Text))
+                //{
 
-                if (!string.IsNullOrEmpty(txt3.Text))
-                {
-                    sql = "insert into Codes(Keynum,CodeValue) values({0},'{1}')";
-                    sql = string.Format(sql, txt3.Text, arrv[2]);
-                    DbCmd.CommandText = sql;
-                    DbCmd.ExecuteNonQuery();
-                }
+                //    sql = string.Format(sql, txt1.Text, arrv[0]);
+                //    DbCmd.CommandText = sql;
+                //    DbCmd.ExecuteNonQuery();
+                //}
 
-                if (!string.IsNullOrEmpty(txt4.Text))
-                {
-                    sql = "insert into Codes(Keynum,CodeValue) values({0},'{1}')";
-                    sql = string.Format(sql, txt4.Text, arrv[3]);
-                    DbCmd.CommandText = sql;
-                    DbCmd.ExecuteNonQuery();
-                }
+                //if (!string.IsNullOrEmpty(txt2.Text))
+                //{
 
-                txt1.Text = txt2.Text = txt3.Text = txt4.Text = string.Empty;
+                //    sql = string.Format(sql, txt2.Text, arrv[1]);
+                //    DbCmd.CommandText = sql;
+                //    DbCmd.ExecuteNonQuery();
+                //}
+
+                //if (!string.IsNullOrEmpty(txt3.Text))
+                //{
+                //    sql = "insert into Codes(Keynum,CodeValue) values('{0}','{1}')";
+                //    sql = string.Format(sql, txt3.Text, arrv[2]);
+                //    DbCmd.CommandText = sql;
+                //    DbCmd.ExecuteNonQuery();
+                //}
+
+                //if (!string.IsNullOrEmpty(txt4.Text))
+                //{
+                //    sql = "insert into Codes(Keynum,CodeValue) values('{0}','{1}')";
+                //    sql = string.Format(sql, txt4.Text, arrv[3]);
+                //    DbCmd.CommandText = sql;
+                //    DbCmd.ExecuteNonQuery();
+                //}
+                //if (!string.IsNullOrEmpty(txt5.Text))
+                //{
+                //    sql = "insert into Codes(Keynum,CodeValue) values('{0}','{1}')";
+                //    sql = string.Format(sql, txt5.Text, arrv[4]);
+                //    DbCmd.CommandText = sql;
+                //    DbCmd.ExecuteNonQuery();
+                //}
+
+                //txt1.Text = txt2.Text = txt3.Text = txt4.Text = txt5.Text = string.Empty;
                 //MessageBox.Show("入库成功");
                 button1_Click(null, null);
             }
@@ -274,6 +288,15 @@ namespace GetCodes
                 MessageBox.Show("图片左边沿到第一个字的宽度不能小于X的值");
                 updW.Value++;
                 return;
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox2.Text.Length == 5)
+            {
+                button2_Click(null, null);
+                textBox2.Text = "";
             }
         }
     }

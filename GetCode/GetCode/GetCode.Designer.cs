@@ -50,10 +50,13 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txt5 = new System.Windows.Forms.TextBox();
             this.txt4 = new System.Windows.Forms.TextBox();
             this.txt3 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.txt1 = new System.Windows.Forms.TextBox();
+            this.pb5 = new System.Windows.Forms.PictureBox();
             this.pb4 = new System.Windows.Forms.PictureBox();
             this.pb3 = new System.Windows.Forms.PictureBox();
             this.pb2 = new System.Windows.Forms.PictureBox();
@@ -65,8 +68,6 @@
             this.pbSource = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupbox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -77,13 +78,13 @@
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updgary)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.updmaxpoint)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbhuidu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupbox1
@@ -94,12 +95,13 @@
             this.groupbox1.Controls.Add(this.textBox6);
             this.groupbox1.Controls.Add(this.button2);
             this.groupbox1.Controls.Add(this.groupBox2);
-            this.groupbox1.Controls.Add(this.textBox2);
+            this.groupbox1.Controls.Add(this.txt5);
             this.groupbox1.Controls.Add(this.txt4);
             this.groupbox1.Controls.Add(this.txt3);
             this.groupbox1.Controls.Add(this.txt2);
+            this.groupbox1.Controls.Add(this.textBox2);
             this.groupbox1.Controls.Add(this.txt1);
-            this.groupbox1.Controls.Add(this.pictureBox1);
+            this.groupbox1.Controls.Add(this.pb5);
             this.groupbox1.Controls.Add(this.pb4);
             this.groupbox1.Controls.Add(this.pb3);
             this.groupbox1.Controls.Add(this.pb2);
@@ -353,6 +355,13 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "图片单个字解析";
             // 
+            // txt5
+            // 
+            this.txt5.Location = new System.Drawing.Point(362, 132);
+            this.txt5.Name = "txt5";
+            this.txt5.Size = new System.Drawing.Size(27, 21);
+            this.txt5.TabIndex = 14;
+            // 
             // txt4
             // 
             this.txt4.Location = new System.Drawing.Point(300, 132);
@@ -374,12 +383,29 @@
             this.txt2.Size = new System.Drawing.Size(27, 21);
             this.txt2.TabIndex = 12;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(17, 130);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(75, 21);
+            this.textBox2.TabIndex = 11;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
             // txt1
             // 
             this.txt1.Location = new System.Drawing.Point(101, 132);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(27, 21);
             this.txt1.TabIndex = 11;
+            // 
+            // pb5
+            // 
+            this.pb5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pb5.Location = new System.Drawing.Point(359, 101);
+            this.pb5.Name = "pb5";
+            this.pb5.Size = new System.Drawing.Size(30, 26);
+            this.pb5.TabIndex = 10;
+            this.pb5.TabStop = false;
             // 
             // pb4
             // 
@@ -439,7 +465,7 @@
             // 
             this.pbhuidu.Location = new System.Drawing.Point(264, 56);
             this.pbhuidu.Name = "pbhuidu";
-            this.pbhuidu.Size = new System.Drawing.Size(100, 34);
+            this.pbhuidu.Size = new System.Drawing.Size(120, 40);
             this.pbhuidu.TabIndex = 4;
             this.pbhuidu.TabStop = false;
             // 
@@ -456,7 +482,7 @@
             // 
             this.pbSource.Location = new System.Drawing.Point(64, 56);
             this.pbSource.Name = "pbSource";
-            this.pbSource.Size = new System.Drawing.Size(100, 34);
+            this.pbSource.Size = new System.Drawing.Size(120, 40);
             this.pbSource.TabIndex = 2;
             this.pbSource.TabStop = false;
             // 
@@ -476,24 +502,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(349, 21);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "http://www.gz.gov.cn/sofpro/gecs/common/image.jsp?dt=Thu%20Nov%2024%202011%2017:2" +
-                "0:21%20GMT+0800%20(China%20Standard%20Time)";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(359, 101);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(30, 26);
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(362, 132);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(27, 21);
-            this.textBox2.TabIndex = 14;
+            this.textBox1.Text = "https://passport.58.com/validatecode";
             // 
             // GetCode
             // 
@@ -516,13 +525,13 @@
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updgary)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.updmaxpoint)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbhuidu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -566,7 +575,8 @@
         private System.Windows.Forms.NumericUpDown updY;
         private System.Windows.Forms.NumericUpDown updW;
         private System.Windows.Forms.NumericUpDown updH;
+        private System.Windows.Forms.TextBox txt5;
+        private System.Windows.Forms.PictureBox pb5;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
