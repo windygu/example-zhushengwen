@@ -36,7 +36,7 @@
     <StartupObject>CCWin.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>bus-grape-2561.ico</ApplicationIcon>
+    <ApplicationIcon>0.ico</ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -426,6 +426,8 @@
     <None Include="Web References\JK\WebService.wsdl" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="0.ico" />
+    <Content Include="1.ico" />
     <Content Include="bus-grape-256.ico" />
     <Content Include="bus-grape-2561.ico" />
     <None Include="Resources\login_inputbtn_normal.png" />

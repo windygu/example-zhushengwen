@@ -15,6 +15,7 @@ using CCWin;
 using System.Text.RegularExpressions;
 using System.Net;
 using System.Drawing.Drawing2D;
+using System.Security.Cryptography;
 namespace CCWin
 {
     public partial class Form1 : CCSkinMain
@@ -84,19 +85,19 @@ namespace CCWin
             }
             return str;
         }
-        public int GetLiuShui(string kid)
+        public string GetLiuShui(string kid)
         {
 
             try
             {
                 string str = jkb.GetTrainingProgress(kid, 9);
                 str = ExtractStr(str, "", "<LiuShuiHao>", "</LiuShuiHao>");
-                return Int32.Parse(str);
+                return str;
             }
             catch (Exception)
             {
 
-                return 0;
+                return "0";
             }
 
         }
@@ -109,6 +110,42 @@ namespace CCWin
         {
             label6.Text = no;
         }
+        public static string Edes(string encryptString, string encryptKey = "VavicApp")
+        {
+
+            try
+            {
+
+                byte[] rgbKey = Encoding.UTF8.GetBytes(encryptKey.Substring(0, 8));
+
+                //rgbIV与rgbKey可以不一样，这里只是为了简便，读者可以自行修改
+
+                byte[] rgbIV = Encoding.UTF8.GetBytes(encryptKey.Substring(0, 8));
+
+                byte[] inputByteArray = Encoding.UTF8.GetBytes(encryptString);
+
+                DESCryptoServiceProvider dCSP = new DESCryptoServiceProvider();
+
+                MemoryStream mStream = new MemoryStream();
+
+                CryptoStream cStream = new CryptoStream(mStream, dCSP.CreateEncryptor(rgbKey, rgbIV), CryptoStreamMode.Write);
+
+                cStream.Write(inputByteArray, 0, inputByteArray.Length);
+
+                cStream.FlushFinalBlock();
+
+                return Convert.ToBase64String(mStream.ToArray());
+
+            }
+
+            catch
+            {
+
+                return encryptString;
+
+            }
+
+        }
         private bool KanShiPin()
         {
             FrmInformation fi = new FrmInformation(this);
@@ -119,14 +156,15 @@ namespace CCWin
         }
         private bool ZuoTI()
         {
-            int kid = GetLiuShui(txtId.Text);
-            if (kid != 0)
+            string kid = GetLiuShui(txtId.Text);
+            if (kid != "0")
             {
                 label7.Text = kid.ToString();
                 string fen = RandomFen();
                 if (skinRadioButton1.Checked)
                 {
-                    if (jkb.ZQ_XueXiRiZhiToExamOne(kid, fen)==0)
+                    int ret=jkb.ZQ_XueXiRiZhiToExamOne(Edes(kid),Edes(fen));
+                    if ( ret == 1)
                     {
                         SetText("科目一考试已通过！");
                         label9.Text = fen;
@@ -139,7 +177,8 @@ namespace CCWin
                 }
                 else
                 {
-                    if (jkb.ZQ_XueXiRiZhiToExamThree(kid, fen) == 0)
+                    int ret=jkb.ZQ_XueXiRiZhiToExamThree(Edes(kid), Edes(fen));
+                    if ( ret == 1)
                     {
                         SetText("科目三考试已通过！");
                         label9.Text = fen;
@@ -383,12 +422,12 @@ namespace CCWin
         }
         Dictionary<string, CheckDo> slt = new Dictionary<string, CheckDo>();
         bool isk1 = true;
-        public string totals = "60";
+        public string totals = "5";
         public static int OpenWindow = 0;
         private void ProcessForeach()
         {
             bool has = false;
-            totals = "60";
+            totals = "5";
             if (skinRadioButton3.Visible)
             {
                 //做视频
@@ -560,8 +599,8 @@ namespace CCWin
             }
             else
             {
-                if (OpenWindow == 0) label11.Text = "0";
-                else
+                //if (OpenWindow == 0) label11.Text = "0";
+                //else
                 label11.Text = (Int32.Parse(label11.Text) - 1).ToString();
             }
             label11.BringToFront();

@@ -150,7 +150,7 @@ namespace JK {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/ZQ_XueXiRiZhiToExamOne", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public int ZQ_XueXiRiZhiToExamOne(int XueYuanLiuShuiHao, string BeiZhu) {
+        public int ZQ_XueXiRiZhiToExamOne(string XueYuanLiuShuiHao, string BeiZhu) {
             object[] results = this.Invoke("ZQ_XueXiRiZhiToExamOne", new object[] {
                         XueYuanLiuShuiHao,
                         BeiZhu});
@@ -158,12 +158,12 @@ namespace JK {
         }
         
         /// <remarks/>
-        public void ZQ_XueXiRiZhiToExamOneAsync(int XueYuanLiuShuiHao, string BeiZhu) {
+        public void ZQ_XueXiRiZhiToExamOneAsync(string XueYuanLiuShuiHao, string BeiZhu) {
             this.ZQ_XueXiRiZhiToExamOneAsync(XueYuanLiuShuiHao, BeiZhu, null);
         }
         
         /// <remarks/>
-        public void ZQ_XueXiRiZhiToExamOneAsync(int XueYuanLiuShuiHao, string BeiZhu, object userState) {
+        public void ZQ_XueXiRiZhiToExamOneAsync(string XueYuanLiuShuiHao, string BeiZhu, object userState) {
             if ((this.ZQ_XueXiRiZhiToExamOneOperationCompleted == null)) {
                 this.ZQ_XueXiRiZhiToExamOneOperationCompleted = new System.Threading.SendOrPostCallback(this.OnZQ_XueXiRiZhiToExamOneOperationCompleted);
             }
@@ -181,7 +181,7 @@ namespace JK {
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("http://tempuri.org/ZQ_XueXiRiZhiToExamThree", RequestNamespace="http://tempuri.org/", ResponseNamespace="http://tempuri.org/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
-        public int ZQ_XueXiRiZhiToExamThree(int XueYuanLiuShuiHao, string BeiZhu) {
+        public int ZQ_XueXiRiZhiToExamThree(string XueYuanLiuShuiHao, string BeiZhu) {
             object[] results = this.Invoke("ZQ_XueXiRiZhiToExamThree", new object[] {
                         XueYuanLiuShuiHao,
                         BeiZhu});
@@ -189,12 +189,12 @@ namespace JK {
         }
         
         /// <remarks/>
-        public void ZQ_XueXiRiZhiToExamThreeAsync(int XueYuanLiuShuiHao, string BeiZhu) {
+        public void ZQ_XueXiRiZhiToExamThreeAsync(string XueYuanLiuShuiHao, string BeiZhu) {
             this.ZQ_XueXiRiZhiToExamThreeAsync(XueYuanLiuShuiHao, BeiZhu, null);
         }
         
         /// <remarks/>
-        public void ZQ_XueXiRiZhiToExamThreeAsync(int XueYuanLiuShuiHao, string BeiZhu, object userState) {
+        public void ZQ_XueXiRiZhiToExamThreeAsync(string XueYuanLiuShuiHao, string BeiZhu, object userState) {
             if ((this.ZQ_XueXiRiZhiToExamThreeOperationCompleted == null)) {
                 this.ZQ_XueXiRiZhiToExamThreeOperationCompleted = new System.Threading.SendOrPostCallback(this.OnZQ_XueXiRiZhiToExamThreeOperationCompleted);
             }

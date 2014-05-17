@@ -167,6 +167,7 @@ namespace CCWin
             // 
             this.skinRadioButton1.AutoSize = true;
             this.skinRadioButton1.BackColor = System.Drawing.Color.Transparent;
+            this.skinRadioButton1.Checked = true;
             this.skinRadioButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinRadioButton1.DownBack = null;
             this.skinRadioButton1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
@@ -180,9 +181,9 @@ namespace CCWin
             this.skinRadioButton1.SelectedNormlBack = null;
             this.skinRadioButton1.Size = new System.Drawing.Size(62, 21);
             this.skinRadioButton1.TabIndex = 112;
+            this.skinRadioButton1.TabStop = true;
             this.skinRadioButton1.Text = "科目一";
             this.skinRadioButton1.UseVisualStyleBackColor = false;
-            this.skinRadioButton1.Visible = false;
             // 
             // skinRadioButton2
             // 
@@ -203,7 +204,6 @@ namespace CCWin
             this.skinRadioButton2.TabIndex = 112;
             this.skinRadioButton2.Text = "科目三";
             this.skinRadioButton2.UseVisualStyleBackColor = false;
-            this.skinRadioButton2.Visible = false;
             // 
             // label10
             // 
@@ -220,12 +220,11 @@ namespace CCWin
             // 
             this.skinRadioButton3.AutoSize = true;
             this.skinRadioButton3.BackColor = System.Drawing.Color.Transparent;
-            this.skinRadioButton3.Checked = true;
             this.skinRadioButton3.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.skinRadioButton3.DownBack = null;
             this.skinRadioButton3.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.skinRadioButton3.ForeColor = System.Drawing.Color.Maroon;
-            this.skinRadioButton3.Location = new System.Drawing.Point(87, 29);
+            this.skinRadioButton3.Location = new System.Drawing.Point(243, 29);
             this.skinRadioButton3.MouseBack = null;
             this.skinRadioButton3.Name = "skinRadioButton3";
             this.skinRadioButton3.NormlBack = null;
@@ -234,9 +233,9 @@ namespace CCWin
             this.skinRadioButton3.SelectedNormlBack = null;
             this.skinRadioButton3.Size = new System.Drawing.Size(62, 21);
             this.skinRadioButton3.TabIndex = 112;
-            this.skinRadioButton3.TabStop = true;
             this.skinRadioButton3.Text = "看视频";
             this.skinRadioButton3.UseVisualStyleBackColor = false;
+            this.skinRadioButton3.Visible = false;
             // 
             // txtId
             // 
@@ -401,7 +400,7 @@ namespace CCWin
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.SysBottomToolTip = "设置";
-            this.Text = "驾考闯关(视频版)";
+            this.Text = "驾考闯关(科目版)";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
