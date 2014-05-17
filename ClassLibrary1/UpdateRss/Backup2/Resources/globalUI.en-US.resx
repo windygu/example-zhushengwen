@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AM" xml:space="preserve">
+    <value>AM</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>Please enter the URL information</value>
+  </data>
+  <data name="Error10" xml:space="preserve">
+    <value>Please enter the EndFlag</value>
+  </data>
+  <data name="Error11" xml:space="preserve">
+    <value>Name can not duplicate, re-naming</value>
+  </data>
+  <data name="Error12" xml:space="preserve">
+    <value>Database connection error, error message：</value>
+  </data>
+  <data name="Error13" xml:space="preserve">
+    <value>Save the task failed, error message：</value>
+  </data>
+  <data name="Error14" xml:space="preserve">
+    <value>SoukeyMiner the destruction of classified documents, not load, please copy the installation files in the "TaskClass.xml" file to the system root directory to fix this task!</value>
+  </data>
+  <data name="Error15" xml:space="preserve">
+    <value>Run the task loading error, first delete the task is running, quit the system, enter the system in the Tasks directory, delete taskrun.xml, restart you can! Error message is:</value>
+  </data>
+  <data name="Error16" xml:space="preserve">
+    <value>The task of loading operation monitoring: taskrun.xml illegal files, please check this file, or delete it and re-click this node is automatically created by the system!</value>
+  </data>
+  <data name="Error17" xml:space="preserve">
+    <value>The task of copying classified path does not exist!</value>
+  </data>
+  <data name="Error18" xml:space="preserve">
+    <value>Name can not be empty!</value>
+  </data>
+  <data name="Error19" xml:space="preserve">
+    <value>At least there should be a task to be executed</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>The URL you entered is not valid, please check the!</value>
+  </data>
+  <data name="Error20" xml:space="preserve">
+    <value>If you select a plan a meeting will be invalid, you must choose to implement the planned only "run once" option</value>
+  </data>
+  <data name="Error21" xml:space="preserve">
+    <value>Save the task error has occurred, initially to determine due to system error, please contact YIJIE !</value>
+  </data>
+  <data name="Error22" xml:space="preserve">
+    <value>Name can not be empty!</value>
+  </data>
+  <data name="Error23" xml:space="preserve">
+    <value>Load the task of running error, the task of error will not be displayed in the “Task Running”, it may be due to these missions cited dictionary parameter does not exist, the proposed restoration of the dictionary is missing parameters, if the error still persists, please run the area after all tasks are running, delete Tasks\taskrun.xml file, through the program automatically creates this file, which fixes this problem.</value>
+  </data>
+  <data name="Error24" xml:space="preserve">
+    <value>Need at least need to provide a data collection web site!</value>
+  </data>
+  <data name="Error25" xml:space="preserve">
+    <value>At least need to provide a data acquisition rules!</value>
+  </data>
+  <data name="Error26" xml:space="preserve">
+    <value>Navigate rule is error，error message：</value>
+  </data>
+  <data name="Error3" xml:space="preserve">
+    <value>Save the task failed, error message：</value>
+  </data>
+  <data name="Error4" xml:space="preserve">
+    <value>Collection  error, error message:</value>
+  </data>
+  <data name="Error5" xml:space="preserve">
+    <value>Navigation rules is empty, can not be tested!</value>
+  </data>
+  <data name="Error6" xml:space="preserve">
+    <value>URL can not be opened, may be wrong, please check the URL and navigation rules.</value>
+  </data>
+  <data name="Error7" xml:space="preserve">
+    <value>Get the source code error, the error message as follows:</value>
+  </data>
+  <data name="Error8" xml:space="preserve">
+    <value>Please enter the name of the data collection</value>
+  </data>
+  <data name="Error9" xml:space="preserve">
+    <value>Please enter the StartFlag</value>
+  </data>
+  <data name="Everyday" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="GridCollectionCount" xml:space="preserve">
+    <value>Collected</value>
+  </data>
+  <data name="GridCompleteCount" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="GridCount" xml:space="preserve">
+    <value>Amount</value>
+  </data>
+  <data name="GridErrorCount" xml:space="preserve">
+    <value>Errors</value>
+  </data>
+  <data name="GridExportedCount" xml:space="preserve">
+    <value>Exported</value>
+  </data>
+  <data name="GridExportType" xml:space="preserve">
+    <value>Export Type</value>
+  </data>
+  <data name="GridID" xml:space="preserve">
+    <value>NO.</value>
+  </data>
+  <data name="GridIsLogon" xml:space="preserve">
+    <value>Is Logged</value>
+  </data>
+  <data name="GridIsOvertime" xml:space="preserve">
+    <value>Is Failure</value>
+  </data>
+  <data name="GridNextTime" xml:space="preserve">
+    <value>Next Execution Time</value>
+  </data>
+  <data name="GridOvertimeRule" xml:space="preserve">
+    <value>Failure Rules</value>
+  </data>
+  <data name="GridPara" xml:space="preserve">
+    <value>Parameters</value>
+  </data>
+  <data name="GridPlanName" xml:space="preserve">
+    <value>Scheduler Name</value>
+  </data>
+  <data name="GridProcess" xml:space="preserve">
+    <value>Progress</value>
+  </data>
+  <data name="GridPublished" xml:space="preserve">
+    <value>Exported</value>
+  </data>
+  <data name="GridRemark" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="GridRunPlan" xml:space="preserve">
+    <value>Execution schedule</value>
+  </data>
+  <data name="GridRunTime" xml:space="preserve">
+    <value>Execution time</value>
+  </data>
+  <data name="GridState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="GridTaskID" xml:space="preserve">
+    <value>NO.</value>
+  </data>
+  <data name="GridTaskName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GridTaskRunType" xml:space="preserve">
+    <value>Execution Type</value>
+  </data>
+  <data name="GridTaskState" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="GridTaskType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="GridUrlCount" xml:space="preserve">
+    <value>URLs collected</value>
+  </data>
+  <data name="Info1" xml:space="preserve">
+    <value>Your task is loaded with the current system to support the task versions, please upgrade version of the task and then loaded</value>
+  </data>
+  <data name="Info10" xml:space="preserve">
+    <value>Schedule to stop listening service failure, failure information:</value>
+  </data>
+  <data name="Info100" xml:space="preserve">
+    <value>Download is successful, please check the working directory Soukey picking Soukey.exe file that the latest version, and is a self-extracting rar-free installation!</value>
+  </data>
+  <data name="Info101" xml:space="preserve">
+    <value>Check for updates failed! Error message is:</value>
+  </data>
+  <data name="Info102" xml:space="preserve">
+    <value>Begin downloading the latest version, please wait ......</value>
+  </data>
+  <data name="Info103" xml:space="preserve">
+    <value>Discovery to be upgrade tasks:</value>
+  </data>
+  <data name="Info104" xml:space="preserve">
+    <value>Looking for ...</value>
+  </data>
+  <data name="Info105" xml:space="preserve">
+    <value>Please specify the file name to import the task</value>
+  </data>
+  <data name="Info106" xml:space="preserve">
+    <value>The latest version of this task without the need to upgrade!</value>
+  </data>
+  <data name="Info107" xml:space="preserve">
+    <value>Added upgrade task to be an error, the error message as follows:</value>
+  </data>
+  <data name="Info108" xml:space="preserve">
+    <value>The task is not to be upgraded</value>
+  </data>
+  <data name="Info109" xml:space="preserve">
+    <value>Upgrading</value>
+  </data>
+  <data name="Info11" xml:space="preserve">
+    <value>This task execution need to obtain Cookie, but you canceled the Cookie for operation, the task was forced to interrupt!</value>
+  </data>
+  <data name="Info110" xml:space="preserve">
+    <value>Upgrade successful</value>
+  </data>
+  <data name="Info111" xml:space="preserve">
+    <value>Upgrade Fails</value>
+  </data>
+  <data name="Info112" xml:space="preserve">
+    <value>There may be tasks have been have been destroyed, error message:</value>
+  </data>
+  <data name="Info113" xml:space="preserve">
+    <value>Your changes have been successful, but needs the next time the system starts to take effect!</value>
+  </data>
+  <data name="Info114" xml:space="preserve">
+    <value>Please fill out the URL, and then add the rules for navigation</value>
+  </data>
+  <data name="Info115" xml:space="preserve">
+    <value>Navigation prefix can be added only once, and only for the first time to add</value>
+  </data>
+  <data name="Info116" xml:space="preserve">
+    <value>Please add the prefix site navigation in order to add the same part of the</value>
+  </data>
+  <data name="Info117" xml:space="preserve">
+    <value>Parsing navigate url,please waiting......</value>
+  </data>
+  <data name="Info12" xml:space="preserve">
+    <value>Please specify the name of the exported text file</value>
+  </data>
+  <data name="Info13" xml:space="preserve">
+    <value>Please specify the exported Excel file name</value>
+  </data>
+  <data name="Info14" xml:space="preserve">
+    <value>Failed to load, the file may be damaged, remove and re-build!</value>
+  </data>
+  <data name="Info15" xml:space="preserve">
+    <value>Begins</value>
+  </data>
+  <data name="Info16" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Info17" xml:space="preserve">
+    <value>Exceed</value>
+  </data>
+  <data name="Info18" xml:space="preserve">
+    <value>Never fail</value>
+  </data>
+  <data name="Info19" xml:space="preserve">
+    <value>You load the tasks and the task of supporting the current system versions, operating suggestions: remove the running instance of this task to upgrade this task can run again!</value>
+  </data>
+  <data name="Info2" xml:space="preserve">
+    <value>Save Path</value>
+  </data>
+  <data name="Info20" xml:space="preserve">
+    <value>Can not delete system Category:</value>
+  </data>
+  <data name="Info21" xml:space="preserve">
+    <value>You choose to delete Category:</value>
+  </data>
+  <data name="Info22" xml:space="preserve">
+    <value>Remove category will also delete all the tasks under this category, do you continue to implement the delete operation?</value>
+  </data>
+  <data name="Info23" xml:space="preserve">
+    <value>Remove classification error, the error message as follows:</value>
+  </data>
+  <data name="Info24" xml:space="preserve">
+    <value>To confirm the deletion program tasks:</value>
+  </data>
+  <data name="Info25" xml:space="preserve">
+    <value>Deleted this program can not be restored, whether to continue?</value>
+  </data>
+  <data name="Info26" xml:space="preserve">
+    <value>A number of programs you choose to delete the task, delete the following program will not be restored, continue?</value>
+  </data>
+  <data name="Info27" xml:space="preserve">
+    <value>Remove program error, the error message as follows:</value>
+  </data>
+  <data name="Info28" xml:space="preserve">
+    <value>You choose to delete task:</value>
+  </data>
+  <data name="Info29" xml:space="preserve">
+    <value>To confirm the deletion tasks:</value>
+  </data>
+  <data name="Info3" xml:space="preserve">
+    <value>This task is not defined in the collection's website need not be collected test!</value>
+  </data>
+  <data name="Info30" xml:space="preserve">
+    <value>Schedule that you specify does not exist, or the illegal destruction of program information, please delete this plan reconstruction, or directly modify the plan xml file be restored! Error message:</value>
+  </data>
+  <data name="Info31" xml:space="preserve">
+    <value>Open the task you specify does not exist, may have been deleted! Under normal circumstances, the system creates a backup of this task, you can import feature to import this task.</value>
+  </data>
+  <data name="Info32" xml:space="preserve">
+    <value>You load the task of error, the error message as follows:</value>
+  </data>
+  <data name="Info33" xml:space="preserve">
+    <value>Under normal circumstances, the system creates a backup of this task, you can import feature to import this task.</value>
+  </data>
+  <data name="Info34" xml:space="preserve">
+    <value>Current task is running, this task can not close the data output window!</value>
+  </data>
+  <data name="Info35" xml:space="preserve">
+    <value>Have to manually export the task is running, please wait to run this task is completed, and then manually export the data!</value>
+  </data>
+  <data name="Info36" xml:space="preserve">
+    <value>Please specify the file name to store data</value>
+  </data>
+  <data name="Info37" xml:space="preserve">
+    <value>Manual Export Data</value>
+  </data>
+  <data name="Info38" xml:space="preserve">
+    <value>Export Data has begun</value>
+  </data>
+  <data name="Info39" xml:space="preserve">
+    <value>Export data has been completed</value>
+  </data>
+  <data name="Info4" xml:space="preserve">
+    <value>In this task does not define the collection of required data collection rules, can not be collected test!</value>
+  </data>
+  <data name="Info40" xml:space="preserve">
+    <value>System configuration file failed to load, can copy files from the installation file: SoukeyConfig.xml to SoukeyMiner installation directory, configuration file is corrupted does not affect system operation, but you do system configuration may not be able to save!</value>
+  </data>
+  <data name="Info41" xml:space="preserve">
+    <value>You have selected to reset the task:</value>
+  </data>
+  <data name="Info42" xml:space="preserve">
+    <value>Reset the task error:</value>
+  </data>
+  <data name="Info43" xml:space="preserve">
+    <value>Provisional data acquisition task in the loading error occurs, it may be limited or forced to withdraw due to permission the result of!</value>
+  </data>
+  <data name="Info44" xml:space="preserve">
+    <value>Please specify the file name to import the task</value>
+  </data>
+  <data name="Info45" xml:space="preserve">
+    <value>You import the task already exists, please choose another task needs to be imported!</value>
+  </data>
+  <data name="Info46" xml:space="preserve">
+    <value>The task that you specify already exists, but you may not be able to see through the Soukey picking, because you have removed this task, but the task file exists, can modify this file name after the import operation for the task!</value>
+  </data>
+  <data name="Info47" xml:space="preserve">
+    <value>You specify the task has been successfully imported, owned Category:</value>
+  </data>
+  <data name="Info48" xml:space="preserve">
+    <value>Import failed with error message:</value>
+  </data>
+  <data name="Info49" xml:space="preserve">
+    <value>Modify the task classification error, the error message:</value>
+  </data>
+  <data name="Info5" xml:space="preserve">
+    <value>Ongoing data collection, please wait ......</value>
+  </data>
+  <data name="Info50" xml:space="preserve">
+    <value>Can not drag and drop tasks to:</value>
+  </data>
+  <data name="Info51" xml:space="preserve">
+    <value>Failed to save the log:</value>
+  </data>
+  <data name="Info52" xml:space="preserve">
+    <value>Close "System Information"</value>
+  </data>
+  <data name="Info53" xml:space="preserve">
+    <value>SoukeyMiner Task Options</value>
+  </data>
+  <data name="Info54" xml:space="preserve">
+    <value>The task of loading the file to run monitor illegal, please delete the Windows file browser, and re-click this node is automatically created by the system! File:</value>
+  </data>
+  <data name="Info55" xml:space="preserve">
+    <value>Has completed the task load index file illegal, please delete the Windows file browser, and re-click this node is automatically created by the system! File:</value>
+  </data>
+  <data name="Info56" xml:space="preserve">
+    <value>Task error loading system, the system considers: SoukeyMiner the latest version to download.</value>
+  </data>
+  <data name="Info57" xml:space="preserve">
+    <value>Load mission implementation plans have gone wrong, an error message as follows:</value>
+  </data>
+  <data name="Info58" xml:space="preserve">
+    <value>Load the mandate implementation plan log error, an error message as follows:</value>
+  </data>
+  <data name="Info59" xml:space="preserve">
+    <value>Load the mandate implementation plan log error, an error message as follows:</value>
+  </data>
+  <data name="Info6" xml:space="preserve">
+    <value>Please first obtain the sample site, and then to the source code view!</value>
+  </data>
+  <data name="Info60" xml:space="preserve">
+    <value>Please specify the name of the log file is stored collection</value>
+  </data>
+  <data name="Info61" xml:space="preserve">
+    <value>System configuration file operation fails, an error message as follows:</value>
+  </data>
+  <data name="Info62" xml:space="preserve">
+    <value>Are modifying the name of the task categories, please wait ......</value>
+  </data>
+  <data name="Info63" xml:space="preserve">
+    <value>Change the name of the task classification error, the error message as follows:</value>
+  </data>
+  <data name="Info64" xml:space="preserve">
+    <value>Modify the task name of the error, the error message as follows:</value>
+  </data>
+  <data name="Info65" xml:space="preserve">
+    <value>Modify the program name of the error, the error message as follows:</value>
+  </data>
+  <data name="Info66" xml:space="preserve">
+    <value>Name of the scheme being revised, please wait ......</value>
+  </data>
+  <data name="Info67" xml:space="preserve">
+    <value>he name of the task being revised, please wait ......</value>
+  </data>
+  <data name="Info68" xml:space="preserve">
+    <value>Copy task failed with error message:</value>
+  </data>
+  <data name="Info69" xml:space="preserve">
+    <value>Initializing the main program application information, please wait ......</value>
+  </data>
+  <data name="Info7" xml:space="preserve">
+    <value>Please choose the path of collecting data storage tasks:</value>
+  </data>
+  <data name="Info70" xml:space="preserve">
+    <value>Initializing task information, and started the task of running area, please wait ......</value>
+  </data>
+  <data name="Info71" xml:space="preserve">
+    <value>Starting listener task to run automatically, please wait ......</value>
+  </data>
+  <data name="Info72" xml:space="preserve">
+    <value>Classification under the index file is missing, please return to the main interface by clicking on the task of classification missing files automatically created</value>
+  </data>
+  <data name="Info73" xml:space="preserve">
+    <value>Loading the task of classification index file illegal, please return to the main interface for this task category by clicking the checksum file is legitimate.</value>
+  </data>
+  <data name="Info74" xml:space="preserve">
+    <value>Please select the need to run programs or scripts</value>
+  </data>
+  <data name="Info75" xml:space="preserve">
+    <value>Database connection error, error message:</value>
+  </data>
+  <data name="Info76" xml:space="preserve">
+    <value>System configuration file failed to load, can copy files from the installation file: SoukeyConfig.xml to Soukey picking installation directory, configuration file is corrupted does not affect system operation, but you do system configuration may not be able to save!</value>
+  </data>
+  <data name="Info77" xml:space="preserve">
+    <value>Please select the dictionary to dictionary content categories and then add the</value>
+  </data>
+  <data name="Info78" xml:space="preserve">
+    <value>Modify the dictionary name of the error, the error message as follows:</value>
+  </data>
+  <data name="Info79" xml:space="preserve">
+    <value>Root can not be removed!</value>
+  </data>
+  <data name="Info8" xml:space="preserve">
+    <value>Please fill in the navigation rules and then add</value>
+  </data>
+  <data name="Info80" xml:space="preserve">
+    <value>Delete the contents of non-dictionary or to select the Delete the contents of the!</value>
+  </data>
+  <data name="Info81" xml:space="preserve">
+    <value>Auto-Response:</value>
+  </data>
+  <data name="Info82" xml:space="preserve">
+    <value>System default options for "Yes (Y)"</value>
+  </data>
+  <data name="Info83" xml:space="preserve">
+    <value>Select the task category selection task, if we gave up, please click the "Cancel"</value>
+  </data>
+  <data name="Info84" xml:space="preserve">
+    <value>Please specify the Access database file</value>
+  </data>
+  <data name="Info85" xml:space="preserve">
+    <value>Please select the required database name published MSSqlServer!</value>
+  </data>
+  <data name="Info86" xml:space="preserve">
+    <value>Please select the required release of MySql database name!</value>
+  </data>
+  <data name="Info87" xml:space="preserve">
+    <value>Database connection successfully!</value>
+  </data>
+  <data name="Info88" xml:space="preserve">
+    <value>Are required to complete the task category name</value>
+  </data>
+  <data name="Info89" xml:space="preserve">
+    <value>Plan to save failed, error reasons are:</value>
+  </data>
+  <data name="Info9" xml:space="preserve">
+    <value>Start program monitoring service failure, failure information:</value>
+  </data>
+  <data name="Info90" xml:space="preserve">
+    <value>Access to the local system version is being ........</value>
+  </data>
+  <data name="Info91" xml:space="preserve">
+    <value>The local version number is:</value>
+  </data>
+  <data name="Info92" xml:space="preserve">
+    <value>Start connecting SoukeyMiner Official website:：http://www.yijie.net ......</value>
+  </data>
+  <data name="Info93" xml:space="preserve">
+    <value>Connection fails, make sure that is connected to the Internet.</value>
+  </data>
+  <data name="Info94" xml:space="preserve">
+    <value>Check has been discontinued!</value>
+  </data>
+  <data name="Info95" xml:space="preserve">
+    <value>Connection successful!</value>
+  </data>
+  <data name="Info96" xml:space="preserve">
+    <value>Begin to obtain the latest version SoukeyMiner.......</value>
+  </data>
+  <data name="Info97" xml:space="preserve">
+    <value>SoukeyMiner the latest version number:</value>
+  </data>
+  <data name="Info98" xml:space="preserve">
+    <value>Found a new version, version as follows:</value>
+  </data>
+  <data name="Info99" xml:space="preserve">
+    <value>No new version, do not need to download the action!</value>
+  </data>
+  <data name="InfoStart" xml:space="preserve">
+    <value>System startup</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>Processing conditions:</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>Task Failed</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>Task pause</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>Task is running</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>Task is running</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>Task waiting to run</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>Tasks are released</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>SoukeyMiner task</value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>Other tasks</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>Database Task</value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>New Dictionary Category</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>prefix:</value>
+  </data>
+  <data name="Label20" xml:space="preserve">
+    <value>New Dictionary content</value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>Effective</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>Invalid</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>Automatic Checking</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>Chinese (Simplified)</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>Suffix:</value>
+  </data>
+  <data name="Label30" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>saved to the default path</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>Navigation URL Prefix</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>Same Part</value>
+  </data>
+  <data name="Label34" xml:space="preserve">
+    <value>Navigation URL Suffix</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>Interception of the number of characters:</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>expression:</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>regular expression:</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>Task does not start</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>Task has been stopped</value>
+  </data>
+  <data name="label9" xml:space="preserve">
+    <value>Task has been completed</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Logon" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="LogSave" xml:space="preserve">
+    <value>Log Save</value>
+  </data>
+  <data name="LogSaveSuccess" xml:space="preserve">
+    <value>Log saved successfully</value>
+  </data>
+  <data name="MessageboxError" xml:space="preserve">
+    <value>SoukeyMiner Error</value>
+  </data>
+  <data name="MessageboxInfo" xml:space="preserve">
+    <value>SoukeyMiner Information</value>
+  </data>
+  <data name="MessageboxQuaere" xml:space="preserve">
+    <value>SoukeyMiner Quaere</value>
+  </data>
+  <data name="MessageboxWarning" xml:space="preserve">
+    <value>SoukeyMiner Warning</value>
+  </data>
+  <data name="NaviLevel" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="NaviRule" xml:space="preserve">
+    <value>Acquisition rules</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="NoLogon" xml:space="preserve">
+    <value>None Logon</value>
+  </data>
+  <data name="PM" xml:space="preserve">
+    <value>PM</value>
+  </data>
+  <data name="Quaere1" xml:space="preserve">
+    <value>Not defined in this task to be collected or collection website web site rules, whether to save the task?</value>
+  </data>
+  <data name="Quaere10" xml:space="preserve">
+    <value>Delete the task has been completed will delete the data has been collected, you can delete the pre-mission to export the data to continue?</value>
+  </data>
+  <data name="Quaere11" xml:space="preserve">
+    <value>You choose to delete a number of tasks have been completed, remove the tasks have been completed will delete the data has been collected, you can delete the pre-mission to export the data to continue?</value>
+  </data>
+  <data name="Quaere12" xml:space="preserve">
+    <value>You choose to start the task of running the district has been there or have the same name, the task is already running area, you need to run this task to confirm or need to run a second instance of this task?</value>
+  </data>
+  <data name="Quaere13" xml:space="preserve">
+    <value>The current task has been loaded into the operating area can not modify operation, continue to see?</value>
+  </data>
+  <data name="Quaere14" xml:space="preserve">
+    <value>Run district is running the task, forced to withdraw may result in loss of data collected, it really out of Soukey pick?</value>
+  </data>
+  <data name="Quaere15" xml:space="preserve">
+    <value>You choose to reset the number of already running task, the task to reset the task will be to restore the initial state, and delete the data has been collected, but if you have to export the data or to export the data automatically by the system is not will receive the impact of whether to continue?</value>
+  </data>
+  <data name="Quaere16" xml:space="preserve">
+    <value>Task will be reset to resume the task of the initial state, and delete the data has been collected, but if you have to export the data or data derived by the system automatically, you will not be affected, whether to continue?</value>
+  </data>
+  <data name="Quaere17" xml:space="preserve">
+    <value>You specify below this version of the task to import requirements, be allowed to carry out the task to upgrade its mission to import, whether the task is now to upgrade operations "?</value>
+  </data>
+  <data name="Quaere18" xml:space="preserve">
+    <value>Mission operations control file is lost, I ask whether the task is running according to the situation created automatically?</value>
+  </data>
+  <data name="Quaere19" xml:space="preserve">
+    <value>Has completed the task of the index file is missing, need to re-establish, but the task has been completed the information will be lost, the data content is not lost, the data is stored in:</value>
+  </data>
+  <data name="Quaere2" xml:space="preserve">
+    <value>Task information changes have taken place, exit without saving?</value>
+  </data>
+  <data name="Quaere20" xml:space="preserve">
+    <value>Categories of the index file is missing, does it automatically created?</value>
+  </data>
+  <data name="Quaere21" xml:space="preserve">
+    <value>If this dictionary content has been used in URL parameters, then the site will be collected consecutive failure, whether to continue?</value>
+  </data>
+  <data name="Quaere22" xml:space="preserve">
+    <value>If this dictionary content has been used in URL parameters, then the site will be collected consecutive failure, whether to continue?</value>
+  </data>
+  <data name="Quaere3" xml:space="preserve">
+    <value>Mission operations control file is lost, I ask whether the task is running according to the situation created automatically?</value>
+  </data>
+  <data name="Quaere4" xml:space="preserve">
+    <value>You load the mission and mandate of the current system to support different versions, please upgrade version of the task and then loaded, whether the task is now to upgrade operations</value>
+  </data>
+  <data name="Quaere5" xml:space="preserve">
+    <value>If this task is running, the deletion will not affect, but this task can not be removed to restore, to continue?</value>
+  </data>
+  <data name="Quaere6" xml:space="preserve">
+    <value>You choose to delete more than one task, the removal operation will not cause influence, but this task can not be removed to restore, to continue?</value>
+  </data>
+  <data name="Quaere7" xml:space="preserve">
+    <value>Implementation of the plan you choose clear history, note that even if you did not select all the historical record, but this action is to refer to empty all the log information, and the data will not be restored, whether to continue?</value>
+  </data>
+  <data name="Quaere8" xml:space="preserve">
+    <value>You choose to delete multiple tasks to run area, delete the task of running district does not affect the completion of this task has been collecting data on whether to continue?</value>
+  </data>
+  <data name="Quaere9" xml:space="preserve">
+    <value>Delete the task of running district does not affect this task has been completed the data collected, whether to continue?</value>
+  </data>
+  <data name="rmenu1" xml:space="preserve">
+    <value>Increment the variable</value>
+  </data>
+  <data name="rmenu2" xml:space="preserve">
+    <value>Decreasing variable</value>
+  </data>
+  <data name="rmenu3" xml:space="preserve">
+    <value>Letter increment</value>
+  </data>
+  <data name="rmenu4" xml:space="preserve">
+    <value>Letter descending</value>
+  </data>
+  <data name="rmenu5" xml:space="preserve">
+    <value>POST prefix</value>
+  </data>
+  <data name="rmenu6" xml:space="preserve">
+    <value>POST suffix</value>
+  </data>
+  <data name="rmenu7" xml:space="preserve">
+    <value>Manual capture POST data</value>
+  </data>
+  <data name="rmenu8" xml:space="preserve">
+    <value>Dictionary</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="SoukeyStartInfo" xml:space="preserve">
+    <value>System startup</value>
+  </data>
+  <data name="State1" xml:space="preserve">
+    <value>Task Queue:</value>
+  </data>
+  <data name="State2" xml:space="preserve">
+    <value>Run</value>
+  </data>
+  <data name="State3" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="State4" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="State5" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="State6" xml:space="preserve">
+    <value>offline</value>
+  </data>
+  <data name="State7" xml:space="preserve">
+    <value>Currrent Selected:</value>
+  </data>
+  <data name="State8" xml:space="preserve">
+    <value>Current Status: Ready</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="TaskGCompleted" xml:space="preserve">
+    <value>Task collected successfully</value>
+  </data>
+  <data name="TaskGError" xml:space="preserve">
+    <value>Task of collecting an error</value>
+  </data>
+  <data name="TaskGFailed" xml:space="preserve">
+    <value>Task of collecting failure, had stopped</value>
+  </data>
+  <data name="TaskPublishFailed" xml:space="preserve">
+    <value>Task release failure, has been transferred to the completion of the regional</value>
+  </data>
+  <data name="TaskPublishing" xml:space="preserve">
+    <value>Outset of the mission data release</value>
+  </data>
+  <data name="TaskPulished" xml:space="preserve">
+    <value>Task successfully posted</value>
+  </data>
+  <data name="TaskStarted" xml:space="preserve">
+    <value>Task to start</value>
+  </data>
+  <data name="TaskStoped" xml:space="preserve">
+    <value>Task to stop</value>
+  </data>
+  <data name="TrayInfo1" xml:space="preserve">
+    <value>Running Tasks</value>
+  </data>
+  <data name="TrayInfo2" xml:space="preserve">
+    <value>Publishing Tasks</value>
+  </data>
+  <data name="TrayInfo3" xml:space="preserve">
+    <value>Is Started</value>
+  </data>
+  <data name="TrayInfo4" xml:space="preserve">
+    <value>Task to start</value>
+  </data>
+  <data name="TrayTitle" xml:space="preserve">
+    <value>SoukeyMiner [OpenSource]</value>
+  </data>
+  <data name="W0" xml:space="preserve">
+    <value>Sunday</value>
+  </data>
+  <data name="W1" xml:space="preserve">
+    <value>Monday</value>
+  </data>
+  <data name="W2" xml:space="preserve">
+    <value>Tuesday</value>
+  </data>
+  <data name="W3" xml:space="preserve">
+    <value>Wednesday</value>
+  </data>
+  <data name="W4" xml:space="preserve">
+    <value>Thursday</value>
+  </data>
+  <data name="W5" xml:space="preserve">
+    <value>Friday</value>
+  </data>
+  <data name="W6" xml:space="preserve">
+    <value>Saturday</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+</root>

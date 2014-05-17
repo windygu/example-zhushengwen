@@ -1,0 +1,53 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.Excel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\updaterss.csproj.ResolveComReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.Form1.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\InputPhones.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\InputPhones.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\MySql.Data.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\StringTool.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\Interop.Excel.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.VBIDE.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\updaterss.csproj.ResolveComReference.cache
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.exe
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\InputPhones.exe
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\InputPhones.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\StringTool.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\MySql.Data.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\StringTool.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.Form1.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.Properties.Resources.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\SkinForm.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\CC2013.exe
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\CC2013.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.Form3.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\InputPhones.FrmInformation.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\obj\x86\Debug\Interop.Excel.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\InputPhones\bin\Debug\Interop.Excel.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\Interop.Excel.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\updaterss.csproj.ResolveComReference.cache
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\InputPhones.exe
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\InputPhones.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\InputPhones.Form1.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\InputPhones.FrmInformation.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\InputPhones.Properties.Resources.resources
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\bin\Debug\InputPhones.exe
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\bin\Debug\InputPhones.pdb
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\bin\Debug\SkinForm.dll
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\bin\Debug\InputPhones.exe.config
+E:\Move\Projects\ClassLibrary1\UpdateRss\JD\bin\Debug\zoyobar.shared.panzer.IEBrowser.dll

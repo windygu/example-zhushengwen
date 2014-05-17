@@ -1,0 +1,9 @@
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\bin\Release\StringTool.dll
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\bin\Release\StringTool.pdb
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\bin\Release\mysql.data.dll
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\ResolveAssemblyReference.cache
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\StringTool.UserControl1.resources
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\GenerateResource-ResGen.read.1.tlog
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\GenerateResource-ResGen.write.1.tlog
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\StringTool.dll
+E:\Move\Projects\ClassLibrary1\ClassLibrary1\obj\Release\StringTool.pdb

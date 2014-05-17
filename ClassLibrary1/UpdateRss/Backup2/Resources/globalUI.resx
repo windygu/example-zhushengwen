@@ -1,0 +1,963 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AM" xml:space="preserve">
+    <value>上午</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Error1" xml:space="preserve">
+    <value>请输入网址信息</value>
+  </data>
+  <data name="Error10" xml:space="preserve">
+    <value>请输入采集数据的结束标志</value>
+  </data>
+  <data name="Error11" xml:space="preserve">
+    <value>采集的名称不能重复，请重新命名</value>
+  </data>
+  <data name="Error12" xml:space="preserve">
+    <value>数据库连接发生错误，错误信息：</value>
+  </data>
+  <data name="Error13" xml:space="preserve">
+    <value>任务保存时失败，出错原因是：</value>
+  </data>
+  <data name="Error14" xml:space="preserve">
+    <value>Soukey采摘分类文件遭到破坏，无法加载，请拷贝安装文件中“TaskClass.xml”文件到系统根目录修复此任务！</value>
+  </data>
+  <data name="Error15" xml:space="preserve">
+    <value>加载运行任务出错，首先删除正在运行的任务，退出系统后，进入系统所在目录中的Tasks下，删除taskrun.xml，重启即可！错误信息为：</value>
+  </data>
+  <data name="Error16" xml:space="preserve">
+    <value>加载的任务运行监控:taskrun.xml 文件非法，请检查此文件，或将其删除，并重新点击此节点由系统自动建立！</value>
+  </data>
+  <data name="Error17" xml:space="preserve">
+    <value>所拷贝的任务分类路径不存在！</value>
+  </data>
+  <data name="Error18" xml:space="preserve">
+    <value>计划名称不能为空!</value>
+  </data>
+  <data name="Error19" xml:space="preserve">
+    <value>至少应该有一任务被执行</value>
+  </data>
+  <data name="Error2" xml:space="preserve">
+    <value>您输入的网址不合法，请检查</value>
+  </data>
+  <data name="Error20" xml:space="preserve">
+    <value>如果您选择了计划1次便失效，则必须选择执行计划中的仅“运行一次”选项</value>
+  </data>
+  <data name="Error21" xml:space="preserve">
+    <value>保存任务发生了错误，初步判断原因是系统错误，请与一孑工作室联系！</value>
+  </data>
+  <data name="Error22" xml:space="preserve">
+    <value>任务名称不能为空!</value>
+  </data>
+  <data name="Error23" xml:space="preserve">
+    <value>加载正在运行的任务出错，发生错误的任务将无法显示在运行区，有可能是由于这些任务引用了不存在的字典参数，建议修复丢失的字典参数，如果错误还是无法解决，请在运行区所有任务都运行完毕后，删除Tasks\taskrun.xml文件，通过程序自动建立此文件，从而修复此问题。</value>
+  </data>
+  <data name="Error24" xml:space="preserve">
+    <value>至少需要提供一个需要采集数据的网址！</value>
+  </data>
+  <data name="Error25" xml:space="preserve">
+    <value>至少需要提供一种采集数据的规则！</value>
+  </data>
+  <data name="Error26" xml:space="preserve">
+    <value>导航规则配置错误，错误信息为：</value>
+  </data>
+  <data name="Error3" xml:space="preserve">
+    <value>任务保存时失败，出错原因是：</value>
+  </data>
+  <data name="Error4" xml:space="preserve">
+    <value>采集发生错误，错误信息：</value>
+  </data>
+  <data name="Error5" xml:space="preserve">
+    <value>导航规则为空，无法测试！</value>
+  </data>
+  <data name="Error6" xml:space="preserve">
+    <value>网址无法打开，可能出错，请检查网址及导航规则。</value>
+  </data>
+  <data name="Error7" xml:space="preserve">
+    <value>获取网页源代码出错，错误信息为：</value>
+  </data>
+  <data name="Error8" xml:space="preserve">
+    <value>请输入采集数据的名称</value>
+  </data>
+  <data name="Error9" xml:space="preserve">
+    <value>请输入采集数据的起始标志</value>
+  </data>
+  <data name="Everyday" xml:space="preserve">
+    <value>每天</value>
+  </data>
+  <data name="GridCollectionCount" xml:space="preserve">
+    <value>已采数量</value>
+  </data>
+  <data name="GridCompleteCount" xml:space="preserve">
+    <value>已完成数量</value>
+  </data>
+  <data name="GridCount" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="GridErrorCount" xml:space="preserve">
+    <value>错误数量</value>
+  </data>
+  <data name="GridExportedCount" xml:space="preserve">
+    <value>已导出数量</value>
+  </data>
+  <data name="GridExportType" xml:space="preserve">
+    <value>导出类型</value>
+  </data>
+  <data name="GridID" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="GridIsLogon" xml:space="preserve">
+    <value>是否登录</value>
+  </data>
+  <data name="GridIsOvertime" xml:space="preserve">
+    <value>是否过期</value>
+  </data>
+  <data name="GridNextTime" xml:space="preserve">
+    <value>下次执行时间</value>
+  </data>
+  <data name="GridOvertimeRule" xml:space="preserve">
+    <value>过期规则</value>
+  </data>
+  <data name="GridPara" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="GridPlanName" xml:space="preserve">
+    <value>计划名称</value>
+  </data>
+  <data name="GridProcess" xml:space="preserve">
+    <value>进度</value>
+  </data>
+  <data name="GridPublished" xml:space="preserve">
+    <value>已导出</value>
+  </data>
+  <data name="GridRemark" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="GridRunPlan" xml:space="preserve">
+    <value>执行计划</value>
+  </data>
+  <data name="GridRunTime" xml:space="preserve">
+    <value>执行时间</value>
+  </data>
+  <data name="GridState" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="GridTaskID" xml:space="preserve">
+    <value>任务编号</value>
+  </data>
+  <data name="GridTaskName" xml:space="preserve">
+    <value>任务名称</value>
+  </data>
+  <data name="GridTaskRunType" xml:space="preserve">
+    <value>执行类型</value>
+  </data>
+  <data name="GridTaskState" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="GridTaskType" xml:space="preserve">
+    <value>任务类型</value>
+  </data>
+  <data name="GridUrlCount" xml:space="preserve">
+    <value>采集网址数量</value>
+  </data>
+  <data name="Info1" xml:space="preserve">
+    <value>您加载的任务与当前系统支持的任务版本不同，请升级任务版本后再进行加载</value>
+  </data>
+  <data name="Info10" xml:space="preserve">
+    <value>停止计划监听服务失败，失败信息为：</value>
+  </data>
+  <data name="Info100" xml:space="preserve">
+    <value>下载成功，请在Soukey采摘工作目录中检查Soukey.exe文件，此文件为最新版本，并且是rar自解压的免安装版本！</value>
+  </data>
+  <data name="Info101" xml:space="preserve">
+    <value>检查更新失败！错误信息为：</value>
+  </data>
+  <data name="Info102" xml:space="preserve">
+    <value>开始下载最新版本，请等待......</value>
+  </data>
+  <data name="Info103" xml:space="preserve">
+    <value>找到待升级任务：</value>
+  </data>
+  <data name="Info104" xml:space="preserve">
+    <value>正在查找...</value>
+  </data>
+  <data name="Info105" xml:space="preserve">
+    <value>请指定需要导入任务的文件名</value>
+  </data>
+  <data name="Info106" xml:space="preserve">
+    <value>此任务版本为最新，无需升级！</value>
+  </data>
+  <data name="Info107" xml:space="preserve">
+    <value>新增待升级任务发生错误，错误信息为：</value>
+  </data>
+  <data name="Info108" xml:space="preserve">
+    <value>没有待升级的任务</value>
+  </data>
+  <data name="Info109" xml:space="preserve">
+    <value>正在升级</value>
+  </data>
+  <data name="Info11" xml:space="preserve">
+    <value>此任务执行需要获取Cookie，但您取消了Cookie获取操作，任务被迫中断！</value>
+  </data>
+  <data name="Info110" xml:space="preserve">
+    <value>升级成功</value>
+  </data>
+  <data name="Info111" xml:space="preserve">
+    <value>升级失败</value>
+  </data>
+  <data name="Info112" xml:space="preserve">
+    <value>有可能任务已经已被破坏，错误信息为：</value>
+  </data>
+  <data name="Info113" xml:space="preserve">
+    <value>您的修改已经成功，但需要在下次系统启动时才会生效！</value>
+  </data>
+  <data name="Info114" xml:space="preserve">
+    <value>请先填写网址，再进行导航规则的添加</value>
+  </data>
+  <data name="Info115" xml:space="preserve">
+    <value>导航前缀只能添加一次，且只能第一次添加</value>
+  </data>
+  <data name="Info116" xml:space="preserve">
+    <value>请先添加导航网址的前缀，才可添加公共部分</value>
+  </data>
+  <data name="Info117" xml:space="preserve">
+    <value>正在解析导航网址，请等待......</value>
+  </data>
+  <data name="Info12" xml:space="preserve">
+    <value>请指定导出的文本文件名</value>
+  </data>
+  <data name="Info13" xml:space="preserve">
+    <value>请指定导出的Excel文件名</value>
+  </data>
+  <data name="Info14" xml:space="preserve">
+    <value>加载失败，文件可能受到破坏，请删除后重新建立！</value>
+  </data>
+  <data name="Info15" xml:space="preserve">
+    <value>开始于</value>
+  </data>
+  <data name="Info16" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Info17" xml:space="preserve">
+    <value>超过</value>
+  </data>
+  <data name="Info18" xml:space="preserve">
+    <value>永不失效</value>
+  </data>
+  <data name="Info19" xml:space="preserve">
+    <value>您加载的任务与当前系统支持的任务版本不同，操作建议：删除此任务运行实例，升级此任务再次运行即可！</value>
+  </data>
+  <data name="Info2" xml:space="preserve">
+    <value>存储路径</value>
+  </data>
+  <data name="Info20" xml:space="preserve">
+    <value>无法删除系统分类：</value>
+  </data>
+  <data name="Info21" xml:space="preserve">
+    <value>您选择删除分类：</value>
+  </data>
+  <data name="Info22" xml:space="preserve">
+    <value>删除分类将同时删除此分类下的所有任务，您是否继续执行删除操作?</value>
+  </data>
+  <data name="Info23" xml:space="preserve">
+    <value>删除分类发生错误，错误信息为：</value>
+  </data>
+  <data name="Info24" xml:space="preserve">
+    <value>您确认删除计划任务：</value>
+  </data>
+  <data name="Info25" xml:space="preserve">
+    <value>删除后此计划不可恢复，是否继续？</value>
+  </data>
+  <data name="Info26" xml:space="preserve">
+    <value>您选择了删除多个计划任务，删除后计划将不可恢复，是否继续？</value>
+  </data>
+  <data name="Info27" xml:space="preserve">
+    <value>删除计划时出错，错误信息为：</value>
+  </data>
+  <data name="Info28" xml:space="preserve">
+    <value>您选择删除任务：</value>
+  </data>
+  <data name="Info29" xml:space="preserve">
+    <value>您确认删除任务：</value>
+  </data>
+  <data name="Info3" xml:space="preserve">
+    <value>在此任务没有定义需要采集的网址，无法进行采集测试工作！</value>
+  </data>
+  <data name="Info30" xml:space="preserve">
+    <value>您指定的计划不存在，或者计划信息被非法破坏，请删除此计划后重建，或直接修改计划xml文件予以修复！错误信息为：</value>
+  </data>
+  <data name="Info31" xml:space="preserve">
+    <value>您指定打开的任务不存在，可能已被删除！通常情况下，系统会建立此任务的备份，您可通过导入功能导入此任务。</value>
+  </data>
+  <data name="Info32" xml:space="preserve">
+    <value>您加载的任务出错，错误信息为：</value>
+  </data>
+  <data name="Info33" xml:space="preserve">
+    <value>通常情况下，系统会建立此任务的备份，您可通过导入功能导入此任务。</value>
+  </data>
+  <data name="Info34" xml:space="preserve">
+    <value>当前任务正在运行，无法关闭此任务的数据输出窗口！</value>
+  </data>
+  <data name="Info35" xml:space="preserve">
+    <value>已经有手动导出任务正在运行，请等待此任务运行完成后，再进行手动数据导出！</value>
+  </data>
+  <data name="Info36" xml:space="preserve">
+    <value>请指定存储数据的文件名</value>
+  </data>
+  <data name="Info37" xml:space="preserve">
+    <value>手动导出数据</value>
+  </data>
+  <data name="Info38" xml:space="preserve">
+    <value>导出数据已经开始</value>
+  </data>
+  <data name="Info39" xml:space="preserve">
+    <value>导出数据已经完成</value>
+  </data>
+  <data name="Info4" xml:space="preserve">
+    <value>在此任务没有定义需要采集数据的采集规则，无法进行采集测试工作！</value>
+  </data>
+  <data name="Info40" xml:space="preserve">
+    <value>系统配置文件加载失败，可从安装文件中拷贝文件：SoukeyConfig.xml 到Soukey采摘安装目录，配置文件损坏并不影响系统运行，但您做的系统配置可能无法保存！</value>
+  </data>
+  <data name="Info41" xml:space="preserve">
+    <value>您选择了重置任务：</value>
+  </data>
+  <data name="Info42" xml:space="preserve">
+    <value>任务重置出错：</value>
+  </data>
+  <data name="Info43" xml:space="preserve">
+    <value>任务在加载临时采集数据时发生错误，有可能是由于权限受限或强制退出所导致！</value>
+  </data>
+  <data name="Info44" xml:space="preserve">
+    <value>请指定需要导入任务的文件名</value>
+  </data>
+  <data name="Info45" xml:space="preserve">
+    <value>您导入的任务已经存在，请选择其他需要导入的任务！</value>
+  </data>
+  <data name="Info46" xml:space="preserve">
+    <value>您指定的任务已经存在，但您可能无法通过Soukey采摘看到，是因为您曾经删除了此任务，但任务文件还存在，可通过修改此文件名后再进行任务导入操作！</value>
+  </data>
+  <data name="Info47" xml:space="preserve">
+    <value>您指定的任务已成功导入，所属分类：</value>
+  </data>
+  <data name="Info48" xml:space="preserve">
+    <value>导入失败，错误信息：</value>
+  </data>
+  <data name="Info49" xml:space="preserve">
+    <value>修改任务分类发生错误，错误信息：</value>
+  </data>
+  <data name="Info5" xml:space="preserve">
+    <value>正在进行数据采集，请等待......</value>
+  </data>
+  <data name="Info50" xml:space="preserve">
+    <value>不能把任务拖放到：</value>
+  </data>
+  <data name="Info51" xml:space="preserve">
+    <value>日志保存失败：</value>
+  </data>
+  <data name="Info52" xml:space="preserve">
+    <value>关闭“系统信息”</value>
+  </data>
+  <data name="Info53" xml:space="preserve">
+    <value>Soukey采摘 任务选项</value>
+  </data>
+  <data name="Info54" xml:space="preserve">
+    <value>加载的任务运行监控文件非法，请通过Windows文件浏览器删除，并重新点击此节点由系统自动建立！文件：</value>
+  </data>
+  <data name="Info55" xml:space="preserve">
+    <value>加载的已完成任务索引文件非法，请通过Windows文件浏览器删除，并重新点击此节点由系统自动建立！文件:</value>
+  </data>
+  <data name="Info56" xml:space="preserve">
+    <value>加载系统任务出错，系统认为为：Soukey采摘 最新版本下载。</value>
+  </data>
+  <data name="Info57" xml:space="preserve">
+    <value>加载任务执行计划出错，错误信息为：</value>
+  </data>
+  <data name="Info58" xml:space="preserve">
+    <value>加载任务执行计划日志出错，错误信息为：</value>
+  </data>
+  <data name="Info59" xml:space="preserve">
+    <value>加载任务执行计划日志出错，错误信息为：</value>
+  </data>
+  <data name="Info6" xml:space="preserve">
+    <value>请首先获取示例网址，再进行源代码查看！</value>
+  </data>
+  <data name="Info60" xml:space="preserve">
+    <value>请指定存储采集日志文件的名称</value>
+  </data>
+  <data name="Info61" xml:space="preserve">
+    <value>系统配置文件操作失败，错误信息为：</value>
+  </data>
+  <data name="Info62" xml:space="preserve">
+    <value>正在修改任务分类的名称，请稍等......</value>
+  </data>
+  <data name="Info63" xml:space="preserve">
+    <value>修改任务分类名称发生错误，错误信息为：</value>
+  </data>
+  <data name="Info64" xml:space="preserve">
+    <value>修改任务名称发生错误，错误信息为：</value>
+  </data>
+  <data name="Info65" xml:space="preserve">
+    <value>修改计划名称发生错误，错误信息为：</value>
+  </data>
+  <data name="Info66" xml:space="preserve">
+    <value>正在修改计划的名称，请稍等......</value>
+  </data>
+  <data name="Info67" xml:space="preserve">
+    <value>正在修改任务的名称，请稍等......</value>
+  </data>
+  <data name="Info68" xml:space="preserve">
+    <value>任务拷贝失败，错误信息：</value>
+  </data>
+  <data name="Info69" xml:space="preserve">
+    <value>正在初始化主程序应用信息，请等待......</value>
+  </data>
+  <data name="Info7" xml:space="preserve">
+    <value>请选择采集任务数据存储的路径：</value>
+  </data>
+  <data name="Info70" xml:space="preserve">
+    <value>正在初始化任务信息并开始启动运行区的任务，请等待......</value>
+  </data>
+  <data name="Info71" xml:space="preserve">
+    <value>正在启动自动运行任务监听器，请等待......</value>
+  </data>
+  <data name="Info72" xml:space="preserve">
+    <value>分类下的索引文件丢失，请返回主界面通过点击丢失文件的任务分类自动创建</value>
+  </data>
+  <data name="Info73" xml:space="preserve">
+    <value>加载的任务分类索引文件非法，请返回主界面通过点击此任务分类校验文件是否合法。</value>
+  </data>
+  <data name="Info74" xml:space="preserve">
+    <value>请选择需要运行的程序或脚本</value>
+  </data>
+  <data name="Info75" xml:space="preserve">
+    <value>数据库连接发生错误，错误信息：</value>
+  </data>
+  <data name="Info76" xml:space="preserve">
+    <value>系统配置文件加载失败，可从安装文件中拷贝文件：SoukeyConfig.xml 到Soukey采摘安装目录，配置文件损坏并不影响系统运行，但您做的系统配置可能无法保存！</value>
+  </data>
+  <data name="Info77" xml:space="preserve">
+    <value>请先选择字典分类再进行字典内容的添加</value>
+  </data>
+  <data name="Info78" xml:space="preserve">
+    <value>修改字典名称出错，错误信息为：</value>
+  </data>
+  <data name="Info79" xml:space="preserve">
+    <value>根节点无法删除！</value>
+  </data>
+  <data name="Info8" xml:space="preserve">
+    <value>请填写导航规则后再添加</value>
+  </data>
+  <data name="Info80" xml:space="preserve">
+    <value>无删除的字典内容或为选中删除的内容！</value>
+  </data>
+  <data name="Info81" xml:space="preserve">
+    <value>自动响应：</value>
+  </data>
+  <data name="Info82" xml:space="preserve">
+    <value>系统默认选择为“是(Y)”</value>
+  </data>
+  <data name="Info83" xml:space="preserve">
+    <value>选择任务分类筛选任务，如果放弃操作，请点击“取消”</value>
+  </data>
+  <data name="Info84" xml:space="preserve">
+    <value>请指定Access数据库文件</value>
+  </data>
+  <data name="Info85" xml:space="preserve">
+    <value>请选择需要发布的MSSqlServer数据库名称！</value>
+  </data>
+  <data name="Info86" xml:space="preserve">
+    <value>请选择需要发布的MySql数据库名称！</value>
+  </data>
+  <data name="Info87" xml:space="preserve">
+    <value>数据库链接成功！</value>
+  </data>
+  <data name="Info88" xml:space="preserve">
+    <value>任务分类名称需要填写</value>
+  </data>
+  <data name="Info89" xml:space="preserve">
+    <value>计划保存时失败，出错原因是：</value>
+  </data>
+  <data name="Info9" xml:space="preserve">
+    <value>启动计划监听服务失败，失败信息为：</value>
+  </data>
+  <data name="Info90" xml:space="preserve">
+    <value>正在获取本地系统版本号........</value>
+  </data>
+  <data name="Info91" xml:space="preserve">
+    <value>本地版本号为：</value>
+  </data>
+  <data name="Info92" xml:space="preserve">
+    <value>开始连接Soukey采摘官方网站：http://www.yijie.net ......</value>
+  </data>
+  <data name="Info93" xml:space="preserve">
+    <value>连接失败，请确认是否已经连接到Internet。</value>
+  </data>
+  <data name="Info94" xml:space="preserve">
+    <value>检查已经停止！</value>
+  </data>
+  <data name="Info95" xml:space="preserve">
+    <value>连接成功！</value>
+  </data>
+  <data name="Info96" xml:space="preserve">
+    <value>开始获取Soukey采摘最新版本号.......</value>
+  </data>
+  <data name="Info97" xml:space="preserve">
+    <value>Soukey采摘最新版本号为：</value>
+  </data>
+  <data name="Info98" xml:space="preserve">
+    <value>发现了新的版本，版本说明如下：</value>
+  </data>
+  <data name="Info99" xml:space="preserve">
+    <value>没有新版本，无需进行下载操作！</value>
+  </data>
+  <data name="InfoStart" xml:space="preserve">
+    <value>系统启动</value>
+  </data>
+  <data name="Label1" xml:space="preserve">
+    <value>加工条件：</value>
+  </data>
+  <data name="Label10" xml:space="preserve">
+    <value>任务失败</value>
+  </data>
+  <data name="Label11" xml:space="preserve">
+    <value>任务暂停</value>
+  </data>
+  <data name="Label12" xml:space="preserve">
+    <value>任务正在运行</value>
+  </data>
+  <data name="Label13" xml:space="preserve">
+    <value>任务正在运行</value>
+  </data>
+  <data name="Label14" xml:space="preserve">
+    <value>任务等待运行</value>
+  </data>
+  <data name="Label15" xml:space="preserve">
+    <value>任务正在发布</value>
+  </data>
+  <data name="Label16" xml:space="preserve">
+    <value>Soukey采摘任务</value>
+  </data>
+  <data name="Label17" xml:space="preserve">
+    <value>其他任务</value>
+  </data>
+  <data name="Label18" xml:space="preserve">
+    <value>数据库任务</value>
+  </data>
+  <data name="Label19" xml:space="preserve">
+    <value>新建字典分类</value>
+  </data>
+  <data name="Label2" xml:space="preserve">
+    <value>前缀：</value>
+  </data>
+  <data name="Label20" xml:space="preserve">
+    <value>新建字典内容</value>
+  </data>
+  <data name="Label21" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="Label22" xml:space="preserve">
+    <value>有效</value>
+  </data>
+  <data name="Label23" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="Label24" xml:space="preserve">
+    <value>自动检测</value>
+  </data>
+  <data name="Label25" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="Label26" xml:space="preserve">
+    <value>中文简体</value>
+  </data>
+  <data name="Label27" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Label28" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Label29" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="Label3" xml:space="preserve">
+    <value>后缀：</value>
+  </data>
+  <data name="Label30" xml:space="preserve">
+    <value>保  存</value>
+  </data>
+  <data name="Label31" xml:space="preserve">
+    <value>此任务不分类，直接保存到默认路径</value>
+  </data>
+  <data name="Label32" xml:space="preserve">
+    <value>导航网址前缀</value>
+  </data>
+  <data name="Label33" xml:space="preserve">
+    <value>相同部分</value>
+  </data>
+  <data name="Label34" xml:space="preserve">
+    <value>导航网址后缀</value>
+  </data>
+  <data name="Label4" xml:space="preserve">
+    <value>截取字符数：</value>
+  </data>
+  <data name="Label5" xml:space="preserve">
+    <value>表达式：</value>
+  </data>
+  <data name="Label6" xml:space="preserve">
+    <value>正则表达式：</value>
+  </data>
+  <data name="Label7" xml:space="preserve">
+    <value>任务未启动</value>
+  </data>
+  <data name="Label8" xml:space="preserve">
+    <value>任务已停止</value>
+  </data>
+  <data name="label9" xml:space="preserve">
+    <value>任务已完成</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>日志</value>
+  </data>
+  <data name="Logon" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="LogSave" xml:space="preserve">
+    <value>日志保存</value>
+  </data>
+  <data name="LogSaveSuccess" xml:space="preserve">
+    <value>日志保存成功</value>
+  </data>
+  <data name="MessageboxError" xml:space="preserve">
+    <value>Soukey采摘 系统错误</value>
+  </data>
+  <data name="MessageboxInfo" xml:space="preserve">
+    <value>Soukey采摘 系统信息</value>
+  </data>
+  <data name="MessageboxQuaere" xml:space="preserve">
+    <value>Soukey采摘 系统询问</value>
+  </data>
+  <data name="MessageboxWarning" xml:space="preserve">
+    <value>Soukey采摘 系统警告</value>
+  </data>
+  <data name="NaviLevel" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="NaviRule" xml:space="preserve">
+    <value>采集规则</value>
+  </data>
+  <data name="NextPage" xml:space="preserve">
+    <value>下一页</value>
+  </data>
+  <data name="NoLogon" xml:space="preserve">
+    <value>不登录</value>
+  </data>
+  <data name="PM" xml:space="preserve">
+    <value>下午</value>
+  </data>
+  <data name="Quaere1" xml:space="preserve">
+    <value>在此任务没有定义需要采集的网址或者采集网址的规则，是否继续保存任务？</value>
+  </data>
+  <data name="Quaere10" xml:space="preserve">
+    <value>删除已经完成的任务将会删除已经采集的数据，您可在删除任务前导出数据，是否继续？</value>
+  </data>
+  <data name="Quaere11" xml:space="preserve">
+    <value>您选择了删除多个已完成的任务，删除已经完成的任务将会删除已经采集的数据，您可在删除任务前导出数据，是否继续？</value>
+  </data>
+  <data name="Quaere12" xml:space="preserve">
+    <value>您选择启动的任务已经在运行区存在或者有相同名称的任务已经在运行区，您是否确认此任务需要运行或需要此任务运行第二个实例？</value>
+  </data>
+  <data name="Quaere13" xml:space="preserve">
+    <value>当前任务已经加载到运行区无法进行修改操作，继续查看？</value>
+  </data>
+  <data name="Quaere14" xml:space="preserve">
+    <value>运行区有正在运行的任务，强行退出有可能会导致采集的数据丢失，是否真的退出Soukey采摘？</value>
+  </data>
+  <data name="Quaere15" xml:space="preserve">
+    <value>您选择了重置多个已运行的任务，重置任务将恢复任务的初始状态，并删除已经采集的数据，但如果您已经导出了数据或由系统自动导出了数据，则不会收到影响，是否继续？</value>
+  </data>
+  <data name="Quaere16" xml:space="preserve">
+    <value>重置任务将恢复任务的初始状态，并删除已经采集的数据，但如果您已经导出了数据或由系统自动导出了数据，则不会收到影响，是否继续？</value>
+  </data>
+  <data name="Quaere17" xml:space="preserve">
+    <value>您指定导入的任务低于此版本要求，需升级任务后方可进行任务导入，是否现在进行任务升级操作"？</value>
+  </data>
+  <data name="Quaere18" xml:space="preserve">
+    <value>任务运行监控文件丢失，请问是否根据正在运行的任务情况自动创建？</value>
+  </data>
+  <data name="Quaere19" xml:space="preserve">
+    <value>已完成任务索引文件丢失，需要重新建立，但已经完成的任务信息将会丢失，数据内容不会丢失，数据存储在：</value>
+  </data>
+  <data name="Quaere2" xml:space="preserve">
+    <value>任务信息已经发生了修改，不保存退出？</value>
+  </data>
+  <data name="Quaere20" xml:space="preserve">
+    <value>分类下的索引文件丢失，请问是否自动创建？</value>
+  </data>
+  <data name="Quaere21" xml:space="preserve">
+    <value>如果此字典内容已被用于网址参数，则网址采集接续会失效，是否继续？</value>
+  </data>
+  <data name="Quaere22" xml:space="preserve">
+    <value>如果此字典内容已被用于网址参数，则网址采集接续会失效，是否继续？</value>
+  </data>
+  <data name="Quaere3" xml:space="preserve">
+    <value>任务运行监控文件丢失，请问是否根据正在运行的任务情况自动创建？</value>
+  </data>
+  <data name="Quaere4" xml:space="preserve">
+    <value>您加载的任务与当前系统支持的任务版本不同，请升级任务版本后再进行加载，是否现在进行任务升级操作</value>
+  </data>
+  <data name="Quaere5" xml:space="preserve">
+    <value>如果此任务正在运行，删除操作不会造成影响，但删除后此任务不可恢复，继续？</value>
+  </data>
+  <data name="Quaere6" xml:space="preserve">
+    <value>您选择删除多个任务，删除操作不会造成影响，但删除后此任务不可恢复，继续？</value>
+  </data>
+  <data name="Quaere7" xml:space="preserve">
+    <value>您选择了清空计划执行历史记录，注意尽管你未全部选中历史记录，但此次操作是指清空所有日志信息，且数据将无法恢复，是否继续？</value>
+  </data>
+  <data name="Quaere8" xml:space="preserve">
+    <value>您选择了删除多个运行区的任务，删除运行区的任务不会影响此任务已经采集完成的数据，是否继续？</value>
+  </data>
+  <data name="Quaere9" xml:space="preserve">
+    <value>删除运行区的任务不会影响此任务已经采集完成的数据，是否继续？</value>
+  </data>
+  <data name="rmenu1" xml:space="preserve">
+    <value>递增变量</value>
+  </data>
+  <data name="rmenu2" xml:space="preserve">
+    <value>递减变量</value>
+  </data>
+  <data name="rmenu3" xml:space="preserve">
+    <value>字母递增</value>
+  </data>
+  <data name="rmenu4" xml:space="preserve">
+    <value>字母递减</value>
+  </data>
+  <data name="rmenu5" xml:space="preserve">
+    <value>POST前缀</value>
+  </data>
+  <data name="rmenu6" xml:space="preserve">
+    <value>POST后缀</value>
+  </data>
+  <data name="rmenu7" xml:space="preserve">
+    <value>手工捕获POST数据</value>
+  </data>
+  <data name="rmenu8" xml:space="preserve">
+    <value>字典</value>
+  </data>
+  <data name="Run" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="SoukeyStartInfo" xml:space="preserve">
+    <value>系统启动</value>
+  </data>
+  <data name="State1" xml:space="preserve">
+    <value>任务队列：</value>
+  </data>
+  <data name="State2" xml:space="preserve">
+    <value>运行</value>
+  </data>
+  <data name="State3" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="State4" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="State5" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="State6" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="State7" xml:space="preserve">
+    <value>当前显示：</value>
+  </data>
+  <data name="State8" xml:space="preserve">
+    <value>当前状态：就绪</value>
+  </data>
+  <data name="Task" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="TaskGCompleted" xml:space="preserve">
+    <value>任务采集完成</value>
+  </data>
+  <data name="TaskGError" xml:space="preserve">
+    <value>任务采集出错</value>
+  </data>
+  <data name="TaskGFailed" xml:space="preserve">
+    <value>任务采集失败，已停止</value>
+  </data>
+  <data name="TaskPublishFailed" xml:space="preserve">
+    <value>任务发布失败，已转入完成区域</value>
+  </data>
+  <data name="TaskPublishing" xml:space="preserve">
+    <value>任务开始进行数据发布</value>
+  </data>
+  <data name="TaskPulished" xml:space="preserve">
+    <value>任务成功发布</value>
+  </data>
+  <data name="TaskStarted" xml:space="preserve">
+    <value>任务启动</value>
+  </data>
+  <data name="TaskStoped" xml:space="preserve">
+    <value>任务停止</value>
+  </data>
+  <data name="TrayInfo1" xml:space="preserve">
+    <value>正在运行的任务</value>
+  </data>
+  <data name="TrayInfo2" xml:space="preserve">
+    <value>正在发布的任务</value>
+  </data>
+  <data name="TrayInfo3" xml:space="preserve">
+    <value>已经启动</value>
+  </data>
+  <data name="TrayInfo4" xml:space="preserve">
+    <value>任务启动</value>
+  </data>
+  <data name="TrayTitle" xml:space="preserve">
+    <value>Soukey采摘 [免费版]</value>
+  </data>
+  <data name="W0" xml:space="preserve">
+    <value>星期日</value>
+  </data>
+  <data name="W1" xml:space="preserve">
+    <value>星期一</value>
+  </data>
+  <data name="W2" xml:space="preserve">
+    <value>星期二</value>
+  </data>
+  <data name="W3" xml:space="preserve">
+    <value>星期三</value>
+  </data>
+  <data name="W4" xml:space="preserve">
+    <value>星期四</value>
+  </data>
+  <data name="W5" xml:space="preserve">
+    <value>星期五</value>
+  </data>
+  <data name="W6" xml:space="preserve">
+    <value>星期六</value>
+  </data>
+  <data name="Weekly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+</root>

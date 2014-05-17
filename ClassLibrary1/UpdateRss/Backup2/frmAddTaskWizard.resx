@@ -1,0 +1,4416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;cmdBrowser.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;lab10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pic1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="&gt;&gt;IsStartTrigger.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;step10.Name" xml:space="preserve">
+    <value>step10</value>
+  </data>
+  <data name="butCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;pic6.Name" xml:space="preserve">
+    <value>pic6</value>
+  </data>
+  <data name="&gt;&gt;TaskType.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtInsertSql.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pic7.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;cmdDelTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader15.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="label43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 12</value>
+  </data>
+  <data name="butCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txtEndPos.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="comWebCode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="raExportTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <data name="&gt;&gt;txtInsertSql.Name" xml:space="preserve">
+    <value>txtInsertSql</value>
+  </data>
+  <data name="&gt;&gt;raGatheredRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>发布到网站</value>
+  </data>
+  <data name="txtLoginUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhOAA1AIf/AFRUa/f32FZWeW6MkUdHR9PT00ZEWsuabkZFYiMjI/f24qOjpDQ0NrCIU5toMP3K
+        mJqam////+fVuTk4ZsHBwTpHTczMzOjWxvXp4k0sC0g1Juq6kPbSx/Hh2HR1kampqVhXiPT084ltk5eX
+        tIx/cGhXaIKDhBERL93Ux0xolG9oWWZolBkYGXh4pomJijk5Rdq4t7JvN7OztGgzCoxvb3FxcVBle9fI
+        qSwaC+XLsWVlZbu7vJqcprCwxicnR4mJk+3MqDY4U3p6eko4T4qJA3JyjrailOnZ0jEkFvn5+bJwTFxc
+        XYhuVVdGNfHu2NGtgWpUPW1tbTtGZKCGaUtLhcmhcNzGm+7t6NDKnSYmOFJALc+sfeK1ssark92ujWVl
+        jWpqclEvYYKCjZl4W9e5p2dYSMvEjmNie1hVOlRTAGVNNW1sAWxsiqaMOI9HXGFiaYODYSwsVoODqUJD
+        cMi1pxcVSUpKfC43aExNbn99gtPNye/vAGprhGRjg25te/387VxVRT5bX9u1lVBQTwoHBRk7Qi4tK8eW
+        XH5kMdzXvFh5eTJZh6KirZGQkHx6jVBQXWVISH9ihR8eMnN0e5mEmkgSAHhNKExLTcO2lfvLw/bwyJKS
+        mQoKGjAwYhoTCmNGLHJviGR2kjQnQy9AWFtCZV1dcT4+jc+zhj4wLXRygcuwe4ZpTGxZJCEyOBILCZJe
+        LWxWVnAsWX1TKeDg4XReXVJZX/z8+ytASTU1ekZabouLvnRdRTwuP7WOY19fjr+Zcur3zujMmp1sW8ag
+        iICRrmNBIZc1MlpIeOK0hPDw8KypfNW2b/HMv3l5Yvrgw8fHx6Kbe8OTMj4oVs3N1NCln/3W1J+foG18
+        g/3x9/vW+nBnlsigodC8s1t3W9za3Hd8d3d2dU1NnVBQfv7p+ePFj3l51Yt5P512Q5+Wjb2993lafXeA
+        d9jLgCA7YT8ca8u6bJ2du6GCVNbLv9rTqfTUq09IIbykXEA+PWhne1dXV1pQXOLfwtnvxruWbwAAAP//
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAAOAA1AAAI/wD/CRxIsKDBgwgTKlzIsKHDhxAj
+        SpxIsaJAfxgz+lu4cWJGhv4MLfgw8gO6VUg0EvTHIgqBjg4xxooFM6G/SyFQcIOxT4KXJq7u3TNEMEE+
+        GS4YQPSUxg1NkDinzDDWi10mWKi43IDm6aKOZxaefUgQM82eNBwz4kRBB4YEn00MYcphhAXLKB8s6KXQ
+        6KVBjf4IrSGCdiGDexlc4eyAYh+GI1viYupCw1MCAiby6tWb9C8LDa6YEllDiKO1RNEyEAgxzFwbQcyw
+        oMlKi5A/HdYSRNmsVyzZlWqQaTBbmOMHbjNw4Lxhb5mEC5HlliGEQ8M9Qjp47+27MfCuVWqIjP82p6bm
+        QX8fYMzwhHNfsGAdIGtJAEcLjgw4XDGIAoFCWAoyLNCDGEr54woTUBAymj+99KOBcUccggpOzgChxxVO
+        yBYYDjMkl8AONRiS1zMyRMGAHD3sYAhGhNjWIiG9PLCBBhghhN4FSiCChg5lADLIEkugoQItrnCYnCEF
+        gJPABztYo0MpfZTyA1IEEALFGFhi6cUDD2hR43kfoBBPG+aggoMn/uCACio0kIBEBjNkgMobswiRAAQ8
+        pHIJHyPU8sYPm+Rz4C+/bMDloV6aNxB6TphBDjK9CAMJIUxswAUsSMjyiiWe1DBLEkKwUMMZdrQwwgIu
+        nDEBC7a5UuQvh3L/maiNHzgRzFsSCCIMISTQQQsUrDjggCWumJCELc+YQMAjRYzAiDUQiAEAC4aAUcNL
+        WkChrbZ2KXqRCXT8YoQMFHQxhgbgmIAEK23E8Mon9ywQwbwFGHKJNc9CsEC0LwwCwQ4uGOIKYB8h5AoL
+        nrCgMAtaPAFFpkoo0UY99zyTzLwR1DsII/CMoC8jI/zwxj3/fkDUSl/+1QQTUTDhMhIsQPFJMa/EEEM9
+        KjByMcb1PtIxD9A64osfYJzxhhg9/HCJt+dNkYM8XVRRBVCuFCOsA4igsoAttmBsizf5ANDCJtDmIcAc
+        BuAjxyMAyLFDIyeD1MgFD+yCcAYZaGCJsBpo/7DNESF0PW8IV8wCjiEuQGACHnaAMAcCb7TQBwNTfqBU
+        Q/eosEtKrlTSId4aqDFFIk4oIHgESRxrAgvgOCKAOCDwcYY4c4Dgi9EuPOOCX2mxhEMlleANMxJT0MMP
+        MAH8wbUtx9oCAQNLADCHL2xMYsIXpuACwtpvkNvIbyBFIYQrL1rSizJkZMJBBwokb0syyYSQxBU73BPE
+        0HyskIcYRZhChR958IMdeCADy3EkATp4w0vepAEHHEIVVshBDhKxjwBgAANXuILpkqAHVPCCD2wAhQc8
+        4IjrCQAPbGADAHQgBGsMwi4JUcwO8pGABBRDFrJwQBseaIYeYuEIR+AABv8CkLwQFAASBNDBF0hYhCKI
+        QQz4mIM4+uCHe7zgDZdYkY0IIIRGWOMDMhiEJ8aohV4cQGpSowYZ5qGJAFwhGUQ8gpLA4AE2eKAFLRCD
+        CVLBuC884gV14MRCDJEPE1hDBgVoxBJ0MIhLqOGRajjHAQ5wCjPk4AIdKN0fxpEHV5TCA0UgFS5wUQoT
+        4AMABnhBAjghSIX4IwE1yEN/nvEMCiwgCgtjgRoaEA97vGMYXOCAJhSAjWxQIgt46MMk5hCHOtRhAqkQ
+        whISoDBO+KAhLFiCCxpBrgXwAQDWE0MLDIADHOyiCpS8AQeqUQ0MeEMGL8hC7foABjDgoQ6PQEAcTiD/
+        CXH8kQUMIaQhNwEABABgADwAmR8ucY8mPDIep/BCDo6AAQUUgAGSAIAvPDAAEzyiDkEIgiSCYAADkBQU
+        IIFlHsBQBwbUYgDEGAHQrGGCe3DCFbtsQBdQoAknFIAA91BiKAZwjUuwwAeSYMEX+sCCE8whHQ7J5koJ
+        wAtSgGITC7DGDxjHuBfgAAm7eAIWJMCBGzQjAWBwhAhsMApWMqAGAujECXwggHI8xBBLMMESCDCEJVyD
+        Eo4oxQQEUAQP4EEUvGgCFFQADWY4gwSeBMUZAtEKaz4CH0GIw+PmEI6HvLIG4NDBPSqQi0gc4w6dKKUJ
+        PKANEQyhRWjABAxowQI8/9ggEBVYpQ7wEQdJGEAXVOhEHCKSTSHoYAiiyIUUOtEJAIDBjo7QBgIMgYAg
+        GMIQQ8BDKWpRAYX5YA5yBcEK7DABiuA1DyUYwi2kgLYJIKAPhQ0FHqTRBzwwwBAGKMUj7pEABvigDj7Q
+        rC9A0ImKvDIPLqgBAxAAglo0sxT5G4A43IEPNvgCH3tlAAtcsYRHcOIEvw3ucC2SgLwqAgGiCMQcpNGO
+        XIBCBEWwQRzi8AKkrnKuSJWEAL5gB1NYhCCGqEVg7WcABNxhDqWIRBFCIYUgjMIHJ3BFSOXqAzx8gcA/
+        XgkL1PGNbogiDoEgRRgmUIszrEAIoVhEbllQhBX09sy3dhBulgvCgnysowT3YIA+ENCJFvuhBKTo7i1S
+        YIMgnEAAviDvnA+CV3CUgAAVaHI7RmGAIfDiunhYQWanh+VFe6YGIlBHIW4xCAJIgp8K04E6wuBUXcR5
+        xJ42SAJqcQ0sviAIWYiyPKkwAV7YjgqLiLVCWpGLb+iAAEhlgSQ0G4dOPGIFnRa2jURlghokgBCcEEcn
+        OEEIOMtZ2gpJwCWW0FQfTMAHnHimOMoLbob0dyBxMEA+5jCHO7S7ISlLgAmmIYcUBPveAEdIQAAAOw==
+</value>
+  </data>
+  <data name="lab4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtExportUrl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IsStartTrigger.Name" xml:space="preserve">
+    <value>IsStartTrigger</value>
+  </data>
+  <data name="cmdAddWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 9</value>
+  </data>
+  <data name="&gt;&gt;lab7.Name" xml:space="preserve">
+    <value>lab7</value>
+  </data>
+  <data name="&gt;&gt;comTaskClass.Name" xml:space="preserve">
+    <value>comTaskClass</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtDataSource.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="&gt;&gt;pic4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="&gt;&gt;raExportMySql.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="step1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="lab3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;label40.Name" xml:space="preserve">
+    <value>label40</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtDataSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 20</value>
+  </data>
+  <data name="&gt;&gt;step4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="pic5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 114</value>
+  </data>
+  <data name="columnHeader4.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="lab6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lab3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label23.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.Parent" xml:space="preserve">
+    <value>step9</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtSavePath.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;step5.Name" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="txtCookie.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pic10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>就是URL编码操作</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>任务名称：</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="groupBox13.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="comUrlEncode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IsUrlEncode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comUrlEncode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdUp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;listTask.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;comTableName.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Name" xml:space="preserve">
+    <value>columnHeader2</value>
+  </data>
+  <data name="cmdAddWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="button9.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="lab5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label38.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IsLogin.Name" xml:space="preserve">
+    <value>IsLogin</value>
+  </data>
+  <data name="step7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>发布到数据库</value>
+  </data>
+  <data name="&gt;&gt;comExportUrlCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>日志保存路径为：</value>
+  </data>
+  <data name="columnHeader6.Width" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="button12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 39</value>
+  </data>
+  <data name="&gt;&gt;txtEndPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic3.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="cmdWebSource.Text" xml:space="preserve">
+    <value>查看源码</value>
+  </data>
+  <data name="&gt;&gt;step5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdAddTask.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label46.Name" xml:space="preserve">
+    <value>label46</value>
+  </data>
+  <data name="cmdAddCutFlag.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label43.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdAddWeblink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;IsDelRepRow.Name" xml:space="preserve">
+    <value>IsDelRepRow</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="txtStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 47</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>加工条件</value>
+  </data>
+  <data name="&gt;&gt;IsIncludeHeader.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comRunType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 210</value>
+  </data>
+  <data name="&gt;&gt;raExportAccess.Name" xml:space="preserve">
+    <value>raExportAccess</value>
+  </data>
+  <data name="&gt;&gt;labTitle.Name" xml:space="preserve">
+    <value>labTitle</value>
+  </data>
+  <data name="&gt;&gt;step10.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lab9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="cmdBrowser.Text" xml:space="preserve">
+    <value>浏览...</value>
+  </data>
+  <data name="&gt;&gt;txtCookie.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="txtTaskDemo.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="raExportWeb.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pic6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 139</value>
+  </data>
+  <data name="lab3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lab7.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pic9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="butCancel.Text" xml:space="preserve">
+    <value>取  消</value>
+  </data>
+  <data name="raPublishedRun.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Name" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;lab4.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>684, 71</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Name" xml:space="preserve">
+    <value>columnHeader12</value>
+  </data>
+  <data name="lab1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 16</value>
+  </data>
+  <data name="raPublishedRun.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdDelWeblink.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;txtExportCookie.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;label23.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;step3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 165</value>
+  </data>
+  <data name="&gt;&gt;step4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtExportUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>设 置</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 47</value>
+  </data>
+  <data name="butPre.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cmdAddWeblink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 13</value>
+  </data>
+  <data name="nRuleLevel.Width" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="&gt;&gt;IsLogin.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;lab2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="button12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="cmdBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 23</value>
+  </data>
+  <data name="&gt;&gt;raExportTxt.Name" xml:space="preserve">
+    <value>raExportTxt</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;step8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsSaveErrorLog.Name" xml:space="preserve">
+    <value>IsSaveErrorLog</value>
+  </data>
+  <data name="label43.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label34.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;label28.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="step5.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCutFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 39</value>
+  </data>
+  <data name="cmdUp.Text" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="labInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labInfo.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="columnHeader5.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="pic9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="txtDataSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 39</value>
+  </data>
+  <data name="label21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 151</value>
+  </data>
+  <data name="txtCookie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 20</value>
+  </data>
+  <data name="&gt;&gt;comUrlEncode.Name" xml:space="preserve">
+    <value>comUrlEncode</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label30.Text" xml:space="preserve">
+    <value>Cookie：</value>
+  </data>
+  <data name="butCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>610, 404</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label43.Name" xml:space="preserve">
+    <value>label43</value>
+  </data>
+  <data name="&gt;&gt;step5.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;comTableName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>任务分类：</value>
+  </data>
+  <data name="cmdAddCutFlag.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="step8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="&gt;&gt;pic2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="step3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="cmdWebSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 40</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;step9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="&gt;&gt;txtExportUrl.Name" xml:space="preserve">
+    <value>txtExportUrl</value>
+  </data>
+  <data name="&gt;&gt;cmdAddTask.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;udThread.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="comWebCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 11</value>
+  </data>
+  <data name="&gt;&gt;IsIncludeHeader.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;lab1.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="label22.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="txtExportCookie.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lab5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="raExportAccess.Text" xml:space="preserve">
+    <value>发布到Access</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Name" xml:space="preserve">
+    <value>columnHeader5</value>
+  </data>
+  <data name="pic2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 41</value>
+  </data>
+  <data name="cmdDelTask.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 287</value>
+  </data>
+  <data name="raExportWeb.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtInsertSql.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtInsertSql.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="raExportAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="&gt;&gt;label20.Name" xml:space="preserve">
+    <value>label20</value>
+  </data>
+  <data name="comTableName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 21</value>
+  </data>
+  <data name="label38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 166</value>
+  </data>
+  <data name="cmdAddWeblink.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Name" xml:space="preserve">
+    <value>columnHeader10</value>
+  </data>
+  <data name="udThread.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="txtFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 20</value>
+  </data>
+  <data name="step3.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="step5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;dataNRule.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="&gt;&gt;udThread.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtDataSource.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtStartPos.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IsLogin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;listWeblink.Name" xml:space="preserve">
+    <value>listWeblink</value>
+  </data>
+  <data name="txtStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 18</value>
+  </data>
+  <data name="&gt;&gt;listWeblink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TaskType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 21</value>
+  </data>
+  <data name="txtWeblinkDemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="step7.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;raGatheredRun.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="cmdDelCutFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 9</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 29</value>
+  </data>
+  <data name="IsIgnore404.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;button10.Name" xml:space="preserve">
+    <value>button10</value>
+  </data>
+  <data name="&gt;&gt;cmdDelWeblink.Name" xml:space="preserve">
+    <value>cmdDelWeblink</value>
+  </data>
+  <data name="IsStartTrigger.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lab3.Text" xml:space="preserve">
+    <value>3、采集网址</value>
+  </data>
+  <data name="columnHeader11.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="udAgainNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;step2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataNRule.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pic1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;pic2.Name" xml:space="preserve">
+    <value>pic2</value>
+  </data>
+  <data name="&gt;&gt;txtStartPos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic1.Name" xml:space="preserve">
+    <value>pic1</value>
+  </data>
+  <data name="IsIgnore404.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="comWebCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 21</value>
+  </data>
+  <data name="cmdDown.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label26.Name" xml:space="preserve">
+    <value>label26</value>
+  </data>
+  <data name="raExportMSSQL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="columnHeader9.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="label46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 270</value>
+  </data>
+  <data name="&gt;&gt;label44.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="raExportWeb.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtTaskDemo.Name" xml:space="preserve">
+    <value>txtTaskDemo</value>
+  </data>
+  <data name="pic6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="&gt;&gt;cmdAddWeblink.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>起始位置</value>
+  </data>
+  <data name="&gt;&gt;TaskType.Name" xml:space="preserve">
+    <value>TaskType</value>
+  </data>
+  <data name="&gt;&gt;pic8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="step8.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="raExportTxt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lab1.Text" xml:space="preserve">
+    <value>1、任务信息</value>
+  </data>
+  <data name="lab1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="IsLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 17</value>
+  </data>
+  <data name="&gt;&gt;txtEndPos.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="cmdBrowser.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="listWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 37</value>
+  </data>
+  <data name="&gt;&gt;label27.Name" xml:space="preserve">
+    <value>label27</value>
+  </data>
+  <data name="lab9.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>触发器</value>
+  </data>
+  <data name="label30.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="&gt;&gt;txtDataSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 124</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lab9.Text" xml:space="preserve">
+    <value>9、任务触发器</value>
+  </data>
+  <data name="&gt;&gt;txtEndPos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="pic3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="&gt;&gt;comWebCode.Name" xml:space="preserve">
+    <value>comWebCode</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 21</value>
+  </data>
+  <data name="cmdDelCutFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="step3.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pic10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>一般情况下采集网页数据无需配置Cookie，但针对需要登录的网站可以通过设置Cookie的方式进行数据登录，但并非所有网站都可以采用设置Cookie的方式进行登录信息模拟。</value>
+  </data>
+  <data name="&gt;&gt;txtTaskDemo.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;pic6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>sql语句：</value>
+  </data>
+  <data name="&gt;&gt;step3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 125</value>
+  </data>
+  <data name="comTableName.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="step10.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;comTableName.Name" xml:space="preserve">
+    <value>comTableName</value>
+  </data>
+  <data name="txtSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="comTaskClass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 149</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="&gt;&gt;txtSavePath.Name" xml:space="preserve">
+    <value>txtSavePath</value>
+  </data>
+  <data name="button9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;butNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Name" xml:space="preserve">
+    <value>columnHeader8</value>
+  </data>
+  <data name="&gt;&gt;udThread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="raExportAccess.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;nRule.Name" xml:space="preserve">
+    <value>nRule</value>
+  </data>
+  <data name="&gt;&gt;dataNRule.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cmdUp.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdAddTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdWebSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 23</value>
+  </data>
+  <data name="&gt;&gt;lab4.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDelWeblink.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="tTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="IsStartTrigger.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 32</value>
+  </data>
+  <data name="&gt;&gt;IsSaveErrorLog.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cmdDelTask.Name" xml:space="preserve">
+    <value>cmdDelTask</value>
+  </data>
+  <data name="&gt;&gt;raExportTxt.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comUrlEncode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;nRuleLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butCancel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;raExportMSSQL.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="udThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 258</value>
+  </data>
+  <data name="butPre.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>数据输出加工</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtTaskDemo.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;cmdDelTask.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lab9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Name" xml:space="preserve">
+    <value>label28</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>网址访问失败重试次数：</value>
+  </data>
+  <data name="&gt;&gt;butCancel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 198</value>
+  </data>
+  <data name="&gt;&gt;txtInsertSql.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="butCancel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtWeblinkDemo.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtStartPos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;IsSaveErrorLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label31.Name" xml:space="preserve">
+    <value>label31</value>
+  </data>
+  <data name="label29.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IsStartTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="&gt;&gt;lab4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label29.Name" xml:space="preserve">
+    <value>label29</value>
+  </data>
+  <data name="butNext.Text" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="comExportUrlCode.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;lab3.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;comRunType.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="IsIgnore404.Text" xml:space="preserve">
+    <value>如果是网址无效错误则忽略重试</value>
+  </data>
+  <data name="&gt;&gt;lab8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Name" xml:space="preserve">
+    <value>columnHeader3</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;udAgainNumber.Name" xml:space="preserve">
+    <value>udAgainNumber</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsIgnore404.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDelWeblink.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtExportUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 43</value>
+  </data>
+  <data name="raExportAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="comExportUrlCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 21</value>
+  </data>
+  <data name="button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 212</value>
+  </data>
+  <data name="TaskType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 179</value>
+  </data>
+  <data name="pic9.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;txtTaskDemo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lab3.Name" xml:space="preserve">
+    <value>lab3</value>
+  </data>
+  <data name="button9.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 69</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 13</value>
+  </data>
+  <data name="toolmenuPost1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>step6</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label30.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 237</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="step7.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtExportCookie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button10.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="comUrlEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 21</value>
+  </data>
+  <data name="lab1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comWebCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TaskType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 270</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Cookie：</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;step7.Name" xml:space="preserve">
+    <value>step7</value>
+  </data>
+  <data name="IsDelRepRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="cmdDown.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="&gt;&gt;pic5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lab4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 88</value>
+  </data>
+  <data name="&gt;&gt;label31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>目标地址：</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 202</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="pic10.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;lab10.Name" xml:space="preserve">
+    <value>lab10</value>
+  </data>
+  <data name="cmdDelTask.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Name" xml:space="preserve">
+    <value>columnHeader9</value>
+  </data>
+  <data name="comTableName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lab10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 238</value>
+  </data>
+  <data name="&gt;&gt;IsSave.Name" xml:space="preserve">
+    <value>IsSave</value>
+  </data>
+  <data name="&gt;&gt;tTask.Name" xml:space="preserve">
+    <value>tTask</value>
+  </data>
+  <data name="pic9.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cmdAddCutFlag.Text" xml:space="preserve">
+    <value>增 加</value>
+  </data>
+  <data name="&gt;&gt;label30.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>填写页面采集范围有利于数据精确采集，如果不填写将根据页面完整内容进行采集数据分析。但如果针对页面重复数据，而您只想采集您指定的数据，则必须填写页面采集范围，否则会进行循环采集。</value>
+  </data>
+  <data name="raGatheredRun.Text" xml:space="preserve">
+    <value>采集完成后触发</value>
+  </data>
+  <data name="step8.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Parent" xml:space="preserve">
+    <value>step6</value>
+  </data>
+  <data name="label21.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="label28.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="cmdAddWeblink.Text" xml:space="preserve">
+    <value>增 加</value>
+  </data>
+  <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 43</value>
+  </data>
+  <data name="IsUrlEncode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>采集数据名称</value>
+  </data>
+  <data name="comExportUrlCode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolmenuPost2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 53</value>
+  </data>
+  <data name="lab4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;IsSave.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="raExportExcel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;label31.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label21.Name" xml:space="preserve">
+    <value>label21</value>
+  </data>
+  <data name="lab3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>执行类型：</value>
+  </data>
+  <data name="raExportMSSQL.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;cmdDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 46</value>
+  </data>
+  <data name="&gt;&gt;dataNRule.Name" xml:space="preserve">
+    <value>dataNRule</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>是否导航</value>
+  </data>
+  <data name="cmdWebSource.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;comRunType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cmdAddTask.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;raExportMSSQL.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;step6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lab10.Text" xml:space="preserve">
+    <value>10、完成</value>
+  </data>
+  <data name="label12.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtTaskDemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 98</value>
+  </data>
+  <data name="labLogSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 109</value>
+  </data>
+  <data name="&gt;&gt;raExportAccess.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label34.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="label44.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lab2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="step9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="&gt;&gt;pic8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label40.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="raExportMySql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="raGatheredRun.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="butNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 404</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>触发器是一种自动化操作方式，通过触发器的配置可以在任务执行结束后自动执行某个程序或其他任务。</value>
+  </data>
+  <data name="columnHeader10.Width" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;raExportExcel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;txtExportUrl.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pic8.Name" xml:space="preserve">
+    <value>pic8</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label34.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;pic7.Name" xml:space="preserve">
+    <value>pic7</value>
+  </data>
+  <data name="&gt;&gt;raExportMySql.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;IsDelRepRow.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label24.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="IsIgnore404.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 11</value>
+  </data>
+  <data name="&gt;&gt;listWebGetFlag.Name" xml:space="preserve">
+    <value>listWebGetFlag</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="butPre.Text" xml:space="preserve">
+    <value>上一步</value>
+  </data>
+  <data name="label34.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtLoginUrl.Name" xml:space="preserve">
+    <value>txtLoginUrl</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>数据保存地址：</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtLoginUrl.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;IsSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>网址数</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Parent" xml:space="preserve">
+    <value>step7</value>
+  </data>
+  <data name="&gt;&gt;comTaskClass.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;labLogSavePath.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lab6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 138</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lab7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 163</value>
+  </data>
+  <data name="tTask.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lab6.Text" xml:space="preserve">
+    <value>6、数据发布</value>
+  </data>
+  <data name="txtCookie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 77</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>下一页标识</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>采集实际就是从网页源码中获取指定的内容，所以针对需要采集的内容用户需要标识出采集内容其前面与后面可识别标志，这就是采集规则。</value>
+  </data>
+  <data name="label22.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label46.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lab8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="butNext.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="step2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 184</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>有些网站用户登录后会随机产生一个序号用于识别用户信息，针对此类网站每次采集时都需人工登录记录此信息用于身份识别。</value>
+  </data>
+  <data name="&gt;&gt;step8.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="raExportAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdAddCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>结束标志：</value>
+  </data>
+  <data name="rmenuGetFormat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 76</value>
+  </data>
+  <data name="cmdDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;label32.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>网址</value>
+  </data>
+  <data name="step4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="pic5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>获取Cookie</value>
+  </data>
+  <data name="&gt;&gt;lab8.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comRunType.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;label30.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCutFlag.Name" xml:space="preserve">
+    <value>cmdAddCutFlag</value>
+  </data>
+  <data name="&gt;&gt;step7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listWebGetFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="raExportExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 17</value>
+  </data>
+  <data name="cmdDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIVQBPCBxIsKBACgRMAMBgUKCBEh84dGh4wgCJDRkAUPQwAcIAEwUXRHBwIQSDEQkVDlwQAIGCAiAO
+        PABJMIEAlwUGWGhoU8QBCRRPNAhQIahADUaDBgQAOw==
+</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button10.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="pic4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 89</value>
+  </data>
+  <data name="&gt;&gt;label33.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;step6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pic6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>导航深度</value>
+  </data>
+  <data name="&gt;&gt;udAgainNumber.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 44</value>
+  </data>
+  <data name="&gt;&gt;label31.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label32.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;raExportWeb.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labTitle.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;columnHeader12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>限制条件</value>
+  </data>
+  <data name="&gt;&gt;txtTaskDemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comTaskClass.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="txtExportUrl.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label38.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="raExportMSSQL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 19</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>step6</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>网页编码：</value>
+  </data>
+  <data name="pic9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 214</value>
+  </data>
+  <data name="&gt;&gt;txtEndPos.Name" xml:space="preserve">
+    <value>txtEndPos</value>
+  </data>
+  <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="butPre.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 404</value>
+  </data>
+  <data name="&gt;&gt;step1.Name" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="groupBox10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 223</value>
+  </data>
+  <data name="cmdDelCutFlag.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="txtExportCookie.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;step4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdAddTask.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;comRunType.Name" xml:space="preserve">
+    <value>comRunType</value>
+  </data>
+  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Name" xml:space="preserve">
+    <value>columnHeader13</value>
+  </data>
+  <data name="&gt;&gt;lab7.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 105</value>
+  </data>
+  <data name="listTask.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button12.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;raExportMSSQL.Name" xml:space="preserve">
+    <value>raExportMSSQL</value>
+  </data>
+  <data name="&gt;&gt;pic10.Name" xml:space="preserve">
+    <value>pic10</value>
+  </data>
+  <data name="&gt;&gt;step7.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label43.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="&gt;&gt;udAgainNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;IsDelRepRow.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lab2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 40</value>
+  </data>
+  <data name="pic1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 17</value>
+  </data>
+  <data name="cmdDelWeblink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;label34.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>结束位置</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="groupBox9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDelCutFlag.Text" xml:space="preserve">
+    <value>删 除</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="toolmenuPost1.Text" xml:space="preserve">
+    <value>POST前缀&lt;POST&gt;</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 42</value>
+  </data>
+  <data name="groupBox9.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lab10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>数据库：</value>
+  </data>
+  <data name="txtInsertSql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 39</value>
+  </data>
+  <data name="pic2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtExportUrl.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;listWebGetFlag.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 15</value>
+  </data>
+  <data name="&gt;&gt;cmdWebSource.Name" xml:space="preserve">
+    <value>cmdWebSource</value>
+  </data>
+  <data name="&gt;&gt;pic9.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="cmdAddCutFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;step5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="raExportTxt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label44.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="dataNRule.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cmdAddCutFlag.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 151</value>
+  </data>
+  <data name="toolmenuPostData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;txtInsertSql.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butPre.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;pic10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>如果选择已有的数据表，您需调整sql语句以适应表结构，如果新建表则按照采集格式进行表结构建立，请务必确保sql语句正确否则会发布失败，非专业人员可通过发布建立新表进行数据发布。</value>
+  </data>
+  <data name="IsIncludeHeader.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 65</value>
+  </data>
+  <data name="cmdAddTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;comRunType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raExportMySql.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="cmdUp.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 40</value>
+  </data>
+  <data name="cmdDelTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>398, 16</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsUrlEncode.Name" xml:space="preserve">
+    <value>IsUrlEncode</value>
+  </data>
+  <data name="&gt;&gt;txtExportCookie.Name" xml:space="preserve">
+    <value>txtExportCookie</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 115</value>
+  </data>
+  <data name="IsIgnore404.Size" type="System.Drawing.Size, System.Drawing">
+    <value>194, 17</value>
+  </data>
+  <data name="&gt;&gt;step1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;columnHeader3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtExportUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 105</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;comTaskClass.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtLoginUrl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 20</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>724, 5</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>step7</value>
+  </data>
+  <data name="&gt;&gt;label33.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="toolmenuPost2.Text" xml:space="preserve">
+    <value>POST后缀&lt;/POST&gt;</value>
+  </data>
+  <data name="raExportExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="IsDelRepRow.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label44.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>发布到文件</value>
+  </data>
+  <data name="&gt;&gt;IsLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="&gt;&gt;TaskType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lab8.Text" xml:space="preserve">
+    <value>8、高级设置</value>
+  </data>
+  <data name="&gt;&gt;pic5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="raExportTxt.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;labInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 181</value>
+  </data>
+  <data name="TaskType.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="labTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>325, 24</value>
+  </data>
+  <data name="&gt;&gt;lab5.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 40</value>
+  </data>
+  <data name="butPre.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Name" xml:space="preserve">
+    <value>columnHeader6</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;IsStartTrigger.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCutFlag.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>只有选择“采集并发布数据”方可在第6步或第7步进行数据发布设置。</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;raExportTxt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdDown.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="step6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="lab7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPost2.Name" xml:space="preserve">
+    <value>toolmenuPost2</value>
+  </data>
+  <data name="step6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="&gt;&gt;button12.Name" xml:space="preserve">
+    <value>button12</value>
+  </data>
+  <data name="&gt;&gt;IsUrlEncode.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAddTaskWizard</value>
+  </data>
+  <data name="&gt;&gt;pic7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label40.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="label26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 43</value>
+  </data>
+  <data name="step6.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="pic10.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="columnHeader13.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>线 程 数：</value>
+  </data>
+  <data name="cmdUp.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsSaveErrorLog.Text" xml:space="preserve">
+    <value>自动保存出错信息（采集错误及发布错误）到日志</value>
+  </data>
+  <data name="&gt;&gt;txtDataSource.Name" xml:space="preserve">
+    <value>txtDataSource</value>
+  </data>
+  <data name="step7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 67</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 90</value>
+  </data>
+  <data name="lab3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 64</value>
+  </data>
+  <data name="lab7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Name" xml:space="preserve">
+    <value>txtFileName</value>
+  </data>
+  <data name="lab4.Text" xml:space="preserve">
+    <value>4、采集范围</value>
+  </data>
+  <data name="&gt;&gt;pic10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsUrlEncode.Text" xml:space="preserve">
+    <value>网址中含有中文参数，需指定编码格式</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 198</value>
+  </data>
+  <data name="&gt;&gt;step10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="raExportTxt.Text" xml:space="preserve">
+    <value>发布到文本文件</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="&gt;&gt;IsUrlEncode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsDelRepRow.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="&gt;&gt;raGatheredRun.Name" xml:space="preserve">
+    <value>raGatheredRun</value>
+  </data>
+  <data name="comExportUrlCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 17</value>
+  </data>
+  <data name="labInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 22</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comRunType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 21</value>
+  </data>
+  <data name="butNext.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataNRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 77</value>
+  </data>
+  <data name="IsSaveErrorLog.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>数据发布有三种形式，除此您还可选择下一页的在线发布，但只能选择一种发布形式。</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="udAgainNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="nRuleLevel.HeaderText" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>导航规则</value>
+  </data>
+  <data name="lab5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;butNext.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="step5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="&gt;&gt;step1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tTask.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lab7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAIf+AB5CsRs/ruvr64+Pj+3t7RxBqhtArB1Crdra2sDAwP///x5AubCwsB9Gr+np6b+/
+        v7m4uNnZ2UJq0FN84amoqJWVlXx7e/v7+6Kiokly1qqpqcfGxm9ubh9AvR0/tdjX19PT05GQkAwxpoB/
+        fxw/sTlhxtHR0TJHhDNJliRCxSBBwB5BtjxjyVF53eHh4UxYfU122EJPhR9FsCFDszNLsi5KoEFozy1I
+        u0dv0hpAqERr00Zt0y1Tuzhdv2iM58LCxT9nzS9WvjVbw0dThE9428rLyzdexEBoyiZIrDVJiCJFriRH
+        uT1kykx02FiC5nOT4mhviF1lgsbHyU1y1g4vtQ4wsmSG3CBDuCpGnIKKnGx0iyZEuCtJp4uTqCRCwsjI
+        ySFBxSpGs2KD1F2F6CVJtWd0lyRJskRs0CVFo2xyhEZv1ipQtixGreDf30FnzilGv6+uqa6urbWzr6ep
+        r26P4DNPqEdrxFZ+3+Hg3t3e3kNnwWOK6kFPe1p5xYuYvJaYoTRGijNIhdjY2UVcmpSXn7S2ub27ty5D
+        hdvc3La4vJ2hqixGohs/tb6/wj9ly9bW13R9kzxet5uy6vPz8iJCvfz9/vX19tTU1aOz26a871uE58fM
+        3TlhynyZ5EBeq1l1t8bFwVeA4ydOtRc1tRs/skpv1ZmnyzZbu2ZsgSZMtFFyw+Xk4k5tuEZjrBs7vG2N
+        4N/f4+vr7UlotE1z0TdQkluE6UJkuamvvl5wmuvr6WGH6crKydXX2Lm6vmF+yE154a+72H2Dj1t/2PT6
+        /3OHvFyD4yRDyP39+uvq51mB49DQz/Pz9PLx7z1jxiREvU1im7nA0zJUrTxm0SNKskdx2RIxudvk+1d6
+        z8/OznuSz7i/0uDk7WKH4z5huejm5Uxvw2eJ3ilFw1F31tLS016E4aurq5Gt8iZEx1qA3dDNyr7M8F5s
+        kb/AwbGytUVtzjVYs1J2z83V6mh+txg3uCtIw1Z719bV0Jmjv7W1tvX18IGAgE1yyn2V0rq/zP///wAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD+ACwAAAAAIAAgAAAI/wD9CRxI0MEGCgMscOBgYQCFDQ4I
+        Spw4MIKGERgSICBw4QIBBAkwjNAQgSJFAQwGPBCAoNGte378dOky55GABwMYCDA58EMFCAS+aJPU6ckr
+        cFbEiPElL0svAhAqfOBpIgSIPP0kPfHhY8+YCb8m3Kl3rc+nLAhAhDBB8UMIF0WAdeqqa4wmJ+Yy+WhC
+        BMYsVZ/K/HARYipBARVAFMFEh5vdWk4mqFOgYJgVNRlwnLHDCtcPEBV2DmQAIY8pOuScJAsVakKxSpQV
+        ZGKh+cgRPbLWRYDAoOIAAoqeoLszofiEFkSsxc4m7YyNI0xYdGsFicCAkv40PGDHT1iL79+JEP+hZiXe
+        NlM9dNhwxKJEiR6RBiV6oMGfgxECuogRB6N//yYZNGEDJz0IYYMEbkRXghFCnOIJFAKMYBAGjxADTwYY
+        ZliKGjqUMsWHbgTBwxqipJKKKGtEM4gJGByUwBx97IPDjDvUuIMOOmCSjwObHCJCDkAWECQaKPyRAEII
+        ZKGKOxI06aQEnASBTToJrBKICAVkaUCWWdaQBgIJEQDJN0cAYSYQ6wVxQANFgAKBCyeIcIABdNKZJRYv
+        EKDQBWXY0Ux0LDAhhBl0mrGLIQzgEacBATQagJ1o8HHBQnzq4Z57QTRwwJxmfCFHHG3E6eioBUQ6qQUE
+        aGGLEazyIMOmBwT/QIYUcJSjqAgk5Jprowcs8oIADSEQTCQF8tBAAwAAEOuscMQBpwgeROsBKbkCgAUq
+        YFKQgCKenGIssgcoK6sUcuBjZRUreLCAutEqgQUhR26AAQjPvDNNAzLIkCwAASzxhSEPeHNCFR0sYLDB
+        KygByDgt3ieAFnUgge++AJCyhDKgFJFLEgR34LHHM3ARhQD6RKRdIbRwoYS++zKyBC/2tMFMElSoYLPN
+        lISBQiEJ1OdPBL+lUYPEya6wgsuwILPMJDSnAAYYKnixRR1QWIedP6QJ8sLQMwBg9AJXxHJMJUxTkcLZ
+        XrxBwxCI8HZYYg8MUYMSM8xwhcHQWGJJj9UYhHO22jH8cEloErnlQiNbI2E3JR0AMkQMMWwBxjnh3LD2
+        YIVRVBUIgqSBAhdhbOGMK6OMMo8X9FiOghaIqMWWST4B1U4UKCzCRhg35E4DGyhEkQhUUvEkEEoqCWAC
+        Iai8APkLUPxxyU05iSa8QBZhpBFHHoEkEknTS0SZQQgpxJBDEAkfEAA7
+</value>
+  </data>
+  <data name="&gt;&gt;groupBox13.Name" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="cmdAddTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 16</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pic4.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 77</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="step2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="&gt;&gt;comExportUrlCode.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 28</value>
+  </data>
+  <data name="cmdDelWeblink.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="label26.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdDelCutFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="labTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 22</value>
+  </data>
+  <data name="txtWeblinkDemo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;listTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="pic8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="comTaskClass.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="raExportExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdDelCutFlag.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;lab6.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="raExportMySql.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="step3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 286</value>
+  </data>
+  <data name="step4.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;raGatheredRun.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="raPublishedRun.Text" xml:space="preserve">
+    <value>发布完成后出发</value>
+  </data>
+  <data name="groupBox13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>step10</value>
+  </data>
+  <data name="&gt;&gt;cmdWebSource.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="&gt;&gt;raPublishedRun.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="labInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddCutFlag.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="&gt;&gt;cmdDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtExportUrl.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 77</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="&gt;&gt;listTask.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raExportAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;step9.Name" xml:space="preserve">
+    <value>step9</value>
+  </data>
+  <data name="udThread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;raExportExcel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button12.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtCookie.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;raExportExcel.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="IsSaveErrorLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 17</value>
+  </data>
+  <data name="&gt;&gt;listWeblink.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="IsDelRepRow.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="raExportMSSQL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="step1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 284</value>
+  </data>
+  <data name="lab7.Text" xml:space="preserve">
+    <value>7、在线发布</value>
+  </data>
+  <data name="&gt;&gt;IsSaveErrorLog.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="cmdUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 238</value>
+  </data>
+  <data name="pic4.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;button7.Name" xml:space="preserve">
+    <value>button7</value>
+  </data>
+  <data name="dataNRule.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;pic4.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;raExportMSSQL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddWeblink.Name" xml:space="preserve">
+    <value>cmdAddWeblink</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labInfo.Name" xml:space="preserve">
+    <value>labInfo</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>开始标志：</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 259</value>
+  </data>
+  <data name="comTaskClass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>374, 21</value>
+  </data>
+  <data name="txtFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;raExportWeb.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>文件名：</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACbfnkA9PXzAPn2/AB3TwAAi2lHAHpSCQCRcVkAfVcTAIFcIgDs7ewAmn5DAIdnNwC+rIYAj25QAIlm
+        IgCZfHQA8ezjAIBaFACEYC0AlHViAN7d3ADg2coAgFsRANnPuQD08+wAp6elAOe4pgDDxMQA0carAJh6
+        bwDNzMsAt6N7AKyVZQDz8usAvauEAIzKnADw5d8A4ezvAOD18QDe1coAUNTOAJaYlgCTdDYA7+XuAKiQ
+        XgDSc0oA1MrDANzUxABv0HMAZmVkAKOJVACrlWkAtaF2AMe4lwCznnEA2/beAGtxsgAzMN4Atum7AOGT
+        bwDl4dUA4eTuAOLhzACdh2oAw7WTAJZ3aADKvZ4Al3hrALeYiwCvs8MA3dXYALmolgDO3N0AOeJHAOHb
+        ygDQxKgAhuqQANTJsQDucjkAZ5WSAHdwyQD49vQArdjVADb28QBYSqgAb413ANyXiQBT0FoAvq6KAOHj
+        4QDoxrMA8e7rAKqThwCghU0AhmQhAOnl2wDk2+8AkezrANns3wCScjIAuLi2AGRLsACkjHcAk606AOzp
+        3QCmiIcAnMfMAKnRsADFysgAin59AMa6pgDJqZoAoYdQAE6NSgB52dUAi46EAKuXdgCsbVcAzdH0AMnN
+        2QDkppAA2cbWAHLo5gCDa5MAa9fHANCDYwDbt64AvqujAJd7QwCXp5MAZuJxAFCwpgCf26AAysGpAGVV
+        0gBzbeMAL/o3AImKxgCoqsQAwb3vANPU0wCXa1kAjJOxAGlWlwCCg9sAq7CtALbx8AC8jW4Aea2fAE6t
+        VgCshVgAgcrMAJh+TgCznpkAgruGAMrCuADq59oAZ7yuANvU0ADPoaQASLo8AE9E0ADA8tQAjGwqAKWM
+        WgB91oAArLufAEdH6gCandkA2PDMADnLxADQxbEAv+bfAGTg2QBqrnAAsd7kALK33gC+togAyb3AAOrl
+        4gChiFUAntDUAI64wADJvLYAoJ3GAImurwC6tPIAkYrsALmojAD4+vcAnoVaAHyVQQBU5VcAd71cAFDy
+        YABR59QA7Oz8AKRSlABEvsQAadY8AKis3ADcsowAbMRAAMGzmwD0onwAjJbJANCyvABYlKAAPOTcAJln
+        dwCEuJwAecXCAMSaZADQwrkAiJmcAPv9+wDZz7sAoJjoAJSqdACouIwA+Pr4AJp9ZAC0o4sAz87EAOno
+        4QA4ODgAr5mUAPj79AD///8A/P78AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAzMzMzMzMzMzMzMzMzMzMzMzl4xrWAgLj4wIbbAHl5czM5QIkdbLlAS5xwuUJAeXMzOXl5U4x
+        plVJOgGRSOXlzMzl5eN5Z3EwNzdPeuMnEMzM5eMeSce/KRuDYeXbkOXMzOVZSZoaLY3GlwEZp+MBzMwl
+        MIRrECmUgzspOQLj48zMUmSEEBudjXUxORsBAeXMzEw6Oj4oU4GWVFR5CQLlzMw35QlyckiSZY+WO2R5
+        5czM5eVSta0CUDjMGaYnfuPMzOXlepImYKiQ5RrJRBkUzMzl5ZIB5ZCwduXl41oaRszM5eXl5eW7PePl
+        5ePl5ePMzMzMzMzMzMzMzMzMzMzMzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="step2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;raExportMySql.Name" xml:space="preserve">
+    <value>raExportMySql</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDelTask.Text" xml:space="preserve">
+    <value>删  除</value>
+  </data>
+  <data name="label31.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtEndPos.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="pic5.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label24.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="butNext.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="raPublishedRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="&gt;&gt;label46.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;listWeblink.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="&gt;&gt;butPre.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="listWebGetFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 389</value>
+  </data>
+  <data name="listTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 43</value>
+  </data>
+  <data name="&gt;&gt;pic4.Name" xml:space="preserve">
+    <value>pic4</value>
+  </data>
+  <data name="&gt;&gt;comTaskClass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic8.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;label34.Name" xml:space="preserve">
+    <value>label34</value>
+  </data>
+  <data name="&gt;&gt;lab6.Name" xml:space="preserve">
+    <value>lab6</value>
+  </data>
+  <data name="groupBox10.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;lab5.Name" xml:space="preserve">
+    <value>lab5</value>
+  </data>
+  <data name="&gt;&gt;raExportTxt.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;pic5.Name" xml:space="preserve">
+    <value>pic5</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPost2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label25.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cmdAddTask.Name" xml:space="preserve">
+    <value>cmdAddTask</value>
+  </data>
+  <data name="comTableName.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;pic3.Name" xml:space="preserve">
+    <value>pic3</value>
+  </data>
+  <data name="label29.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="IsUrlEncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 233</value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>任务类型</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>618, 9</value>
+  </data>
+  <data name="&gt;&gt;pic7.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;txtLoginUrl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 437</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCutFlag.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="cmdWebSource.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>任务类型：</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="raExportMySql.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtCookie.Name" xml:space="preserve">
+    <value>txtCookie</value>
+  </data>
+  <data name="cmdAddTask.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;columnHeader5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="listWebGetFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 36</value>
+  </data>
+  <data name="&gt;&gt;label43.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>采集任务信息维护—向导</value>
+  </data>
+  <data name="txtEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>385, 47</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Name" xml:space="preserve">
+    <value>columnHeader7</value>
+  </data>
+  <data name="step6.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lab2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic7.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cmdDelWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 9</value>
+  </data>
+  <data name="step8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="cmdAddCutFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 9</value>
+  </data>
+  <data name="&gt;&gt;label24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label24.Name" xml:space="preserve">
+    <value>label24</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="&gt;&gt;pic3.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 93</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;cmdUp.Name" xml:space="preserve">
+    <value>cmdUp</value>
+  </data>
+  <data name="&gt;&gt;lab9.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 54</value>
+  </data>
+  <data name="listWeblink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 153</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>插入参数</value>
+  </data>
+  <data name="&gt;&gt;butPre.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;raPublishedRun.Name" xml:space="preserve">
+    <value>raPublishedRun</value>
+  </data>
+  <data name="lab8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>粗体为必填项</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInsertSql.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;step8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolmenuPostData.Text" xml:space="preserve">
+    <value>手工捕获POST数据</value>
+  </data>
+  <data name="lab8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 188</value>
+  </data>
+  <data name="&gt;&gt;columnHeader8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;IsIncludeHeader.Name" xml:space="preserve">
+    <value>IsIncludeHeader</value>
+  </data>
+  <data name="&gt;&gt;nRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label24.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;step3.Name" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>正则表达式</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 80</value>
+  </data>
+  <data name="raExportExcel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 69</value>
+  </data>
+  <data name="&gt;&gt;label30.Name" xml:space="preserve">
+    <value>label30</value>
+  </data>
+  <data name="cmdUp.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;cmdDelWeblink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;step6.Name" xml:space="preserve">
+    <value>step6</value>
+  </data>
+  <data name="groupBox4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdAddTask.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLoginUrl.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labLogSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="pic2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtStartPos.Name" xml:space="preserve">
+    <value>txtStartPos</value>
+  </data>
+  <data name="label25.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label21.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 24</value>
+  </data>
+  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;pic6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label25.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;TaskType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="raExportMySql.Text" xml:space="preserve">
+    <value>发布到MySql</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 307</value>
+  </data>
+  <data name="step4.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="columnHeader12.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="txtSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 259</value>
+  </data>
+  <data name="IsIncludeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>340, 17</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="lab6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;comWebCode.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;rmenuGetFormat.Name" xml:space="preserve">
+    <value>rmenuGetFormat</value>
+  </data>
+  <data name="&gt;&gt;label26.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="pic10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 239</value>
+  </data>
+  <data name="step9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="&gt;&gt;labInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>任务备注：</value>
+  </data>
+  <data name="&gt;&gt;butCancel.Name" xml:space="preserve">
+    <value>butCancel</value>
+  </data>
+  <data name="&gt;&gt;step9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pic9.Name" xml:space="preserve">
+    <value>pic9</value>
+  </data>
+  <data name="comUrlEncode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="step10.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="pic8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 189</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comTableName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 66</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="raExportTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="&gt;&gt;step6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="step1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="label21.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>    采集任务已经添加完成，但您还未进行保存操作，请点击"保存"按钮保存采集任务，成功保存后就可执行此任务进行数据下载了。</value>
+  </data>
+  <data name="lab9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="&gt;&gt;cmdDelTask.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="butNext.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;pic2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="txtSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 20</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>用于显示选中网址的导航规则信息</value>
+  </data>
+  <data name="labTitle.Text" xml:space="preserve">
+    <value>Soukey采摘 采集任务信息维护向导</value>
+  </data>
+  <data name="IsSave.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="labLogSavePath.Text" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
+  <data name="lab8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="txtTaskDemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 41</value>
+  </data>
+  <data name="butPre.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label20.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox9.Name" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="cmdAddWeblink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;comExportUrlCode.Name" xml:space="preserve">
+    <value>comExportUrlCode</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="raExportWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="cmdAddTask.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label32.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="&gt;&gt;butNext.Name" xml:space="preserve">
+    <value>butNext</value>
+  </data>
+  <data name="step2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPostData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>通常情况下系统会自动判断网页编码，如果采集出现乱码则表示系统判断出错，请手工指定网页编码格式。</value>
+  </data>
+  <data name="cmdAddWeblink.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comExportUrlCode.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Name" xml:space="preserve">
+    <value>columnHeader14</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>此项为必填项</value>
+  </data>
+  <data name="listWeblink.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="raPublishedRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 20</value>
+  </data>
+  <data name="&gt;&gt;lab6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsLogin.Text" xml:space="preserve">
+    <value>需要人工登录，登录地址：</value>
+  </data>
+  <data name="&gt;&gt;label21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 13</value>
+  </data>
+  <data name="IsUrlEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 17</value>
+  </data>
+  <data name="tTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 20</value>
+  </data>
+  <data name="&gt;&gt;label21.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;lab4.Name" xml:space="preserve">
+    <value>lab4</value>
+  </data>
+  <data name="&gt;&gt;txtWeblinkDemo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtWeblinkDemo.Name" xml:space="preserve">
+    <value>txtWeblinkDemo</value>
+  </data>
+  <data name="pic3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 65</value>
+  </data>
+  <data name="&gt;&gt;step2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt, style=Bold</value>
+  </data>
+  <data name="IsSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>289, 406</value>
+  </data>
+  <data name="&gt;&gt;txtSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;labTitle.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label29.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;raExportWeb.Name" xml:space="preserve">
+    <value>raExportWeb</value>
+  </data>
+  <data name="label30.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;udAgainNumber.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;step7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label22.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="pic7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="IsLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label32.Name" xml:space="preserve">
+    <value>label32</value>
+  </data>
+  <data name="&gt;&gt;label26.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowser.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="step9.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labInfo.Text" xml:space="preserve">
+    <value>— 任务信息</value>
+  </data>
+  <data name="txtInsertSql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 93</value>
+  </data>
+  <data name="label40.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 135</value>
+  </data>
+  <data name="&gt;&gt;lab8.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="butPre.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;cmdDelWeblink.Parent" xml:space="preserve">
+    <value>step3</value>
+  </data>
+  <data name="&gt;&gt;groupBox10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 39</value>
+  </data>
+  <data name="&gt;&gt;IsIgnore404.Name" xml:space="preserve">
+    <value>IsIgnore404</value>
+  </data>
+  <data name="groupBox13.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;pic8.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label17.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;butNext.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>step10</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="txtWeblinkDemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>392, 20</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>此项为必填项</value>
+  </data>
+  <data name="&gt;&gt;step9.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pic2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 23</value>
+  </data>
+  <data name="raExportMSSQL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="pic1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 261</value>
+  </data>
+  <data name="&gt;&gt;raExportWeb.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="labTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lab7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pic5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label38.Name" xml:space="preserve">
+    <value>label38</value>
+  </data>
+  <data name="pic3.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="step4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="&gt;&gt;pic3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnHeader16.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="label21.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;txtWeblinkDemo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdAddWeblink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;step3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Name" xml:space="preserve">
+    <value>columnHeader4</value>
+  </data>
+  <data name="&gt;&gt;txtSavePath.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;label27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listWebGetFlag.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="&gt;&gt;button12.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="&gt;&gt;lab5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDelWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>自动获取</value>
+  </data>
+  <data name="&gt;&gt;labLogSavePath.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="&gt;&gt;label46.Parent" xml:space="preserve">
+    <value>step9</value>
+  </data>
+  <data name="IsStartTrigger.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 6</value>
+  </data>
+  <data name="cmdDelTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="&gt;&gt;lab9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab2.Name" xml:space="preserve">
+    <value>lab2</value>
+  </data>
+  <data name="&gt;&gt;cmdWebSource.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;IsLogin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lab1.Name" xml:space="preserve">
+    <value>lab1</value>
+  </data>
+  <data name="raExportExcel.Text" xml:space="preserve">
+    <value>发布到Excel文件</value>
+  </data>
+  <data name="&gt;&gt;listTask.Name" xml:space="preserve">
+    <value>listTask</value>
+  </data>
+  <data name="butPre.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADAAN
+        AAAIWABPCBxIsODABQYJLoiQUGCCAA4aJhCA4IIHAwYoDGxAUUGICSRKEBCoIYAIBQUYQNjwwcTACgcK
+        gBgxIAMHAAQlDDhAwASADhgKWnjgsuEJE0WN4jSaMCAAOw==
+</value>
+  </data>
+  <data name="lab5.Text" xml:space="preserve">
+    <value>5、采集规则</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCutFlag.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label23.Name" xml:space="preserve">
+    <value>label23</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>数据发布只能在文件、数据库及网站三者之间选择，且只能按照一种形式发布数据。如果选择发布到网站，则前面配置的发布文件或数据库就会失效。</value>
+  </data>
+  <data name="label30.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="cmdDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 9</value>
+  </data>
+  <data name="&gt;&gt;pic7.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="step9.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdAddCutFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="button11.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdDelWeblink.Text" xml:space="preserve">
+    <value>删 除</value>
+  </data>
+  <data name="&gt;&gt;label22.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;step2.Name" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;cmdDelWeblink.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="comUrlEncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 257</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 116</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="&gt;&gt;step2.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 28</value>
+  </data>
+  <data name="cmdUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>350, 9</value>
+  </data>
+  <data name="&gt;&gt;dataNRule.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="cmdDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="cmdDelTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="txtExportCookie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 20</value>
+  </data>
+  <data name="&gt;&gt;label23.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="IsSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 20</value>
+  </data>
+  <data name="&gt;&gt;pic4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;label25.Name" xml:space="preserve">
+    <value>label25</value>
+  </data>
+  <data name="button11.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;raExportExcel.Name" xml:space="preserve">
+    <value>raExportExcel</value>
+  </data>
+  <data name="txtExportUrl.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtExportCookie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 166</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPost1.Name" xml:space="preserve">
+    <value>toolmenuPost1</value>
+  </data>
+  <data name="cmdUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;lab8.Name" xml:space="preserve">
+    <value>lab8</value>
+  </data>
+  <data name="IsStartTrigger.Text" xml:space="preserve">
+    <value>启动触发器</value>
+  </data>
+  <data name="&gt;&gt;rmenuGetFormat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IsIncludeHeader.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>数据表：</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="label26.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;cmdDown.Name" xml:space="preserve">
+    <value>cmdDown</value>
+  </data>
+  <data name="&gt;&gt;lab6.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;labLogSavePath.Name" xml:space="preserve">
+    <value>labLogSavePath</value>
+  </data>
+  <data name="cmdDelCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="txtEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 71</value>
+  </data>
+  <data name="&gt;&gt;label40.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsDelRepRow.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 39</value>
+  </data>
+  <data name="&gt;&gt;udThread.Name" xml:space="preserve">
+    <value>udThread</value>
+  </data>
+  <data name="pic6.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label28.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="lab9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 213</value>
+  </data>
+  <data name="&gt;&gt;txtStartPos.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="raExportMySql.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 23</value>
+  </data>
+  <data name="label33.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="step5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="raExportMySql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 19</value>
+  </data>
+  <data name="pic7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 164</value>
+  </data>
+  <data name="&gt;&gt;columnHeader16.Name" xml:space="preserve">
+    <value>columnHeader16</value>
+  </data>
+  <data name="&gt;&gt;lab9.Name" xml:space="preserve">
+    <value>lab9</value>
+  </data>
+  <data name="labLogSavePath.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>页面采集范围</value>
+  </data>
+  <data name="IsSave.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cmdUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIUwBPCBxIsCBBDQYLNghQIaHABAJEHJCQECICBQUGWCi4IMDFAiAOPDAxcEEEBxdCMBhBwIQJAAU9
+        TIAwgGRCAyQ2ZIB5s8QHDh0cUmgJAIPDowEBADs=
+</value>
+  </data>
+  <data name="&gt;&gt;IsStartTrigger.Parent" xml:space="preserve">
+    <value>step9</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="listTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 182</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="&gt;&gt;label29.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;label29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lab2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="IsIncludeHeader.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;columnHeader2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLoginUrl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtExportCookie.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="raExportWeb.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 89</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowser.Name" xml:space="preserve">
+    <value>cmdBrowser</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtDataSource.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtSavePath.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;columnHeader4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lab10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>网址编码：</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="lab2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pic8.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lab5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 113</value>
+  </data>
+  <data name="IsSaveErrorLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 63</value>
+  </data>
+  <data name="cmdDelCutFlag.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="udAgainNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 10</value>
+  </data>
+  <data name="txtStartPos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pic9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label33.Name" xml:space="preserve">
+    <value>label33</value>
+  </data>
+  <data name="&gt;&gt;step8.Name" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="&gt;&gt;step4.Name" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="&gt;&gt;lab5.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdBrowser.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;step1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnHeader11.Name" xml:space="preserve">
+    <value>columnHeader11</value>
+  </data>
+  <data name="&gt;&gt;lab1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raExportAccess.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtCookie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="step10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 307</value>
+  </data>
+  <data name="&gt;&gt;nRuleLevel.Name" xml:space="preserve">
+    <value>nRuleLevel</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 41</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comRunType.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;IsSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdDown.Text" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="comExportUrlCode.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="raExportAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;button9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="step10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 77</value>
+  </data>
+  <data name="raExportWeb.Text" xml:space="preserve">
+    <value>发布到网站</value>
+  </data>
+  <data name="cmdDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtLoginUrl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 175</value>
+  </data>
+  <data name="&gt;&gt;columnHeader1.Name" xml:space="preserve">
+    <value>columnHeader1</value>
+  </data>
+  <data name="button12.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPost1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 97</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;comWebCode.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="labLogSavePath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labLogSavePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comUrlEncode.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;step10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cmdUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lab10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;columnHeader10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lab6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="butNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="&gt;&gt;columnHeader7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="columnHeader14.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>step4</value>
+  </data>
+  <data name="pic5.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="step3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;columnHeader9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IsUrlEncode.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="raExportMSSQL.Text" xml:space="preserve">
+    <value>发布到MS SqlServer</value>
+  </data>
+  <data name="&gt;&gt;butPre.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label23.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="IsIncludeHeader.Text" xml:space="preserve">
+    <value>数据发布类型如果是文件（文本或Excel），则需要包含表头</value>
+  </data>
+  <data name="label38.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>示例网址：</value>
+  </data>
+  <data name="IsSaveErrorLog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pic6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;toolmenuPostData.Name" xml:space="preserve">
+    <value>toolmenuPostData</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pic2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nRule.Width" type="System.Int32, mscorlib">
+    <value>380</value>
+  </data>
+  <data name="nRule.HeaderText" xml:space="preserve">
+    <value>NavigationRule</value>
+  </data>
+  <data name="txtTaskDemo.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="cmdAddTask.Text" xml:space="preserve">
+    <value>添  加</value>
+  </data>
+  <data name="txtInsertSql.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="raGatheredRun.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 19</value>
+  </data>
+  <data name="&gt;&gt;cmdWebSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comWebCode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lab4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="&gt;&gt;raPublishedRun.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="dataNRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 217</value>
+  </data>
+  <data name="label31.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="label40.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 58</value>
+  </data>
+  <data name="IsIncludeHeader.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;IsIgnore404.Parent" xml:space="preserve">
+    <value>step8</value>
+  </data>
+  <data name="raGatheredRun.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="groupBox10.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cmdAddWeblink.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 182</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 13</value>
+  </data>
+  <data name="lab10.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCutFlag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="&gt;&gt;cmdUp.Parent" xml:space="preserve">
+    <value>step5</value>
+  </data>
+  <data name="&gt;&gt;lab10.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="&gt;&gt;columnHeader15.Name" xml:space="preserve">
+    <value>columnHeader15</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>380, 50</value>
+  </data>
+  <data name="&gt;&gt;columnHeader13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label44.Name" xml:space="preserve">
+    <value>label44</value>
+  </data>
+  <data name="&gt;&gt;tTask.Parent" xml:space="preserve">
+    <value>step1</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 15</value>
+  </data>
+  <data name="listWebGetFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 231</value>
+  </data>
+  <data name="&gt;&gt;txtFileName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;IsIgnore404.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IsDelRepRow.Text" xml:space="preserve">
+    <value>是否去除重复行</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 12</value>
+  </data>
+  <data name="lab2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lab2.Text" xml:space="preserve">
+    <value>2、采集设置</value>
+  </data>
+  <data name="pic4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>9, 11</value>
+  </data>
+  <data name="&gt;&gt;labTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;raPublishedRun.Parent" xml:space="preserve">
+    <value>groupBox13</value>
+  </data>
+  <data name="&gt;&gt;button10.Parent" xml:space="preserve">
+    <value>step2</value>
+  </data>
+  <data name="&gt;&gt;butPre.Name" xml:space="preserve">
+    <value>butPre</value>
+  </data>
+  <data name="comUrlEncode.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 13</value>
+  </data>
+  <data name="raGatheredRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="columnHeader3.Width" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;comTableName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="butCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIU+AEp/4WCQ4JCw8HCg8EBw0KrC8mCQ8EB44GmW8KvA8VCA8HCY8J688o6y8UBgsFl/
+        0rfL85Co8GKCyr7Q9MfT57jH8aW78L3O7p258bnF4bLE6K7D5qG22cLM3qrH8eTq8NDZ9FCA4G5/sGGG
+        wlqH4TBw4KXB8zthpUBgoICo8Ju34ztptFB40DBYsNLh9rbO8nCY4EBosNvj983X8VaAuDBQkLDK8TBg
+        sLTD8LzQ9EBwwOnw+FCI8EBowP///wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAA+ACwAAAAADAAN
+        AAAIegB9CBTookCCFyAGDiwgAEODBglw+IiwwwcEAQgIxFgBwEKFFDZyCAigo8cIGih4eICxYAACBw44
+        +PhwAgCDAAoMDBBBYWAPmyFKKFgQQIZPEiYOEOhxo0UNnzwuKFTY4YCBqQol8NiAVaAGHg+6+pjBg0UG
+        sRNUKAwIADs=
+</value>
+  </data>
+  <data name="cmdDelTask.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="label46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 29</value>
+  </data>
+  <data name="&gt;&gt;label38.Parent" xml:space="preserve">
+    <value>groupBox10</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label20.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;pic1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtDataSource.Parent" xml:space="preserve">
+    <value>groupBox9</value>
+  </data>
+  <data name="&gt;&gt;cmdDelCutFlag.Name" xml:space="preserve">
+    <value>cmdDelCutFlag</value>
+  </data>
+  <data name="cmdDelTask.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDown.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;label22.Name" xml:space="preserve">
+    <value>label22</value>
+  </data>
+  <data name="groupBox13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>471, 234</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>示例网址是自动产生的，如果为空，可以点击“自动获取”进行示例网址的获取，同时根据示例网址的获取，系统也可校验您提交的网址是否正确。注意：必须添加了采集网址才可获取示例网址。</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>获取Cookie</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 5</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="rmenuGetFormat.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 6</value>
+  </metadata>
+  <metadata name="nRuleLevel.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nRule.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>English (United States)</value>
+  </metadata>
+</root>

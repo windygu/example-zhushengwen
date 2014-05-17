@@ -1,0 +1,2818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IsSave.Error" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IsSave.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IsSave.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdApply.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdApply.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdApply.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="cmdApply.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIU6AJCgwEBw4KCowPDw/8DY8KDA/6C40LDA4EB44NDg/6CwwGCQ4MDQ8HCQsHCY4NDY
+        4HCAoODg4HCIsICo8ICo/5CowJC4/4Cg8P/4/3CY8HCg8JCYsFCA4GB4oLC4wICQsHCIoNDg8ODo4JCw
+        /7CwwGBwkLC44MDQ4DBg0GCI4KCw0ODo/8DI4GCAoGB4kGCY8DBo0ODw/7DQ8FCI4PD4/6C44JCo8DBI
+        YACAAP///////wAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAA6ACwAAAAAEAAQ
+        AAAIsAB1CBxIsKBAGwhtTLiQwcGCFBwQIAhwsIBFCxZGUKCgQUOGFzAOIlzocEbEAChRCDSQo2WDljBb
+        0rixsqWIlzEx0HhAUwdLABEk5PBAQgCADR9w4BCoomUEEDloSB0QQ2lPBRgAPIBAA4fRDUoPXB0w4EQL
+        pWgTEBArUMAKACw6oFUqAUKNngIShDjgIgFaBgxk3BVYgYCJGiUIoK3BeLCOCjciS8YhWbLBy5gzDwwI
+        ADs=
+</value>
+  </data>
+  <data name="cmdApply.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdApply.Text" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="tTask.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tTask.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tTask.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Name：</value>
+  </data>
+  <data name="txtLoginUrl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtLoginUrl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtLoginUrl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsLogin.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsLogin.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsLogin.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsLogin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 17</value>
+  </data>
+  <data name="IsLogin.Text" xml:space="preserve">
+    <value>Manual，Log on Url：</value>
+  </data>
+  <data name="button10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>551, 48</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>Get Cookie</value>
+  </data>
+  <data name="txtCookie.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCookie.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtCookie.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtCookie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 48</value>
+  </data>
+  <data name="label30.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label30.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label30.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label30.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 51</value>
+  </data>
+  <data name="label25.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label25.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label25.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 8</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 41</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Under normal circumstances the system will automatically determine the page encoding, if the acquisition is garbled, said system to determine an error, please manually specify the page encoding.</value>
+  </data>
+  <data name="comWebCode.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comWebCode.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comWebCode.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label24.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label24.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label24.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 18</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 13</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Webpage Encoding：</value>
+  </data>
+  <data name="groupBox7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox7.Text" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="label42.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label42.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label42.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 52</value>
+  </data>
+  <data name="label42.Text" xml:space="preserve">
+    <value>Ajax page collection of data and collecting data on general principles of the same web page, but you need to help third-party tools (such as: Fiddler) to obtain a real Url addresses and parameters.</value>
+  </data>
+  <data name="cmdOpenFolder.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdOpenFolder.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdOpenFolder.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdOpenFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdOpenFolder.Text" xml:space="preserve">
+    <value>Browser...</value>
+  </data>
+  <data name="txtSavePath.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSavePath.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtSavePath.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Data SavePath：</value>
+  </data>
+  <data name="txtTaskDemo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTaskDemo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtTaskDemo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label26.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label26.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label26.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Remark：</value>
+  </data>
+  <data name="udThread.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="udThread.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="udThread.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 182</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Thread number：</value>
+  </data>
+  <data name="comTaskClass.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comTaskClass.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comTaskClass.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label21.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label21.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label21.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Sort：</value>
+  </data>
+  <data name="comRunType.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comRunType.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comRunType.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>RunType：</value>
+  </data>
+  <data name="TaskType.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskType.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="TaskType.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Type：</value>
+  </data>
+  <data name="label34.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label34.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label34.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 225</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>605, 41</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Whether you choose the data release, the acquisition data system will carry out the save operation, the default for XML documents, the purpose of doing so is to facilitate your data collection follow-up operation. Under normal circumstances, not recommended for non-professional users to change this address.</value>
+  </data>
+  <data name="groupBox3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Base</value>
+  </data>
+  <data name="tabPage1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="cmdUrlEncoding.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdUrlEncoding.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdUrlEncoding.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdUrlEncoding.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdUrlEncoding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>503, 16</value>
+  </data>
+  <data name="cmdUrlEncoding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 23</value>
+  </data>
+  <data name="cmdUrlEncoding.Text" xml:space="preserve">
+    <value>Encoding/Decoding</value>
+  </data>
+  <data name="label47.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label47.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label47.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label47.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 122</value>
+  </data>
+  <data name="label47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 27</value>
+  </data>
+  <data name="label47.Text" xml:space="preserve">
+    <value>System supports multi-layer navigation, but only the final pages of data collection.</value>
+  </data>
+  <data name="button6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>495, 123</value>
+  </data>
+  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 23</value>
+  </data>
+  <data name="button6.Text" xml:space="preserve">
+    <value>Testing Navigation</value>
+  </data>
+  <data name="cmdMoreNRule.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdMoreNRule.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdMoreNRule.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdMoreNRule.Text" xml:space="preserve">
+    <value>More complex navigation rules</value>
+  </data>
+  <data name="nRuleLevel.HeaderText" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="nRule.HeaderText" xml:space="preserve">
+    <value>NavigationRule</value>
+  </data>
+  <data name="dataNRule.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataNRule.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dataNRule.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dataNRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 17</value>
+  </data>
+  <data name="dataNRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 90</value>
+  </data>
+  <data name="groupBox15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDelNRule.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdDelNRule.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDelNRule.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDelNRule.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDelNRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="cmdDelNRule.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="cmdAddNRule.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdAddNRule.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdAddNRule.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddNRule.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAddNRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="cmdAddNRule.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="txtNag.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNag.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtNag.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Navigation Rule：</value>
+  </data>
+  <data name="label22.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label22.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 79</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 33</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Direct Navigation Website fill prefix (the same part) can be required to fill in the full. </value>
+  </data>
+  <data name="groupBox14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox14.Text" xml:space="preserve">
+    <value>Navigation Rules</value>
+  </data>
+  <data name="IsNavigPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsNavigPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsNavigPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsNavigPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsNavigPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="IsNavigPage.Text" xml:space="preserve">
+    <value>Navigation Page</value>
+  </data>
+  <data name="label31.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label31.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label31.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Not support JS</value>
+  </data>
+  <data name="comUrlEncode.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comUrlEncode.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comUrlEncode.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comUrlEncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="comUrlEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>388, 21</value>
+  </data>
+  <data name="txtWebLink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWebLink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtWebLink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtWebLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 43</value>
+  </data>
+  <data name="txtWebLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>488, 48</value>
+  </data>
+  <data name="cmdEditWeblink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdEditWeblink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdEditWeblink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdEditWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIUgAAwMB5R+QRQReyQmGgoVcn99WgkJunGOuQUFr2VpFlNUAH2DQSAgSouSPZ2jvfX4
+        JoOJoKeofP//jwAAAAEB/w8S/2p0cK2xShwfFD9BnAgI/wEBCpqlZ5mYIbzCXwoLAP///wAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAgACwAAAAADAAN
+        AAAIPgBBCBxIsKDBgwQLCEAIIgKBCggtZKCg4eABDAwQGDDoYEGDCR8AFIRwQYIHBQM2FOTwAESHBAEY
+        ypxJk2FAADs=
+</value>
+  </data>
+  <data name="cmdEditWeblink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdEditWeblink.Text" xml:space="preserve">
+    <value>Edit  </value>
+  </data>
+  <data name="IsUrlEncode.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsUrlEncode.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsUrlEncode.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsUrlEncode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsUrlEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="IsUrlEncode.Text" xml:space="preserve">
+    <value>Url Encoding</value>
+  </data>
+  <data name="button4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtNextPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNextPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtNextPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 100</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>NextPage Flag：</value>
+  </data>
+  <data name="IsAutoNextPage.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsAutoNextPage.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsAutoNextPage.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsAutoNextPage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsAutoNextPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="IsAutoNextPage.Text" xml:space="preserve">
+    <value>Auto Next Page</value>
+  </data>
+  <data name="button3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button3.Text" xml:space="preserve">
+    <value>Dict Tool</value>
+  </data>
+  <data name="button2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="label9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 45</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Url：</value>
+  </data>
+  <data name="cmdDelWeblink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdDelWeblink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDelWeblink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDelWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelWeblink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDelWeblink.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>Next Flag</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>Url Count</value>
+  </data>
+  <data name="listWeblink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listWeblink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="listWeblink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddWeblink.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdAddWeblink.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdAddWeblink.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddWeblink.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAddWeblink.Text" xml:space="preserve">
+    <value>Add  </value>
+  </data>
+  <data name="label20.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label20.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 260</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>401, 41</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Capture the content only for non-navigation pages is collected by the navigation rules to open the content page, and in accordance with the rules of data collection collected</value>
+  </data>
+  <data name="groupBox6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Collection Urls</value>
+  </data>
+  <data name="tabPage2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabPage2.ImageKey" xml:space="preserve">
+    <value>Table.ico</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Collection Urls</value>
+  </data>
+  <data name="cmdDown.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdDown.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDown.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIVQBPCBxIsKBACgRMAMBgUKCBEh84dGh4wgCJDRkAUPQwAcIAEwUXRHBwIQSDEQkVDlwQAIGCAiAO
+        PABJMIEAlwUGWGhoU8QBCRRPNAhQIahADUaDBgQAOw==
+</value>
+  </data>
+  <data name="cmdDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDown.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="cmdUp.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdUp.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdUp.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIUwBPCBxIsCBBDQYLNghQIaHABAJEHJCQECICBQUGWCi4IMDFAiAOPDAxcEEEBxdCMBhBwIQJAAU9
+        TIAwgGRCAyQ2ZIB5s8QHDh0cUmgJAIPDowEBADs=
+</value>
+  </data>
+  <data name="cmdUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdUp.Text" xml:space="preserve">
+    <value>Up  </value>
+  </data>
+  <data name="label5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 164</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>"Output Limit" can improve the accuracy and validity of data collection, but it can also reduce the acquisition performance.</value>
+  </data>
+  <data name="txtExpression.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExpression.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtExpression.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtRegion.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRegion.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtRegion.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label37.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label37.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label37.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Condition：</value>
+  </data>
+  <data name="comExportLimit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comExportLimit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comExportLimit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label36.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label36.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label36.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 141</value>
+  </data>
+  <data name="label36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label36.Text" xml:space="preserve">
+    <value>Output Limit：</value>
+  </data>
+  <data name="label35.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label35.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label35.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="label35.Text" xml:space="preserve">
+    <value>Regex：</value>
+  </data>
+  <data name="label28.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label28.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label28.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 40</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>622, 13</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Collecting non-text data type, the system will be a file download, download the file stored in your designated "data storage address"</value>
+  </data>
+  <data name="comGetType.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comGetType.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comGetType.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label32.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label32.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label32.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Data Type：</value>
+  </data>
+  <data name="comLimit.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comLimit.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comLimit.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label19.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label19.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label19.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 114</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Limit Condition：</value>
+  </data>
+  <data name="button8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIUgAAwMB5R+QRQReyQmGgoVcn99WgkJunGOuQUFr2VpFlNUAH2DQSAgSouSPZ2jvfX4
+        JoOJoKeofP//jwAAAAEB/w8S/2p0cK2xShwfFD9BnAgI/wEBCpqlZ5mYIbzCXwoLAP///wAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAgACwAAAAADAAN
+        AAAIPgBBCBxIsKDBgwQLCEAIIgKBCggtZKCg4eABDAwQGDDoYEGDCR8AFIRwQYIHBQM2FOTwAESHBAEY
+        ypxJk2FAADs=
+</value>
+  </data>
+  <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button8.Text" xml:space="preserve">
+    <value>Edit  </value>
+  </data>
+  <data name="txtGetEnd.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGetEnd.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtGetEnd.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtGetStart.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGetStart.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtGetStart.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Testing Pick</value>
+  </data>
+  <data name="cmdDelCutFlag.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdDelCutFlag.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDelCutFlag.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDelCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelCutFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDelCutFlag.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdAddCutFlag.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdAddCutFlag.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdAddCutFlag.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddCutFlag.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAddCutFlag.Text" xml:space="preserve">
+    <value>Add  </value>
+  </data>
+  <data name="txtGetTitleName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtGetTitleName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtGetTitleName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label16.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label16.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label16.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Start Flag：</value>
+  </data>
+  <data name="label17.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label17.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>End Flag：</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>StartFlag</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>EndFlag</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>Regex</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="listWebGetFlag.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listWebGetFlag.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="listWebGetFlag.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label18.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label18.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label18.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Pick Name：</value>
+  </data>
+  <data name="groupBox8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox8.Text" xml:space="preserve">
+    <value>Collection Rules</value>
+  </data>
+  <data name="label44.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label44.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label44.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 13</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>In principle, access must be automatic, otherwise it will lead to the testing of collecting failed!</value>
+  </data>
+  <data name="button7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Auto Get</value>
+  </data>
+  <data name="label33.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label33.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label33.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label33.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 79</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 15</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Fill in the page range is conducive to collecting accurate data collection, if you do not fill the full page content will be based on collected data analysis</value>
+  </data>
+  <data name="label15.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label15.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="txtEndPos.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEndPos.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtEndPos.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtStartPos.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtStartPos.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtStartPos.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label14.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label14.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label14.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 58</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Page Range：</value>
+  </data>
+  <data name="cmdWebSource.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdWebSource.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdWebSource.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdWebSource.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdWebSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="txtWeblinkDemo.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtWeblinkDemo.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtWeblinkDemo.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Example Url：</value>
+  </data>
+  <data name="groupBox5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Collection Range</value>
+  </data>
+  <data name="tabPage3.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage3.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage3.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabPage3.ImageKey" xml:space="preserve">
+    <value>tree.gif</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Collection Rules</value>
+  </data>
+  <data name="label41.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label41.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label41.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>629, 32</value>
+  </data>
+  <data name="label41.Text" xml:space="preserve">
+    <value>Note: The data distribution is a complete automated transaction operation, the user can not intervene, the system will ignore the data distribution error, the error information can view the output log.</value>
+  </data>
+  <data name="label39.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label39.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label39.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>494, 13</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>If you need to publish the data in the "General" page of the "Run Type" select "Collection and Publish"</value>
+  </data>
+  <data name="button9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="comExportUrlCode.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comExportUrlCode.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comExportUrlCode.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="comExportUrlCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="label27.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label27.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label27.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Url Encoding：</value>
+  </data>
+  <data name="button11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>Get Cookie</value>
+  </data>
+  <data name="txtExportCookie.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExportCookie.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtExportCookie.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label38.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label38.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label38.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label29.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label29.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 45</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Url：</value>
+  </data>
+  <data name="txtExportUrl.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtExportUrl.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtExportUrl.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportWeb.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportWeb.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportWeb.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportWeb.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="raExportWeb.Text" xml:space="preserve">
+    <value>Publish Website</value>
+  </data>
+  <data name="groupBox10.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox10.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox10.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Publish Web</value>
+  </data>
+  <data name="label40.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label40.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label40.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>sql statement is automatically generated, do not recommend non-technical staff to modify</value>
+  </data>
+  <data name="comTableName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comTableName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="comTableName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="txtInsertSql.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtInsertSql.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtInsertSql.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label7.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label7.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>sql：</value>
+  </data>
+  <data name="button12.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button12.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button12.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="txtDataSource.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDataSource.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtDataSource.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportMySql.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportMySql.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportMySql.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportMySql.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportMySql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="raExportMySql.Text" xml:space="preserve">
+    <value>Publish MySql</value>
+  </data>
+  <data name="raExportMSSQL.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportMSSQL.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportMSSQL.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportMSSQL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportMSSQL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="raExportMSSQL.Text" xml:space="preserve">
+    <value>Publish MS SqlServer</value>
+  </data>
+  <data name="raExportAccess.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportAccess.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportAccess.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="raExportAccess.Text" xml:space="preserve">
+    <value>Publish Access</value>
+  </data>
+  <data name="label8.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label8.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label8.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 67</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>DataTable：</value>
+  </data>
+  <data name="label6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 42</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Database：</value>
+  </data>
+  <data name="groupBox9.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox9.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox9.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Publish Database</value>
+  </data>
+  <data name="IsIncludeHeader.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsIncludeHeader.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsIncludeHeader.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsIncludeHeader.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsIncludeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="IsIncludeHeader.Text" xml:space="preserve">
+    <value>Include the table header</value>
+  </data>
+  <data name="txtFileName.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtFileName.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="txtFileName.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdBrowser.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdBrowser.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdBrowser.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdBrowser.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdBrowser.Text" xml:space="preserve">
+    <value>Browser...</value>
+  </data>
+  <data name="raExportExcel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportExcel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportExcel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportExcel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="raExportExcel.Text" xml:space="preserve">
+    <value>Publish Excel File</value>
+  </data>
+  <data name="raExportTxt.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raExportTxt.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raExportTxt.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raExportTxt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raExportTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="raExportTxt.Text" xml:space="preserve">
+    <value>Publish Text File</value>
+  </data>
+  <data name="label23.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label23.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label23.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>File Name：</value>
+  </data>
+  <data name="groupBox4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Publish File</value>
+  </data>
+  <data name="tabPage5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage5.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabPage5.ImageKey" xml:space="preserve">
+    <value>A17.gif</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Publish</value>
+  </data>
+  <data name="button5.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="button5.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="button5.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 24</value>
+  </data>
+  <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 23</value>
+  </data>
+  <data name="button5.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="dataTestGather.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataTestGather.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="dataTestGather.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox2.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>The testing of collecting data content</value>
+  </data>
+  <data name="tabPage4.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage4.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage4.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabPage4.ImageKey" xml:space="preserve">
+    <value>Cur.ico</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Testing</value>
+  </data>
+  <data name="IsStartTrigger.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsStartTrigger.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsStartTrigger.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsStartTrigger.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsStartTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="IsStartTrigger.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="label46.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label46.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label46.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Trigger is an automated mode of operation, through the configuration of the trigger task execution can be run automatically after the end of a program, or other tasks.</value>
+  </data>
+  <data name="raPublishedRun.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raPublishedRun.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raPublishedRun.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raPublishedRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raPublishedRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="raPublishedRun.Text" xml:space="preserve">
+    <value>After Published</value>
+  </data>
+  <data name="raGatheredRun.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="raGatheredRun.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="raGatheredRun.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="raGatheredRun.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="raGatheredRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="raGatheredRun.Text" xml:space="preserve">
+    <value>After Collected</value>
+  </data>
+  <data name="cmdDelTask.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdDelTask.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdDelTask.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdDelTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelTask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdDelTask.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdAddTask.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdAddTask.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdAddTask.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdAddTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddTask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdAddTask.Text" xml:space="preserve">
+    <value>Add  </value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="listTask.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="listTask.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="listTask.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox13.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox13.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox13.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="labLogSavePath.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="labLogSavePath.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="labLogSavePath.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labLogSavePath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labLogSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="labLogSavePath.Text" xml:space="preserve">
+    <value>Log Save Path：</value>
+  </data>
+  <data name="IsSaveErrorLog.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsSaveErrorLog.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsSaveErrorLog.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsSaveErrorLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsSaveErrorLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 47</value>
+  </data>
+  <data name="IsSaveErrorLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="IsSaveErrorLog.Text" xml:space="preserve">
+    <value>Auto save error log</value>
+  </data>
+  <data name="IsDelRepRow.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsDelRepRow.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsDelRepRow.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsDelRepRow.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsDelRepRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="IsDelRepRow.Text" xml:space="preserve">
+    <value>Remove repeat rows</value>
+  </data>
+  <data name="IsIgnore404.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="IsIgnore404.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="IsIgnore404.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="IsIgnore404.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="IsIgnore404.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 17</value>
+  </data>
+  <data name="IsIgnore404.Text" xml:space="preserve">
+    <value>If the URL is invalid error retry is ignored</value>
+  </data>
+  <data name="label43.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label43.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="label43.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>If collect failed, try ：</value>
+  </data>
+  <data name="udAgainNumber.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="udAgainNumber.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="udAgainNumber.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox11.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox11.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox11.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox11.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="tabPage6.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage6.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabPage6.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage6.ImageIndex" type="System.Int32, mscorlib">
+    <value>-1</value>
+  </data>
+  <data name="tabPage6.ImageKey" xml:space="preserve">
+    <value>A21.gif</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="tabControl1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="tabControl1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABy
+        FQAAAk1TRnQBSQFMAgEBDAEAAVQBBQFUAQUBEAEAARABAAT/AQkBAAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAAUADAAEBAQABCAYAARAYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8AJQAB8gHw
+        Ae8BvAHzAfIE8QEZAQkBtQHzAgAB9wG1AgcG7wG8AfMD9AUAAaEBhgGhAvwBpwGGAaEUAAG7AbwBkQEJ
+        Ad0CuwW1AZEB8wIAAa4BuwcJAfcBHAKaARoB/wH0AgACpwGhAacE/AGnAaECpxIAAbwBCQG0AQkB8QG8
+        AQkCuwK1AbsBkQHzAgABrgEJBxkBtQEcA3oBGgH0AgACpwH8BsgB/AKnCAABJgkAAfIB8AG0AbwB8wLx
+        At0DCQGRAfMCAAGRAQkGGQHxAbUBmQN6AZoB8wEAAaEC/AHIBf8B3QL8AqEHAAImCAABtQHwAbUBvAHw
+        Ae8CtQH3AbUBtAG1AZEB8wIAAZEBCQYZAfEBBwGZAXoBmgF6AZoB8wEAAa4BpwL8AcgB8wL/Ad0ByAL8
+        AacBhgcAASYBTQEmBwAB9AHyAfcB8AH/BPMCGQHdAZEB8wIAAZEBCQQZAQcBeQFeAaABeQFRAUoBUQEc
+        AfABAAGnBPwBGQL/AdYE/AGnBAAEJgJNASYGAAEHAfEBtQHwAfMB7wRyAfcBvAGRAfMCAAG1AQkEGQHv
+        AXMBWAGgAXkBUQEpARUBFAHsAQAF/AEZAv8B1gX8BAAHTQEmBQAB8AHyAbUB8AEIAe0BmAFJAQIBTwFx
+        Ae8B7QHzAgABtQEJBBkB8AEHARwCeQFRASICDgFtAQAE/AHmAfQC/wHWBfwEAAJNAVMBTQFTAU0BUwFN
+        ASYEAAH/AfQBtQHwAQgBmAHyAnICTwGXAewB8wIAAbUBCQHdAfQD/wH0AQcB7AJKAQ4CCgGuAQAD/AHI
+        BBkB1gT8AaEEAAFNBlMBTQUAAf8B9AG1AQkF9AFPAVYBUAFJAfEB/wEAAQkBtQEJAfEE/wHzAbUBbQER
+        AWYBhQGhAc8BAAGuAacK/AGnAYYEAARNAlMBTQYAA9YFtAGzAU8BVgFPAWwBhgHvAQAB8wK7AfAF/wEZ
+        AZIBbQGGAaEB/AHmAQABpwGhA/wB1gLdAdYD/AKhBwABTQFTAU0HAATcAdYC1QG0AWwDVgFQAUkBkgEA
+        AfQB/wIaBcMBGwEaAZkB7AGGAaEB5gIAAqcC/APmAcgC/AKnCAACTQgAA9wC1gLVAbQBkAGXAngBVgGY
+        AfQCAAH0AsMIGgHvAW0BhgHPAgACpwGhAacE/AGnAfwCpwgAAU0JAAr0AXgBUAGYAfQDAAH0AcMBGgHv
+        AQcBGgMbARoBvAHvARwB6wHtBAABpwGuA/wBpwGuAaEeAAHzAewB9AQAAfQBmgGZAfcB7wG8A/MBvAHv
+        AZkBmgEaAfIxAAH0AfYB9AHzAbwB7wP3AuwC9gH0AwAB6wGuAusB7QH3AQcHAAONAm4FaAJnAWEDPg9J
+        AUMSAAG7AQkBuwG1AbQCrgFtAesB7QQAAY0EkwWOBY0BPgFJB3IFUAJPAUMSAAEHAsIBCAG7AcECuwG6
+        ARIBBwMAAY0BkwT0CPMBjQE+AUoBcgL0A/MF8gLxAU8BQxIAAbsCwgG6AbMBtAO6AYsB6wHsAZIBAAGN
+        AZMB/wGNAWgBZwL0BvMBjQFhAUoBcwP0A/MF8gHxAVABSQUAAc8BrQGnAaEJAAEHAcIBuwG0BbMDtAGu
+        AQABjQGTAf8BjQGTAWgBjQH0BvMBjQFhAVABcwX0AfMB7QRJAfIBUAFJBQABzwG1Aa4BpwkAAQcBwgG7
+        BrMBrQG0AdUB7AEAAY0BtgH/AY4BvQGNAmgBFAG8BPMBjQFnAVABeAH/AXIFSQGXAVABTwFJAfIBUAFJ
+        BgABzwG1AacJAAEHAcIBugezArQBkgEAAY0BtgL/AY4BvQGOAZMBjQJnAY0C8wGNAWcBcgGYAf8B9AFy
+        AZcBcgFJAXgBUAFPAUkB7QHyAVABSQYAAc8BtAGnAaEIAAEHAQgC2wK5BLMB2wG0AQcBAAGOAbYD/wGO
+        AbYCjgJoAWcBjQHzAY4BaAFyARwD/wFyAU8BmAFQAU8BSQJyAfIBUAFJBgABzwGLAs8IAAEHAQkC2wK5
+        AdoBuQKzAdsB7AIAAY4BtgT/AWgBkwOOAWcBbgHzAY4BaAFyAZgD/wFPAZgCcgFJAScD8wFyAUkGAAGh
+        AacBiwLPBwABBwG7AtsCugLbAbkB1AHbAe0CAAGOAb0E/wGTAbYDjgJoAfQBjgFoAXIBmAL/AU8BmAGX
+        AXIBTwFyAU8BJwLzAXIBSQUAAa0BpwGhAacCrQcAAbsD3AK6AtsBuQHbAbQBBwIAAY4BvQT/AY4BvQGT
+        AY0BGwGOAY0B9AGTAWgBcgGYAf8BTwEIApcBUAFyAZcBcgFPAScB8wFyAUkFAASnAYsBrQcAAbUB3AEJ
+        AdwBuwO6AtsB7AMAAZMBvQT/AfMBjgG9AZMBaAGNAbwB9AGTAW4BcwGYAf8BlwNyAv8EcgH0AXIBSQUA
+        AaEBhgOtAacHAAG1AxkBCQPcAdsB1QHtAwABkwG9Bf8B8wGOAZMBjQHwAf8B9AGTAW4BcwEICP8E9AFy
+        AUkGAASnCAABtQEcAbwBHAG8Ae8BCQEHAQkBkQH3AwABkwG9DP8BkwGNAXgBCAn/A/QBcgFJEgAB7QF0
+        Ae0BcwHtAXMB7QFzAbUBcwHvAwABkwa9A7YFkwGNAXgCCAWYARwBmAF4A3MBcgFJIAAEkwWOB40BmAF4
+        AnMFcgNQAkoCSRAAAfQB7QHsAe8B8AHyAfQDoR0AAs8XAAG8AaYBZQFmARIBbQHtAe8B8QHzAqcXAAEK
+        AwABBAFfAwABEAGuAwACzwGtAc8B1gG1BbQBzwGtAaYBAAEHAYoBtAG1Aa0BiwJmAeoB7AHvAfQFAAG1
+        DWYEAAEKAR4BAQELAQQBXwELAQEBHgEQAa4DAAGRAbsCtQEIA50DkQH3AbQBZgGmAQcBigEJAhkBCQHc
+        AbQBrQGGARQBvAUAAbUBGQIJAa4BGQcJAWYEAAEKAR4BAQELAQQBXwELAQEBHgEQAa4DAAFxAe8BtQG7
+        AQcGTwGRAbQCZgEHAYoBuwIZAbwBGQEJAdsBswFmAbwFAAG1AhkBCQGuBBkC3QIJAWYEAAEKAwABBAFf
+        AwABCgQAAd0B8AG1AbsB9AUZAgkBkQFsAa4BBwGKAQkBGQHwAXkBvAHcAdsBtAFmAbwCzwMAAbUB9AG1
+        AbwBrgH0BLUBtAGRAQkBZgUAAQoFAAEKBgABSQHvAbUBuwEIBU8BQwESA64B7wGKAd0BGwF5AVIBmQG7
+        AZEBtAGLAe0BvAHyAs8BAAHvAv8B8AGRAf8D9AMZAQkBZgEABOwBpwEAAa4BFQEUAewBrgGnBOwBAAHv
+        AfABtQEHAfIDCAEHAbsB6wFtAa4BiwGnAbUBrAEZARoBmQG8AXkBCQG1AdsCtAGRAe0B7wHxAQAB7wH/
+        AbUB8QGRAf8BBwK1AfcBtQG0AQkBZgUAAYUBCgMAARUBrgGFBQABkQG8Ae8BvAHwBJgBkgGRAa4BbAGG
+        AQABtQGtAvMB9AHzAXkB8AEZArQB3AG0AZEBSwHsAQABuwL/AfIBkQX/AvQBvAFmAgACAQELAYUBCgEe
+        AQEBCwEVAa4BhQELAgECAAFyAQgB9wHtAZICcgEnAUkBbAKuAWwBZgEAAbUBrQH0Af8C9AKZAfQBtAFm
+        AbsBCQHvAUYBbgEAAbsB/wG1AfIBtAH/AgcCtQH3AbUB8AFmBQABhQEKAwABXwEAAYUFAAEZAfEBkQEV
+        AeoB9AHyAQ4CrgGRAe8B9wFmAQABtQGtBP8B8gFYAfMBtAFmAfEBpwHyAZkBGgEAAbsC/wHzAbQH/wHx
+        AWYDAAEKCgABCgMAARkB7AL3Aa4B7AH0Aq4BbAHvAf8B7wFmAQABtAGtAfME/wEaAfQBtAFmAfIBAAOn
+        AQABuwP/AbQI/wFmBQABCgGFCwAB1gG1AfAB8QHvAZEBtQKRAa0BtAHVAc8BpwEAAbQBrAGtArQBCQHd
+        AfMB/wG0AWYB8gUABdYEtAWtCQABXwgAAdYBCQEZAfMB8AG1BLQC1QGtAacBAAH3AbMFrAOtAWwB8wUA
+        AdYDCQPcAtYE1QGtAwAFAQELAV8IAAHWAdwBCQHdAfEB8AG1BdUBswGnAQAB8AEHAbUDtAGzAa0CrAFt
+        AfQFAAbWAdUEtAOtAwAFAQELAV8IAAHPAtUBtQG8AfEBCQG0Ba0BpwIAAv8C8wG8AQcBvAEHAe0B7wH/
+        HAABXwwAAacC8gFmAaEGAAFCAU0BPgcAAT4DAAEoAwABQAMAAUADAAEBAQABAQYAAQIWAAP/gQAE/wEA
+        AQMBAAEBAfABDwL/AQABAwIAAcABAwL/AQABAwIAAcABAwH9Af8BAAEDAgABgAEBAfwB/wEAAQMCAAGA
+        AQEB/AF/AQABAwIAAYABAQHgAT8BAAEDAgABgAEBAeABHwEAAQMCAAGAAQEB4AEPAQABAwIAAYABAQHg
+        AR8BAAEBAgABgAEBAeABPwEAAQECAAGAAQEB/AF/AQABAQIAAcABAwH8Af8BAAEBAYABAAHAAQMB/QH/
+        AQABAwGAAQAB8AEPA/8BxwGAAQAG/wGAAQEBwAF/BAAC/wHAAQ8EAAL/AcABBwQAAv8BwAEBBAAB+AF/
+        AcABAQQAAfgBfwHAAQEEAAH8AX8BwAEBBAAB/AE/AcABAQQAAfwBPwHAAQMEAAH8AR8BwAEDBAAB+AEf
+        AcABAwQAAfgBHwHAAQcEAAH4AR8BwAEHBAAB/AE/AcABBwQAAv8BwAEHBAAE/wQAAv8BAAE/Av8B/gF/
+        Av8BAAEPAv8B4AEDAYABAQEAAQ8BgAEBAeABAwGAAgABDwGAAQEB4AEDAYACAAEPAYABAQHgAQcBgAIA
+        AQMBgAEBAfABHwGAAwABgAEBAQQBAAGAAwABgAEBAgABgAEBAgABgAEBAgABgAEBAgABgAEBAQABIAGA
+        AQECAAGAAQEBwAEDAYABAQEAAQgBgAEBAfMB/wGAAQEBAAEPAYABAQGAAX8BgAEBAQABDwGAAQEBgAF/
+        AYABAQEAAQ8BgAEBAYABfwGAAQEBgAEPAv8BgAF/AfgBPws=
+</value>
+  </data>
+  <data name="cmdWizard.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdWizard.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdWizard.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdWizard.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdWizard.Text" xml:space="preserve">
+    <value>I need wizard</value>
+  </data>
+  <data name="cmdCancel.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdCancel.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdCancel.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIUAAEp/4WCQ4JCw8HCg8EBw0KrC8mCQ8EB44GmW8KvA8VCA8HCY8J688o6y8UBgsFl/
+        0rfL85Co8GKCyr7Q9MfT57jH8aW78L3O7p258bnF4bLE6K7D5qG22cLM3qrH8eTq8NDZ9FCA4G5/sGGG
+        wlqH4TBw4KXB8zthpUBgoICo8Ju34ztptFB40DBYsNLh9rbO8nCY4EBosNvj983X8VaAuDBQkLDK8TBg
+        sLTD8LzQ9EBwwOnw+FCI8EBowP///wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAA+ACwAAAAADAAN
+        AAAIegB9CBTookCCFyAGDiwgAEODBglw+IiwwwcEAQgIxFgBwEKFFDZyCAigo8cIGih4eICxYAACBw44
+        +PhwAgCDAAoMDBBBYWAPmyFKKFgQQIZPEiYOEOhxo0UNnzwuKFTY4YCBqQol8NiAVaAGHg+6+pjBg0UG
+        sRNUKAwIADs=
+</value>
+  </data>
+  <data name="cmdCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cmdOK.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdOK.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="cmdOK.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdOK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAOAIEBAACAAP///wAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAADQAO
+        AAAILQADCBxIsKDBgwgDAACQcCFDhAsJRhToUOLEihYdTsyI0aDGhh0PbmyYsOTAgAA7
+</value>
+  </data>
+  <data name="cmdOK.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>OK   </value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACbfnkA9PXzAPn2/AB3TwAAi2lHAHpSCQCRcVkAfVcTAIFcIgDs7ewAmn5DAIdnNwC+rIYAj25QAIlm
+        IgCZfHQA8ezjAIBaFACEYC0AlHViAN7d3ADg2coAgFsRANnPuQD08+wAp6elAOe4pgDDxMQA0carAJh6
+        bwDNzMsAt6N7AKyVZQDz8usAvauEAIzKnADw5d8A4ezvAOD18QDe1coAUNTOAJaYlgCTdDYA7+XuAKiQ
+        XgDSc0oA1MrDANzUxABv0HMAZmVkAKOJVACrlWkAtaF2AMe4lwCznnEA2/beAGtxsgAzMN4Atum7AOGT
+        bwDl4dUA4eTuAOLhzACdh2oAw7WTAJZ3aADKvZ4Al3hrALeYiwCvs8MA3dXYALmolgDO3N0AOeJHAOHb
+        ygDQxKgAhuqQANTJsQDucjkAZ5WSAHdwyQD49vQArdjVADb28QBYSqgAb413ANyXiQBT0FoAvq6KAOHj
+        4QDoxrMA8e7rAKqThwCghU0AhmQhAOnl2wDk2+8AkezrANns3wCScjIAuLi2AGRLsACkjHcAk606AOzp
+        3QCmiIcAnMfMAKnRsADFysgAin59AMa6pgDJqZoAoYdQAE6NSgB52dUAi46EAKuXdgCsbVcAzdH0AMnN
+        2QDkppAA2cbWAHLo5gCDa5MAa9fHANCDYwDbt64AvqujAJd7QwCXp5MAZuJxAFCwpgCf26AAysGpAGVV
+        0gBzbeMAL/o3AImKxgCoqsQAwb3vANPU0wCXa1kAjJOxAGlWlwCCg9sAq7CtALbx8AC8jW4Aea2fAE6t
+        VgCshVgAgcrMAJh+TgCznpkAgruGAMrCuADq59oAZ7yuANvU0ADPoaQASLo8AE9E0ADA8tQAjGwqAKWM
+        WgB91oAArLufAEdH6gCandkA2PDMADnLxADQxbEAv+bfAGTg2QBqrnAAsd7kALK33gC+togAyb3AAOrl
+        4gChiFUAntDUAI64wADJvLYAoJ3GAImurwC6tPIAkYrsALmojAD4+vcAnoVaAHyVQQBU5VcAd71cAFDy
+        YABR59QA7Oz8AKRSlABEvsQAadY8AKis3ADcsowAbMRAAMGzmwD0onwAjJbJANCyvABYlKAAPOTcAJln
+        dwCEuJwAecXCAMSaZADQwrkAiJmcAPv9+wDZz7sAoJjoAJSqdACouIwA+Pr4AJp9ZAC0o4sAz87EAOno
+        4QA4ODgAr5mUAPj79AD///8A/P78AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAzMzMzMzMzMzMzMzMzMzMzMzl4xrWAgLj4wIbbAHl5czM5QIkdbLlAS5xwuUJAeXMzOXl5U4x
+        plVJOgGRSOXlzMzl5eN5Z3EwNzdPeuMnEMzM5eMeSce/KRuDYeXbkOXMzOVZSZoaLY3GlwEZp+MBzMwl
+        MIRrECmUgzspOQLj48zMUmSEEBudjXUxORsBAeXMzEw6Oj4oU4GWVFR5CQLlzMw35QlyckiSZY+WO2R5
+        5czM5eVSta0CUDjMGaYnfuPMzOXlepImYKiQ5RrJRBkUzMzl5ZIB5ZCwduXl41oaRszM5eXl5eW7PePl
+        5ePl5ePMzMzMzMzMzMzMzMzMzMzMzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SoukeyNetget Task Infomation</value>
+  </data>
+  <data name="groupBox1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="groupBox1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="contextMenuStrip1.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="contextMenuStrip1.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="contextMenuStrip1.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rmenuPostPrefix.Text" xml:space="preserve">
+    <value>POST前缀&lt;POST&gt;</value>
+  </data>
+  <data name="rmenuPostSuffix.Text" xml:space="preserve">
+    <value>POST后缀&lt;/POST&gt;</value>
+  </data>
+  <data name="DictMenu.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DictMenu.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="DictMenu.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="rmenuGetFormat.Error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rmenuGetFormat.IconAlignment" type="System.Windows.Forms.ErrorIconAlignment, System.Windows.Forms">
+    <value>MiddleRight</value>
+  </data>
+  <data name="rmenuGetFormat.IconPadding" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+</root>

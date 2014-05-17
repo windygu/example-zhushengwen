@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 22</value>
+  </data>
+  <data name="labInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 24</value>
+  </data>
+  <data name="labInfo.Text" xml:space="preserve">
+    <value>— Infomation</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhOAA1AIf/AFRUa/f32FZWeW6MkUdHR9PT00ZEWsuabkZFYiMjI/f24qOjpDQ0NrCIU5toMP3K
+        mJqam////+fVuTk4ZsHBwTpHTczMzOjWxvXp4k0sC0g1Juq6kPbSx/Hh2HR1kampqVhXiPT084ltk5eX
+        tIx/cGhXaIKDhBERL93Ux0xolG9oWWZolBkYGXh4pomJijk5Rdq4t7JvN7OztGgzCoxvb3FxcVBle9fI
+        qSwaC+XLsWVlZbu7vJqcprCwxicnR4mJk+3MqDY4U3p6eko4T4qJA3JyjrailOnZ0jEkFvn5+bJwTFxc
+        XYhuVVdGNfHu2NGtgWpUPW1tbTtGZKCGaUtLhcmhcNzGm+7t6NDKnSYmOFJALc+sfeK1ssark92ujWVl
+        jWpqclEvYYKCjZl4W9e5p2dYSMvEjmNie1hVOlRTAGVNNW1sAWxsiqaMOI9HXGFiaYODYSwsVoODqUJD
+        cMi1pxcVSUpKfC43aExNbn99gtPNye/vAGprhGRjg25te/387VxVRT5bX9u1lVBQTwoHBRk7Qi4tK8eW
+        XH5kMdzXvFh5eTJZh6KirZGQkHx6jVBQXWVISH9ihR8eMnN0e5mEmkgSAHhNKExLTcO2lfvLw/bwyJKS
+        mQoKGjAwYhoTCmNGLHJviGR2kjQnQy9AWFtCZV1dcT4+jc+zhj4wLXRygcuwe4ZpTGxZJCEyOBILCZJe
+        LWxWVnAsWX1TKeDg4XReXVJZX/z8+ytASTU1ekZabouLvnRdRTwuP7WOY19fjr+Zcur3zujMmp1sW8ag
+        iICRrmNBIZc1MlpIeOK0hPDw8KypfNW2b/HMv3l5Yvrgw8fHx6Kbe8OTMj4oVs3N1NCln/3W1J+foG18
+        g/3x9/vW+nBnlsigodC8s1t3W9za3Hd8d3d2dU1NnVBQfv7p+ePFj3l51Yt5P512Q5+Wjb2993lafXeA
+        d9jLgCA7YT8ca8u6bJ2du6GCVNbLv9rTqfTUq09IIbykXEA+PWhne1dXV1pQXOLfwtnvxruWbwAAAP//
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAAOAA1AAAI/wD/CRxIsKDBgwgTKlzIsKHDhxAj
+        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
+</value>
+  </data>
+  <data name="labTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 24</value>
+  </data>
+  <data name="labTitle.Text" xml:space="preserve">
+    <value>SoukeyMiner Task Maintenance Wizard</value>
+  </data>
+  <data name="lab10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lab10.Text" xml:space="preserve">
+    <value>10、Completed</value>
+  </data>
+  <data name="lab9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lab9.Text" xml:space="preserve">
+    <value>9、Trigger</value>
+  </data>
+  <data name="lab8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 13</value>
+  </data>
+  <data name="lab8.Text" xml:space="preserve">
+    <value>8、Advance</value>
+  </data>
+  <data name="lab7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lab7.Text" xml:space="preserve">
+    <value>7、Web Publish</value>
+  </data>
+  <data name="lab6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lab6.Text" xml:space="preserve">
+    <value>6、Publish Data</value>
+  </data>
+  <data name="lab5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="lab5.Text" xml:space="preserve">
+    <value>5、Collection Rules</value>
+  </data>
+  <data name="lab4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="lab4.Text" xml:space="preserve">
+    <value>4、Collection Range</value>
+  </data>
+  <data name="lab3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lab3.Text" xml:space="preserve">
+    <value>3、Collection Urls</value>
+  </data>
+  <data name="lab2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="lab2.Text" xml:space="preserve">
+    <value>2、Collection Setting</value>
+  </data>
+  <data name="lab1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="lab1.Text" xml:space="preserve">
+    <value>1、Task BasicInfo</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 289</value>
+  </data>
+  <data name="label34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label34.Text" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="txtSavePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 267</value>
+  </data>
+  <data name="txtSavePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 20</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 269</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>SavePath：</value>
+  </data>
+  <data name="udThread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 266</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 269</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Thread number:</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Type:</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Run Type:</value>
+  </data>
+  <data name="label26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="label26.Text" xml:space="preserve">
+    <value>Remark:</value>
+  </data>
+  <data name="label21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="label21.Text" xml:space="preserve">
+    <value>Category:</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label32.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 234</value>
+  </data>
+  <data name="label32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 29</value>
+  </data>
+  <data name="label32.Text" xml:space="preserve">
+    <value>Only select "collect and publish data" can be used at Step 6 or Step 7 to set the data release.</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>I encode URLs</value>
+  </data>
+  <data name="IsUrlEncode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 234</value>
+  </data>
+  <data name="IsUrlEncode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 17</value>
+  </data>
+  <data name="IsUrlEncode.Text" xml:space="preserve">
+    <value>Url Encoding</value>
+  </data>
+  <data name="label24.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 10</value>
+  </data>
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 26</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Webpage Encoding：</value>
+  </data>
+  <data name="IsLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 155</value>
+  </data>
+  <data name="IsLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="IsLogin.Text" xml:space="preserve">
+    <value>Manual，Log on Url：</value>
+  </data>
+  <data name="button10.Text" xml:space="preserve">
+    <value>Get Cookie</value>
+  </data>
+  <data name="label25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 35</value>
+  </data>
+  <data name="label25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 40</value>
+  </data>
+  <data name="label25.Text" xml:space="preserve">
+    <value>Under normal circumstances the system will automatically determine the page encoding, if the acquisition is garbled, said system to determine an error, please manually specify the page encoding.</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 98</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>391, 55</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Under normal circumstances the data collection web pages without having to configure Cookie, but for the need to log in the website can be the way by setting the Cookie data entry, but not all sites can be used to set the way Cookie login simulations.</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 194</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 39</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Some sites after a user logs a randomly generated sequence number used to identify the user information for each acquisition of these sites when they need to manually log records this information for identification.</value>
+  </data>
+  <data name="dataNRule.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 216</value>
+  </data>
+  <data name="dataNRule.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="dataNRule.Size" type="System.Drawing.Size, System.Drawing">
+    <value>464, 81</value>
+  </data>
+  <data name="dataNRule.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="columnHeader1.Width" type="System.Int32, mscorlib">
+    <value>180</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="columnHeader2.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="columnHeader8.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="columnHeader8.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="columnHeader6.Text" xml:space="preserve">
+    <value>Next Flag</value>
+  </data>
+  <data name="columnHeader6.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="columnHeader7.Text" xml:space="preserve">
+    <value>Url Count</value>
+  </data>
+  <data name="listWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 39</value>
+  </data>
+  <data name="listWeblink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 148</value>
+  </data>
+  <data name="listWeblink.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 196</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>URL used to display selected information on the navigation rules</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Navigation Rules</value>
+  </data>
+  <data name="cmdDelWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>416, 9</value>
+  </data>
+  <data name="cmdDelWeblink.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdAddWeblink.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddWeblink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 9</value>
+  </data>
+  <data name="cmdAddWeblink.Text" xml:space="preserve">
+    <value>Add   </value>
+  </data>
+  <data name="txtStartPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 18</value>
+  </data>
+  <data name="txtStartPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 47</value>
+  </data>
+  <data name="txtEndPos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 71</value>
+  </data>
+  <data name="txtEndPos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>373, 47</value>
+  </data>
+  <data name="label33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 120</value>
+  </data>
+  <data name="label33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>457, 58</value>
+  </data>
+  <data name="label33.Text" xml:space="preserve">
+    <value>Fill in the page range is conducive to collecting accurate data collection, if you do not fill the full page content will be based on collected data analysis. However, if duplication of data for the page, and you just want to collect the data you specified, you must fill out pages capture the scope, or recycling collection will be conducted.</value>
+  </data>
+  <data name="label31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 74</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 13</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>EndFlag of Page：</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 18</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 13</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>StartFlag of Page：</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Collection Range</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 63</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>461, 54</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>An example URL is automatically generated, if it is empty, you can click the "automatic access" to the sample web site to obtain the same time, according to the sample site access, the system can also check the URL you submitted is correct. Note: You must add a Web site can obtain the sample collection site.</value>
+  </data>
+  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 40</value>
+  </data>
+  <data name="button7.Text" xml:space="preserve">
+    <value>Auto Get</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Example Url：</value>
+  </data>
+  <data name="txtWeblinkDemo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="txtWeblinkDemo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>375, 20</value>
+  </data>
+  <data name="cmdWebSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>185, 40</value>
+  </data>
+  <data name="cmdWebSource.Text" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="columnHeader10.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="columnHeader4.Text" xml:space="preserve">
+    <value>StartFlag</value>
+  </data>
+  <data name="columnHeader5.Text" xml:space="preserve">
+    <value>EndFlag</value>
+  </data>
+  <data name="columnHeader9.Text" xml:space="preserve">
+    <value>Limit</value>
+  </data>
+  <data name="columnHeader11.Text" xml:space="preserve">
+    <value>Regex</value>
+  </data>
+  <data name="columnHeader12.Text" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="columnHeader13.Text" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="listWebGetFlag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 43</value>
+  </data>
+  <data name="listWebGetFlag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 208</value>
+  </data>
+  <data name="listWebGetFlag.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="cmdDown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIVQBPCBxIsKBACgRMAMBgUKCBEh84dGh4wgCJDRkAUPQwAcIAEwUXRHBwIQSDEQkVDlwQAIGCAiAO
+        PABJMIEAlwUGWGhoU8QBCRRPNAhQIahADUaDBgQAOw==
+</value>
+  </data>
+  <data name="cmdDown.Text" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="cmdUp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQAMAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADQAM
+        AAAIUwBPCBxIsCBBDQYLNghQIaHABAJEHJCQECICBQUGWCi4IMDFAiAOPDAxcEEEBxdCMBhBwIQJAAU9
+        TIAwgGRCAyQ2ZIB5s8QHDh0cUmgJAIPDowEBADs=
+</value>
+  </data>
+  <data name="cmdUp.Text" xml:space="preserve">
+    <value>Up   </value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 257</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 45</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Collection is actually the source code from a web page to obtain the specified content, so for the need to capture the contents of the user needs to identify the contents of their collection in front of and behind the identifiable mark, which is collecting the rules.</value>
+  </data>
+  <data name="cmdDelCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelCutFlag.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdAddCutFlag.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddCutFlag.Text" xml:space="preserve">
+    <value>Add   </value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 272</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>463, 30</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>There are three forms of data release, In addition to this page online you can also choose to publish, but can only select a published form.</value>
+  </data>
+  <data name="label40.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 28</value>
+  </data>
+  <data name="label40.Text" xml:space="preserve">
+    <value>sql statement is automatically generated, do not recommend non-technical staff to modify</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>SQL：</value>
+  </data>
+  <data name="button12.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="raExportMySql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="raExportMySql.Text" xml:space="preserve">
+    <value>MySql</value>
+  </data>
+  <data name="raExportMSSQL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 17</value>
+  </data>
+  <data name="raExportMSSQL.Text" xml:space="preserve">
+    <value>MS SqlServer</value>
+  </data>
+  <data name="raExportAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="raExportAccess.Text" xml:space="preserve">
+    <value>Access</value>
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 13</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Table：</value>
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Database：</value>
+  </data>
+  <data name="groupBox9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>468, 170</value>
+  </data>
+  <data name="groupBox9.Text" xml:space="preserve">
+    <value>Publish Database</value>
+  </data>
+  <data name="IsIncludeHeader.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="IsIncludeHeader.Text" xml:space="preserve">
+    <value>Include the table header</value>
+  </data>
+  <data name="txtFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 20</value>
+  </data>
+  <data name="cmdBrowser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>393, 39</value>
+  </data>
+  <data name="cmdBrowser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 23</value>
+  </data>
+  <data name="cmdBrowser.Text" xml:space="preserve">
+    <value>Browser...</value>
+  </data>
+  <data name="raExportExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="raExportExcel.Text" xml:space="preserve">
+    <value>Excel File</value>
+  </data>
+  <data name="raExportTxt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 17</value>
+  </data>
+  <data name="raExportTxt.Text" xml:space="preserve">
+    <value>Text File</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>FileName：</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Publish File</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 52</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Data published only in the documents, databases and websites to choose between the three, and only in accordance with a form of data dissemination. If you choose to publish to the Web, then the release of the previous configuration file or database will be invalid.</value>
+  </data>
+  <data name="button9.Text" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>111, 20</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Url Encoding：</value>
+  </data>
+  <data name="button11.Text" xml:space="preserve">
+    <value>Get Cookie</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 13</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Address：</value>
+  </data>
+  <data name="raExportWeb.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="raExportWeb.Text" xml:space="preserve">
+    <value>WebSite</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Publish WebSite</value>
+  </data>
+  <data name="label44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label44.Text" xml:space="preserve">
+    <value>SavePath：</value>
+  </data>
+  <data name="IsSaveErrorLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="IsSaveErrorLog.Text" xml:space="preserve">
+    <value>Auto save error log</value>
+  </data>
+  <data name="label43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 13</value>
+  </data>
+  <data name="label43.Text" xml:space="preserve">
+    <value>If collect failed, try ：</value>
+  </data>
+  <data name="IsDelRepRow.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 17</value>
+  </data>
+  <data name="IsDelRepRow.Text" xml:space="preserve">
+    <value>Remove repeat rows</value>
+  </data>
+  <data name="IsIgnore404.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 17</value>
+  </data>
+  <data name="IsIgnore404.Text" xml:space="preserve">
+    <value>If the URL is invalid error retry is ignored</value>
+  </data>
+  <data name="label46.Text" xml:space="preserve">
+    <value>Trigger is an automated mode of operation, through the configuration of the trigger task execution can be run automatically after the end of a program, or other tasks.</value>
+  </data>
+  <data name="IsStartTrigger.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="IsStartTrigger.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="columnHeader14.Text" xml:space="preserve">
+    <value>Task Type</value>
+  </data>
+  <data name="columnHeader14.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="columnHeader15.Text" xml:space="preserve">
+    <value>Task</value>
+  </data>
+  <data name="columnHeader15.Width" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="columnHeader16.Text" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="columnHeader16.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="listTask.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 48</value>
+  </data>
+  <data name="listTask.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 174</value>
+  </data>
+  <data name="listTask.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="raPublishedRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="raPublishedRun.Text" xml:space="preserve">
+    <value>After Published</value>
+  </data>
+  <data name="raGatheredRun.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="raGatheredRun.Text" xml:space="preserve">
+    <value>After Collected</value>
+  </data>
+  <data name="cmdDelTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDQANAIUhAN4yB/VBFNpBHt09Ft00CtwxBvY3CdRoVPpGGdlZP/RjQe1ZN/lrP+hjP9ybkfOr
+        m+dFHe2Se9uOgeuBbN5UMu5iQO46DOY3C+SXh9mViuZTJtc/G+aLeO0yA6cvDvs1A9tBHP///wAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAhACwAAAAADQAN
+        AAAIRwBDCBxIsCCDgghDfDCQECECghESXgggUMGEhA8sQKjAoWEIDB0WeGwwQAIFEA0JOBCYQEBBDwAy
+        EDxQEEABhBs8EtSgk2BAADs=
+</value>
+  </data>
+  <data name="cmdDelTask.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="cmdAddTask.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIUrANzh5VBggICQoM/T3E1hfWNzklBkgIGQoNne5nqModnd5FZshXuOoFJrgs/V3MPK
+        0m5/nX+PoNfb4nCAkFRkhdHW3t/j6GF5kXOGok5eflBngFZqh8/W3G2FnnGIneLl6d7i5lBhgKy3w7nB
+        0GV0kNfe5bW9zHGJoIGRoM7S23mOov///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAArACwAAAAAEAAQ
+        AAAIVABXCBxIsKDBgwgTKlxIEIAAASAYfkChwoJCAAAeMPBgogIHhBEOJOgwgcQGDQhPYIBwocACAyEQ
+        lkAwogEFEQ4GKFRAIIMEhikCBNDJsKjRo0cDAgA7
+</value>
+  </data>
+  <data name="cmdAddTask.Text" xml:space="preserve">
+    <value>Add   </value>
+  </data>
+  <data name="groupBox13.Text" xml:space="preserve">
+    <value>Trigger</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhIAAgAIf+AB5CsRs/ruvr64+Pj+3t7RxBqhtArB1Crdra2sDAwP///x5AubCwsB9Gr+np6b+/
+        v7m4uNnZ2UJq0FN84amoqJWVlXx7e/v7+6Kiokly1qqpqcfGxm9ubh9AvR0/tdjX19PT05GQkAwxpoB/
+        fxw/sTlhxtHR0TJHhDNJliRCxSBBwB5BtjxjyVF53eHh4UxYfU122EJPhR9FsCFDszNLsi5KoEFozy1I
+        u0dv0hpAqERr00Zt0y1Tuzhdv2iM58LCxT9nzS9WvjVbw0dThE9428rLyzdexEBoyiZIrDVJiCJFriRH
+        uT1kykx02FiC5nOT4mhviF1lgsbHyU1y1g4vtQ4wsmSG3CBDuCpGnIKKnGx0iyZEuCtJp4uTqCRCwsjI
+        ySFBxSpGs2KD1F2F6CVJtWd0lyRJskRs0CVFo2xyhEZv1ipQtixGreDf30FnzilGv6+uqa6urbWzr6ep
+        r26P4DNPqEdrxFZ+3+Hg3t3e3kNnwWOK6kFPe1p5xYuYvJaYoTRGijNIhdjY2UVcmpSXn7S2ub27ty5D
+        hdvc3La4vJ2hqixGohs/tb6/wj9ly9bW13R9kzxet5uy6vPz8iJCvfz9/vX19tTU1aOz26a871uE58fM
+        3TlhynyZ5EBeq1l1t8bFwVeA4ydOtRc1tRs/skpv1ZmnyzZbu2ZsgSZMtFFyw+Xk4k5tuEZjrBs7vG2N
+        4N/f4+vr7UlotE1z0TdQkluE6UJkuamvvl5wmuvr6WGH6crKydXX2Lm6vmF+yE154a+72H2Dj1t/2PT6
+        /3OHvFyD4yRDyP39+uvq51mB49DQz/Pz9PLx7z1jxiREvU1im7nA0zJUrTxm0SNKskdx2RIxudvk+1d6
+        z8/OznuSz7i/0uDk7WKH4z5huejm5Uxvw2eJ3ilFw1F31tLS016E4aurq5Gt8iZEx1qA3dDNyr7M8F5s
+        kb/AwbGytUVtzjVYs1J2z83V6mh+txg3uCtIw1Z719bV0Jmjv7W1tvX18IGAgE1yyn2V0rq/zP///wAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD+ACwAAAAAIAAgAAAI/wD9CRxI0MEGCgMscOBgYQCFDQ4I
+        Spw4MIKGERgSICBw4QIBBAkwjNAQgSJFAQwGPBCAoNGte378dOky55GABwMYCDA58EMFCAS+aJPU6ckr
+        cFbEiPElL0svAhAqfOBpIgSIPP0kPfHhY8+YCb8m3Kl3rc+nLAhAhDBB8UMIF0WAdeqqa4wmJ+Yy+WhC
+        BMYsVZ/K/HARYipBARVAFMFEh5vdWk4mqFOgYJgVNRlwnLHDCtcPEBV2DmQAIY8pOuScJAsVakKxSpQV
+        ZGKh+cgRPbLWRYDAoOIAAoqeoLszofiEFkSsxc4m7YyNI0xYdGsFicCAkv40PGDHT1iL79+JEP+hZiXe
+        NlM9dNhwxKJEiR6RBiV6oMGfgxECuogRB6N//yYZNGEDJz0IYYMEbkRXghFCnOIJFAKMYBAGjxADTwYY
+        ZliKGjqUMsWHbgTBwxqipJKKKGtEM4gJGByUwBx97IPDjDvUuIMOOmCSjwObHCJCDkAWECQaKPyRAEII
+        ZKGKOxI06aQEnASBTToJrBKICAVkaUCWWdaQBgIJEQDJN0cAYSYQ6wVxQANFgAKBCyeIcIABdNKZJRYv
+        EKDQBWXY0Ux0LDAhhBl0mrGLIQzgEacBATQagJ1o8HHBQnzq4Z57QTRwwJxmfCFHHG3E6eioBUQ6qQUE
+        aGGLEazyIMOmBwT/QIYUcJSjqAgk5Jprowcs8oIADSEQTCQF8tBAAwAAEOuscMQBpwgeROsBKbkCgAUq
+        YFKQgCKenGIssgcoK6sUcuBjZRUreLCAutEqgQUhR26AAQjPvDNNAzLIkCwAASzxhSEPeHNCFR0sYLDB
+        KygByDgt3ieAFnUgge++AJCyhDKgFJFLEgR34LHHM3ARhQD6RKRdIbRwoYS++zKyBC/2tMFMElSoYLPN
+        lISBQiEJ1OdPBL+lUYPEya6wgsuwILPMJDSnAAYYKnixRR1QWIedP6QJ8sLQMwBg9AJXxHJMJUxTkcLZ
+        XrxBwxCI8HZYYg8MUYMSM8xwhcHQWGJJj9UYhHO22jH8cEloErnlQiNbI2E3JR0AMkQMMWwBxjnh3LD2
+        YIVRVBUIgqSBAhdhbOGMK6OMMo8X9FiOghaIqMWWST4B1U4UKCzCRhg35E4DGyhEkQhUUvEkEEoqCWAC
+        Iai8APkLUPxxyU05iSa8QBZhpBFHHoEkEknTS0SZQQgpxJBDEAkfEAA7
+</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 97</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 94</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>    Collection has been added to complete the task, but you have not had the save operation, click the "Save" button to save the collection task, perform this task after successfully saved data download.</value>
+  </data>
+  <data name="butCancel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIU+AEp/4WCQ4JCw8HCg8EBw0KrC8mCQ8EB44GmW8KvA8VCA8HCY8J688o6y8UBgsFl/
+        0rfL85Co8GKCyr7Q9MfT57jH8aW78L3O7p258bnF4bLE6K7D5qG22cLM3qrH8eTq8NDZ9FCA4G5/sGGG
+        wlqH4TBw4KXB8zthpUBgoICo8Ju34ztptFB40DBYsNLh9rbO8nCY4EBosNvj983X8VaAuDBQkLDK8TBg
+        sLTD8LzQ9EBwwOnw+FCI8EBowP///wAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAA+ACwAAAAADAAN
+        AAAIegB9CBTookCCFyAGDiwgAEODBglw+IiwwwcEAQgIxFgBwEKFFDZyCAigo8cIGih4eICxYAACBw44
+        +PhwAgCDAAoMDBBBYWAPmyFKKFgQQIZPEiYOEOhxo0UNnzwuKFTY4YCBqQol8NiAVaAGHg+6+pjBg0UG
+        sRNUKAwIADs=
+</value>
+  </data>
+  <data name="butCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="butPre.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhDAANAIUnADA4MNDwwND4wHCYYEBIQKDYkJCggICocMDosLDIoLDgkKDAoJDIgLDQoFBYUGCA
+        UIC4cGBwUFBgULDYoICYgFBoUGB4YEBYQCAgIGCQUKC4kHCwYFCAQCAoIJCokGCIUJDAcMDgoMDwsICo
+        YKDIkJDAkDBAMP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAnACwAAAAADAAN
+        AAAIWABPCBxIsODABQYJLoiQUGCCAA4aJhCA4IIHAwYoDGxAUUGICSRKEBCoIYAIBQUYQNjwwcTACgcK
+        gBgxIAMHAAQlDDhAwASADhgKWnjgsuEJE0WN4jSaMCAAOw==
+</value>
+  </data>
+  <data name="butPre.Text" xml:space="preserve">
+    <value>Back  </value>
+  </data>
+  <data name="butNext.Text" xml:space="preserve">
+    <value>   Next</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Add Collection Task -- Wizard</value>
+  </data>
+</root>

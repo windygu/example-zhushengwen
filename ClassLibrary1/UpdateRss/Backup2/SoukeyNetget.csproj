@@ -1,0 +1,587 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76D9F18F-29BD-45E5-A253-F9F5D5597246}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SoukeyNetget</RootNamespace>
+    <AssemblyName>SoukeyNetget</AssemblyName>
+    <StartupObject>SoukeyNetget.Program</StartupObject>
+    <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <ManifestCertificateThumbprint>A3ADFCA802D97391B88CDAC683D2FCC9F776F532</ManifestCertificateThumbprint>
+    <ManifestKeyFile>SoukeyNetget_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>E:\Program\NetGet\publish1\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>0.8.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="MySql.Data, Version=5.1.2.2, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Administrator.11BE634A8FC9493\桌面\我的淘宝 工具\MySql.Data\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cDict.cs" />
+    <Compile Include="cGlobalParas.cs" />
+    <Compile Include="cSoukeyException.cs" />
+    <Compile Include="cSystem.cs" />
+    <Compile Include="CustomControl\cCopyDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\cCopyDataGridView.Designer.cs">
+      <DependentUpon>cCopyDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\cMyDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\cMyDataGridView.Designer.cs">
+      <DependentUpon>cMyDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControl\cMyTextLog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl\DataGridViewProgressBarColumn.cs" />
+    <Compile Include="frmAddGatherRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGatherRule.Designer.cs">
+      <DependentUpon>frmAddGatherRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddGatherUrl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddGatherUrl.Designer.cs">
+      <DependentUpon>frmAddGatherUrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddNavRules.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNavRules.Designer.cs">
+      <DependentUpon>frmAddNavRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPlanTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPlanTask.Designer.cs">
+      <DependentUpon>frmAddPlanTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddTaskWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddTaskWizard.Designer.cs">
+      <DependentUpon>frmAddTaskWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClose.Designer.cs">
+      <DependentUpon>frmClose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfig.Designer.cs">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDict.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDict.Designer.cs">
+      <DependentUpon>frmDict.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelpInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelpInfo.Designer.cs">
+      <DependentUpon>frmHelpInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectTask.Designer.cs">
+      <DependentUpon>frmSelectTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetData.Designer.cs">
+      <DependentUpon>frmSetData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaskPlan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaskPlan.Designer.cs">
+      <DependentUpon>frmTaskPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdate.Designer.cs">
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpgradeTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpgradeTask.Designer.cs">
+      <DependentUpon>frmUpgradeTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUrlEncoding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUrlEncoding.Designer.cs">
+      <DependentUpon>frmUrlEncoding.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gather\cEventProxy.cs" />
+    <Compile Include="Gather\cExport.cs" />
+    <Compile Include="Gather\cGatherControl.cs" />
+    <Compile Include="Gather\cGatherEvent.cs" />
+    <Compile Include="Gather\cGatherManage.cs" />
+    <Compile Include="Gather\cGatherTask.cs" />
+    <Compile Include="Gather\cGatherTaskList.cs" />
+    <Compile Include="Gather\cGatherTaskSplit.cs" />
+    <Compile Include="Gather\cGatherWeb.cs" />
+    <Compile Include="Gather\cTaskData.cs" />
+    <Compile Include="Gather\cTaskDataList.cs" />
+    <Compile Include="Gather\cTaskSplitData.cs" />
+    <Compile Include="Listener\cCheckPlan.cs" />
+    <Compile Include="Listener\cFileMonitor.cs" />
+    <Compile Include="Listener\cListenControl.cs" />
+    <Compile Include="Listener\cListenEvent.cs" />
+    <Compile Include="Listener\cListenManage.cs" />
+    <Compile Include="Listener\cRunTask.cs" />
+    <Compile Include="Log\cErrLog.cs" />
+    <Compile Include="Log\cSystemLog.cs" />
+    <Compile Include="Plan\cPlan.cs" />
+    <Compile Include="Plan\cPlanRunLog.cs" />
+    <Compile Include="Plan\cPlans.cs" />
+    <Compile Include="Plan\cTaskPlan.cs" />
+    <Compile Include="publish\cPublishControl.cs" />
+    <Compile Include="publish\cPublishEvent.cs" />
+    <Compile Include="publish\cPublishManage.cs" />
+    <Compile Include="publish\cPublishTask.cs" />
+    <Compile Include="publish\cPublishTaskData.cs" />
+    <Compile Include="Resources\globalPara.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>globalPara.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\globalUI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>globalUI.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Task\cNavigRule.cs" />
+    <Compile Include="Task\cNavigRules.cs" />
+    <Compile Include="Task\cTaskClass.cs" />
+    <Compile Include="Task\cTaskComplete.cs" />
+    <Compile Include="Task\cTaskIndex.cs" />
+    <Compile Include="cTool.cs" />
+    <Compile Include="cWebPage.cs" />
+    <Compile Include="cXmlIO.cs" />
+    <Compile Include="cXmlSConfig.cs" />
+    <Compile Include="Task\cTask.cs" />
+    <Compile Include="Task\cTaskRun.cs" />
+    <Compile Include="Task\cTasks.cs" />
+    <Compile Include="Task\cTriggerTask.cs" />
+    <Compile Include="Task\cUpgradeTask.cs" />
+    <Compile Include="Task\cUrlAnalyze.cs" />
+    <Compile Include="Task\cWebLink.cs" />
+    <Compile Include="Task\cWebpageCutFlag.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStart.Designer.cs">
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTask.Designer.cs">
+      <DependentUpon>frmTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTaskClass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaskClass.Designer.cs">
+      <DependentUpon>frmTaskClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWaiting.Designer.cs">
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrowser.Designer.cs">
+      <DependentUpon>frmBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGatherRule.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddGatherRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGatherRule.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddGatherRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGatherUrl.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddGatherUrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddGatherUrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddGatherUrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNavRules.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddNavRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddNavRules.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddNavRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPlanTask.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddPlanTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPlanTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddPlanTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTaskWizard.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddTaskWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddTaskWizard.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddTaskWizard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClose.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClose.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfig.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDict.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDict.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDict.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpInfo.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelpInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelpInfo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHelpInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBox.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMessageBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectTask.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSelectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetData.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetData.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSetData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStart.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTask.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskClass.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTaskClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskClass.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTaskClass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskPlan.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTaskPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskPlan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTaskPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpgradeTask.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpgradeTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpgradeTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUpgradeTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUrlEncoding.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUrlEncoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUrlEncoding.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUrlEncoding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaiting.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWaiting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmWaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrowser.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrowser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\globalPara.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\globalPara.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>globalPara.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\globalUI.en-US.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\globalUI.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>globalUI.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowser\frmAbourMyWebbrowser.en-US.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbourMyWebbrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowser\frmAbourMyWebbrowser.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbourMyWebbrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WebBrowser\cMyWebBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="WebBrowser\frmAbourMyWebbrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebBrowser\frmAbourMyWebbrowser.Designer.cs">
+      <DependentUpon>frmAbourMyWebbrowser.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="licence.txt" />
+    <Content Include="Logo.ico" />
+    <Content Include="readme.txt" />
+    <None Include="Resources\A331.gif" />
+    <None Include="Resources\agree.gif" />
+    <None Include="Resources\A10.gif" />
+    <None Include="Resources\right.gif" />
+    <Content Include="TaskClass.xml" />
+    <Content Include="代码修改及维护说明.txt" />
+    <Content Include="代码规范说明.txt" />
+    <None Include="Resources\file.gif" />
+    <None Include="Resources\A09.gif" />
+    <None Include="Resources\A30.gif" />
+    <None Include="Resources\A02.gif" />
+    <None Include="Resources\Help.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
